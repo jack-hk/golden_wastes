@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json.schemastore.org/prettierrc",
+  "bracketSameLine": true,
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "goTemplateBracketSpacing": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "useTabs": false,
+  "plugins": [
+    "prettier-plugin-go-template",
+    "prettier-plugin-sort-imports",
+    "prettier-plugin-css-order"
+  ],
+  "importOrder": ["^[a-z]", "^@your-scope/(.*)$", "^[./]"],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "cssDeclarationSorterOrder": "alphabetical",
+  "cssDeclarationSorterKeepOverrides": false,
+  "overrides": [
+    {
+      "files": ["*.html", "*.gotmpl"],
+      "options": {
+        "parser": "go-template",
+        "bracketSameLine": true
+      }
+    }
+  ]
+}

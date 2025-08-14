@@ -15,3 +15,5 @@ hugo.linux
 /local/
 # Ignored because the theme (cleanwiki) has it's own repo, clone seperately inside this repo!
 /themes/
+# VSCode extensions
+/node_modules/
