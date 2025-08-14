@@ -1,5 +1,4 @@
 # Generated files by hugo
-/local/
 /public/
 /resources/_gen/
 /assets/jsconfig.json
@@ -10,3 +9,7 @@ hugo.darwin
 hugo.linux
 # Temporary lock file while building
 /.hugo_build.lock
+# ------------
+# Custom rules
+# For local project-related content, such as wireframes, diagrams, etc
+/local/
