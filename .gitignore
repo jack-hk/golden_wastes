@@ -13,7 +13,5 @@ hugo.linux
 # Custom rules
 # For local project-related content, such as wireframes, diagrams, etc
 /local/
-# Ignored because the theme (cleanwiki) has it's own repo, clone seperately inside this repo!
-/themes/
 # VSCode extensions
 /node_modules/

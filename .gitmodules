@@ -1,0 +1,3 @@
+[submodule "themes/cleanwiki"]
+	path = themes/cleanwiki
+	url = https://github.com/Bryan-and-Jack/cleanwiki
