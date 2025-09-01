@@ -1,0 +1,43 @@
+<div class="infobox-table">
+    <table>
+      <thead>
+        <tr class="title">
+          <th colspan="2">
+            {{ $.Page.Params.infobox.header }}
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="2" class="icon">
+            <span>
+              {{ $icon := .Page.Params.infobox.icon }}
+              {{ $iconSize := .Page.Params.infobox.iconSize }}
+              <img src="{{ $icon }}" width="{{ $iconSize }}" />
+            </span>
+          </td>
+        </tr>
+        <tr class="divider">
+            <td colspan="2"></td>
+        </tr>
+        {{ range $.Page.Params.infobox.labels }}
+        {{ if .divider }}
+          {{ if eq .divider true }}
+            <tr class="divider">
+              <td colspan="2"></td>
+            </tr>
+          {{ else }}
+            <tr class="divider">
+              <td colspan="2">{{ .divider }}</td>
+            </tr>
+          {{ end }}
+        {{ else }}
+          <tr class="infobox-cell">
+            <th>{{ .label | markdownify }}</th>
+            <td>{{ .item  | markdownify }}</td>
+          </tr>
+        {{ end }}
+        {{ end }}
+      </tbody>
+    </table>
+  </div>

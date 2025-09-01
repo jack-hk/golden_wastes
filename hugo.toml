@@ -1,4 +1,8 @@
 baseURL = 'https://goldenwastes.world/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Golden Wastes'
 theme = "cleanwiki"
+
+# Hides steps in the URL (site.com/docs/rules/class/bard) -> (site.com/bard)
+[permalinks] 
+  rules = "/:title"

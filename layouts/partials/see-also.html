@@ -1,0 +1,15 @@
+<div class="wiki-see-also">
+{{ with .Page.Params.also }}
+  <p style="padding-left: 10px; padding-right: 10px;">See also: 
+    {{ range $index, $item := . }}
+      {{ if $index }}, {{ end }}
+      <a href="/{{ $item | urlize }}">{{ $item | replaceRE "-" " " | title }}</a>
+    {{ end }}
+  </p>
+{{ else }}
+<p style="padding-left: 10px; padding-right: 10px;">See also: 
+    {{ $item := "how-to-play"}}
+    <a href="/{{ $item | urlize }}">How to play</a>
+  </p>
+{{ end }}
+</div>
