@@ -16,6 +16,7 @@ infobox:
 also:
   - related-topic-one
   - related-topic-two
+categories: 'class'
 ---
 
 ## Bards inspire with magic and music.

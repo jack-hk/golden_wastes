@@ -2,6 +2,7 @@
 title: "Thief"
 header: "The Thief"
 type: "wiki"
+categories: 'class'
 ---
 
 ## Thieves are masters of stealth and trickery.

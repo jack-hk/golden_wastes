@@ -12,7 +12,7 @@ infobox:
     - label: "Type"
       item: "Starting"
     - label: "Class"
-      item: "[Thief](/thief/)"
+      item: "[Thief](thief/)"
 also:
     - "Thief"
     - "how-to-play"

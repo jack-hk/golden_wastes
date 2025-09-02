@@ -12,7 +12,7 @@ infobox:
     - label: "Type"
       item: "Starting"
     - label: "Class"
-      item: "[Ranger](/ranger/)"
+      item: "[Ranger](ranger/)"
 also:
     - "Ranger"
     - "how-to-play"

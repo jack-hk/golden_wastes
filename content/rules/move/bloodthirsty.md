@@ -12,10 +12,10 @@ infobox:
     - label: "Type"
       item: "Expert"
     - label: "Class"
-      item: "[Fighter](/fighter/)"
+      item: "[Fighter](fighter/)"
     - divider: true
     - label: "Replaces"
-      item: "[Merciless](/merciless/)"
+      item: "[Merciless](merciless/)"
 also:
     - "Fighter"
     - "how-to-play"

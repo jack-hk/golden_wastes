@@ -12,10 +12,10 @@ infobox:
     - label: "Type"
       item: "Expert"
     - label: "Class"
-      item: "[Thief](/thief/)"
+      item: "[Thief](thief/)"
     - divider: true
     - label: "Replaces"
-      item: "[Cheap Shot](/cheap-shot/)"
+      item: "[Cheap Shot](cheap-shot/)"
 also:
     - "Thief"
     - "how-to-play"

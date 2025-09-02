@@ -12,10 +12,10 @@ infobox:
     - label: "Type"
       item: "Expert"
     - label: "Class"
-      item: "[Ranger](/ranger/)"
+      item: "[Ranger](ranger/)"
     - divider: true
     - label: "Replaces"
-      item: "[A Safe Place](/a-safe-place/)"
+      item: "[A Safe Place](a-safe-place/)"
 also:
     - "Ranger"
     - "how-to-play"

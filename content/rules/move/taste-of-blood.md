@@ -12,10 +12,10 @@ infobox:
     - label: "Type"
       item: "Expert"
     - label: "Class"
-      item: "[Fighter](/fighter/)"
+      item: "[Fighter](fighter/)"
     - divider: true
     - label: "Replaces"
-      item: "[Scent of Blood](/scent-of-blood/)"
+      item: "[Scent of Blood](scent-of-blood/)"
 also:
     - "Fighter"
     - "how-to-play"

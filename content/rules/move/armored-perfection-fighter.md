@@ -12,10 +12,10 @@ infobox:
     - label: "Type"
       item: "Expert"
     - label: "Class"
-      item: "[Fighter](/fighter/)"
+      item: "[Fighter](fighter/)"
     - divider: true
     - label: "Replaces"
-      item: "[Armor Mastery](/armor-mastery/)"
+      item: "[Armor Mastery](armor-mastery/)"
 also:
     - "Fighter"
     - "how-to-play"

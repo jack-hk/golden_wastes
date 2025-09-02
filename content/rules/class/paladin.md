@@ -2,6 +2,7 @@
 title: "Paladin"
 header: "The Paladin"
 type: "wiki"
+categories: 'class'
 ---
 
 ## Paladins uphold justice.

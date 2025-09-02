@@ -12,10 +12,10 @@ infobox:
     - label: "Type"
       item: "Expert"
     - label: "Class"
-      item: "[Bard](/bard/)"
+      item: "[Bard](bard/)"
     - divider: true
     - label: "Replaces"
-      item: "[Eldritch Tones](/eldritch-tones/)"
+      item: "[Eldritch Tones](eldritch-tones/)"
 also:
     - "Bard"
     - "how-to-play"

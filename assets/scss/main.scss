@@ -1,4 +1,4 @@
-@import 'themes/cleanwiki/assets/scss/main'; // Pseudo-path, may need relative path fix
-// Or import individual theme partials if possible
-
+@import 'variables';
 @import 'custom';
+
+@import '../../themes/cleanwiki/assets/scss/main';

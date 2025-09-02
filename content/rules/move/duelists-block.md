@@ -12,10 +12,10 @@ infobox:
     - label: "Type"
       item: "Expert"
     - label: "Class"
-      item: "[Bard](/bard/)"
+      item: "[Bard](bard/)"
     - divider: true
     - label: "Replaces"
-      item: "[Duelist’s Parry](/duelists-parry/)"
+      item: "[Duelist’s Parry](duelists-parry/)"
 also:
     - "Bard"
     - "how-to-play"

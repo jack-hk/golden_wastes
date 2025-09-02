@@ -1,7 +1,9 @@
----
-weight: 15
-title: "How to play"
----
++++
+weight = 15
+categories = ['article']
+title = "How to play"
+image = "https://i.etsystatic.com/21751199/r/il/ce0fe5/5625614118/il_570xN.5625614118_9fm9.jpg"
++++
 
 ## What is dungeon world?
 Dungeon Word is a word-based puzzle game often used in tabletop role-playing games (TTRPGs) as a fun and creative challenge. In it, players use letter tiles or clues to form words that fit a specific theme or puzzle, often within the context of a dungeon or adventure setting. The objective can vary, but it typically involves solving puzzles to unlock secrets, gain rewards, or progress through a dungeon. The game can combine elements of strategy, vocabulary, and problem-solving while adding an interactive and engaging layer to a TTRPG experience.

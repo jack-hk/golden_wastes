@@ -2,6 +2,7 @@
 title: "Ranger"
 header: "The Ranger"
 type: "wiki"
+categories: 'class'
 ---
 
 ## Rangers specialize in survival and ranged attacks.

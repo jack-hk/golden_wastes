@@ -12,10 +12,10 @@ infobox:
     - label: "Type"
       item: "Expert"
     - label: "Class"
-      item: "[Ranger](/ranger/)"
+      item: "[Ranger](ranger/)"
     - divider: true
     - label: "Replaces"
-      item: "[Wild Empathy](/wild-empathy/)"
+      item: "[Wild Empathy](wild-empathy/)"
 also:
     - "Ranger"
     - "how-to-play"

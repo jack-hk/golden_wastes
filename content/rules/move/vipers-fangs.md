@@ -12,10 +12,10 @@ infobox:
     - label: "Type"
       item: "Expert"
     - label: "Class"
-      item: "[Ranger](/ranger/)"
+      item: "[Ranger](ranger/)"
     - divider: true
     - label: "Replaces"
-      item: "[Viper’s Strike](/vipers-strike/)"
+      item: "[Viper’s Strike](vipers-strike/)"
 also:
     - "Ranger"
     - "how-to-play"

@@ -12,10 +12,10 @@ infobox:
     - label: "Type"
       item: "Expert"
     - label: "Class"
-      item: "[Bard](/bard/)"
+      item: "[Bard](bard/)"
     - divider: true
     - label: "Replaces"
-      item: "[Vicious Cacophony](/vicious-cacophony/)"
+      item: "[Vicious Cacophony](vicious-cacophony/)"
 also:
     - "Bard"
     - "how-to-play"

@@ -12,7 +12,7 @@ infobox:
     - label: "Type"
       item: "Advanced"
     - label: "Class"
-      item: "[Paladin](/paladin/)"
+      item: "[Paladin](paladin/)"
 also:
     - "Paladin"
     - "how-to-play"

@@ -12,7 +12,7 @@ infobox:
     - label: "Type"
       item: "Optional"
     - label: "Class"
-      item: "[Fighter](/fighter/)"
+      item: "[Fighter](fighter/)"
 also:
     - "Fighter"
     - "how-to-play"

@@ -12,7 +12,7 @@ infobox:
     - label: "Type"
       item: "Advanced"
     - label: "Class"
-      item: "[Bard](/bard/)"
+      item: "[Bard](bard/)"
 also:
     - "Bard"
     - "how-to-play"

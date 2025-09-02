@@ -12,10 +12,10 @@ infobox:
     - label: "Type"
       item: "Expert"
     - label: "Class"
-      item: "[Paladin](/paladin/)"
+      item: "[Paladin](paladin/)"
     - divider: true
     - label: "Replaces"
-      item: "[Voice of Authority](/voice-of-authority/)"
+      item: "[Voice of Authority](voice-of-authority/)"
 also:
     - "Paladin"
     - "how-to-play"

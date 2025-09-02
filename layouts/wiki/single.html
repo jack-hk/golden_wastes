@@ -1,25 +1,25 @@
 {{ define "main" }}
-<h1 class="wiki-title">
+  <h2 class="wiki-title">
     {{ if .Params.header }}
       {{ .Params.header }}
     {{ else }}
       {{ partial "title" . }}
     {{ end }}
-  </h1>
-<article class="markdown book-post">
-  {{- .Content -}}
-  <br>
-</article>
+  </h2>
+  <article class="markdown book-post">
+    {{- .Content -}}
+    <br />
+  </article>
 
-{{- /* Template Definitions */}}
+  {{- /* Template Definitions */}}
 
-{{ partial "see-also" . }} 
+  {{ partial "see-also" . }}
 {{ end }}
 
 {{ define "footer" }}
-<!-- Do nothing, effectively removing the comments -->
+  <!-- Do nothing, effectively removing the comments -->
 {{ end }}
 
 {{ define "comments" }}
-<!-- Do nothing -->
+  <!-- Do nothing -->
 {{ end }}

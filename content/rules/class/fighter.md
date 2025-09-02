@@ -2,6 +2,7 @@
 title: "Fighter"
 header: "The Fighter"
 type: "wiki"
+categories: 'class'
 ---
 
 ## Fighters excel in combat.

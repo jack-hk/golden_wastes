@@ -12,10 +12,10 @@ infobox:
     - label: "Type"
       item: "Expert"
     - label: "Class"
-      item: "[Paladin](/paladin/)"
+      item: "[Paladin](paladin/)"
     - divider: true
     - label: "Replaces"
-      item: "[Holy Protection](/holy-protection/)"
+      item: "[Holy Protection](holy-protection/)"
 also:
     - "Paladin"
     - "how-to-play"

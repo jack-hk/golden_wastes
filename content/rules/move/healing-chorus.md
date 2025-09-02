@@ -12,10 +12,10 @@ infobox:
     - label: "Type"
       item: "Expert"
     - label: "Class"
-      item: "[Bard](/bard/)"
+      item: "[Bard](bard/)"
     - divider: true
     - label: "Replaces"
-      item: "[Healing Song](/healing-song/)"
+      item: "[Healing Song](healing-song/)"
 also:
     - "Bard"
     - "how-to-play"

@@ -1,8 +1,112 @@
-baseURL = 'https://goldenwastes.world/'
-languageCode = 'en-us'
-title = 'Golden Wastes'
-theme = "cleanwiki"
+# ---------------------------
+# Site settings
+# ---------------------------
+baseURL = "https://example.org/"
+languageCode = "en-US"
+title = "Golden Wastes"
 
-# Hides steps in the URL (site.com/docs/rules/class/bard) -> (site.com/bard)
-[permalinks] 
-  rules = "/:title"
+
+# ---------------------------
+# Menus
+# ---------------------------
+[menus]
+
+# Main menu
+[[menus.main]]
+name = "Home"            # Display name in the menu
+pre = "house"            # Icon prefix (from your icon library)
+pageRef = "/"            # The page this menu item links to
+weight = 10              # Order in menu (smaller = first)
+  [menus.main.params]
+  separator = true       # Draw a separator line after this item
+
+[[menus.main]]
+name = "Search"
+pre = "search"
+weight = 20
+  [menus.main.params]
+  popover = true                     # Show popover on hover/click
+  popoverContentPartial = "popovers/search.html" # Partial to load in popover
+
+[[menus.main]]
+name = "Navigation"
+pre = "bars"
+weight = 30
+  [menus.main.params]
+  popover = true
+  popoverContentPartial = "popovers/navigation.html"
+
+# ---------------------------
+# Hugo module settings
+# ---------------------------
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.146.0"      # Minimum Hugo version required
+
+# ---------------------------
+# Custom site parameters
+# ---------------------------
+[params]
+# PageFind search options
+enablePagefindCSS = false   # Use PageFind's default CSS. Set false to use custom styles.
+# Subtitle which appears under the title.
+subtitle = "A Brutal TTRPG Adventure"
+
+# ---------------------------
+# Navbar configuration
+# ---------------------------
+[params.navbarBar]
+iconsHaveLabels = false     # Show both icons and text? false = icons only
+iconSeparator = true        # Separate the first icon with a line or gap
+
+# ---------------------------
+# Small tiles settings
+# ---------------------------
+[params.smallTiles]
+type = "categories"         # Choose type of content: "categories" or "tags"
+
+# Images to use for each small tile
+[params.smallTiles.images]
+article = "https://substackcdn.com/image/fetch/$s_!jFtT!,w_520,h_272,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69e7ca25-f7e4-4373-86a2-d575246ceb55_3024x1820.png"
+campaign   = "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66a0b5c9-eabb-4226-8631-9655d766dfd1/dep1281-a607e88f-786b-4f4c-877c-1a4b8da22bcf.jpg/v1/fill/w_1280,h_720,q_75,strp/horror_mystery_night___fantasy_art_photoshop_by_abid92_dep1281-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvNjZhMGI1YzktZWFiYi00MjI2LTg2MzEtOTY1NWQ3NjZkZmQxXC9kZXAxMjgxLWE2MDdlODhmLTc4NmItNGY0Yy04NzdjLTFhNGI4ZGEyMmJjZi5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.tLOCD8tx3WWno-hjHheZEq_s3V9mbFHJ2JJhYJa7B7I"
+event = "https://img.wallpapic.com/i822-813-97/medium/fantasy-boat-sailing-ship-caravel-wallpaper.jpg"
+class = "https://static.vecteezy.com/system/resources/thumbnails/053/427/468/small/a-legendary-weapon-of-fantasy-and-enchantment-photo.jpeg"
+# ---------------------------
+# Big tiles settings
+# ---------------------------
+[params.bigTiles]
+count = 3                   # Number of big tiles to show
+truncate = 150               # Max characters for excerpt
+
+# Map categories to partial HTML files for rendering each big tile
+[params.bigTiles.partials]
+"article" = "big-tile-article.html"
+"quote"   = "big-tile-quote.html"
+"event"   = "big-tile-event.html"
+
+# Theme first (lower priority)
+[[module.mounts]]
+source = "themes/cleanwiki/layouts"
+target = "layouts"
+
+[[module.mounts]]
+source = "themes/cleanwiki/assets"
+target = "assets"
+
+[[module.mounts]]
+source = "themes/cleanwiki/static"
+target = "static"
+
+# Site files second (higher priority - will override theme)
+[[module.mounts]]
+source = "layouts"
+target = "layouts"
+
+[[module.mounts]]
+source = "assets"
+target = "assets"
+
+[[module.mounts]]
+source = "static"
+target = "static"
