@@ -1,56 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
-
-// Apply fonts globally (override theme)
 body {
   background-color: #f9f4ee;
-  font-family: 'Crimson Text', 'Times New Roman', serif !important;
-  font-size: 1.3rem;
 }
 
 .layout__navbar {
   background-color: #f9f4ef !important;
   border-right: 1px solid #afafaf7f !important;
   border-top: 1px solid #afafaf7f !important;
-}
-
-.home-header__subtitle {
-  margin-top: -15px !important;
-}
-.big-tile__item--event .event-meta {
-  color: #c47c6d !important;
-}
-.special-text {
-  color: #c47c6d !important;
-}
-code,
-pre {
-  font-family: 'Courier New', monospace !important;
-}
-
-@mixin heading-style($scale: 1.2) {
-  font-family: 'Aladin', cursive !important;
-  font-size: (1rem * $scale) !important;
-}
-@mixin subheading-style($scale: 1.2) {
-  font-family: 'Crimson Text', cursive !important;
-  font-size: (1rem * $scale) !important;
-}
-
-h1 {
-  @include heading-style(4);
-}
-h2 {
-  @include subheading-style(2.2);
-}
-h3 {
-  @include subheading-style(1.5);
-}
-h4,
-tr,
-td,
-th {
-  @include subheading-style(1.3);
 }
 
 .wiki-see-also {

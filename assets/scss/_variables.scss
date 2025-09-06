@@ -18,6 +18,43 @@ $main-body-background-size: 400px;
 $main-body-background-opacity: 0.1;
 
 // ---------------------------
+// Fonts
+// ---------------------------
+$base-font-size: 16px;
+$base-font-family: 'Crimson Text', Georgia, 'Times New Roman', serif;
+$base-line-height: 1.6;
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+// Brand/Title font (most distinctive)
+$font-brand: 'Rock Salt', cursive;
+// Heading font (structural hierarchy)
+$font-heading: 'Crimson Text', Georgia, 'Times New Roman', serif;
+
+$font-light: 300 !default;
+$font-normal: 400 !default;
+$font-bold: 700 !default;
+
+$font-xs: 14px;
+$font-sm: 16px;
+$font-base: $base-font-size;
+$font-lg: 22px;
+$font-xl: 28px;
+$font-2xl: 36px;
+$font-3xl: 54px;
+
+$h1-size: $font-3xl;
+$h2-size: $font-2xl;
+$h3-size: $font-xl;
+$h4-size: $font-lg;
+$h5-size: $font-base;
+$h6-size: $font-sm;
+
+$heading-weight: $font-bold;
+$heading-line-height: 1.2;
+
+// ---------------------------
 // Navbar
 // ---------------------------
 $navbar-icon-size: 30px;
@@ -104,7 +141,18 @@ $home-header-circle-image: url('/mountain_placeholder3.png');
 $home-header-circle-opacity: 0.1;
 $home-header-circle-size: 23rem;
 $home-header-circle-margin: ($home-header-circle-size * 0.33);
-$home-header-title-font-size: 42px;
+$home-header-title-font-family: 'Arial';
+$home-header-title-font-weight: 400;
+$home-header-title-letter-spacing: normal;
+$home-header-title-overflow-wrap: normal;
+$home-header-title-white-space: normal;
+$home-header-title-word-break: normal;
+$home-header-title-word-spacing: normal;
+$home-header-subtitle-font-size: 22px;
+$home-header-subtitle-font-family: 'Arial';
+$home-header-subtitle-font-weight: 400;
+$home-header-subtitle-letter-spacing: normal;
+$home-header-subtitle-word-spacing: normal;
 
 // ---------------------------
 // Pagefind UI (enablePagefindCSS = TRUE)
