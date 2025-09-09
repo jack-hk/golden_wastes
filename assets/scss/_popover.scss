@@ -3,12 +3,19 @@
   border-radius: $popover-border-radius;
   box-shadow: $popover-box-shadow;
   overflow-y: auto;
+  overscroll-behavior: contain;
 
   @include for-screen(mobile) {
     animation: slideCenter $slide-speed $slide-easing forwards;
     left: 0;
+    margin-top: $popover-tablet-top;
     max-height: $popover-mobile-max-height;
     width: $popover-mobile-width;
+
+    &::backdrop {
+      backdrop-filter: blur(6px);
+      background-color: rgba(0, 0, 0, 0.3);
+    }
   }
 
   @include for-screen(tablet) {
@@ -16,6 +23,10 @@
     inset: auto;
     max-height: $popover-tablet-max-height;
     top: $popover-tablet-top;
+
+    &::backdrop {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
   }
 }
 
@@ -29,12 +40,21 @@
     left: 0;
     top: 0;
     width: $popover-mobile-width;
+
+    &::backdrop {
+      backdrop-filter: blur(6px);
+      background-color: rgba(0, 0, 0, 0.3);
+    }
   }
 
   @include for-screen(tablet) {
     animation: slideRight $slide-speed $slide-easing forwards;
     inset: auto;
     top: $popover-tablet-top;
+
+    &::backdrop {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
   }
 
   &__header {

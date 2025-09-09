@@ -2,6 +2,26 @@ body {
   background-color: #f9f4ee;
 }
 
+.pagefind-ui__result {
+  padding: 10px !important;
+}
+
+.pagefind-ui__message {
+  font-size: $big-tile-fs-md !important;
+}
+
+.pagefind-ui {
+  @include for-screen(tablet) {
+    width: 400px !important;
+  }
+}
+
+.pagefind-ui__search-clear {
+  font-size: calc(21px * var(--pagefind-ui-scale)) !important;
+  padding: 0 !important;
+  text-align: center !important;
+}
+
 .layout__navbar {
   background-color: #f9f4ef !important;
   border-right: 1px solid #afafaf7f !important;
