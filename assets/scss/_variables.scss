@@ -1,41 +1,27 @@
 // ---------------------------
 // Demo circle images
 // ---------------------------
-$demo1-circle-image: url(https://i.pinimg.com/736x/fd/4f/73/fd4f73f3595cccbe87c6ee9920dd9a5a.jpg);
-$demo2-circle-image: url(https://www.pngitem.com/pimgs/m/21-219047_black-cool-circles-png-transparent-png.png);
-$demo3-circle-image: url(https://lh3.googleusercontent.com/proxy/05UXFS9zRxfg1I0QaY3HPHApopeJuzT12UaIasyIRpQMjV5BgSxxL1DFJ2OfxDbuvN8rADFTYjO-Vd51aOwoP43wbjB0qFDIAd7uZOj-sK09saQBh73SjFv-h9MR0-jq44YT6f9-T7dMriqr4ERy);
-$demo4-circle-image: url(https://www.clipartmax.com/png/small/359-3593679_drawing-dance-visual-arts-cool-circle-designs-drawing.png);
-
 // ---------------------------
 // Main backgrounds
 // ---------------------------
 $main-header-background-image: url('/mesa-pattern.svg');
 $main-header-background-height: 80px;
 $main-header-background-opacity: 1;
-
 $main-body-background-image: url('https://64.media.tumblr.com/4c8355d59c65b581d10ad91ca789c414/tumblr_p2pap0zxSq1w0sodmo3_1280.jpg');
 $main-body-background-size: 400px;
 $main-body-background-opacity: 0.1;
-
 // ---------------------------
 // Fonts
 // ---------------------------
-$base-font-size: 16px;
+$base-font-size: 18px;
 $base-font-family: 'Crimson Text', Georgia, 'Times New Roman', serif;
-$base-line-height: 1.6;
-
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
-
 // Brand/Title font (most distinctive)
 $font-brand: 'Rock Salt', cursive;
 // Heading font (structural hierarchy)
 $font-heading: 'Crimson Text', Georgia, 'Times New Roman', serif;
-
-$font-light: 300 !default;
-$font-normal: 400 !default;
-$font-bold: 700 !default;
-
+$font-bold: 700;
 $font-xs: 14px;
 $font-sm: 16px;
 $font-base: $base-font-size;
@@ -43,96 +29,32 @@ $font-lg: 22px;
 $font-xl: 28px;
 $font-2xl: 36px;
 $font-3xl: 54px;
-
 $h1-size: $font-3xl;
 $h2-size: $font-2xl;
 $h3-size: $font-xl;
 $h4-size: $font-lg;
 $h5-size: $font-base;
 $h6-size: $font-sm;
-
 $heading-weight: $font-bold;
-$heading-line-height: 1.2;
-
 // ---------------------------
 // Navbar
 // ---------------------------
-$navbar-icon-size: 30px;
-$navbar-icon-gap: 0.5rem;
-$navbar-popover-gap: 20px;
-$navbar-bg-hover: rgba(0, 0, 0, 0.2);
-$navbar-text: black;
-$navbar-separator: black;
-$navbar-padding-item: 0.5rem;
-$navbar-icon-padding: 2px;
-$navbar-border-radius: 5px;
-$navbar-font-label: 14px;
-
 // ---------------------------
 // Big-tile
 // ---------------------------
-$big-tile-bg: rgb(241, 241, 241);
-$big-tile-item-bg: rgb(232, 227, 227);
-$big-tile-category-bg: #737373;
-$big-tile-category-text: #ffffff;
-$big-tile-text-dark: #333333;
-$big-tile-text-light: #ffffff;
-$big-tile-accent: #a6e3ff;
-
-$big-tile-radius-xs: 3px;
-$big-tile-radius-sm: 6px;
-$big-tile-radius-lg: 12px;
-
-$big-tile-shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.15);
-$big-tile-shadow-md: 0 6px 14px rgba(0, 0, 0, 0.15);
-
-$big-tile-gap: 0.6rem;
-$big-tile-pad-xs: 0.2rem 0.5rem;
-$big-tile-pad-sm: 0.25rem 0.6rem;
-$big-tile-pad: 1rem;
-
-$big-tile-fs-xs: 0.75rem;
-$big-tile-fs-sm: 0.85rem;
-$big-tile-fs-md: 0.9rem;
-$big-tile-fs-lg: 1.25rem;
-
 // ---------------------------
 // Small-tile
 // ---------------------------
-$small-tile-bg: rgb(159, 168, 168);
-$small-tile-text: #ffffff;
-$small-tile-gradient-start: rgba(0, 0, 0, 0.7);
-$small-tile-gradient-end: rgba(0, 0, 0, 0.2);
-
-$small-tile-radius: 6px;
-$small-tile-gap: 1rem;
-$small-tile-padding: 0 1rem;
-$small-tile-row-height: 3rem;
-$small-tile-col-min: 16rem;
-$small-tile-col-min-s: 9rem;
-$small-tile-transition-bg: 0.5s ease;
-$small-tile-transition-overlay: 0.3s ease;
-
 // ---------------------------
 // Layout
 // ---------------------------
-$layout-navbar-bg: #ededed;
-$layout-navbar-border: rgb(131, 131, 131);
-$layout-dummy-navbar-bg: #ffffff;
-$layout-navbar-shadow: rgba(163, 163, 163, 0.1);
-$layout-navbar-padding: 36px 8px 8px 8px;
-$layout-main-content-padding: 0 10%;
 $layout-main-content-top-margin: 5rem;
-$layout-navbar-z: 5;
-$layout-header-bg-z: -3;
-$layout-body-bg-z: -5;
 $layout-header-bg-image: $main-header-background-image;
 $layout-header-bg-height: $main-header-background-height;
 $layout-header-bg-opacity: $main-header-background-opacity;
 $layout-body-bg-image: $main-body-background-image;
 $layout-body-bg-size: $main-body-background-size;
 $layout-body-bg-opacity: $main-body-background-opacity;
-
 // ---------------------------
 // Home-header
 // ---------------------------
@@ -142,29 +64,8 @@ $home-header-circle-opacity: 0.1;
 $home-header-circle-size: 23rem;
 $home-header-circle-margin: ($home-header-circle-size * 0.33);
 $home-header-title-font-family: 'Arial';
-$home-header-title-font-weight: 400;
-$home-header-title-letter-spacing: normal;
-$home-header-title-overflow-wrap: normal;
-$home-header-title-white-space: normal;
-$home-header-title-word-break: normal;
-$home-header-title-word-spacing: normal;
 $home-header-subtitle-font-size: 22px;
 $home-header-subtitle-font-family: 'Arial';
-$home-header-subtitle-font-weight: 400;
-$home-header-subtitle-letter-spacing: normal;
-$home-header-subtitle-word-spacing: normal;
-
 // ---------------------------
 // Pagefind UI (enablePagefindCSS = TRUE)
 // ---------------------------
-$pagefind-ui-scale: 0.8;
-$pagefind-ui-primary: #034ad8;
-$pagefind-ui-text: #393939;
-$pagefind-ui-background: #ffffff;
-$pagefind-ui-border: #eeeeee;
-$pagefind-ui-border-width: 2px;
-$pagefind-ui-border-radius: 8px;
-$pagefind-ui-font: sans-serif;
-$pagefind-ui-tag: #eeeeee;
-$pagefind-ui-image-border-radius: 8px;
-$pagefind-ui-image-box-ratio: 3 / 2;
