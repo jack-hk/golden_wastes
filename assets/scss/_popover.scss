@@ -6,7 +6,6 @@
   overscroll-behavior: contain;
 
   @include for-screen(mobile) {
-    animation: slideCenter $slide-speed $slide-easing forwards;
     left: 0;
     margin-top: $popover-tablet-top;
     max-height: $popover-mobile-max-height;
@@ -36,7 +35,6 @@
   box-shadow: $popover-box-shadow;
 
   @include for-screen(mobile) {
-    animation: slideCenter $slide-speed $slide-easing forwards;
     left: 0;
     top: 0;
     width: $popover-mobile-width;

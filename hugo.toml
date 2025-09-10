@@ -2,32 +2,6 @@ baseURL = "https://example.org/"
 languageCode = "en-US"
 title = "Golden Wastes"
 
-[menus]
-[[menus.main]]
-name = "Home"
-pre = "house"
-pageRef = "/"
-weight = 10
-
-[menus.main.params]
-separator = true
-[[menus.main]]
-name = "Search"
-pre = "search"
-weight = 20
-
-[menus.main.params]
-popover = true
-popoverContentPartial = "popovers/search.html"
-[[menus.main]]
-name = "Navigation"
-pre = "bars"
-weight = 30
-
-[menus.main.params]
-popover = true
-popoverContentPartial = "popovers/navigation.html"
-
 [module]
 [[module.mounts]]
 source = "themes/cleanwiki/layouts"
@@ -53,13 +27,13 @@ target = "assets"
 source = "static"
 target = "static"
 
-[params]
-enablePagefindCSS = true
-subtitle = "A Brutal TTRPG Adventure"
-
 [module.hugoVersion]
 extended = false
 min = "0.146.0"
+
+[params]
+enablePagefindCSS = true
+subtitle = "A Brutal TTRPG Adventure"
 
 [params.navbarBar]
 iconsHaveLabels = false
@@ -82,3 +56,36 @@ class = "https://olddungeonmaster.com/wp-content/uploads/2020/08/player-equipmen
 article = "big-tile-article.html"
 quote = "big-tile-quote.html"
 event = "big-tile-event.html"
+
+[menus]
+
+# --- Menu Item: Home ---
+[[menus.main]]
+name = "Home"
+pre = "house"
+pageRef = "/"
+weight = 10
+
+  [menus.main.params]
+  separator = true
+
+# --- Menu Item: Search ---
+[[menus.main]]
+name = "Search"
+pre = "search"
+weight = 20
+
+  [menus.main.params]
+  event = "scrollToTopOfElement('popover-search')"
+  popover = true
+  popoverContentPartial = "popovers/search.html"
+
+# --- Menu Item: Navigation ---
+[[menus.main]]
+name = "Navigation"
+pre = "bars"
+weight = 30
+
+  [menus.main.params]
+  popover = true
+  popoverContentPartial = "popovers/navigation.html"

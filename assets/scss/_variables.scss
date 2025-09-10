@@ -48,6 +48,7 @@ $h4-size: $font-lg;
 $h5-size: $font-base;
 $h6-size: $font-sm;
 $heading-weight: $font-bold;
+$layout-main-content-padding-mobile: 0 4%;
 // ---------------------------
 // Navbar
 // ---------------------------
@@ -82,6 +83,7 @@ $layout-side-graphic-min-height: 100% !default;
 $home-header-circle-bg: #ff000000;
 $home-header-circle-image: url('/circle.png');
 $home-header-circle-opacity: 0.085;
+$home-header-circle-opacity-mobile: 0.15;
 $home-header-circle-size: 23rem;
 $home-header-circle-margin: ($home-header-circle-size * 0.33);
 $home-header-title-font-family: $font-brand;
@@ -89,6 +91,7 @@ $home-header-title-letter-spacing: -3px;
 $home-header-subtitle-font-size: clamp(20px, 3vw, $font-xl);
 $home-header-subtitle-font-family: 'Arial';
 $home-header-title-word-break: keep-all;
+$small-tile-text-weight: medium;
 $home-header-title-white-space: nowrap;
 // ---------------------------
 // Pagefind UI (enablePagefindCSS = TRUE)
