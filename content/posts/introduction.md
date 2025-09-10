@@ -2,7 +2,7 @@
 title = 'The Wastes'
 date = 2025-05-15T10:00:00-07:00
 categories = ['article']
-image = "https://scadconnector.com/wp-content/uploads/2019/03/Ober-J-19WIN-ILLU735-Burns-A01-DesertOasis_WEB-1024x478@2x.jpg"
+image = "https://cdnb.artstation.com/p/assets/images/images/017/596/717/large/arthur-haas-desert-small.jpg?1556631981"
 +++
 
 **Rolling Dice and Weaving Stories: A Night Around the Table**

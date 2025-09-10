@@ -4,7 +4,7 @@ categories = ['event', 'campaign']
 date = 2025-02-15T10:00:00-07:00
 eventDate = "11 Oct 2025"
 eventTime = "18:00"
-image = "https://cdnb.artstation.com/p/assets/images/images/040/037/879/large/erskine-designs-64232y.jpg?1627659704" 
+image = "https://cdnb.artstation.com/p/assets/images/images/083/204/791/large/evgeny-s-01.jpg?1735143614" 
 +++
 
 The Sand King campaign was supposed to be a straightforward desert adventure. Our GM, Rachel, had spent weeks crafting an Arabian Nights-inspired setting where players would explore ancient tombs, navigate political intrigue in the jeweled city of Qadesh, and eventually face down Ankh-Tawy, the titular Sand King—an ancient pharaoh-lich who controlled the desert storms and commanded legions of mummified soldiers.

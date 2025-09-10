@@ -2,7 +2,7 @@
 weight = 15
 categories = ['article']
 title = "How to play"
-image = "https://i.etsystatic.com/21751199/r/il/ce0fe5/5625614118/il_570xN.5625614118_9fm9.jpg"
+image = "https://cdna.artstation.com/p/assets/images/images/002/490/586/large/ryan-groskamp-tesiv-5-prog.jpg?1462370228"
 +++
 
 ## What is dungeon world?

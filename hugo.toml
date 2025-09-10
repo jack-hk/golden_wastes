@@ -73,10 +73,10 @@ count = 3
 truncate = 150
 
 [params.smallTiles.images]
-article = "https://substackcdn.com/image/fetch/$s_!jFtT!,w_520,h_272,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69e7ca25-f7e4-4373-86a2-d575246ceb55_3024x1820.png"
-campaign = "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66a0b5c9-eabb-4226-8631-9655d766dfd1/dep1281-a607e88f-786b-4f4c-877c-1a4b8da22bcf.jpg/v1/fill/w_1280,h_720,q_75,strp/horror_mystery_night___fantasy_art_photoshop_by_abid92_dep1281-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvNjZhMGI1YzktZWFiYi00MjI2LTg2MzEtOTY1NWQ3NjZkZmQxXC9kZXAxMjgxLWE2MDdlODhmLTc4NmItNGY0Yy04NzdjLTFhNGI4ZGEyMmJjZi5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.tLOCD8tx3WWno-hjHheZEq_s3V9mbFHJ2JJhYJa7B7I"
-event = "https://img.wallpapic.com/i822-813-97/medium/fantasy-boat-sailing-ship-caravel-wallpaper.jpg"
-class = "https://static.vecteezy.com/system/resources/thumbnails/053/427/468/small/a-legendary-weapon-of-fantasy-and-enchantment-photo.jpeg"
+article = "https://cdnb.artstation.com/p/assets/images/images/031/091/817/large/kate-vigdis-.jpg?1602586366"
+campaign = "https://cdnb.artstation.com/p/assets/images/images/000/388/611/large/wes-wheeler-crystal-cavern-01-by-wwsketch-d7kdc41.jpg?1420507158"
+event = "https://thumbs.dreamstime.com/b/painting-desert-blue-sky-background-done-watercolor-351087324.jpg"
+class = "https://olddungeonmaster.com/wp-content/uploads/2020/08/player-equipment.jpg?w=640"
 
 [params.bigTiles.partials]
 article = "big-tile-article.html"

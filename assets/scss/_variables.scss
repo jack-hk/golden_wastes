@@ -4,21 +4,33 @@
 // ---------------------------
 // Main backgrounds
 // ---------------------------
-$main-header-background-image: url('/mesa-pattern.svg');
-$main-header-background-height: 80px;
-$main-header-background-opacity: 1;
-$main-body-background-image: url('https://64.media.tumblr.com/4c8355d59c65b581d10ad91ca789c414/tumblr_p2pap0zxSq1w0sodmo3_1280.jpg');
-$main-body-background-size: 400px;
-$main-body-background-opacity: 0.1;
+$main-header-background-image: url('/mountains-header-transparent.png');
+$main-header-background-height: 400px;
+$main-header-background-opacity: 0.4;
+$main-body-background-image: url('/map.png');
+$main-body-background-size: 500px;
+$main-body-background-opacity: 0.05;
+$layout-main-content-top-margin: 0.5rem;
 // ---------------------------
 // Fonts
 // ---------------------------
 $base-font-size: 18px;
 $base-font-family: 'Crimson Text', Georgia, 'Times New Roman', serif;
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+@font-face {
+  font-family: 'Rabiul';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/Rabiul Free Trial.ttf') format('truetype');
+}
+
 // Brand/Title font (most distinctive)
-$font-brand: 'Rock Salt', cursive;
+$font-brand: 'Rabiul', cursive;
+
+$brand-size-xl: clamp(60px, 14vw, 75px);
 // Heading font (structural hierarchy)
 $font-heading: 'Crimson Text', Georgia, 'Times New Roman', serif;
 $font-bold: 700;
@@ -48,27 +60,38 @@ $heading-weight: $font-bold;
 // ---------------------------
 // Layout
 // ---------------------------
-$layout-main-content-top-margin: 5rem;
 $layout-header-bg-image: $main-header-background-image;
 $layout-header-bg-height: $main-header-background-height;
 $layout-header-bg-opacity: $main-header-background-opacity;
 $layout-body-bg-image: $main-body-background-image;
 $layout-body-bg-size: $main-body-background-size;
 $layout-body-bg-opacity: $main-body-background-opacity;
+$layout-side-image: url('/side-message.png');
+$layout-side-opacity: 0.1;
+$layout-side-width: 30px;
+$layout-side-graphic-z: 5;
+$layout-side-repeat: repeat;
+$layout-side-size: 27px;
+$layout-side-graphic-top-margin: 300px;
+$layout-side-graphic-top-height: auto;
+$layout-side-graphic-min-height: 100% !default;
+
 // ---------------------------
 // Home-header
 // ---------------------------
 $home-header-circle-bg: #ff000000;
-$home-header-circle-image: url('/mountain_placeholder3.png');
-$home-header-circle-opacity: 0.1;
+$home-header-circle-image: url('/circle.png');
+$home-header-circle-opacity: 0.085;
 $home-header-circle-size: 23rem;
 $home-header-circle-margin: ($home-header-circle-size * 0.33);
-$home-header-title-font-family: 'Arial';
-$home-header-subtitle-font-size: 22px;
+$home-header-title-font-family: $font-brand;
+$home-header-title-letter-spacing: -3px;
+$home-header-subtitle-font-size: clamp(20px, 3vw, $font-xl);
 $home-header-subtitle-font-family: 'Arial';
+$home-header-title-word-break: keep-all;
+$home-header-title-white-space: nowrap;
 // ---------------------------
 // Pagefind UI (enablePagefindCSS = TRUE)
 // ---------------------------
 $small-tile-transition-bg: 0.3s ease;
-
-$pagefind-ui-scale: 0.8;
+$layout-header-before-opacity: 0;
