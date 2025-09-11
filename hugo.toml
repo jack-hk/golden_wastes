@@ -87,5 +87,6 @@ pre = "bars"
 weight = 30
 
   [menus.main.params]
+  event = "scrollToTopOfElement('popover-navigation')"
   popover = true
   popoverContentPartial = "popovers/navigation.html"

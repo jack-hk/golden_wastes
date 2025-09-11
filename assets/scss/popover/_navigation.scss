@@ -1,41 +1,12 @@
-.popover-search {
-  border: none;
-  border-radius: $popover-border-radius;
-  box-shadow: $popover-box-shadow;
-  overflow-y: auto;
-  overscroll-behavior: contain;
-
-  @include for-screen(mobile) {
-    left: 0;
-    margin-top: $popover-tablet-top;
-    max-height: $popover-mobile-max-height;
-    width: $popover-mobile-width;
-
-    &::backdrop {
-      backdrop-filter: blur(6px);
-      background-color: rgba(0, 0, 0, 0.3);
-    }
-  }
-
-  @include for-screen(tablet) {
-    animation: slideRight $slide-speed $slide-easing forwards;
-    inset: auto;
-    max-height: $popover-tablet-max-height;
-    top: $popover-tablet-top;
-
-    &::backdrop {
-      background-color: rgba(0, 0, 0, 0.1);
-    }
-  }
-}
-
 .popover-navigation {
+  background-color: #fffaf5;
   border: none;
   border-radius: $popover-border-radius;
   box-shadow: $popover-box-shadow;
 
   @include for-screen(mobile) {
     left: 0;
+    margin: 20px;
     top: 0;
     width: $popover-mobile-width;
 
@@ -59,7 +30,6 @@
     align-items: center;
     border-bottom: none;
     display: flex;
-    margin: 0;
     padding: $popover-header-padding;
 
     &-icon {
@@ -71,7 +41,8 @@
   }
 
   &__separator {
-    background: $popover-separator-gradient;
+    background-color: #9c9c9cad;
+    border-radius: 100%;
     content: '';
     float: left;
     height: $popover-separator-height;
@@ -100,8 +71,16 @@
   &__item {
     border-radius: $popover-item-radius;
     color: $popover-item-color;
+    display: flex;
     padding: $popover-item-padding;
     text-decoration: none;
+
+    svg {
+      height: 24px;
+      margin: 2px;
+      margin-right: 7px;
+      width: 24px;
+    }
 
     &:hover {
       background-color: $popover-item-hover-bg;

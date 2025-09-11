@@ -11,6 +11,7 @@ $main-body-background-image: url('/map.png');
 $main-body-background-size: 500px;
 $main-body-background-opacity: 0.05;
 $layout-main-content-top-margin: 0.5rem;
+$popover-item-hover-bg: #f8eee3;
 // ---------------------------
 // Fonts
 // ---------------------------
@@ -93,6 +94,7 @@ $home-header-subtitle-font-family: 'Arial';
 $home-header-title-word-break: keep-all;
 $small-tile-text-weight: medium;
 $home-header-title-white-space: nowrap;
+$slide-speed: 0.15s;
 // ---------------------------
 // Pagefind UI (enablePagefindCSS = TRUE)
 // ---------------------------
