@@ -32,8 +32,12 @@
     display: flex;
     padding: $popover-header-padding;
 
+    &-title {
+      font-family: #{font-family(brand)};
+      font-size: font-size(3xl);
+    }
+
     &-icon {
-      background: $popover-header-icon-bg;
       height: $popover-header-icon-size;
       margin-right: $popover-header-icon-margin-right;
       width: $popover-header-icon-size;
@@ -72,6 +76,7 @@
     border-radius: $popover-item-radius;
     color: $popover-item-color;
     display: flex;
+    font-size: font-size(base);
     padding: $popover-item-padding;
     text-decoration: none;
 
@@ -80,6 +85,9 @@
       margin: 2px;
       margin-right: 7px;
       width: 24px;
+      path {
+        fill: #3e3339;
+      }
     }
 
     &:hover {

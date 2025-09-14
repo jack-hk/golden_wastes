@@ -1,21 +1,33 @@
 <header class="popover-navigation__header">
-  <div class="popover-navigation__header-icon"></div>
+  <div class="popover-navigation__header-icon">
+    {{ partial "icons/sun.html" }}
+  </div>
   <h2 class="popover-navigation__header-title">Golden Wastes</h2>
 </header>
 
 <span class="popover-navigation__separator"></span>
-<h4 class="popover-navigation__subtitle">Menu</h4>
+<h4 class="popover-navigation__subtitle">Explore</h4>
 <main class="popover-navigation__main">
   <nav class="popover-navigation__column">
-    <a href="#" class="popover-navigation__item">How To Play</a>
-    <a href="#" class="popover-navigation__item">The Wastes</a>
-    <a href="#" class="popover-navigation__item">Events</a>
+    <a href="#" class="popover-navigation__item">
+      {{ partial "icons/graduate.html" }}How To Play
+    </a>
+    <a href="#" class="popover-navigation__item">
+      {{ partial "icons/animal-skull.html" }}The Wastes</a
+    >
+    <a href="#" class="popover-navigation__item">
+      {{ partial "icons/dice.html" }}Events</a
+    >
   </nav>
   <nav class="popover-navigation__column">
-    <a href="#" class="popover-navigation__item">Classes</a>
-    <a href="#" class="popover-navigation__item">Equipment</a>
     <a href="#" class="popover-navigation__item"
-      >{{ partial "icons/snake.html" }}Beastiary</a
+      >{{ partial "icons/sword-in-stone.html" }}Classes</a
+    >
+    <a href="#" class="popover-navigation__item">
+      {{ partial "icons/torch.html" }}Equipment</a
+    >
+    <a href="#" class="popover-navigation__item"
+      >{{ partial "icons/bestial-fangs.html" }}Beastiary</a
     >
   </nav>
 </main>
