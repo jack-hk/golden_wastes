@@ -1,7 +1,8 @@
 @import '../../themes/cleanwiki/assets/scss/main';
 @import 'variables';
-@import 'popover/popover.scss';
-@import 'lined-section';
+@import 'colors';
+@import 'popover/popover';
+@import 'section-header';
 @import 'big-tile/article';
 @import 'big-tile/event';
 @import 'big-tile/quote';

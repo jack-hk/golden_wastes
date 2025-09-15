@@ -1,0 +1,50 @@
+:root {
+  /* Primary */
+  --color-primary: #034ad8;
+  --color-secondary: #a6e3ff;
+  --color-accent: #c47c6d;
+
+  /* Text */
+  --color-text-default: #1e1d1d;
+  --color-text-muted: #737373;
+  --color-text-inverted: #fff;
+
+  /* Background */
+  --color-background-default: #f7eee7;
+  --color-background-light: #fffaf5;
+  --color-background-overlay: rgba(0, 0, 0, 0.2);
+
+  /* Interactive */
+  --color-interactive-hover: rgba(0, 0, 0, 0.2);
+  --color-interactive-active: rgb(230, 230, 230);
+  --color-interactive-focus: #034ad8;
+
+  /* Borders */
+  --color-border-default: #9c9c9cad;
+  --color-border-navbar: #000;
+}
+
+[data-theme='dark'] {
+  /* Primary */
+  --color-primary: #a6e3ff;
+  --color-secondary: #034ad8;
+
+  /* Text */
+  --color-text-default: #eee;
+  --color-text-muted: #aaa;
+  --color-text-inverted: #000;
+
+  /* Backgrounds */
+  --color-background-default: #222;
+  --color-background-light: #333;
+  --color-background-overlay: rgba(255, 255, 255, 0.2);
+
+  /* Interactive */
+  --color-interactive-hover: rgba(255, 255, 255, 0.1);
+  --color-interactive-active: rgba(255, 255, 255, 0.2);
+  --color-interactive-focus: #a6e3ff;
+
+  /* Borders */
+  --color-border-default: #555;
+  --color-border-navbar: #fff;
+}

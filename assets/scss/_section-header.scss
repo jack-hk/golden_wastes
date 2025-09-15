@@ -1,4 +1,4 @@
-.lined-section {
+.section-header {
   align-items: center;
   display: flex;
   justify-content: center;
@@ -16,7 +16,6 @@
 
     &::before,
     &::after {
-      background-color: #9c9c9cad;
       border-radius: 100%;
       content: '';
       flex: 1;
