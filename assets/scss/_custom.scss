@@ -54,17 +54,19 @@
   font-size: vaR(--font-title);
 }
 
-.navbar__item--first {
-  .navbar__item-icon svg {
-    scale: 1.35;
-  }
+.navbar__list--top {
+  .navbar__item--first {
+    .navbar__item-icon svg {
+      scale: 1.35;
+    }
 
-  &:hover {
-    .navbar__item-button svg {
-      @include for-screen(tablet) {
-        scale: 1.55;
-        transform: rotate(180deg);
-        transition: transform 0.75s ease;
+    &:hover {
+      .navbar__item-button svg {
+        @include for-screen(tablet) {
+          scale: 1.55;
+          transform: rotate(180deg);
+          transition: transform 0.75s ease;
+        }
       }
     }
   }

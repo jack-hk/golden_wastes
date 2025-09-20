@@ -92,10 +92,11 @@ weight = 30
   popoverContentPartial = "popovers/navigation.html"
 
   [[menus.main]]
-name = "Theme"
-pre = "paint-brush"
+name = "Settings"
+pre = "cog"
 weight = 40
 
   [menus.main.params]
   popover = true
   event = "window.toggleTheme()"
+  InBottom = true
