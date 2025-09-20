@@ -1,34 +1,34 @@
-$popover-border-radius: 4px !default;
-$popover-box-shadow: 4px 3px 10px 0px rgba(0, 0, 0, 0.75) !default;
-$popover-mobile-max-height: 80vh !default;
-$popover-mobile-width: 90% !default;
-$popover-tablet-max-height: 90vh !default;
-$popover-tablet-top: 20px !default;
-$popover-header-padding: 1rem !default;
-$popover-header-icon-bg: #999 !default;
-$popover-header-icon-size: 64px !default;
-$popover-header-icon-margin-right: 1rem !default;
-$popover-separator-height: 1.5px !default;
+$popover-border-radius: 4px;
+$popover-box-shadow: 4px 3px 10px 0px rgba(0, 0, 0, 0.75);
+$popover-mobile-max-height: 80vh;
+$popover-mobile-width: 90%;
+$popover-tablet-max-height: 90vh;
+$popover-tablet-top: 20px;
+$popover-header-padding: 1rem;
+$popover-header-icon-bg: #999;
+$popover-header-icon-size: 64px;
+$popover-header-icon-margin-right: 1rem;
+$popover-separator-height: 1.5px;
 $popover-separator-gradient: linear-gradient(
   90deg,
   rgba(0, 0, 0, 0.1) 10%,
   rgba(0, 0, 0, 1) 50%,
   rgba(0, 0, 0, 0.1) 90%
-) !default;
-$popover-subtitle-padding-left: 1rem !default;
-$popover-subtitle-padding-top: 1rem !default;
-$popover-main-gap: 1rem !default;
-$popover-column-gap: 0.5rem !default;
-$popover-item-radius: 4px !default;
-$popover-item-color: #000 !default;
-$popover-item-padding: 0.5rem !default;
-$popover-item-hover-bg: rgb(230, 230, 230) !default;
-$popover-footer-padding: 1rem !default;
-$slide-speed: 0.3s !default;
-$slide-easing: ease !default;
-$slide-right-from: -100% !default;
+);
+$popover-subtitle-padding-left: 1rem;
+$popover-subtitle-padding-top: 1rem;
+$popover-main-gap: 1rem;
+$popover-column-gap: 0.5rem;
+$popover-item-radius: 4px;
+$popover-item-color: #000;
+$popover-item-padding: 0.5rem;
+$popover-item-hover-bg: rgb(230, 230, 230);
+$popover-footer-padding: 1rem;
+$slide-speed: 0.15s;
+$slide-easing: ease;
+$slide-right-from: -100%;
 $slide-right-to-offset: calc(
   45px + var(--navbar-icon-size) + var(--navbar-popover-gap)
-) !default;
-$slide-center-from: 100vh !default;
-$slide-center-to: 0 !default;
+);
+$slide-center-from: 100vh;
+$slide-center-to: 0;

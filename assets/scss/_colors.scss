@@ -1,12 +1,14 @@
 :root {
   /* Primary */
-  --color-primary: #034ad8;
+  --color-primary: #5f4552;
   --color-secondary: #a6e3ff;
   --color-accent: #c47c6d;
+  --color-ink: #352b30;
 
   /* Text */
-  --color-text-default: #1e1d1d;
+  --color-text-default: #333333;
   --color-text-muted: #737373;
+  --color-text-light: #fff;
   --color-text-inverted: #fff;
 
   /* Background */
@@ -20,31 +22,42 @@
   --color-interactive-focus: #034ad8;
 
   /* Borders */
-  --color-border-default: #9c9c9cad;
-  --color-border-navbar: #000;
+  --color-border-default: #9c9c9c5f;
+  --color-border-navbar: #dbdbdb;
 }
 
 [data-theme='dark'] {
   /* Primary */
-  --color-primary: #a6e3ff;
-  --color-secondary: #034ad8;
+  --color-primary: #a68c99; /* Lighter, muted primary color for dark mode */
+  --color-secondary: #4fbbd9; /* Lighter secondary for contrast */
+  --color-accent: #e1a17d; /* Slightly brighter accent for dark background */
+  --color-ink: #d7cfc5; /* Lighter ink color for better readability */
 
   /* Text */
-  --color-text-default: #eee;
-  --color-text-muted: #aaa;
-  --color-text-inverted: #000;
+  --color-text-default: #e8e4df; /* Lighter text for dark backgrounds */
+  --color-text-muted: #b3b3b3; /* Muted text for secondary information */
+  --color-text-inverted: #333333; /* Darker text for inverted backgrounds */
 
-  /* Backgrounds */
-  --color-background-default: #222;
-  --color-background-light: #333;
-  --color-background-overlay: rgba(255, 255, 255, 0.2);
+  /* Background */
+  --color-background-default: #121212; /* Dark background */
+  --color-background-light: #1e1e1e; /* Slightly lighter background for sections */
+  --color-background-overlay: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); /* Light overlay for dark mode */
 
   /* Interactive */
-  --color-interactive-hover: rgba(255, 255, 255, 0.1);
-  --color-interactive-active: rgba(255, 255, 255, 0.2);
-  --color-interactive-focus: #a6e3ff;
+  --color-interactive-hover: rgba(255, 255, 255, 0.1); /* Light hover effect */
+  --color-interactive-active: rgb(
+    60,
+    60,
+    60
+  ); /* Active state with subtle contrast */
+  --color-interactive-focus: #00aaff; /* Bright, noticeable focus color */
 
   /* Borders */
-  --color-border-default: #555;
-  --color-border-navbar: #fff;
+  --color-border-default: #302e2e; /* Subtle border for dark mode */
+  --color-border-navbar: #333333; /* Lighter border for navbar sections */
 }

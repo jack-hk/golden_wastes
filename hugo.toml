@@ -62,7 +62,7 @@ event = "big-tile-event.html"
 # --- Menu Item: Home ---
 [[menus.main]]
 name = "Home"
-pre = "house"
+pre = "sun-logo"
 pageRef = "/"
 weight = 10
 
@@ -90,3 +90,12 @@ weight = 30
   event = "scrollToTopOfElement('popover-navigation')"
   popover = true
   popoverContentPartial = "popovers/navigation.html"
+
+  [[menus.main]]
+name = "Theme"
+pre = "paint-brush"
+weight = 40
+
+  [menus.main.params]
+  popover = true
+  event = "window.toggleTheme()"

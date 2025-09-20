@@ -33,11 +33,13 @@
     padding: $popover-header-padding;
 
     &-title {
-      font-family: #{font-family(brand)};
-      font-size: font-size(3xl);
+      font-family: var(--font-brand);
+      font-size: calc(var(--font-size-3xl) * 1.5);
+      letter-spacing: -1px;
     }
 
     &-icon {
+      color: var(--color-ink);
       height: $popover-header-icon-size;
       margin-right: $popover-header-icon-margin-right;
       width: $popover-header-icon-size;
@@ -74,7 +76,7 @@
 
   &__item {
     border-radius: $popover-item-radius;
-    color: var(--color-text-default);
+    color: var(--color-ink);
     display: flex;
     font-size: font-size(base);
     padding: $popover-item-padding;
@@ -86,7 +88,7 @@
       margin-right: 7px;
       width: 24px;
       path {
-        fill: var(--color-text-default);
+        fill: var(--color-ink);
       }
     }
 

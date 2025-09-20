@@ -32,6 +32,8 @@
   --font-weights-heading-weight: var(--font-weights-bold);
   --layout-main-content-padding-mobile: 0 4%;
   --font-size-lg: 1.1rem;
+  --font-subtitle: clamp(20px, 3vw, 28px);
+  --font-title: clamp(60px, 14vw, 75px);
 
   /*
    --font-size-xs: 14px;
@@ -39,7 +41,7 @@
 
   --font-size-xl: 28px;
   --font-size-2xl: 36px;
-  --font-size-3xl: 54px;
+
   */
   /* ---------------------------
      Layout
@@ -77,12 +79,9 @@
   --small-tile-transition-bg: 0.3s ease;
 
   /* ---------------------------
-     Slide
-     --------------------------- */
-  --slide-speed: 0.15s;
-
-  /* ---------------------------
      Pagefind / extra
      --------------------------- */
   --layout-header-before-opacity: 0;
+
+  --layout-navbar-bg-after: url('/skull.png');
 }
