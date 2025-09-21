@@ -91,12 +91,14 @@ weight = 30
   popover = true
   popoverContentPartial = "popovers/navigation.html"
 
+# --- Menu Item: Settings ---
   [[menus.main]]
 name = "Settings"
 pre = "cog"
 weight = 40
 
   [menus.main.params]
-  popover = true
-  event = "window.toggleTheme()"
   InBottom = true
+  popover = true
+  popoverContentPartial = "popovers/settings.html"
+

@@ -1,0 +1,83 @@
+.popover-settings {
+  background-color: var(--color-background-light);
+  border: none;
+  border-radius: $popover-border-radius;
+  box-shadow: $popover-box-shadow;
+  color: var(--color-text-default);
+
+  &__section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    padding: 1rem;
+  }
+
+  @include for-screen(mobile) {
+    margin-bottom: 90px;
+    width: $popover-mobile-width;
+
+    &::backdrop {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  @include for-screen(tablet) {
+    animation: slideRight $slide-speed $slide-easing forwards;
+    inset: auto auto 2.5% auto;
+
+    &::backdrop {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  &__row {
+    display: flex;
+    flex-direction: row;
+    gap: 0.75rem;
+  }
+
+  &__subtitle {
+    margin: 10px;
+  }
+
+  &__button {
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    border-radius: $popover-item-radius;
+    color: var(--color-text-default);
+    cursor: pointer;
+    display: flex;
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-base);
+    gap: 0.5rem;
+    padding: $popover-item-padding;
+    text-align: left;
+    transition: background-color 0.2s ease;
+
+    &:hover {
+      background-color: var(--color-interactive-hover);
+    }
+  }
+}
+
+.theme-toggle {
+  width: 100%;
+
+  &__option {
+    border-radius: $popover-item-radius;
+    padding: 7px;
+    input[type='radio'] {
+      accent-color: var(--color-secondary);
+    }
+
+    &:has(input:checked) {
+      background-color: var(--color-interactive-active);
+      color: var(--color-ink-strong);
+    }
+
+    &:hover {
+      background-color: var(--color-interactive-hover);
+    }
+  }
+}
