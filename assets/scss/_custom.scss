@@ -23,6 +23,10 @@
     opacity: 0.035;
   }
 
+  .layout__main-header-background {
+    opacity: 0.3;
+  }
+
   .layout__sidebar-image {
     opacity: 0.065;
   }
@@ -48,10 +52,13 @@
 .home-header__subtitle {
   font-size: var(--font-subtitle);
   margin-top: -10px;
+  @include for-screen(mobile) {
+    margin-bottom: calc(var(--home-header-circle-margin) / 2);
+  }
 }
 
 .home-header__title {
-  font-size: vaR(--font-title);
+  font-size: var(--font-title);
 }
 
 .navbar__list--top {
