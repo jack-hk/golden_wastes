@@ -1,19 +1,23 @@
 {{ define "main" }}
-  <h2 class="wiki-title">
-    {{ if .Params.header }}
-      {{ .Params.header }}
-    {{ else }}
-      {{ partial "title" . }}
-    {{ end }}
-  </h2>
-  <article class="markdown book-post">
-    {{- .Content -}}
-    <br />
-  </article>
+  <div style="height: 50px;"></div>
+  <span style="padding: 0 7%;">
+    <div class="wiki-content">
+      <h2 class="wiki-title">
+        {{ if .Params.header }}
+          {{ .Params.header }}
+        {{ else }}
+          {{ partial "title" . }}
+        {{ end }}
+      </h2>
 
-  {{- /* Template Definitions */}}
+      <article>
+        {{- .Content -}}
+        <br />
+      </article>
 
-  {{ partial "see-also" . }}
+      {{ partial "see-also" . }}
+    </div>
+  </span>
 {{ end }}
 
 {{ define "footer" }}
@@ -21,5 +25,14 @@
 {{ end }}
 
 {{ define "comments" }}
-  <!-- Do nothing -->
+  <!-- Comments by Cusdis -->
+  <h4>Comments:</h4>
+  <div
+    id="cusdis_thread"
+    data-host="https://cusdis.com"
+    data-app-id="724cfa29-2df4-4319-b6f0-d0616bcac03b"
+    data-page-id="{{ .File.UniqueID }}"
+    data-page-url="{{ .Permalink }}"
+    data-page-title="{{ .Title }}"></div>
+  <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
 {{ end }}

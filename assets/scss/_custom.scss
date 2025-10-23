@@ -89,10 +89,6 @@
   padding: 10px !important;
 }
 
-.pagefind-ui__message {
-  font-size: 2rem !important;
-}
-
 .pagefind-ui {
   @include for-screen(tablet) {
     width: 400px !important;
@@ -100,19 +96,34 @@
 }
 
 .pagefind-ui__search-clear {
-  font-size: calc(21px * var(--pagefind-ui-scale)) !important;
-  padding: 0 !important;
+  font-size: calc(21px * var(--pagefind-ui-font-scale)) !important;
+  padding: 10px !important;
   text-align: center !important;
 }
 
+.pagefind-ui__message {
+  font-size: calc(21px * var(--pagefind-ui-font-scale)) !important;
+}
+
+.pagefind-ui__results-area {
+  margin-top: 0 !important;
+  padding: 10px !important;
+}
+
 .wiki-see-also {
-  bottom: 4%;
-  box-shadow: 0 0.25rem 0.35rem -0.25rem rgba(0, 0, 0, 0.1);
-  left: 2%;
-  padding: 4px;
-  position: fixed;
-  width: 96%;
-  z-index: -1;
+  padding: 0;
+}
+
+.wiki-content {
+  background-color: var(--color-background-light);
+  border-color: var(--color-border-default);
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: -3px 0px 77px 73px var(--color-background-blend);
+  contain: content;
+  padding: 1.5rem;
+  text-align: left;
 }
 
 .wiki-see-also a:hover {
@@ -121,7 +132,7 @@
 
 .wiki-title {
   border-bottom: 1px solid #343434;
-  margin-top: 1.5rem;
+  margin-top: 1.4rem;
 }
 
 .icon img {
@@ -163,14 +174,19 @@
 }
 
 .infobox-table .title {
-  background-color: var(--color-background-light);
+  background-color: var(--color-background-default);
   font-weight: bold;
   padding: 8px;
   text-align: center;
 }
 
+.infobox-table .title th {
+  font-size: var(--font-size-base);
+}
+
 .infobox-table .divider td {
   background-color: var(--color-background-light);
+  border-bottom: 2px solid var(--navbar-separator-color);
   font-weight: bold;
   padding: 8px;
   text-align: center;
