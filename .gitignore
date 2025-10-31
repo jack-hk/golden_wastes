@@ -15,3 +15,4 @@ hugo.linux
 /local/
 # VSCode extensions
 /node_modules/
+.aider*

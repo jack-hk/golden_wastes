@@ -9,6 +9,7 @@
   --color-text-default: #333333;
   --color-text-muted: #737373;
   --color-text-light: #fff;
+  --color-text-disabled: rgba(0, 0, 0, 0.1);
   --color-text-inverted: #fff;
 
   /* Background */
@@ -36,6 +37,7 @@
   /* Text */
   --color-text-default: #e8e4df; /* Lighter text for dark backgrounds */
   --color-text-muted: #b3b3b3; /* Muted text for secondary information */
+  --color-text-disabled: rgba(255, 255, 255, 0.07); /* Subtle disabled text */
   --color-text-inverted: #333333; /* Darker text for inverted backgrounds */
 
   /* Background */

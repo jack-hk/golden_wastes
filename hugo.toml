@@ -57,6 +57,11 @@ article = "big-tile-article.html"
 quote = "big-tile-quote.html"
 event = "big-tile-event.html"
 
+[params.portal]
+  showcase_tiles = 3
+  show_alphabet = true
+  truncate_limit = 130
+
 [menus]
 
 # --- Menu Item: Home ---
