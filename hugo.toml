@@ -43,6 +43,9 @@ showFeaturedImage = true
 showSeries = true
 showUpdated = true
 showReferences = true
+showTaxonomyIcons = true
+metaBelowContent = false
+taxonomiesBelowContent = false
 
 [params.navbarBar]
 iconsHaveLabels = false
