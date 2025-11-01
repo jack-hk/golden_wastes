@@ -35,6 +35,15 @@ min = "0.146.0"
 enablePagefindCSS = true
 subtitle = "A Brutal TTRPG Adventure"
 
+[params.pageLayout]
+showHeader = true
+showMeta = true
+showTaxonomies = true
+showFeaturedImage = true
+showSeries = true
+showUpdated = true
+showReferences = true
+
 [params.navbarBar]
 iconsHaveLabels = false
 iconSeparator = true
