@@ -47,6 +47,10 @@ showTaxonomyIcons = true
 metaBelowContent = false
 taxonomiesBelowContent = false
 
+[params.breadcrumbs]
+enabled = true
+separator = "/"
+
 [params.navbarBar]
 iconsHaveLabels = false
 iconSeparator = true
