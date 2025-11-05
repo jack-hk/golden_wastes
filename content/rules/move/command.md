@@ -5,8 +5,8 @@ title: "Command"
 type: "wiki"
 infobox:
   header: "Command"
-  icon: "https://seiyria.com/gameicons-font/svg/whistle.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/whistle.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,7 +18,6 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you work with your animal companion on something it’s trained in…
 * …and you attack the same target, add its ferocity to your damage

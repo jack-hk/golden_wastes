@@ -1,10 +1,10 @@
 ---
 title: "Bard"
-header: "The Bard"
 type: "wiki"
+header: "The Bard"
 infobox:
       header: "Hiii"
-      icon: "hi"
+      image: "hi"
       labels:
         - label: "Partner 1"
           item: "Description for Partner 1"

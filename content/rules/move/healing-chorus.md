@@ -5,8 +5,8 @@ title: "Healing Chorus"
 type: "wiki"
 infobox:
   header: "Healing Chorus"
-  icon: "https://seiyria.com/gameicons-font/svg/ringing-bell.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/ringing-bell.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -21,6 +21,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you heal with arcane art, you heal +2d8 damage.

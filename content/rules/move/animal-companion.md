@@ -5,8 +5,8 @@ title: "Animal Companion"
 type: "wiki"
 infobox:
   header: "Animal Companion"
-  icon: "https://seiyria.com/gameicons-font/svg/wolf-head.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/wolf-head.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,7 +18,6 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 You have a supernatural connection with a loyal animal. You can’t talk to it per se but it always acts as you wish it to. Name your animal companion and choose a species:
 Wolf, cougar, bear, eagle, dog, hawk, cat, owl, pigeon, rat, mule

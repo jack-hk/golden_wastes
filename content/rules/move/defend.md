@@ -5,8 +5,8 @@ title: "Defend"
 type: "wiki"
 infobox:
   header: "Defend"
-  icon: "https://seiyria.com/gameicons-font/svg/slashed-shield.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/slashed-shield.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -15,7 +15,6 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you stand in defense of a person, item, or location under attack, roll+Con. On a 10+, hold 3. On a 7–9, hold 1. So long as you stand in defense, when you or the thing you defend is attacked you may spend hold, 1 for 1, to choose an option:
 - Redirect an attack from the thing you defend to yourself

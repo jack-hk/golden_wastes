@@ -5,8 +5,8 @@ title: "Vicious Cacophony"
 type: "wiki"
 infobox:
   header: "Vicious Cacophony"
-  icon: "https://seiyria.com/gameicons-font/svg/sonic-shout.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/sonic-shout.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you grant bonus damage with arcane art, you grant an extra +1d4 damage.

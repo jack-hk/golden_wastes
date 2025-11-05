@@ -5,8 +5,8 @@ title: "Evidence of Faith"
 type: "wiki"
 infobox:
   header: "Evidence of Faith"
-  icon: "https://seiyria.com/gameicons-font/svg/look-at.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/look-at.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you see divine magic as it happens, you can ask the GM which deity granted the spell and its effects. Take +1 when acting on the answers.

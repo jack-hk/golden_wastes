@@ -5,8 +5,8 @@ title: "A Safe Place"
 type: "wiki"
 infobox:
   header: "A Safe Place"
-  icon: "https://seiyria.com/gameicons-font/svg/camping-tent.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/camping-tent.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you set the watch for the night, everyone takes +1 to take watch.

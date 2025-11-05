@@ -5,8 +5,8 @@ title: "Steel Hide"
 type: "wiki"
 infobox:
   header: "Steel Hide"
-  icon: "https://seiyria.com/gameicons-font/svg/metal-plate.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/metal-plate.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -21,6 +21,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 You gain +2 armor.

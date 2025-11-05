@@ -5,8 +5,8 @@ title: "Follow Me"
 type: "wiki"
 infobox:
   header: "Follow Me"
-  icon: "https://seiyria.com/gameicons-font/svg/fur-boot.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/fur-boot.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you undertake a perilous journey you can take two roles. You make a separate roll for each.

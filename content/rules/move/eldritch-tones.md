@@ -5,8 +5,8 @@ title: "Eldritch Tones"
 type: "wiki"
 infobox:
   header: "Eldritch Tones"
-  icon: "https://seiyria.com/gameicons-font/svg/sound-waves.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/sound-waves.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 Your arcane art is strong, allowing you to choose two effects instead of one.

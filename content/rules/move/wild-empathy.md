@@ -5,8 +5,8 @@ title: "Wild Empathy"
 type: "wiki"
 infobox:
   header: "Wild Empathy"
-  icon: "https://seiyria.com/gameicons-font/svg/love-howl.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/love-howl.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 You can speak with and understand animals.

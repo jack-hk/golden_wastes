@@ -1,6 +1,7 @@
 +++
 weight = 15
 categories = ['article']
+type = "wiki"
 title = "How to play"
 image = "https://cdna.artstation.com/p/assets/images/images/002/490/586/large/ryan-groskamp-tesiv-5-prog.jpg?1462370228"
 +++

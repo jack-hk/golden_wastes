@@ -5,8 +5,8 @@ title: "Seeing Red"
 type: "wiki"
 infobox:
   header: "Seeing Red"
-  icon: "https://seiyria.com/gameicons-font/svg/eye-target.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/eye-target.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you discern realities during combat, you take +1.

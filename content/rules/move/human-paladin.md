@@ -5,8 +5,8 @@ title: "Human (Paladin)"
 type: "wiki"
 infobox:
   header: "Human (Paladin)"
-  icon: "https://seiyria.com/gameicons-font/svg/shield-bash.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/shield-bash.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you pray for guidance, even for a moment, and ask, “What here is evil?” the GM will tell you, honestly.

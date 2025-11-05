@@ -5,8 +5,8 @@ title: "Improved Weapon"
 type: "wiki"
 infobox:
   header: "Improved Weapon"
-  icon: "https://seiyria.com/gameicons-font/svg/upgrade.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/upgrade.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 Choose one extra enhancement for your signature weapon.

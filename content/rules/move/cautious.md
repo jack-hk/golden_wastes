@@ -5,8 +5,8 @@ title: "Cautious"
 type: "wiki"
 infobox:
   header: "Cautious"
-  icon: "https://seiyria.com/gameicons-font/svg/surprised.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/surprised.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you use trap expert you always get +1 hold, even on a 6-.

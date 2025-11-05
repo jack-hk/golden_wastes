@@ -5,8 +5,8 @@ title: "Bamboozle"
 type: "wiki"
 infobox:
   header: "Bamboozle"
-  icon: "https://seiyria.com/gameicons-font/svg/misdirection.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/misdirection.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you parley with someone, on a 7+ you also take +1 forward with them.

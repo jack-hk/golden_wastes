@@ -5,8 +5,8 @@ title: "A Little Help From My Friends"
 type: "wiki"
 infobox:
   header: "A Little Help From My Friends"
-  icon: "https://seiyria.com/gameicons-font/svg/three-friends.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/three-friends.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you successfully aid someone you take +1 forward as well.

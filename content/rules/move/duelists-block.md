@@ -5,8 +5,8 @@ title: "Duelist’s Block"
 type: "wiki"
 infobox:
   header: "Duelist’s Block"
-  icon: "https://seiyria.com/gameicons-font/svg/arrows-shield.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/arrows-shield.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -21,6 +21,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you hack and slash, you take +2 armor forward.

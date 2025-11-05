@@ -5,8 +5,8 @@ title: "Charge!"
 type: "wiki"
 infobox:
   header: "Charge!"
-  icon: "https://seiyria.com/gameicons-font/svg/shield-bash.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/shield-bash.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you lead the charge into combat, those you lead take +1 forward.

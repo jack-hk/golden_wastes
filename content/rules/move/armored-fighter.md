@@ -5,8 +5,8 @@ title: "Armored (Fighter)"
 type: "wiki"
 infobox:
   header: "Armored (Fighter)"
-  icon: "https://seiyria.com/gameicons-font/svg/spiked-shoulder-armor.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/spiked-shoulder-armor.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 You ignore the clumsy tag on armor you wear.

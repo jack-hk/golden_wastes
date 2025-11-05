@@ -5,8 +5,8 @@ title: "Wild Speech"
 type: "wiki"
 infobox:
   header: "Wild Speech"
-  icon: "https://seiyria.com/gameicons-font/svg/shouting.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/shouting.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -21,6 +21,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 You can speak with and understand any non-magical, non-planar creature.

@@ -5,8 +5,8 @@ title: "Halfling (Fighter)"
 type: "wiki"
 infobox:
   header: "Halfling (Fighter)"
-  icon: "https://seiyria.com/gameicons-font/svg/buckler.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/buckler.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you defy danger and use your small size to your advantage, take +1.

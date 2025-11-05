@@ -5,8 +5,8 @@ title: "Blacksmith"
 type: "wiki"
 infobox:
   header: "Blacksmith"
-  icon: "https://seiyria.com/gameicons-font/svg/anvil-impact.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/anvil-impact.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you have access to a forge you can graft the magical powers of a weapon onto your signature weapon. This process destroys the magical weapon. Your signature weapon gains the magical powers of the destroyed weapon.

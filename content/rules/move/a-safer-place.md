@@ -5,8 +5,8 @@ title: "A Safer Place"
 type: "wiki"
 infobox:
   header: "A Safer Place"
-  icon: "https://seiyria.com/gameicons-font/svg/forest-camp.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/forest-camp.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -21,6 +21,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you set the watch for the night everyone takes +1 to take watch. After a night in camp when you set the watch everyone takes +1 forward.

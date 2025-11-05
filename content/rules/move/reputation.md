@@ -5,8 +5,8 @@ title: "Reputation"
 type: "wiki"
 infobox:
   header: "Reputation"
-  icon: "https://seiyria.com/gameicons-font/svg/wanted-reward.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/wanted-reward.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you first meet someone who’s heard songs about you, roll+Cha. ✴On a 10+, tell the GM two things they’ve heard about you. ✴On a 7-9, tell the GM one thing they’ve heard, and the GM tells you one thing.

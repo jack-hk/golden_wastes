@@ -5,8 +5,8 @@ title: "Merciless"
 type: "wiki"
 infobox:
   header: "Merciless"
-  icon: "https://seiyria.com/gameicons-font/svg/overkill.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/overkill.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you deal damage, deal +1d4 damage.

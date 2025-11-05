@@ -5,8 +5,9 @@ title: "Iron Hide"
 type: "wiki"
 infobox:
   header: "Iron Hide"
-  icon: "https://seiyria.com/gameicons-font/svg/metal-bar.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/metal-bar.svg"
+  imageSize: 50
+  imageMargin: "10px auto"
 
   labels:
     - label: "Type"
@@ -18,6 +19,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 You gain +1 armor.

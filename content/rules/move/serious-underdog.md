@@ -5,8 +5,8 @@ title: "Serious Underdog"
 type: "wiki"
 infobox:
   header: "Serious Underdog"
-  icon: "https://seiyria.com/gameicons-font/svg/assassin-pocket.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/assassin-pocket.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -21,6 +21,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 You have +1 armor. When you’re outnumbered, you have +2 armor instead.

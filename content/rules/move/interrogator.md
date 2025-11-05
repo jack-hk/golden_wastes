@@ -5,8 +5,8 @@ title: "Interrogator"
 type: "wiki"
 infobox:
   header: "Interrogator"
-  icon: "https://seiyria.com/gameicons-font/svg/talk.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/talk.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you parley using threats of impending violence as leverage, you may use STR instead of CHA.

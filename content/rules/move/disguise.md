@@ -5,8 +5,8 @@ title: "Disguise"
 type: "wiki"
 infobox:
   header: "Disguise"
-  icon: "https://seiyria.com/gameicons-font/svg/drama-masks.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/drama-masks.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you have time and materials you can create a disguise that will fool anyone into thinking you’re another creature of about the same size and shape. Your actions can give you away but your appearance won’t.

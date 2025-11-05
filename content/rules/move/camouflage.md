@@ -5,8 +5,8 @@ title: "Camouflage"
 type: "wiki"
 infobox:
   header: "Camouflage"
-  icon: "https://seiyria.com/gameicons-font/svg/hidden.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/hidden.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you keep still in natural surroundings, enemies never spot you until you make a movement.

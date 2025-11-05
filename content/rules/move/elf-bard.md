@@ -5,8 +5,8 @@ title: "Elf (Bard)"
 type: "wiki"
 infobox:
   header: "Elf (Bard)"
-  icon: "https://seiyria.com/gameicons-font/svg/pointy-hat.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/pointy-hat.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you enter an important location (your call) you can ask the GM for one fact from the history of that location.

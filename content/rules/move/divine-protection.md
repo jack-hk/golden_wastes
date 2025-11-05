@@ -5,8 +5,8 @@ title: "Divine Protection"
 type: "wiki"
 infobox:
   header: "Divine Protection"
-  icon: "https://seiyria.com/gameicons-font/svg/shield-opposition.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/shield-opposition.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -21,6 +21,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 You get +2 armor while on a quest.

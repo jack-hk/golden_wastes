@@ -5,8 +5,8 @@ title: "Eldritch Chord"
 type: "wiki"
 infobox:
   header: "Eldritch Chord"
-  icon: "https://seiyria.com/gameicons-font/svg/harp.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/harp.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -21,6 +21,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you use arcane art, you choose two effects. You also get to choose one of those effects to double.

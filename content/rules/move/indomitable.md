@@ -5,8 +5,8 @@ title: "Indomitable"
 type: "wiki"
 infobox:
   header: "Indomitable"
-  icon: "https://seiyria.com/gameicons-font/svg/muscle-up.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/muscle-up.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you suffer a debility (even through Bloody Aegis) take +1 forward against whatever caused it.

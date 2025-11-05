@@ -5,8 +5,8 @@ title: "Human (Bard)"
 type: "wiki"
 infobox:
   header: "Human (Bard)"
-  icon: "https://seiyria.com/gameicons-font/svg/lute.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/lute.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you first enter a civilized settlement someone who respects the custom of hospitality to minstrels will take you in as their guest.

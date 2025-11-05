@@ -5,8 +5,8 @@ title: "Cheap Shot"
 type: "wiki"
 infobox:
   header: "Cheap Shot"
-  icon: "https://seiyria.com/gameicons-font/svg/sly.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/sly.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When using a precise or hand weapon, your backstab deals an extra +1d6 damage.

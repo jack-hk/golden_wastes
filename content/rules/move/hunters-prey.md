@@ -5,8 +5,8 @@ title: "Hunter’s Prey"
 type: "wiki"
 infobox:
   header: "Hunter’s Prey"
-  icon: "https://seiyria.com/gameicons-font/svg/target-shot.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/target-shot.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -21,6 +21,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you spout lore about a monster you use WIS instead of INT. On a 12+, in addition to the normal effects, you get to ask the GM any one question about the subject.

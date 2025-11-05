@@ -5,8 +5,8 @@ title: "Shoot First"
 type: "wiki"
 infobox:
   header: "Shoot First"
-  icon: "https://seiyria.com/gameicons-font/svg/crosshair-arrow.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/crosshair-arrow.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 You’re never caught by surprise. When an enemy would get the drop on you, you get to act first instead.

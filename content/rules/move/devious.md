@@ -5,8 +5,8 @@ title: "Devious"
 type: "wiki"
 infobox:
   header: "Devious"
-  icon: "https://seiyria.com/gameicons-font/svg/imp.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/imp.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you use charming and open you may also ask “How are you vulnerable to me?” Your subject may not ask this question of you.

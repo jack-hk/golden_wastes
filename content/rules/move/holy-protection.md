@@ -5,8 +5,8 @@ title: "Holy Protection"
 type: "wiki"
 infobox:
   header: "Holy Protection"
-  icon: "https://seiyria.com/gameicons-font/svg/holy-symbol.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/holy-symbol.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 You get +1 armor while on a quest.

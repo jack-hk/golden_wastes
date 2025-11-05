@@ -5,8 +5,8 @@ title: "Arcane Art"
 type: "wiki"
 infobox:
   header: "Arcane Art"
-  icon: "https://seiyria.com/gameicons-font/svg/magic-swirl.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/magic-swirl.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,7 +18,6 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you weave a performance into a basic spell, choose an ally and an effect:
 * Heal 1d8 damage

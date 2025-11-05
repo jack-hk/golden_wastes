@@ -5,8 +5,8 @@ title: "Defy Danger"
 type: "wiki"
 infobox:
   header: "Defy Danger"
-  icon: "https://seiyria.com/gameicons-font/svg/fist.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/fist.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -15,7 +15,6 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you act despite an imminent threat or suffer a calamity, say how you deal with it and roll. If you do it:
 - …by powering through, +Str

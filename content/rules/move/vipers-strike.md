@@ -5,8 +5,8 @@ title: "Viper’s Strike"
 type: "wiki"
 infobox:
   header: "Viper’s Strike"
-  icon: "https://seiyria.com/gameicons-font/svg/snake-tongue.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/snake-tongue.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you strike an enemy with two weapons at once, add an extra 1d4 damage for your off-hand strike.

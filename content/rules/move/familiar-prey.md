@@ -5,8 +5,8 @@ title: "Familiar Prey"
 type: "wiki"
 infobox:
   header: "Familiar Prey"
-  icon: "https://seiyria.com/gameicons-font/svg/footprint.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/footprint.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you spout lore about a monster you use WIS instead of INT.

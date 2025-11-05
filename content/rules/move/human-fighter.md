@@ -5,8 +5,8 @@ title: "Human (Fighter)"
 type: "wiki"
 infobox:
   header: "Human (Fighter)"
-  icon: "https://seiyria.com/gameicons-font/svg/sword-wound.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/sword-wound.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 Once per battle you may reroll a single damage roll (yours or someone else’s).

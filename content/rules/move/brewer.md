@@ -5,8 +5,8 @@ title: "Brewer"
 type: "wiki"
 infobox:
   header: "Brewer"
-  icon: "https://seiyria.com/gameicons-font/svg/pestle-mortar.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/pestle-mortar.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you have time to gather materials and a safe place to brew you can create three doses of any one poison you’ve used before.

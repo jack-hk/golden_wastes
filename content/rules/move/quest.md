@@ -5,8 +5,8 @@ title: "Quest"
 type: "wiki"
 infobox:
   header: "Quest"
-  icon: "https://seiyria.com/gameicons-font/svg/scroll-unfurled.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/scroll-unfurled.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,7 +18,6 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you dedicate yourself to a mission through prayer and ritual cleansing, state what you set out to do:
 * Slay _____, a great blight on the land

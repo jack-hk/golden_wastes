@@ -5,8 +5,8 @@ title: "Superior Warrior"
 type: "wiki"
 infobox:
   header: "Superior Warrior"
-  icon: "https://seiyria.com/gameicons-font/svg/spartan.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/spartan.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you hack and slash on a 12+ you deal your damage, avoid their attack, and impress, dismay, or frighten your enemy.

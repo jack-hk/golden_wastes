@@ -5,8 +5,8 @@ title: "Smite"
 type: "wiki"
 infobox:
   header: "Smite"
-  icon: "https://seiyria.com/gameicons-font/svg/lightning-trio.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/lightning-trio.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 While on a quest you deal +1d4 damage.

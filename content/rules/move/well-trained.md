@@ -5,8 +5,8 @@ title: "Well-Trained"
 type: "wiki"
 infobox:
   header: "Well-Trained"
-  icon: "https://seiyria.com/gameicons-font/svg/hunting-horn.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/hunting-horn.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 Choose another training for your animal companion.

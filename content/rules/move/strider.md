@@ -5,8 +5,8 @@ title: "Strider"
 type: "wiki"
 infobox:
   header: "Strider"
-  icon: "https://seiyria.com/gameicons-font/svg/metal-boot.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/metal-boot.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -21,6 +21,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you undertake a perilous journey you can take two roles. Roll twice and use the better result for both roles.

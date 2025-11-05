@@ -5,8 +5,8 @@ title: "Unforgettable Face"
 type: "wiki"
 infobox:
   header: "Unforgettable Face"
-  icon: "https://seiyria.com/gameicons-font/svg/think.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/think.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you meet someone you’ve met before (your call) after some time apart you take +1 forward against them.

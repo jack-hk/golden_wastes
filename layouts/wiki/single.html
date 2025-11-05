@@ -1,20 +1,172 @@
 {{ define "main" }}
-  <div class="wiki-content">
-    <h2 class="wiki-title">
-      {{ if .Params.header }}
-        {{ .Params.header }}
-      {{ else }}
-        {{ partial "title" . }}
-      {{ end }}
-    </h2>
+  <article class="wiki">
+    {{- partial "breadcrumbs" . -}}
 
-    <article>
-      {{- .Content -}}
-      <br />
-    </article>
+    {{ if site.Params.pageLayout.showHeader | default true }}
+      <header class="wiki__header">
+        <h1 class="wiki__title">{{ .Title }}</h1>
+      </header>
+    {{ end }}
 
-    {{ partial "see-also" . }}
-  </div>
+    {{ if and (site.Params.pageLayout.showFeaturedImage | default true) .Params.featured_image }}
+      <figure class="wiki__figure">
+        <img
+          src="{{ .Params.featured_image | relURL }}"
+          alt="{{ .Title }}"
+          class="wiki__image" />
+        {{ if .Params.image_caption }}
+          <figcaption class="wiki__caption">
+            {{ .Params.image_caption }}
+          </figcaption>
+        {{ end }}
+      </figure>
+    {{ end }}
+
+    {{ if .Params.infobox }}
+      <aside class="wiki__infobox">
+        {{ with .Params.infobox }}
+          <div class="wiki__infobox-header">
+            {{ if .header }}
+              <h2 class="wiki__infobox-title">{{ .header }}</h2>
+            {{ end }}
+          </div>
+
+          {{ if .image }}
+            <div class="wiki__infobox-image-container" {{ if or .imageSize .imageMargin }}style="{{- if .imageSize }}--image-size: {{ .imageSize }}px;{{- end }}{{- if .imageMargin }}--image-margin: {{ .imageMargin }};{{- else }}--image-margin: 10px auto;{{- end }}"{{- else }}style="--image-margin: 10px auto"{{- end }}>
+              {{ $image := .image }}
+              {{ if hasPrefix $image "http" }}
+                <div class="wiki__infobox-image-wrapper">
+                  <img src="{{ $image }}" alt="image" class="wiki__infobox-image" />
+                </div>
+              {{ else }}
+                <span class="wiki__infobox-image-wrapper wiki__infobox-image--{{ $image }}"></span>
+              {{ end }}
+            </div>
+          {{ end }}
+
+          {{ if .labels }}
+            <div class="wiki__infobox-content">
+              {{ range .labels }}
+                {{ if .divider }}
+                  <div class="wiki__infobox-divider"></div>
+                {{ else }}
+                  <div class="wiki__infobox-item">
+                    {{ if .label }}
+                      <span class="wiki__infobox-label">{{ .label | markdownify }}</span>
+                    {{ end }}
+                    {{ if .item }}
+                      <span class="wiki__infobox-value">{{ .item | markdownify }}</span>
+                    {{ end }}
+                  </div>
+                {{ end }}
+              {{ end }}
+            </div>
+          {{ end }}
+        {{ end }}
+      </aside>
+    {{ end }}
+
+    <div class="wiki__content">
+      {{ .Content }}
+    </div>
+
+    {{ if .Params.also }}
+      <div class="wiki__content-footer">
+        <div class="wiki__see-also">
+          <h2 class="wiki__see-also-title">See also</h2>
+          <ul class="wiki__see-also-list">
+            {{ range .Params.also }}
+              <li class="wiki__see-also-item">
+                <a href="{{ (printf "/rules/%s" (urlize .)) | relURL }}" class="wiki__see-also-link">
+                  {{ . | replaceRE "-" " " | title }}
+                </a>
+              </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    {{ end }}
+
+    {{ if or (and (site.Params.pageLayout.showTaxonomies | default true) (or (.GetTerms "categories") (.GetTerms "tags"))) (and (site.Params.pageLayout.showUpdated | default true) .Params.updated) (and (site.Params.pageLayout.showReferences | default true) .Params.references) }}
+      <footer class="wiki__footer">
+        {{ if and (site.Params.pageLayout.showTaxonomies | default true) (or (.GetTerms "categories") (.GetTerms "tags")) }}
+          <div class="wiki__taxonomies">
+            {{ with .GetTerms "categories" }}
+              <div class="wiki__categories">
+                <span class="wiki__label">Categories:</span>
+                <ul class="wiki__list wiki__list--categories">
+                  {{ range . }}
+                    <li class="wiki__list-item">
+                      <a
+                        href="{{ .RelPermalink }}"
+                        class="wiki__link wiki__link--block">
+                        {{ if site.Params.pageLayout.showTaxonomyIcons | default true }}
+                          <span class="wiki__icon wiki__icon--category"
+                            >{{ partial "icons/category" }}</span
+                          >
+                        {{ end }}
+                        <span class="wiki__link-text">{{ .LinkTitle }}</span>
+                      </a>
+                    </li>
+                  {{ end }}
+                </ul>
+              </div>
+            {{ end }}
+
+            {{ with .GetTerms "tags" }}
+              <div class="wiki__tags">
+                <span class="wiki__label">Tags:</span>
+                <ul class="wiki__list wiki__list--tags">
+                  {{ range . }}
+                    <li class="wiki__list-item">
+                      <a
+                        href="{{ .RelPermalink }}"
+                        class="wiki__link wiki__link--block">
+                        {{ if site.Params.pageLayout.showTaxonomyIcons | default true }}
+                          <span class="wiki__icon wiki__icon--tag"
+                            >{{ partial "icons/tag" }}</span
+                          >
+                        {{ end }}
+                        <span class="wiki__link-text">#{{ .LinkTitle }}</span>
+                      </a>
+                    </li>
+                  {{ end }}
+                </ul>
+              </div>
+            {{ end }}
+          </div>
+        {{ end }}
+
+        {{ if and (site.Params.pageLayout.showUpdated | default true) .Params.updated }}
+          <div class="wiki__updated">
+            <span class="wiki__label">Last updated:</span>
+            <time datetime="{{ .Params.updated | time.Format "2006-01-02" }}"
+              >{{ .Params.updated | time.Format ":date_long" }}</time
+            >
+          </div>
+        {{ end }}
+
+        {{ if and (site.Params.pageLayout.showReferences | default true) .Params.references }}
+          <div class="wiki__references">
+            <h3 class="wiki__label">References</h3>
+            <ul class="wiki__list wiki__list--references">
+              {{ range .Params.references }}
+                <li class="wiki__list-item">
+                  <a
+                    href="{{ .url }}"
+                    class="wiki__link wiki__link--block"
+                    target="_blank"
+                    rel="noopener">
+                    {{ .title }}
+                  </a>
+                </li>
+              {{ end }}
+            </ul>
+          </div>
+        {{ end }}
+      </footer>
+    {{ end }}
+  </article>
 {{ end }}
 
 {{ define "footer" }}

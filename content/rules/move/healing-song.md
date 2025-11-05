@@ -5,8 +5,8 @@ title: "Healing Song"
 type: "wiki"
 infobox:
   header: "Healing Song"
-  icon: "https://seiyria.com/gameicons-font/svg/lyre.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/lyre.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you heal with arcane art, you heal +1d8 damage.

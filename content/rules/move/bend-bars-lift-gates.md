@@ -5,8 +5,8 @@ title: "Bend Bars, Lift Gates"
 type: "wiki"
 infobox:
   header: "Bend Bars, Lift Gates"
-  icon: "https://seiyria.com/gameicons-font/svg/groundbreaker.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/groundbreaker.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,7 +18,6 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you use pure strength to destroy an inanimate obstacle, roll+Str. ✴On a 10+, choose 3. ✴On a 7-9 choose 2.
 * It doesn’t take a very long time

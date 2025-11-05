@@ -5,8 +5,8 @@ title: "I Am the Law"
 type: "wiki"
 infobox:
   header: "I Am the Law"
-  icon: "https://seiyria.com/gameicons-font/svg/book-cover.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/book-cover.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,7 +18,6 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you give an NPC an order based on your divine authority, roll+Cha. ✴On a 7+, they choose one:
 * Do what you say

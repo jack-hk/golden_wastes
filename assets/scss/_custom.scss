@@ -110,34 +110,6 @@
   padding: 10px !important;
 }
 
-.wiki-see-also {
-  padding: 0;
-}
-
-.wiki-content {
-  background-color: var(--color-background-light);
-  border-color: var(--color-border-default);
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 1px;
-  box-shadow: -3px 0px 77px 73px var(--color-background-blend);
-  contain: content;
-  padding: 1.5rem;
-  text-align: left;
-  @include for-screen(desktop) {
-    margin: var(--page-margin);
-  }
-}
-
-.wiki-see-also a:hover {
-  text-decoration: underline 1.5px;
-}
-
-.wiki-title {
-  border-bottom: 1px solid #343434;
-  margin-top: 1.4rem;
-}
-
 .icon img {
   filter: none;
 }
@@ -221,3 +193,4 @@
     width: 100% !important;
   }
 }
+

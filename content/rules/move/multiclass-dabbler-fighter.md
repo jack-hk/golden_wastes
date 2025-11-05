@@ -5,8 +5,8 @@ title: "Multiclass Dabbler (Fighter)"
 type: "wiki"
 infobox:
   header: "Multiclass Dabbler (Fighter)"
-  icon: "https://seiyria.com/gameicons-font/svg/crossed-swords.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/crossed-swords.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 Get one move from another class. Treat your level as one lower for choosing the move.

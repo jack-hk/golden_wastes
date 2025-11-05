@@ -5,8 +5,8 @@ title: "Signature Weapon"
 type: "wiki"
 infobox:
   header: "Signature Weapon"
-  icon: "https://seiyria.com/gameicons-font/svg/shining-sword.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/shining-sword.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,7 +18,6 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 This is your weapon. There are many like it, but this one is yours. Your weapon is your best friend. It is your life. You master it as you master your life. Your weapon, without you, is useless. Without your weapon, you are useless. You must wield your weapon true.
 Choose a base description, all are 2 weight:

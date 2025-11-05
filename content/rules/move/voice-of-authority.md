@@ -5,8 +5,8 @@ title: "Voice of Authority"
 type: "wiki"
 infobox:
   header: "Voice of Authority"
-  icon: "https://seiyria.com/gameicons-font/svg/acoustic-megaphone.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/acoustic-megaphone.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 Take +1 to order hirelings.

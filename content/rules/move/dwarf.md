@@ -5,8 +5,8 @@ title: "Dwarf"
 type: "wiki"
 infobox:
   header: "Dwarf"
-  icon: "https://seiyria.com/gameicons-font/svg/battle-axe.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/battle-axe.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you share a drink with someone, you may parley with them using CON instead of CHA.

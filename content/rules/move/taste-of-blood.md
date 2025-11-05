@@ -5,8 +5,8 @@ title: "Taste of Blood"
 type: "wiki"
 infobox:
   header: "Taste of Blood"
-  icon: "https://seiyria.com/gameicons-font/svg/bloody-sword.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/bloody-sword.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -21,6 +21,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you hack and slash an enemy, your next attack against that same foe deals +1d8 damage.

@@ -5,8 +5,8 @@ title: "Hospitaller"
 type: "wiki"
 infobox:
   header: "Hospitaller"
-  icon: "https://seiyria.com/gameicons-font/svg/caduceus.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/caduceus.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you heal an ally, you heal +1d8 damage.

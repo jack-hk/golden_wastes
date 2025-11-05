@@ -5,8 +5,8 @@ title: "Perfect Knight"
 type: "wiki"
 infobox:
   header: "Perfect Knight"
-  icon: "https://seiyria.com/gameicons-font/svg/knight-banner.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/knight-banner.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When you quest you choose three boons instead of two.

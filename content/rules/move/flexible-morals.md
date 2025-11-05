@@ -5,8 +5,8 @@ title: "Flexible Morals"
 type: "wiki"
 infobox:
   header: "Flexible Morals"
-  icon: "https://seiyria.com/gameicons-font/svg/pretty-fangs.svg"
-  iconSize: 50
+  image: "https://seiyria.com/gameicons-font/svg/pretty-fangs.svg"
+  imageSize: 50
 
   labels:
     - label: "Type"
@@ -18,6 +18,5 @@ also:
     - "how-to-play"
 ---
 
-{{< infobox >}}
 
 When someone tries to detect your alignment you can tell them any alignment you like.
