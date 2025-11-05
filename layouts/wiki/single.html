@@ -1,23 +1,20 @@
 {{ define "main" }}
-  <div style="height: 50px;"></div>
-  <span style="padding: 0 7%;">
-    <div class="wiki-content">
-      <h2 class="wiki-title">
-        {{ if .Params.header }}
-          {{ .Params.header }}
-        {{ else }}
-          {{ partial "title" . }}
-        {{ end }}
-      </h2>
+  <div class="wiki-content">
+    <h2 class="wiki-title">
+      {{ if .Params.header }}
+        {{ .Params.header }}
+      {{ else }}
+        {{ partial "title" . }}
+      {{ end }}
+    </h2>
 
-      <article>
-        {{- .Content -}}
-        <br />
-      </article>
+    <article>
+      {{- .Content -}}
+      <br />
+    </article>
 
-      {{ partial "see-also" . }}
-    </div>
-  </span>
+    {{ partial "see-also" . }}
+  </div>
 {{ end }}
 
 {{ define "footer" }}

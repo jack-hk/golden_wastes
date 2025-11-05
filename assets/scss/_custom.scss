@@ -124,6 +124,9 @@
   contain: content;
   padding: 1.5rem;
   text-align: left;
+  @include for-screen(desktop) {
+    margin: var(--page-margin);
+  }
 }
 
 .wiki-see-also a:hover {
