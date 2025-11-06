@@ -7,20 +7,46 @@
   box-shadow: -3px 0px 77px 73px var(--color-background-blend);
   color: var(--color-text-default);
   contain: content;
-  @include for-screen(desktop) {
-    margin: 50px 7%;
-  }
   padding: 1.5rem;
   text-align: left;
 
   @include for-screen(mobile) {
+    margin: 0;
     padding: 1rem;
+  }
+
+  @include for-screen(tablet) {
+    margin: 20px 4%;
+  }
+
+  @include for-screen(desktop) {
+    margin: 50px 7%;
+  }
+
+  &--mobile-fullscreen {
+    @include for-screen(mobile) {
+      border-radius: 0;
+      border-width: 0;
+      box-shadow: none;
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      min-height: 100vh;
+      padding: 0;
+      width: 100%;
+    }
   }
 }
 
 .wiki__header {
   border-bottom: 1px solid var(--color-border-default);
   margin-bottom: 1.5rem;
+
+  .wiki--mobile-fullscreen & {
+    @include for-screen(mobile) {
+      padding: 1rem 1rem 0 1rem;
+    }
+  }
 }
 
 .wiki__title {
@@ -115,12 +141,24 @@
 .wiki__content {
   font-size: var(--font-size-base);
   line-height: 1.7;
+
+  .wiki--mobile-fullscreen & {
+    @include for-screen(mobile) {
+      padding: 0 1rem 1rem 1rem;
+    }
+  }
 }
 
 .wiki__content-footer {
   border-top: 1px solid var(--color-border-default);
   margin-top: 2rem;
   padding-top: 1rem;
+
+  .wiki--mobile-fullscreen & {
+    @include for-screen(mobile) {
+      padding: 1rem 1rem 0 1rem;
+    }
+  }
 }
 
 .wiki__footer {
@@ -131,6 +169,12 @@
   gap: 2rem;
   margin-top: 2rem;
   padding-top: 1rem;
+
+  .wiki--mobile-fullscreen & {
+    @include for-screen(mobile) {
+      padding: 1rem 1rem 1rem 1rem;
+    }
+  }
 }
 
 .wiki__taxonomies,
@@ -155,13 +199,23 @@
   font-size: 0.9rem;
   margin-bottom: 1rem;
   margin-left: 1rem;
+  max-width: 300px;
   overflow: hidden;
   width: 300px;
 
   @include for-screen(mobile) {
     float: none;
     margin: 1rem auto;
+    max-width: 100%;
     width: 90%;
+  }
+
+  .wiki--mobile-fullscreen & {
+    @include for-screen(mobile) {
+      margin: 1rem;
+      max-width: calc(100% - 2rem);
+      width: calc(100% - 2rem);
+    }
   }
 }
 
