@@ -1,5 +1,6 @@
 ---
 bookSearchExclude: true
+title: "Moves"
 bookHidden: true
 ---
 
