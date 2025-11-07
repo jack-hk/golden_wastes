@@ -75,6 +75,10 @@ event = "big-tile-event.html"
 
 [params.portal]
   showcase_tiles = 3
+  # Minimum number of articles required to display showcase tiles
+  # If fewer articles exist than this amount, no tiles will be shown
+  # WARNING: This value must be same or less than showcase_tiles for anything to appear
+  min_showcase_tiles = 3
   show_alphabet = true
   truncate_limit = 130
 
