@@ -32,8 +32,23 @@ extended = false
 min = "0.146.0"
 
 [params]
-enablePagefindCSS = true
+enablePagefindCSS = false
 subtitle = "A Brutal TTRPG Adventure"
+
+[params.pagefind]
+  initialPageSize = 5
+  loadMoreCount = 5
+  showSubResults = true
+  showImages = true
+  debounceTimeoutMs = 300
+  excerptLength = 30
+
+  [params.pagefind.thumbnailSources]
+    primary = "featured"
+    fallback1 = "thumbnail"
+    fallback2 = "placeholder"
+
+  placeholderImage = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 0x400'%3E%3Crect fill='%23e5e7eb' width='400' height='400'/%3E%3Ctext x='50%25' y='50%25' font-size='24' fill='%23999' text-anchor='middle' dy='.3em'%3ENo Image%3C/text%3E%3C/svg%3E"
 
 [params.pageLayout]
 showHeader = true
@@ -75,16 +90,12 @@ event = "big-tile-event.html"
 
 [params.portal]
   showcase_tiles = 3
-  # Minimum number of articles required to display showcase tiles
-  # If fewer articles exist than this amount, no tiles will be shown
-  # WARNING: This value must be same or less than showcase_tiles for anything to appear
   min_showcase_tiles = 3
   show_alphabet = true
   truncate_limit = 130
 
 [menus]
 
-# --- Menu Item: Home ---
 [[menus.main]]
 name = "Home"
 pre = "sun-logo"
@@ -94,7 +105,6 @@ weight = 10
   [menus.main.params]
   separator = true
 
-# --- Menu Item: Search ---
 [[menus.main]]
 name = "Search"
 pre = "search"
@@ -105,7 +115,6 @@ weight = 20
   popover = true
   popoverContentPartial = "popovers/search.html"
 
-# --- Menu Item: Navigation ---
 [[menus.main]]
 name = "Navigation"
 pre = "bars"
@@ -116,8 +125,7 @@ weight = 30
   popover = true
   popoverContentPartial = "popovers/navigation.html"
 
-# --- Menu Item: Settings ---
-  [[menus.main]]
+[[menus.main]]
 name = "Settings"
 pre = "cog"
 weight = 40
@@ -126,4 +134,3 @@ weight = 40
   InBottom = true
   popover = true
   popoverContentPartial = "popovers/settings.html"
-
