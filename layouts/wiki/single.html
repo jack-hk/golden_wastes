@@ -23,7 +23,7 @@
     {{ end }}
 
     {{ if .Params.infobox }}
-      <aside class="wiki__infobox">
+      <aside class="wiki__infobox" data-pagefind-ignore>
         {{ with .Params.infobox }}
           <div class="wiki__infobox-header">
             {{ if .header }}
