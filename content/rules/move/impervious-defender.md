@@ -8,6 +8,7 @@ infobox:
   image: "https://seiyria.com/gameicons-font/svg/spiked-shield.svg"
   imageSize: 50
 
+  invertForDark: true
   labels:
     - label: "Type"
       item: "Expert"

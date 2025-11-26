@@ -8,6 +8,7 @@ infobox:
   image: "https://seiyria.com/gameicons-font/svg/knight-banner.svg"
   imageSize: 50
 
+  invertForDark: true
   labels:
     - label: "Type"
       item: "Expert"

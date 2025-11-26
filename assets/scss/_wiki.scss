@@ -254,6 +254,16 @@
   width: var(--image-size, 50px);
 }
 
+.wiki__infobox-image-wrapper svg {
+  fill: var(--color-ink);
+}
+
+.wiki__infobox-image-wrapper[data-invert-dark] {
+  [data-theme='dark'] & {
+    filter: invert(1) hue-rotate(180deg);
+  }
+}
+
 .wiki__infobox-content {
   display: flex;
   flex-direction: column;

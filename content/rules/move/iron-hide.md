@@ -8,6 +8,7 @@ infobox:
   image: "https://seiyria.com/gameicons-font/svg/metal-bar.svg"
   imageSize: 50
   imageMargin: "10px auto"
+  invertForDark: true
 
   labels:
     - label: "Type"
