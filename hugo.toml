@@ -89,10 +89,16 @@ quote = "big-tile-quote.html"
 event = "big-tile-event.html"
 
 [params.portal]
+  default_view = "list"
   showcase_tiles = 3
   min_showcase_tiles = 3
   show_alphabet = true
   truncate_limit = 130
+
+[params.portalCard]
+  card_count = 3
+  min_card_count = 3
+  truncate_limit = 100
 
 [menus]
 
