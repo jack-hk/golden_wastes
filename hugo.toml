@@ -99,6 +99,7 @@ event = "big-tile-event.html"
   card_count = 3
   min_card_count = 3
   truncate_limit = 100
+  carousel_on_desktop = false
 
 [menus]
 
