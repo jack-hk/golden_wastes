@@ -3,6 +3,7 @@ title: "Paladin"
 header: "The Paladin"
 type: "wiki"
 categories: 'class'
+image: "https://upload.wikimedia.org/wikipedia/commons/8/88/Vitruvianischer_Mann.png"
 ---
 
 ## Paladins uphold justice.

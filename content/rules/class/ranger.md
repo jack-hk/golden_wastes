@@ -3,6 +3,7 @@ title: "Ranger"
 header: "The Ranger"
 type: "wiki"
 categories: 'class'
+image: "https://upload.wikimedia.org/wikipedia/commons/8/88/Vitruvianischer_Mann.png"
 ---
 
 ## Rangers specialize in survival and ranged attacks.

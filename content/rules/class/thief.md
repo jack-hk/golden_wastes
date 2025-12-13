@@ -3,6 +3,7 @@ title: "Thief"
 header: "The Thief"
 type: "wiki"
 categories: 'class'
+image: "https://upload.wikimedia.org/wikipedia/commons/8/88/Vitruvianischer_Mann.png"
 ---
 
 ## Thieves are masters of stealth and trickery.

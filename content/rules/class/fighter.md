@@ -3,8 +3,10 @@ title: "Fighter"
 header: "The Fighter"
 type: "wiki"
 categories: 'class'
+image: "https://upload.wikimedia.org/wikipedia/commons/8/88/Vitruvianischer_Mann.png"
 ---
 
+{{< icon source="https://seiyria.com/gameicons-font/svg/shaking-hands.svg" name="shaking-hands" size="20" >}}
 ## Fighters excel in combat.
 It’s a thankless job—living day to day by your armor and the skill of your arm. To dive heedlessly into danger. They won’t be playing golden horns for the time you took that knife to the ribs for them in the bar in Bucksberg. No flock of angels to sing of the time you dragged them, still screaming, from the edge of the Pits of Madness, no. 
 Forget them. 
