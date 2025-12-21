@@ -65,6 +65,8 @@ taxonomiesBelowContent = false
 [params.breadcrumbs]
 enabled = true
 separator = "/"
+show_taxonomies = true
+taxonomy_blacklist = ["campaign"]
 
 [params.navbarBar]
 iconsHaveLabels = false
