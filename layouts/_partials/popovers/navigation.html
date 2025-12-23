@@ -1,36 +1,85 @@
+{{- $headerIcon := site.Params.navigationMenu.headerIcon | default "sun" }}
+{{- $headerTitle := site.Params.navigationMenu.headerTitle | default site.Title }}
+{{- $subtitle := site.Params.navigationMenu.subtitle | default "Explore" }}
+{{- $showFooter := site.Params.navigationMenu.showFooter | default false }}
+{{- $columnsOnDesktop := site.Params.navigationMenu.columnsOnDesktop | default 2 }}
+
 <header class="popover-navigation__header">
   <div class="popover-navigation__header-icon">
-    {{ partial "icons/sun.html" }}
+    {{ partial (printf "icons/%s.html" $headerIcon) . }}
   </div>
-  <h2 class="popover-navigation__header-title">Golden Wastes</h2>
+  <h2 class="popover-navigation__header-title">{{ $headerTitle }}</h2>
 </header>
 
 <span class="popover-navigation__separator"></span>
-<h4 class="popover-navigation__subtitle">Explore</h4>
-<main class="popover-navigation__main">
-  <nav class="popover-navigation__column">
-    <a href="#" class="popover-navigation__item">
-      {{ partial "icons/graduate.html" }}How To Play
-    </a>
-    <a href="#" class="popover-navigation__item">
-      {{ partial "icons/animal-skull.html" }}The Wastes</a
-    >
-    <a href="#" class="popover-navigation__item">
-      {{ partial "icons/dice.html" }}Events</a
-    >
-  </nav>
-  <nav class="popover-navigation__column">
-    <a href="#" class="popover-navigation__item"
-      >{{ partial "icons/sword-in-stone.html" }}Classes</a
-    >
-    <a href="#" class="popover-navigation__item">
-      {{ partial "icons/torch.html" }}Equipment</a
-    >
-    <a href="#" class="popover-navigation__item"
-      >{{ partial "icons/bestial-fangs.html" }}Beastiary</a
-    >
-  </nav>
+
+{{- if $subtitle }}
+  <h4 class="popover-navigation__subtitle">{{ $subtitle }}</h4>
+{{- end }}
+
+<main class="popover-navigation__main" data-columns="{{ $columnsOnDesktop }}">
+  {{- $navigationMenu := index site.Menus "navigation" }}
+  {{- if $navigationMenu }}
+    {{- $menuGroups := dict }}
+    {{- $ungroupedItems := slice }}
+
+    {{- range $navigationMenu }}
+      {{- if .Params.group }}
+        {{- $groupName := .Params.group }}
+        {{- $groupItems := index $menuGroups $groupName | default slice }}
+        {{- $groupItems = $groupItems | append . }}
+        {{- $menuGroups = merge $menuGroups (dict $groupName $groupItems) }}
+      {{- else }}
+        {{- $ungroupedItems = $ungroupedItems | append . }}
+      {{- end }}
+    {{- end }}
+
+    {{- range $groupName, $items := $menuGroups }}
+      <nav class="popover-navigation__column" data-group="{{ $groupName }}">
+        {{- range $items }}
+          <a
+            href="{{ .URL }}"
+            class="popover-navigation__item"
+            {{- if .Title }} title="{{ .Title }}"{{ end }}
+            {{- if .Params.target }} target="{{ .Params.target }}"{{ end }}
+            {{- if .Params.rel }} rel="{{ .Params.rel }}"{{ end }}>
+            {{- if .Pre }}
+              {{ partial (printf "icons/%s.html" .Pre) . }}
+            {{- end }}
+            <span class="popover-navigation__item-text">{{ .Name }}</span>
+          </a>
+        {{- end }}
+      </nav>
+    {{- end }}
+
+    {{- if gt (len $ungroupedItems) 0 }}
+      <nav class="popover-navigation__column popover-navigation__column--ungrouped">
+        {{- range $ungroupedItems }}
+          <a
+            href="{{ .URL }}"
+            class="popover-navigation__item"
+            {{- if .Title }} title="{{ .Title }}"{{ end }}
+            {{- if .Params.target }} target="{{ .Params.target }}"{{ end }}
+            {{- if .Params.rel }} rel="{{ .Params.rel }}"{{ end }}>
+            {{- if .Pre }}
+              {{ partial (printf "icons/%s.html" .Pre) . }}
+            {{- end }}
+            <span class="popover-navigation__item-text">{{ .Name }}</span>
+          </a>
+        {{- end }}
+      </nav>
+    {{- end }}
+  {{- else }}
+    <div class="popover-navigation__empty">
+      <p>No navigation menu configured. Add menu items to <code>[menus.navigation]</code> in your site config.</p>
+    </div>
+  {{- end }}
 </main>
+
 <span class="popover-navigation__separator"></span>
 
-<footer class="popover-navigation__footer">Footer</footer>
+{{- if $showFooter }}
+  <footer class="popover-navigation__footer">
+    {{ site.Params.navigationMenu.footerText | default site.Copyright }}
+  </footer>
+{{- end }}

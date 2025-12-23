@@ -103,6 +103,14 @@ event = "big-tile-event.html"
   truncate_limit = 100
   carousel_on_desktop = false
 
+[params.navigationMenu]
+  headerIcon = "sun"
+  headerTitle = "Golden Wastes"
+  subtitle = "Explore"
+  columnsOnDesktop = 2
+  showFooter = false
+  footerText = ""
+
 [menus]
 
 [[menus.main]]
@@ -143,3 +151,57 @@ weight = 40
   InBottom = true
   popover = true
   popoverContentPartial = "popovers/settings.html"
+
+[[menus.navigation]]
+name = "How To Play"
+pre = "graduate"
+pageRef = "/rules/how to play"
+weight = 10
+
+  [menus.navigation.params]
+  group = "learn"
+
+[[menus.navigation]]
+name = "The Wastes"
+pre = "animal-skull"
+pageRef = "/posts/introduction"
+weight = 20
+
+  [menus.navigation.params]
+  group = "learn"
+
+[[menus.navigation]]
+name = "Events"
+pre = "dice"
+pageRef = "/categories/event"
+weight = 30
+
+  [menus.navigation.params]
+  group = "learn"
+
+[[menus.navigation]]
+name = "Classes"
+pre = "sword-in-stone"
+pageRef = "/categories/class"
+weight = 40
+
+  [menus.navigation.params]
+  group = "play"
+
+[[menus.navigation]]
+name = "Equipment"
+pre = "torch"
+pageRef = "/rules"
+weight = 50
+
+  [menus.navigation.params]
+  group = "play"
+
+[[menus.navigation]]
+name = "Bestiary"
+pre = "bestial-fangs"
+pageRef = "/rules"
+weight = 60
+
+  [menus.navigation.params]
+  group = "play"

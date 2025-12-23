@@ -74,36 +74,135 @@
   &__main {
     display: grid;
     gap: $popover-main-gap;
-    grid-template-columns: 1fr 1fr;
     padding: 1rem;
+
+    @include for-screen(mobile) {
+      grid-template-columns: 1fr;
+    }
+
+    @include for-screen(tablet) {
+      grid-template-columns: repeat(var(--nav-columns, 2), 1fr);
+    }
+
+    &[data-columns='1'] {
+      grid-template-columns: 1fr;
+    }
+
+    &[data-columns='3'] {
+      @include for-screen(tablet) {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
   }
 
   &__column {
     display: flex;
     flex-direction: column;
     gap: $popover-column-gap;
+
+    &--ungrouped {
+      grid-column: 1 / -1;
+
+      @include for-screen(tablet) {
+        border-top: 1px solid var(--color-border-default);
+        margin-top: 0.5rem;
+        padding-top: 0.5rem;
+      }
+    }
   }
 
   &__item {
+    align-items: center;
     border-radius: $popover-item-radius;
     color: var(--color-ink);
     display: flex;
     font-size: var(--font-size-lg);
+    gap: 0.5rem;
+    outline-offset: 2px;
     padding: $popover-item-padding;
+    position: relative;
     text-decoration: none;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+
+    @include for-screen(mobile) {
+      min-height: 44px;
+      padding: 0.75rem;
+    }
 
     svg {
+      flex-shrink: 0;
       height: 24px;
-      margin: 2px;
-      margin-right: 7px;
+      transition: transform 0.2s ease;
       width: 24px;
+
+      @include for-screen(mobile) {
+        height: 28px;
+        width: 28px;
+      }
+
       path {
         fill: var(--color-ink);
       }
     }
 
+    &-icon-fallback {
+      flex-shrink: 0;
+    }
+
+    &-text {
+      flex: 1;
+    }
+
     &:hover {
       background-color: var(--color-interactive-hover);
+
+      svg {
+        transform: scale(1.1);
+      }
+    }
+
+    &:active {
+      transform: scale(0.98);
+    }
+
+    &.active {
+      background-color: var(--color-accent);
+      color: var(--color-text-light);
+      font-weight: var(--font-weight-semibold);
+
+      svg path {
+        fill: var(--color-text-light);
+      }
+
+      &::after {
+        background-color: currentColor;
+        border-radius: 2px;
+        content: '';
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 3px;
+      }
+    }
+  }
+
+  &__empty {
+    grid-column: 1 / -1;
+    padding: 2rem 1rem;
+    text-align: center;
+
+    p {
+      color: var(--color-text-muted);
+      margin: 0;
+    }
+
+    code {
+      background-color: var(--color-background-default);
+      border-radius: 3px;
+      color: var(--color-accent);
+      font-size: 0.875rem;
+      padding: 0.125rem 0.375rem;
     }
   }
 
