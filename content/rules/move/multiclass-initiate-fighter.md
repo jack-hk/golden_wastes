@@ -8,7 +8,7 @@ infobox:
   image: "https://seiyria.com/gameicons-font/svg/open-gate.svg"
   imageSize: 50
 
-  invertForDark: true
+  invertDark: true
   labels:
     - label: "Type"
       item: "Expert"

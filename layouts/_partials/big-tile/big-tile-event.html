@@ -1,6 +1,6 @@
 <article
   class="big-tile__item big-tile__item--event"
-  style="background-image: url('{{ .page.Params.image }}')">
+  style="background-image: url('{{ .page.Params.image }}')"{{ if .page.Params.invertDark }} data-invert-dark="true"{{ end }}>
   <a href="{{ .page.RelPermalink }}" class="big-tile__link">
     <span class="big-tile__category">{{ .category }}</span>
     <div class="big-tile__overlay">

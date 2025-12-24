@@ -8,7 +8,7 @@ infobox:
   image: "https://seiyria.com/gameicons-font/svg/eye-target.svg"
   imageSize: 50
 
-  invertForDark: true
+  invertDark: true
   labels:
     - label: "Type"
       item: "Advanced"

@@ -35,11 +35,11 @@
             <div class="wiki__infobox-image-container" {{ if or .imageSize .imageMargin }}style="{{- if .imageSize }}--image-size: {{ .imageSize }}px;{{- end }}{{- if .imageMargin }}--image-margin: {{ .imageMargin }};{{- else }}--image-margin: 10px auto;{{- end }}"{{- else }}style="--image-margin: 10px auto"{{- end }}>
               {{ $image := .image }}
               {{ if hasPrefix $image "http" }}
-                <div class="wiki__infobox-image-wrapper"{{ if .invertForDark }} data-invert-dark="true"{{ end }}>
-                  <img src="{{ $image }}" alt="image" class="wiki__infobox-image" />
+                <div class="wiki__infobox-image-wrapper">
+                  <img src="{{ $image }}" alt="image" class="wiki__infobox-image"{{ if .invertDark }} data-invert-dark="true"{{ end }} />
                 </div>
               {{ else }}
-                <span class="wiki__infobox-image-wrapper wiki__infobox-image--{{ $image }}"{{ if .invertForDark }} data-invert-dark="true"{{ end }}></span>
+                <span class="wiki__infobox-image-wrapper wiki__infobox-image--{{ $image }}"{{ if .invertDark }} data-invert-dark="true"{{ end }}></span>
               {{ end }}
             </div>
           {{ end }}

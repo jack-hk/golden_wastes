@@ -7,8 +7,7 @@ infobox:
   header: "Aid or Interfere"
   image: "https://seiyria.com/gameicons-font/svg/shaking-hands.svg"
   imageSize: 50
-
-  invertForDark: true
+  invertDark: true
   labels:
     - label: "Type"
       item: "Basic"

@@ -13,6 +13,7 @@
 }
 
 [data-theme='dark'] {
+  // Layout-specific elements that always invert
   .home-header__circle,
   .layout__main-whole-background,
   .layout__sidebar-image {
@@ -31,11 +32,14 @@
     opacity: 0.065;
   }
 
-  img[data-invert-dark],
-  .invert-dark,
-  [data-invert-dark] img,
-  [data-invert-dark] {
-    filter: invert(1) hue-rotate(180deg) !important;
+  img[data-invert-dark='true'],
+  [data-invert-dark='true'] img {
+    filter: invert(1);
+  }
+
+  // (used for big-tiles and other background-image elements)
+  [data-invert-dark='true'][style*='background-image'] {
+    filter: invert(1);
   }
 }
 
@@ -120,84 +124,3 @@
 .icon img {
   filter: none;
 }
-
-.infobox-table {
-  box-sizing: border-box;
-  color: #333;
-  float: right;
-  font-size: 0.9rem;
-  margin-bottom: 1rem;
-  margin-left: 1rem;
-  overflow: hidden;
-  table-layout: fixed;
-  width: 300px;
-}
-
-.infobox-table table {
-  margin: 0;
-}
-
-.infobox-table td,
-.infobox-table th {
-  box-sizing: border-box;
-  padding: 8px 12px;
-  vertical-align: top;
-  word-wrap: break-word;
-}
-
-.infobox-table td:first-child {
-  min-width: 120px;
-  width: 40%;
-}
-
-.infobox-table td:last-child {
-  min-width: 180px;
-  width: 60%;
-}
-
-.infobox-table .title {
-  background-color: var(--color-background-default);
-  font-weight: bold;
-  padding: 8px;
-  text-align: center;
-}
-
-.infobox-table .title th {
-  font-size: var(--font-size-base);
-}
-
-.infobox-table .divider td {
-  background-color: var(--color-background-light);
-  border-bottom: 2px solid var(--navbar-separator-color);
-  font-weight: bold;
-  padding: 8px;
-  text-align: center;
-}
-
-.infobox-cell td,
-.infobox-cell th,
-.icon {
-  background-color: var(--color-background-light);
-}
-
-.infobox-table .icon img {
-  display: block;
-  margin: 10px auto;
-  max-width: 100%;
-}
-
-@media (max-width: 600px) {
-  .infobox-table {
-    float: none;
-    margin: 1em auto;
-    table-layout: auto;
-    width: 90%;
-  }
-
-  .infobox-table td:first-child,
-  .infobox-table td:last-child {
-    min-width: unset !important;
-    width: 100% !important;
-  }
-}
-

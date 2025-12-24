@@ -2,6 +2,7 @@
 title: "Bard"
 type: "wiki"
 header: "The Bard"
+invertDark: true
 image: "https://upload.wikimedia.org/wikipedia/commons/8/88/Vitruvianischer_Mann.png"
 infobox:
       header: "Hiii"
