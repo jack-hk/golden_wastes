@@ -260,7 +260,7 @@
 
 .wiki__infobox-image-wrapper[data-invert-dark] {
   [data-theme='dark'] & {
-    filter: invert(1) hue-rotate(180deg);
+    filter: invert(0) hue-rotate(180deg) !important;
   }
 }
 
