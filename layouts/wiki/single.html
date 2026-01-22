@@ -38,6 +38,10 @@
                 <div class="wiki__infobox-image-wrapper">
                   <img src="{{ $image }}" alt="image" class="wiki__infobox-image"{{ if .invertDark }} data-invert-dark="true"{{ end }} />
                 </div>
+              {{ else if or (hasPrefix $image "fa-") (hasPrefix $image "icon-") (hasPrefix $image "material-icons") (findRE " " $image) }}
+                <div class="wiki__infobox-image-wrapper">
+                  <i class="{{ $image }} wiki__infobox-icon"{{ if .invertDark }} data-invert-dark="true"{{ end }}></i>
+                </div>
               {{ else }}
                 <span class="wiki__infobox-image-wrapper wiki__infobox-image--{{ $image }}"{{ if .invertDark }} data-invert-dark="true"{{ end }}></span>
               {{ end }}
@@ -77,7 +81,7 @@
           <ul class="wiki__see-also-list">
             {{ range .Params.also }}
               <li class="wiki__see-also-item">
-                <a href="{{ (printf "/rules/%s" (urlize .)) | relURL }}" class="wiki__see-also-link">
+                <a href="{{ (printf "/rules/%s" (. | urlize)) | relURL }}" class="wiki__see-also-link">
                   {{ . | replaceRE "-" " " | title }}
                 </a>
               </li>
@@ -140,8 +144,8 @@
         {{ if and (site.Params.pageLayout.showUpdated | default true) .Params.updated }}
           <div class="wiki__updated">
             <span class="wiki__label">Last updated:</span>
-            <time datetime="{{ .Params.updated | time.Format "2006-01-02" }}"
-              >{{ .Params.updated | time.Format ":date_long" }}</time
+            <time datetime="{{ .Params.updated | dateFormat "2006-01-02" }}"
+              >{{ .Params.updated | dateFormat "January 2, 2006" }}</time
             >
           </div>
         {{ end }}

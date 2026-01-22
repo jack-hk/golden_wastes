@@ -5,7 +5,7 @@ title: "Steel Hide"
 type: "wiki"
 infobox:
   header: "Steel Hide"
-  image: "https://seiyria.com/gameicons-font/svg/metal-plate.svg"
+  image: "icon-metal-plate"
   imageSize: 50
 
   invertDark: true

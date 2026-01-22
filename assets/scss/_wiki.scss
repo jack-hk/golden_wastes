@@ -115,12 +115,6 @@
   justify-content: center;
   margin-right: 0.4rem;
   width: 1.2em;
-
-  svg {
-    [data-theme='dark'] & {
-      filter: invert(1);
-    }
-  }
 }
 
 .wiki__link-text {
