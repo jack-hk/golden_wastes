@@ -32,18 +32,38 @@
           </div>
 
           {{ if .image }}
-            <div class="wiki__infobox-image-container" {{ if or .imageSize .imageMargin }}style="{{- if .imageSize }}--image-size: {{ .imageSize }}px;{{- end }}{{- if .imageMargin }}--image-margin: {{ .imageMargin }};{{- else }}--image-margin: 10px auto;{{- end }}"{{- else }}style="--image-margin: 10px auto"{{- end }}>
+            <div
+              class="wiki__infobox-image-container"
+              {{ if or .imageSize .imageMargin }}
+                style="{{- if .imageSize }}
+                  --image-size: {{ .imageSize }}px;
+                {{- end }}{{- if .imageMargin }}
+                  --image-margin: {{ .imageMargin }};
+                {{- else }}
+                  --image-margin: 10px auto;
+                {{- end }}"
+              {{- else }}
+                style="--image-margin: 10px auto"
+              {{- end }}>
               {{ $image := .image }}
               {{ if hasPrefix $image "http" }}
                 <div class="wiki__infobox-image-wrapper">
-                  <img src="{{ $image }}" alt="image" class="wiki__infobox-image"{{ if .invertDark }} data-invert-dark="true"{{ end }} />
+                  <img
+                    src="{{ $image }}"
+                    alt="image"
+                    class="wiki__infobox-image"
+                    {{ if .invertDark }}data-invert-dark="true"{{ end }} />
                 </div>
               {{ else if or (hasPrefix $image "fa-") (hasPrefix $image "icon-") (hasPrefix $image "material-icons") (findRE " " $image) }}
                 <div class="wiki__infobox-image-wrapper">
-                  <i class="{{ $image }} wiki__infobox-icon"{{ if .invertDark }} data-invert-dark="true"{{ end }}></i>
+                  <i
+                    class="{{ $image }} wiki__infobox-icon"
+                    {{ if .invertDark }}data-invert-dark="true"{{ end }}></i>
                 </div>
               {{ else }}
-                <span class="wiki__infobox-image-wrapper wiki__infobox-image--{{ $image }}"{{ if .invertDark }} data-invert-dark="true"{{ end }}></span>
+                <span
+                  class="wiki__infobox-image-wrapper wiki__infobox-image--{{ $image }}"
+                  {{ if .invertDark }}data-invert-dark="true"{{ end }}></span>
               {{ end }}
             </div>
           {{ end }}
@@ -56,10 +76,14 @@
                 {{ else }}
                   <div class="wiki__infobox-item">
                     {{ if .label }}
-                      <span class="wiki__infobox-label">{{ .label | markdownify }}</span>
+                      <span class="wiki__infobox-label"
+                        >{{ .label | markdownify }}</span
+                      >
                     {{ end }}
                     {{ if .item }}
-                      <span class="wiki__infobox-value">{{ .item | markdownify }}</span>
+                      <span class="wiki__infobox-value"
+                        >{{ .item | markdownify }}</span
+                      >
                     {{ end }}
                   </div>
                 {{ end }}
@@ -69,6 +93,7 @@
         {{ end }}
       </aside>
     {{ end }}
+
 
     <div class="wiki__content">
       {{ .Content }}
@@ -81,7 +106,9 @@
           <ul class="wiki__see-also-list">
             {{ range .Params.also }}
               <li class="wiki__see-also-item">
-                <a href="{{ (printf "/rules/%s" (. | urlize)) | relURL }}" class="wiki__see-also-link">
+                <a
+                  href="{{ (printf "/rules/%s" (. | urlize)) | relURL }}"
+                  class="wiki__see-also-link">
                   {{ . | replaceRE "-" " " | title }}
                 </a>
               </li>

@@ -1,3 +1,53 @@
+.icon-stack {
+  align-items: center;
+  display: inline-grid;
+  justify-content: center;
+  line-height: 0; /* Prevents strange gaps at the bottom of the icon */
+  position: relative;
+  vertical-align: middle;
+}
+
+.icon-stack svg {
+  overflow: visible; /* Prevents paths from being cut off if they sit on the 512 edge */
+}
+
+.icon-layer-bg,
+.icon-layer-fg {
+  grid-area: 1 / 1; /* Stack them on top of each other */
+  height: 100%;
+  width: 100%;
+}
+
+.icon-layer-bg svg {
+  fill: currentColor;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.icon-layer-fg {
+  /* The Clipping Magic: uses the BG icon URL as a stencil */
+  -webkit-mask-image: var(--bg-mask);
+  align-items: center;
+
+  display: flex;
+  justify-content: center;
+  mask-image: var(--bg-mask);
+  mask-position: center;
+  mask-repeat: no-repeat;
+  mask-size: contain;
+}
+
+.icon-layer-fg svg {
+  fill: currentColor;
+  display: block;
+  height: 100%;
+  /* Retains your manual scaling feature */
+  transform: scale(var(--fg-scale, 0.6));
+  transform-origin: center;
+  width: 100%;
+}
+
 .home__about-us {
   background-color: var(--color-background-light);
   border-color: var(--color-border-default);

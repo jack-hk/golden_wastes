@@ -1,0 +1,27 @@
+{{- /* Usage: {{ partial "icon" (dict "name" "wood-stick" "color" "red" "size" "2rem") }}
+*/ -}}
+{{- $name := .name -}}
+{{- $color := .color | default "currentColor" -}}
+{{- $size := .size | default "1em" -}}
+
+{{- /* Hugo Pipes looks inside the 'assets' folder by default */ -}}
+{{- $path := printf "icons/%s.svg" $name -}}
+{{- $file := resources.Get $path -}}
+
+{{- with $file -}}
+  {{- /* OPTIMIZATION: Strips comments, metadata, and whitespace at build time */ -}}
+  {{- $minified := . | minify -}}
+  <span
+    class="game-icon"
+    style="display: inline-block; width: {{ $size }}; height: {{ $size }}; color: {{ $color }}; vertical-align: middle; line-height: 0;">
+    {{- /* Content is the raw SVG code, safely injected into the DOM */ -}}
+    {{ $minified.Content | safeHTML }}
+  </span>
+{{- else -}}
+  {{- /* ERROR HANDLING: Prints a warning in your terminal if you typo a name */ -}}
+  {{- warnf "SVG Icon not found at assets/%s" $path -}}
+  <span
+    style="color:red; font-weight:bold; border: 1px solid red; padding: 2px;">
+    [Missing: {{ $name }}]
+  </span>
+{{- end -}}

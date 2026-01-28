@@ -1,0 +1,42 @@
+{{- $fg := .fg -}}
+{{- $bg := .bg -}}
+{{- $size := .size | default "2rem" -}}
+{{- $fg_color := .fg_color | default "white" -}}
+{{- $bg_color := .bg_color | default "#4a90e2" -}}
+{{- $scale := .scale | default "0.6" -}}
+
+{{- $fgFile := resources.Get (printf "icons/%s.svg" $fg) -}}
+{{- $bgFile := resources.Get (printf "icons/%s.svg" $bg) -}}
+
+{{- if and $fgFile $bgFile -}}
+  {{- $id := printf "id-%x" (now.UnixNano) -}}
+
+
+  <span
+    class="icon-stack"
+    style="width: {{ $size }}; height: {{ $size }}; display: inline-block; vertical-align: middle;">
+    <svg
+      viewBox="0 0 32 32"
+      xmlns="http://www.w3.org/2000/svg"
+      style="width: 100%; height: 100%; fill: none;">
+      <defs>
+        <clipPath id="clip-{{ $id }}">
+          {{ $bgFile.Content | replaceRE `<svg[^>]*>|<\/svg>` "" | safeHTML }}
+        </clipPath>
+      </defs>
+
+      <g fill="{{ $bg_color }}">
+        {{ $bgFile.Content | replaceRE `<svg[^>]*>|<\/svg>` "" | safeHTML }}
+      </g>
+
+      <g clip-path="url(#clip-{{ $id }})" fill="{{ $fg_color }}">
+        <g
+          transform="translate(16, 16) scale({{ $scale }}) translate(-16, -16)">
+          {{ $fgFile.Content | replaceRE `<svg[^>]*>|<\/svg>` "" | safeHTML }}
+        </g>
+      </g>
+    </svg>
+  </span>
+{{- else -}}
+  {{- warnf "Icon stack failed. FG: %s, BG: %s" $fg $bg -}}
+{{- end -}}
