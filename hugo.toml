@@ -110,6 +110,27 @@ event = "big-tile-event.html"
   columnsOnDesktop = 2
   showFooter = false
   footerText = ""
+  showExternalLinks = true
+  externalLinksSubtitle = "External Links"
+
+  # External links configuration
+  # Set showExternalLinks = false to disable the external links section entirely
+  # Add external links that will appear in a separate section below the second separator
+  # Each link should have: name (required), url (required), pre (optional), title (optional)
+  # Available icons (pre parameter): sun, sun-logo, animal-skull, bestial-fangs, dice, graduate, 
+  # sword-in-stone, torch, paint-brush, bars, category, cog, house, search, tag
+  # You can also omit the pre parameter to show link without an icon
+  
+  [[params.navigationMenu.externalLinks]]
+    name = "Example Link 1"
+    url = "https://example.com"
+    pre = "house"
+    title = "Visit Example Website 1"
+
+  [[params.navigationMenu.externalLinks]]
+    name = "Example Link 2"
+    url = "https://example.org"
+    title = "Visit Example Website 2"
 
 [menus]
 

@@ -3,8 +3,28 @@
 {{- $subtitle := site.Params.navigationMenu.subtitle | default "Explore" }}
 {{- $showFooter := site.Params.navigationMenu.showFooter | default false }}
 {{- $columnsOnDesktop := site.Params.navigationMenu.columnsOnDesktop | default 2 }}
+{{- $showExternalLinks := site.Params.navigationMenu.showExternalLinks | default true }}
+{{- $externalLinksSubtitle := site.Params.navigationMenu.externalLinksSubtitle | default "External Links" }}
+
 
 <header class="popover-navigation__header">
+  <button
+    class="popover-navigation__close"
+    popovertarget="Navigation"
+    popovertargetaction="hide"
+    aria-label="Close navigation">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round">
+      <line x1="18" y1="6" x2="6" y2="18"></line>
+      <line x1="6" y1="6" x2="18" y2="18"></line>
+    </svg>
+  </button>
   <div class="popover-navigation__header-icon">
     {{ partial (printf "icons/%s.html" $headerIcon) . }}
   </div>
@@ -16,6 +36,7 @@
 {{- if $subtitle }}
   <h4 class="popover-navigation__subtitle">{{ $subtitle }}</h4>
 {{- end }}
+
 
 <main class="popover-navigation__main" data-columns="{{ $columnsOnDesktop }}">
   {{- $navigationMenu := index site.Menus "navigation" }}
@@ -40,9 +61,9 @@
           <a
             href="{{ .URL }}"
             class="popover-navigation__item"
-            {{- if .Title }} title="{{ .Title }}"{{ end }}
-            {{- if .Params.target }} target="{{ .Params.target }}"{{ end }}
-            {{- if .Params.rel }} rel="{{ .Params.rel }}"{{ end }}>
+            {{- if .Title }}title="{{ .Title }}"{{ end }}
+            {{- if .Params.target }}target="{{ .Params.target }}"{{ end }}
+            {{- if .Params.rel }}rel="{{ .Params.rel }}"{{ end }}>
             {{- if .Pre }}
               {{ partial (printf "icons/%s.html" .Pre) . }}
             {{- end }}
@@ -53,14 +74,15 @@
     {{- end }}
 
     {{- if gt (len $ungroupedItems) 0 }}
-      <nav class="popover-navigation__column popover-navigation__column--ungrouped">
+      <nav
+        class="popover-navigation__column popover-navigation__column--ungrouped">
         {{- range $ungroupedItems }}
           <a
             href="{{ .URL }}"
             class="popover-navigation__item"
-            {{- if .Title }} title="{{ .Title }}"{{ end }}
-            {{- if .Params.target }} target="{{ .Params.target }}"{{ end }}
-            {{- if .Params.rel }} rel="{{ .Params.rel }}"{{ end }}>
+            {{- if .Title }}title="{{ .Title }}"{{ end }}
+            {{- if .Params.target }}target="{{ .Params.target }}"{{ end }}
+            {{- if .Params.rel }}rel="{{ .Params.rel }}"{{ end }}>
             {{- if .Pre }}
               {{ partial (printf "icons/%s.html" .Pre) . }}
             {{- end }}
@@ -71,12 +93,56 @@
     {{- end }}
   {{- else }}
     <div class="popover-navigation__empty">
-      <p>No navigation menu configured. Add menu items to <code>[menus.navigation]</code> in your site config.</p>
+      <p>
+        No navigation menu configured. Add menu items to
+        <code>[menus.navigation]</code> in your site config.
+      </p>
     </div>
   {{- end }}
 </main>
 
-<span class="popover-navigation__separator"></span>
+{{- $externalLinks := site.Params.navigationMenu.externalLinks }}
+{{- if and $showExternalLinks $externalLinks }}
+  <span class="popover-navigation__separator"></span>
+
+  {{- if $externalLinksSubtitle }}
+    <h4 class="popover-navigation__subtitle">{{ $externalLinksSubtitle }}</h4>
+  {{- end }}
+
+
+  <nav class="popover-navigation__external">
+    {{- range $externalLinks }}
+      <a
+        href="{{ .url }}"
+        class="popover-navigation__item"
+        {{- if .title }}title="{{ .title }}"{{ end }}
+        target="_blank"
+        rel="noopener noreferrer">
+        {{- if .pre }}
+          {{ partial (printf "icons/%s.html" .pre) . }}
+        {{- end }}
+        <span class="popover-navigation__item-text">{{ .name }}</span>
+        <svg
+          class="popover-navigation__external-icon"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round">
+          <path
+            d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+          <polyline points="15 3 21 3 21 9"></polyline>
+          <line x1="10" y1="14" x2="21" y2="3"></line>
+        </svg>
+      </a>
+    {{- end }}
+  </nav>
+{{- else if not $showExternalLinks }}
+  {{- /* Add spacing when external links are disabled */ -}}
+  <div class="popover-navigation__spacing"></div>
+{{- end }}
 
 {{- if $showFooter }}
   <footer class="popover-navigation__footer">

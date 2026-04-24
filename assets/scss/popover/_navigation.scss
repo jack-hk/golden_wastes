@@ -7,6 +7,8 @@
   @include for-screen(mobile) {
     left: 0;
     margin: 20px;
+    max-height: $popover-mobile-max-height;
+    overflow-y: auto;
     top: 0;
     width: $popover-mobile-width;
 
@@ -32,6 +34,7 @@
     display: flex;
     margin: 0;
     padding: $popover-header-padding;
+    position: relative;
 
     &-title {
       font-family: var(--font-brand);
@@ -53,6 +56,42 @@
       height: $popover-header-icon-size;
       margin-right: $popover-header-icon-margin-right;
       width: $popover-header-icon-size;
+    }
+  }
+
+  &__close {
+    align-items: center;
+    background-color: $popover-close-button-bg;
+    border: 1px solid $popover-close-button-border;
+    border-radius: 6px;
+    color: $popover-close-button-color;
+    cursor: pointer;
+    display: flex;
+    height: $popover-close-button-size;
+    justify-content: center;
+    padding: 0;
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: $popover-close-button-size;
+
+    @include for-screen(tablet) {
+      display: none;
+    }
+
+    svg {
+      height: $popover-close-button-icon-size;
+      width: $popover-close-button-icon-size;
+    }
+
+    &:hover {
+      background-color: $popover-close-button-bg-hover;
+      border-color: $popover-close-button-border-hover;
+    }
+
+    &:active {
+      background-color: $popover-close-button-bg-active;
     }
   }
 
@@ -122,7 +161,9 @@
     padding: $popover-item-padding;
     position: relative;
     text-decoration: none;
-    transition: background-color 0.2s ease, transform 0.1s ease;
+    transition:
+      background-color 0.2s ease,
+      transform 0.1s ease;
 
     @include for-screen(mobile) {
       min-height: 44px;
@@ -204,6 +245,33 @@
       font-size: 0.875rem;
       padding: 0.125rem 0.375rem;
     }
+  }
+
+  &__external {
+    display: flex;
+    flex-direction: column;
+    gap: $popover-column-gap;
+    padding: 1rem;
+    padding-top: 0.5rem;
+  }
+
+  &__external-icon {
+    flex-shrink: 0;
+    height: $popover-external-icon-size;
+    margin-left: auto;
+    opacity: $popover-external-icon-opacity;
+    transition: opacity 0.2s ease;
+    width: $popover-external-icon-size;
+
+    path,
+    polyline,
+    line {
+      stroke: var(--color-ink);
+    }
+  }
+
+  &__spacing {
+    height: $popover-spacing-height;
   }
 
   &__footer {

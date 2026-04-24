@@ -5,6 +5,7 @@
   box-shadow: $popover-box-shadow;
   overflow-y: auto;
   overscroll-behavior: contain;
+  position: relative;
 
   @include for-screen(mobile) {
     left: 0;
@@ -26,6 +27,42 @@
 
     &::backdrop {
       background-color: rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  &__close {
+    align-items: center;
+    background-color: $popover-close-button-bg;
+    border: 1px solid $popover-close-button-border;
+    border-radius: 6px;
+    color: $popover-close-button-color;
+    cursor: pointer;
+    display: flex;
+    height: $popover-close-button-size;
+    justify-content: center;
+    padding: 0;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    width: $popover-close-button-size;
+    z-index: 10;
+
+    @include for-screen(tablet) {
+      display: none;
+    }
+
+    svg {
+      height: $popover-close-button-icon-size;
+      width: $popover-close-button-icon-size;
+    }
+
+    &:hover {
+      background-color: $popover-close-button-bg-hover;
+      border-color: $popover-close-button-border-hover;
+    }
+
+    &:active {
+      background-color: $popover-close-button-bg-active;
     }
   }
 }
