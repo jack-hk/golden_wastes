@@ -69,6 +69,7 @@
     padding: 7px;
     input[type='radio'] {
       accent-color: var(--color-secondary);
+      cursor: pointer;
     }
 
     &:has(input:checked) {

@@ -8,6 +8,12 @@
 
 
 <header class="popover-navigation__header">
+  <div class="popover-navigation__header-content">
+    <div class="popover-navigation__header-icon">
+      {{ partial (printf "icons/%s.html" $headerIcon) . }}
+    </div>
+    <h2 class="popover-navigation__header-title">{{ $headerTitle }}</h2>
+  </div>
   <button
     class="popover-navigation__close"
     popovertarget="Navigation"
@@ -25,10 +31,6 @@
       <line x1="6" y1="6" x2="18" y2="18"></line>
     </svg>
   </button>
-  <div class="popover-navigation__header-icon">
-    {{ partial (printf "icons/%s.html" $headerIcon) . }}
-  </div>
-  <h2 class="popover-navigation__header-title">{{ $headerTitle }}</h2>
 </header>
 
 <span class="popover-navigation__separator"></span>

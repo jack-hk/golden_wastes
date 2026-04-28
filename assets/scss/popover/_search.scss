@@ -2,31 +2,58 @@
   background-color: var(--color-background-light);
   border: none;
   border-radius: $popover-border-radius;
+  bottom: 0;
   box-shadow: $popover-box-shadow;
+  left: 0;
+  margin: 0;
+  max-height: 100vh;
   overflow-y: auto;
   overscroll-behavior: contain;
-  position: relative;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
 
-  @include for-screen(mobile) {
-    left: 0;
-    margin-top: $popover-tablet-top;
-    max-height: $popover-mobile-max-height;
-    width: $popover-mobile-width;
-
-    &::backdrop {
-      backdrop-filter: blur(6px);
-      background-color: rgba(0, 0, 0, 0.3);
-    }
+  &::backdrop {
+    backdrop-filter: blur(6px);
+    background-color: rgba(0, 0, 0, 0.3);
   }
 
   @include for-screen(tablet) {
     animation: slideRight $slide-speed $slide-easing forwards;
+    bottom: auto;
     inset: auto;
+    left: 0;
+
     max-height: $popover-tablet-max-height;
+    right: auto;
     top: $popover-tablet-top;
+    width: 25em;
 
     &::backdrop {
+      backdrop-filter: none;
       background-color: rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  &__header {
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+    @include for-screen(mobile) {
+      padding: 0 1rem 0 1rem;
+    }
+
+    &-content {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      min-width: 0;
     }
   }
 
@@ -38,14 +65,18 @@
     color: $popover-close-button-color;
     cursor: pointer;
     display: flex;
+    flex-shrink: 0;
     height: $popover-close-button-size;
     justify-content: center;
     padding: 0;
-    position: absolute;
-    right: 1rem;
-    top: 1rem;
     width: $popover-close-button-size;
     z-index: 10;
+
+    @include for-screen(mobile) {
+      height: 44px;
+      margin: auto auto 1.5rem 0.25rem;
+      width: 44px;
+    }
 
     @include for-screen(tablet) {
       display: none;
