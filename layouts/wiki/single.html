@@ -42,24 +42,50 @@
                 {{- else }}
                   --image-margin: 10px auto;
                 {{- end }}"
-              {{- else }}
+              {{ else }}
                 style="--image-margin: 10px auto"
-              {{- end }}>
+              {{ end }}>
               {{ $image := .image }}
+
+              {{/* 1. External Images */}}
               {{ if hasPrefix $image "http" }}
-                <div class="wiki__infobox-image-wrapper">
+                <div
+                  class="wiki__infobox-image-wrapper"
+                  {{ if .invertDark }}
+                    data-pagefind-meta="invert_dark:true"
+                  {{ end }}>
                   <img
                     src="{{ $image }}"
                     alt="image"
                     class="wiki__infobox-image"
+                    data-pagefind-meta="image[src]"
                     {{ if .invertDark }}data-invert-dark="true"{{ end }} />
                 </div>
+
+                {{/* 2. Font Icons (FontAwesome, etc) */}}
               {{ else if or (hasPrefix $image "fa-") (hasPrefix $image "icon-") (hasPrefix $image "material-icons") (findRE " " $image) }}
                 <div class="wiki__infobox-image-wrapper">
                   <i
                     class="{{ $image }} wiki__infobox-icon"
                     {{ if .invertDark }}data-invert-dark="true"{{ end }}></i>
                 </div>
+
+                {{/* 3. Local SVG or Image Files (The Fix) */}}
+              {{ else if (findRE `\.(svg|png|jpg|jpeg|webp|gif)$` $image) }}
+                <div
+                  class="wiki__infobox-image-wrapper"
+                  {{ if .invertDark }}
+                    data-pagefind-meta="invert_dark:true"
+                  {{ end }}>
+                  <img
+                    src="{{ $image | relURL }}"
+                    alt="icon"
+                    class="wiki__infobox-image"
+                    data-pagefind-meta="image[src]"
+                    {{ if .invertDark }}data-invert-dark="true"{{ end }} />
+                </div>
+
+                {{/* 4. Legacy CSS Class fallback */}}
               {{ else }}
                 <span
                   class="wiki__infobox-image-wrapper wiki__infobox-image--{{ $image }}"
@@ -99,27 +125,10 @@
       {{ .Content }}
     </div>
 
-    {{ if .Params.also }}
+    {{/* Merged Content Footer: Taxonomies first, then See Also */}}
+    {{ if or .Params.also (and (site.Params.pageLayout.showTaxonomies | default true) (or (.GetTerms "categories") (.GetTerms "tags"))) }}
       <div class="wiki__content-footer">
-        <div class="wiki__see-also">
-          <h2 class="wiki__see-also-title">See also</h2>
-          <ul class="wiki__see-also-list">
-            {{ range .Params.also }}
-              <li class="wiki__see-also-item">
-                <a
-                  href="{{ (printf "/rules/%s" (. | urlize)) | relURL }}"
-                  class="wiki__see-also-link">
-                  {{ . | replaceRE "-" " " | title }}
-                </a>
-              </li>
-            {{ end }}
-          </ul>
-        </div>
-      </div>
-    {{ end }}
-
-    {{ if or (and (site.Params.pageLayout.showTaxonomies | default true) (or (.GetTerms "categories") (.GetTerms "tags"))) (and (site.Params.pageLayout.showUpdated | default true) .Params.updated) (and (site.Params.pageLayout.showReferences | default true) .Params.references) }}
-      <footer class="wiki__footer">
+        {{/* taxonomies block */}}
         {{ if and (site.Params.pageLayout.showTaxonomies | default true) (or (.GetTerms "categories") (.GetTerms "tags")) }}
           <div class="wiki__taxonomies">
             {{ with .GetTerms "categories" }}
@@ -168,6 +177,30 @@
           </div>
         {{ end }}
 
+        {{/* see also block */}}
+        {{ if .Params.also }}
+          <div class="wiki__see-also">
+            <h2 class="wiki__see-also-title">See also</h2>
+            <ul class="wiki__see-also-list">
+              {{ range .Params.also }}
+                <li class="wiki__see-also-item">
+                  <a
+                    href="{{ (printf "/rules/%s" (. | urlize)) | relURL }}"
+                    class="wiki__see-also-link">
+                    {{ . | replaceRE "-" " " | title }}
+                  </a>
+                </li>
+              {{ end }}
+            </ul>
+          </div>
+        {{ end }}
+
+      </div>
+    {{ end }}
+
+    {{/* Remaining Footer: Updated and References only */}}
+    {{ if or (and (site.Params.pageLayout.showUpdated | default true) .Params.updated) (and (site.Params.pageLayout.showReferences | default true) .Params.references) }}
+      <footer class="wiki__footer">
         {{ if and (site.Params.pageLayout.showUpdated | default true) .Params.updated }}
           <div class="wiki__updated">
             <span class="wiki__label">Last updated:</span>
@@ -201,11 +234,9 @@
 {{ end }}
 
 {{ define "footer" }}
-  <!-- Do nothing, effectively removing the comments -->
 {{ end }}
 
 {{ define "comments" }}
-  <!-- Comments by Cusdis -->
   <h4>Comments:</h4>
   <div
     id="cusdis_thread"

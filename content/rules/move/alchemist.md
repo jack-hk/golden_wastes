@@ -5,7 +5,7 @@ title: "Alchemist"
 type: "wiki"
 infobox:
   header: "Alchemist"
-  image: "https://seiyria.com/gameicons-font/svg/potion-ball.svg"
+  image: "/svg/potion-ball.svg"
   imageSize: 50
 
   invertDark: true

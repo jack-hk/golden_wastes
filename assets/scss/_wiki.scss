@@ -32,7 +32,7 @@
       flex-direction: column;
       margin: 0;
       min-height: 100vh;
-      padding: 0;
+      padding: 0 0 1rem 0;
       width: 100%;
     }
   }
@@ -40,7 +40,11 @@
 
 .wiki__header {
   border-bottom: 1px solid var(--color-border-default);
-  margin-bottom: 1.5rem;
+  margin: 0;
+
+  @include for-screen(tablet) {
+    margin-bottom: 1.5rem;
+  }
 
   .wiki--mobile-fullscreen & {
     @include for-screen(mobile) {
@@ -151,8 +155,12 @@
 
 .wiki__content-footer {
   border-top: 1px solid var(--color-border-default);
-  margin-top: 2rem;
+  margin-top: 0.5rem;
   padding-top: 1rem;
+
+  @include for-screen(tablet) {
+    margin-top: 2rem;
+  }
 
   .wiki--mobile-fullscreen & {
     @include for-screen(mobile) {
@@ -186,6 +194,10 @@
 
 .wiki__references .wiki__link {
   color: var(--color-text-light);
+}
+
+.wiki__categories {
+  margin-bottom: 2rem;
 }
 
 .wiki__infobox {
