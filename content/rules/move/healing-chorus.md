@@ -5,10 +5,9 @@ title: "Healing Chorus"
 type: "wiki"
 infobox:
   header: "Healing Chorus"
-  image: "/SVG/ringing-bell.svg"
-  imageSize: 50
+  icon: "/SVG/ringing-bell.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Expert"
@@ -21,6 +20,5 @@ also:
     - "Bard"
     - "how-to-play"
 ---
-
 
 When you heal with arcane art, you heal +2d8 damage.

@@ -5,10 +5,9 @@ title: "Charge!"
 type: "wiki"
 infobox:
   header: "Charge!"
-  image: "/SVG/shield-bash.svg"
-  imageSize: 50
+  icon: "/SVG/shield-bash.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Advanced"
@@ -18,6 +17,5 @@ also:
     - "Paladin"
     - "how-to-play"
 ---
-
 
 When you lead the charge into combat, those you lead take +1 forward.

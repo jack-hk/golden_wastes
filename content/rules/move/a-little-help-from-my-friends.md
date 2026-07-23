@@ -3,12 +3,11 @@ bookHidden: true
 BookToC: false
 title: "A Little Help From My Friends"
 type: "wiki"
-image: "/SVG/three-friends.svg"
 infobox:
   header: "A Little Help From My Friends"
-  image: "/SVG/three-friends.svg"
-  imageSize: 50
-  invertDark: true
+  icon: "https://ssb.wiki.gallery/images/b/bb/SSBU_spirit_Moon.png"
+  iconSize: 50
+
   labels:
     - label: "Type"
       item: "Advanced"
@@ -18,6 +17,5 @@ also:
     - "Bard"
     - "how-to-play"
 ---
-
 
 When you successfully aid someone you take +1 forward as well.

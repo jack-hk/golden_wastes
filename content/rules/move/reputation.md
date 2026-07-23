@@ -5,10 +5,9 @@ title: "Reputation"
 type: "wiki"
 infobox:
   header: "Reputation"
-  image: "/SVG/wanted-reward.svg"
-  imageSize: 50
+  icon: "/SVG/wanted-reward.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Expert"
@@ -18,6 +17,5 @@ also:
     - "Bard"
     - "how-to-play"
 ---
-
 
 When you first meet someone who’s heard songs about you, roll+Cha. ✴On a 10+, tell the GM two things they’ve heard about you. ✴On a 7-9, tell the GM one thing they’ve heard, and the GM tells you one thing.

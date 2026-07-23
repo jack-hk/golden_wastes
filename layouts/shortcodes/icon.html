@@ -1,0 +1,23 @@
+{{- $source := .Get "source" | default "" -}}
+{{- $name := .Get "name" | default "" -}}
+{{- $size := .Get "size" | default "1em" -}}
+{{- $sizeValue := $size -}}
+{{- if and (ne (printf "%v" $size) "") (not (findRE "[^0-9]" (printf "%v" $size))) -}}
+  {{- $sizeValue = printf "%spx" $size -}}
+{{- end -}}
+
+{{- if $source -}}
+  <img
+    src="{{ if hasPrefix $source "/" }}
+      {{ $source | relURL }}
+    {{ else }}
+      {{ $source }}
+    {{ end }}"
+    alt="{{ $name }}"
+    style="display:inline-block; width: {{ $sizeValue }}; height: {{ $sizeValue }}; vertical-align: middle;"
+    loading="lazy" />
+{{- else if $name -}}
+  {{- partial "icons/icon" (dict "name" $name "size" $sizeValue "color" "currentColor") -}}
+{{- else -}}
+  <span aria-hidden="true"></span>
+{{- end -}}

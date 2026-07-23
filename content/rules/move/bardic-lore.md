@@ -5,10 +5,9 @@ title: "Bardic Lore"
 type: "wiki"
 infobox:
   header: "Bardic Lore"
-  image: "/SVG/music-spell.svg"
-  imageSize: 50
+  icon: "/SVG/music-spell.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Starting"
@@ -18,7 +17,6 @@ also:
     - "Bard"
     - "how-to-play"
 ---
-
 
 Choose an area of expertise:
 * Spells and Magicks

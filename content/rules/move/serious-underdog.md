@@ -5,10 +5,9 @@ title: "Serious Underdog"
 type: "wiki"
 infobox:
   header: "Serious Underdog"
-  image: "/SVG/assassin-pocket.svg"
-  imageSize: 50
+  icon: "/SVG/assassin-pocket.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Expert"
@@ -21,6 +20,5 @@ also:
     - "Thief"
     - "how-to-play"
 ---
-
 
 You have +1 armor. When you’re outnumbered, you have +2 armor instead.

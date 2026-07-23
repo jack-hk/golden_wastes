@@ -2,7 +2,6 @@
 title: "Ranger"
 header: "The Ranger"
 type: "wiki"
-invertDark: true 
 categories: 'class'
 image: "https://upload.wikimedia.org/wikipedia/commons/8/88/Vitruvianischer_Mann.png"
 ---

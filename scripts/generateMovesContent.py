@@ -107,7 +107,7 @@ bookHidden: true
         for move in sort_moves_by_name(no_class_moves):
             link_name = normalize_name(move['name'])  # Use consistent naming
             icon = move.get('icon', 'default-icon')
-            markdown += f'- {{{{< icon source="https://seiyria.com/gameicons-font/svg/{icon}.svg" name="{icon}" size="{ICON_SIZE_INDEX}" >}}}} [{move["name"]}]({{{{< ref "/rules/move/{link_name}" >}}}})\n'
+            markdown += f'- {{{{< icon source="/SVG/{icon}.svg" name="{icon}" size="{ICON_SIZE_INDEX}" >}}}} [{move["name"]}]({{{{< ref "/rules/move/{link_name}" >}}}})\n'
         markdown += '\n'
     
     # Class moves sections
@@ -123,7 +123,7 @@ bookHidden: true
                     for move in moves_of_type:
                         link_name = normalize_name(move['name'])  # Use consistent naming
                         icon = move.get('icon', 'default-icon')
-                        markdown += f'- {{{{< icon source="https://seiyria.com/gameicons-font/svg/{icon}.svg" name="{icon}" size="{ICON_SIZE_INDEX}" >}}}} [{move["name"]}]({{{{< ref "/rules/move/{link_name}" >}}}})\n'
+                        markdown += f'- {{{{< icon source="/SVG/{icon}.svg" name="{icon}" size="{ICON_SIZE_INDEX}" >}}}} [{move["name"]}]({{{{< ref "/rules/move/{link_name}" >}}}})\n'
                     markdown += '\n'
     
     return markdown
@@ -144,7 +144,7 @@ title: "{move['name'].replace('"', '\\"')}"
 type: "wiki"
 infobox:
   header: "{move['name'].replace('"', '\\"')}"
-  icon: "https://seiyria.com/gameicons-font/svg/{move.get('icon', 'default-icon')}.svg"
+  icon: "/SVG/{move.get('icon', 'default-icon')}.svg"
   iconSize: 50
 
   labels:
@@ -182,7 +182,7 @@ also:"""
 ---"""
     
     # Content Body
-    md_content += f"\n\n{{{{< infobox >}}}}\n\n{move['description']}"
+    md_content += f"\n\n{move['description']}"
     
     return normalized_name, md_content
 

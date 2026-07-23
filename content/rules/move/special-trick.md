@@ -5,10 +5,9 @@ title: "Special Trick"
 type: "wiki"
 infobox:
   header: "Special Trick"
-  image: "/SVG/jumping-dog.svg"
-  imageSize: 50
+  icon: "/SVG/jumping-dog.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Expert"
@@ -18,6 +17,5 @@ also:
     - "Ranger"
     - "how-to-play"
 ---
-
 
 Choose a move from another class. So long as you are working with your animal companion you have access to that move.

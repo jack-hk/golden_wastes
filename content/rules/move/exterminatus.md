@@ -5,10 +5,9 @@ title: "Exterminatus"
 type: "wiki"
 infobox:
   header: "Exterminatus"
-  image: "/SVG/iron-cross.svg"
-  imageSize: 50
+  icon: "/SVG/iron-cross.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Advanced"
@@ -18,6 +17,5 @@ also:
     - "Paladin"
     - "how-to-play"
 ---
-
 
 When you speak aloud your promise to defeat an enemy, you deal +2d4 damage against that enemy and -4 damage against anyone else. This effect lasts until the enemy is defeated. If you fail to defeat the enemy or give up the fight, you can admit your failure, but the effect continues until you find a way to redeem yourself.

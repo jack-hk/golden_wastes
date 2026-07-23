@@ -5,10 +5,9 @@ title: "Wild Speech"
 type: "wiki"
 infobox:
   header: "Wild Speech"
-  image: "/SVG/shouting.svg"
-  imageSize: 50
+  icon: "/SVG/shouting.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Expert"
@@ -21,6 +20,5 @@ also:
     - "Ranger"
     - "how-to-play"
 ---
-
 
 You can speak with and understand any non-magical, non-planar creature.

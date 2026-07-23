@@ -5,10 +5,9 @@ title: "Command"
 type: "wiki"
 infobox:
   header: "Command"
-  image: "/SVG/whistle.svg"
-  imageSize: 50
+  icon: "/SVG/whistle.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Starting"
@@ -18,7 +17,6 @@ also:
     - "Ranger"
     - "how-to-play"
 ---
-
 
 When you work with your animal companion on something it’s trained in…
 * …and you attack the same target, add its ferocity to your damage

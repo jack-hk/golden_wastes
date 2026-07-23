@@ -5,10 +5,9 @@ title: "Quest"
 type: "wiki"
 infobox:
   header: "Quest"
-  image: "/SVG/scroll-unfurled.svg"
-  imageSize: 50
+  icon: "/SVG/scroll-unfurled.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Starting"
@@ -18,7 +17,6 @@ also:
     - "Paladin"
     - "how-to-play"
 ---
-
 
 When you dedicate yourself to a mission through prayer and ritual cleansing, state what you set out to do:
 * Slay _____, a great blight on the land

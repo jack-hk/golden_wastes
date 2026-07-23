@@ -5,10 +5,9 @@ title: "Vicious Blast"
 type: "wiki"
 infobox:
   header: "Vicious Blast"
-  image: "/SVG/spark-spirit.svg"
-  imageSize: 50
+  icon: "/SVG/spark-spirit.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Expert"
@@ -21,6 +20,5 @@ also:
     - "Bard"
     - "how-to-play"
 ---
-
 
 When you grant bonus damage with arcane art, you grant an extra +2d4 damage.

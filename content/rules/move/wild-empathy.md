@@ -5,10 +5,9 @@ title: "Wild Empathy"
 type: "wiki"
 infobox:
   header: "Wild Empathy"
-  image: "/SVG/love-howl.svg"
-  imageSize: 50
+  icon: "/SVG/love-howl.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Advanced"
@@ -18,6 +17,5 @@ also:
     - "Ranger"
     - "how-to-play"
 ---
-
 
 You can speak with and understand animals.

@@ -5,10 +5,9 @@ title: "Strider"
 type: "wiki"
 infobox:
   header: "Strider"
-  image: "/SVG/metal-boot.svg"
-  imageSize: 50
+  icon: "/SVG/metal-boot.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Expert"
@@ -21,6 +20,5 @@ also:
     - "Ranger"
     - "how-to-play"
 ---
-
 
 When you undertake a perilous journey you can take two roles. Roll twice and use the better result for both roles.

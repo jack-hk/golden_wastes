@@ -5,10 +5,9 @@ title: "Brewer"
 type: "wiki"
 infobox:
   header: "Brewer"
-  image: "/SVG/pestle-mortar.svg"
-  imageSize: 50
+  icon: "/SVG/pestle-mortar.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Advanced"
@@ -18,6 +17,5 @@ also:
     - "Thief"
     - "how-to-play"
 ---
-
 
 When you have time to gather materials and a safe place to brew you can create three doses of any one poison you’ve used before.

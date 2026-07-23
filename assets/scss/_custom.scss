@@ -82,15 +82,6 @@
     opacity: 0.065;
   }
 
-  img[data-invert-dark='true'],
-  [data-invert-dark='true'] img {
-    filter: invert(1);
-  }
-
-  // (used for big-tiles and other background-image elements)
-  [data-invert-dark='true'][style*='background-image'] {
-    filter: invert(1);
-  }
 }
 
 .navbar__separator {

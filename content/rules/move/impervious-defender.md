@@ -5,10 +5,9 @@ title: "Impervious Defender"
 type: "wiki"
 infobox:
   header: "Impervious Defender"
-  image: "/SVG/spiked-shield.svg"
-  imageSize: 50
+  icon: "/SVG/spiked-shield.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Expert"
@@ -21,6 +20,5 @@ also:
     - "Paladin"
     - "how-to-play"
 ---
-
 
 When you defend you always get +1 hold, even on a 6-. When you get a 12+ to defend instead of getting hold the nearest attacking creature is stymied giving you a clear advantage, the GM will describe it.

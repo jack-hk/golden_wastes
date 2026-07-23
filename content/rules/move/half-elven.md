@@ -5,10 +5,9 @@ title: "Half-Elven"
 type: "wiki"
 infobox:
   header: "Half-Elven"
-  image: "/SVG/boot.svg"
-  imageSize: 50
+  icon: "/SVG/boot.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Advanced"
@@ -18,6 +17,5 @@ also:
     - "Ranger"
     - "how-to-play"
 ---
-
 
 Somewhere in your lineage lies mixed blood and it begins to show its presence. You gain the elf starting move if you took the human one at character creation or vice versa.

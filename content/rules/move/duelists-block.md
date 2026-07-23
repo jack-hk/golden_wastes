@@ -5,10 +5,9 @@ title: "Duelist’s Block"
 type: "wiki"
 infobox:
   header: "Duelist’s Block"
-  image: "/SVG/arrows-shield.svg"
-  imageSize: 50
+  icon: "/SVG/arrows-shield.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Expert"
@@ -21,6 +20,5 @@ also:
     - "Bard"
     - "how-to-play"
 ---
-
 
 When you hack and slash, you take +2 armor forward.

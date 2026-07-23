@@ -5,10 +5,9 @@ title: "Follow Me"
 type: "wiki"
 infobox:
   header: "Follow Me"
-  image: "/SVG/fur-boot.svg"
-  imageSize: 50
+  icon: "/SVG/fur-boot.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Advanced"
@@ -18,6 +17,5 @@ also:
     - "Ranger"
     - "how-to-play"
 ---
-
 
 When you undertake a perilous journey you can take two roles. You make a separate roll for each.

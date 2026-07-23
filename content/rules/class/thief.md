@@ -2,7 +2,6 @@
 title: "Thief"
 header: "The Thief"
 type: "wiki"
-invertDark: true # why doesn't this work?
 categories: 'class'
 image: "https://upload.wikimedia.org/wikipedia/commons/8/88/Vitruvianischer_Mann.png"
 ---

@@ -5,10 +5,9 @@ title: "Disguise"
 type: "wiki"
 infobox:
   header: "Disguise"
-  image: "/SVG/drama-masks.svg"
-  imageSize: 50
+  icon: "/SVG/drama-masks.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Expert"
@@ -18,6 +17,5 @@ also:
     - "Thief"
     - "how-to-play"
 ---
-
 
 When you have time and materials you can create a disguise that will fool anyone into thinking you’re another creature of about the same size and shape. Your actions can give you away but your appearance won’t.

@@ -5,10 +5,9 @@ title: "Bloody Aegis"
 type: "wiki"
 infobox:
   header: "Bloody Aegis"
-  image: "/SVG/blood.svg"
-  imageSize: 50
+  icon: "/SVG/blood.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Advanced"
@@ -18,6 +17,5 @@ also:
     - "Paladin"
     - "how-to-play"
 ---
-
 
 When you take damage you can grit your teeth and accept the blow. If you do you take no damage but instead suffer a debility of your choice. If you already have all six debilities you can’t use this move.

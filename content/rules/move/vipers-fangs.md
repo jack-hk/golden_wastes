@@ -5,10 +5,9 @@ title: "Viper’s Fangs"
 type: "wiki"
 infobox:
   header: "Viper’s Fangs"
-  image: "/SVG/snake-bite.svg"
-  imageSize: 50
+  icon: "/SVG/snake-bite.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Expert"
@@ -21,6 +20,5 @@ also:
     - "Ranger"
     - "how-to-play"
 ---
-
 
 When you strike an enemy with two weapons at once, add an extra 1d8 damage for your off-hand strike.

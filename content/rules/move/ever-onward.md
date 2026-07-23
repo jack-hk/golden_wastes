@@ -5,10 +5,9 @@ title: "Ever Onward"
 type: "wiki"
 infobox:
   header: "Ever Onward"
-  image: "/SVG/charging-bull.svg"
-  imageSize: 50
+  icon: "/SVG/charging-bull.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Expert"
@@ -21,6 +20,5 @@ also:
     - "Paladin"
     - "how-to-play"
 ---
-
 
 When you lead the charge into combat, those you lead take +1 forward and +2 armor forward.

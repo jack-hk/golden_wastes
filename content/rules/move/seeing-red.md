@@ -5,10 +5,9 @@ title: "Seeing Red"
 type: "wiki"
 infobox:
   header: "Seeing Red"
-  image: "/SVG/eye-target.svg"
-  imageSize: 50
+  icon: "/SVG/eye-target.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Advanced"
@@ -18,6 +17,5 @@ also:
     - "Fighter"
     - "how-to-play"
 ---
-
 
 When you discern realities during combat, you take +1.

@@ -5,10 +5,9 @@ title: "Heist"
 type: "wiki"
 infobox:
   header: "Heist"
-  image: "/SVG/gold-bar.svg"
-  imageSize: 50
+  icon: "/SVG/gold-bar.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Expert"
@@ -18,7 +17,6 @@ also:
     - "Thief"
     - "how-to-play"
 ---
-
 
 When you take time to make a plan to steal something, name the thing you want to steal and ask the GM these questions. When acting on the answers you and your allies take +1 forward.
 * Who will notice it’s missing?

@@ -5,10 +5,9 @@ title: "Holy Protection"
 type: "wiki"
 infobox:
   header: "Holy Protection"
-  image: "/SVG/holy-symbol.svg"
-  imageSize: 50
+  icon: "/SVG/holy-symbol.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Advanced"
@@ -18,6 +17,5 @@ also:
     - "Paladin"
     - "how-to-play"
 ---
-
 
 You get +1 armor while on a quest.

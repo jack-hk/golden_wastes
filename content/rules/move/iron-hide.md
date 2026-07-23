@@ -5,10 +5,8 @@ title: "Iron Hide"
 type: "wiki"
 infobox:
   header: "Iron Hide"
-  image: "/SVG/metal-bar.svg"
-  imageSize: 50
-  imageMargin: "10px auto"
-  invertDark: true
+  icon: "/SVG/metal-bar.svg"
+  iconSize: 50
 
   labels:
     - label: "Type"
@@ -19,6 +17,5 @@ also:
     - "Fighter"
     - "how-to-play"
 ---
-
 
 You gain +1 armor.

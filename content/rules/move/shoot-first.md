@@ -5,10 +5,9 @@ title: "Shoot First"
 type: "wiki"
 infobox:
   header: "Shoot First"
-  image: "/SVG/crosshair-arrow.svg"
-  imageSize: 50
+  icon: "/SVG/crosshair-arrow.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Advanced"
@@ -18,6 +17,5 @@ also:
     - "Thief"
     - "how-to-play"
 ---
-
 
 You’re never caught by surprise. When an enemy would get the drop on you, you get to act first instead.

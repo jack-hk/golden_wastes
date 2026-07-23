@@ -25,72 +25,44 @@
     {{ if .Params.infobox }}
       <aside class="wiki__infobox" data-pagefind-ignore>
         {{ with .Params.infobox }}
+          {{- $infoboxImage := (or .image .icon) -}}
+          {{- $infoboxImageSize := (or .imageSize .iconSize) -}}
+          {{- $infoboxImageMargin := (or .imageMargin .iconMargin) -}}
+          {{- $infoboxIconColor := .iconColor | default $.Params.iconColor -}}
+
+
           <div class="wiki__infobox-header">
             {{ if .header }}
               <h2 class="wiki__infobox-title">{{ .header }}</h2>
             {{ end }}
           </div>
 
-          {{ if .image }}
+          {{ if $infoboxImage }}
             <div
               class="wiki__infobox-image-container"
-              {{ if or .imageSize .imageMargin }}
-                style="{{- if .imageSize }}
-                  --image-size: {{ .imageSize }}px;
-                {{- end }}{{- if .imageMargin }}
-                  --image-margin: {{ .imageMargin }};
-                {{- else }}
+              {{ if or $infoboxImageSize $infoboxImageMargin }}
+                style="{{ if $infoboxImageSize }}
+                  --image-size: {{ $infoboxImageSize }}px;
+                {{ end }}{{ if $infoboxImageMargin }}
+                  --image-margin: {{ $infoboxImageMargin }};
+                {{ else }}
                   --image-margin: 10px auto;
-                {{- end }}"
+                {{ end }}"
               {{ else }}
                 style="--image-margin: 10px auto"
               {{ end }}>
-              {{ $image := .image }}
-
-              {{/* 1. External Images */}}
-              {{ if hasPrefix $image "http" }}
-                <div
-                  class="wiki__infobox-image-wrapper"
-                  {{ if .invertDark }}
-                    data-pagefind-meta="invert_dark:true"
-                  {{ end }}>
-                  <img
-                    src="{{ $image }}"
-                    alt="image"
-                    class="wiki__infobox-image"
-                    data-pagefind-meta="image[src]"
-                    {{ if .invertDark }}data-invert-dark="true"{{ end }} />
-                </div>
-
-                {{/* 2. Font Icons (FontAwesome, etc) */}}
-              {{ else if or (hasPrefix $image "fa-") (hasPrefix $image "icon-") (hasPrefix $image "material-icons") (findRE " " $image) }}
-                <div class="wiki__infobox-image-wrapper">
-                  <i
-                    class="{{ $image }} wiki__infobox-icon"
-                    {{ if .invertDark }}data-invert-dark="true"{{ end }}></i>
-                </div>
-
-                {{/* 3. Local SVG or Image Files (The Fix) */}}
-              {{ else if (findRE `\.(svg|png|jpg|jpeg|webp|gif)$` $image) }}
-                <div
-                  class="wiki__infobox-image-wrapper"
-                  {{ if .invertDark }}
-                    data-pagefind-meta="invert_dark:true"
-                  {{ end }}>
-                  <img
-                    src="{{ $image | relURL }}"
-                    alt="icon"
-                    class="wiki__infobox-image"
-                    data-pagefind-meta="image[src]"
-                    {{ if .invertDark }}data-invert-dark="true"{{ end }} />
-                </div>
-
-                {{/* 4. Legacy CSS Class fallback */}}
-              {{ else }}
-                <span
-                  class="wiki__infobox-image-wrapper wiki__infobox-image--{{ $image }}"
-                  {{ if .invertDark }}data-invert-dark="true"{{ end }}></span>
-              {{ end }}
+              {{ partial "infobox-icon.html" (dict
+                "image" $infoboxImage
+                "imageSize" $infoboxImageSize
+                "imageMargin" $infoboxImageMargin
+                "iconColor" $infoboxIconColor
+                "badgePath" (or .badgePath .badge .badgeIcon .badgeSvg)
+                "badgeEnabled" .badgeEnabled
+                "badgeBackgroundColor" (or .badgeBackgroundColor .badgeColor)
+                "badgeForegroundColor" .badgeForegroundColor
+                "badgeSize" .badgeSize
+                )
+              }}
             </div>
           {{ end }}
 

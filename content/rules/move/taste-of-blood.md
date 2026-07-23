@@ -5,10 +5,9 @@ title: "Taste of Blood"
 type: "wiki"
 infobox:
   header: "Taste of Blood"
-  image: "/SVG/bloody-sword.svg"
-  imageSize: 50
+  icon: "/SVG/bloody-sword.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Expert"
@@ -21,6 +20,5 @@ also:
     - "Fighter"
     - "how-to-play"
 ---
-
 
 When you hack and slash an enemy, your next attack against that same foe deals +1d8 damage.

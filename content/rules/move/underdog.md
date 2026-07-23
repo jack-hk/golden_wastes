@@ -5,10 +5,9 @@ title: "Underdog"
 type: "wiki"
 infobox:
   header: "Underdog"
-  image: "/SVG/hooded-assassin.svg"
-  imageSize: 50
+  icon: "/SVG/hooded-assassin.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Advanced"
@@ -18,6 +17,5 @@ also:
     - "Thief"
     - "how-to-play"
 ---
-
 
 When you’re outnumbered, you have +1 armor.

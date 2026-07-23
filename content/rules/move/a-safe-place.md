@@ -5,10 +5,9 @@ title: "A Safe Place"
 type: "wiki"
 infobox:
   header: "A Safe Place"
-  image: "/SVG/camping-tent.svg"
-  imageSize: 50
+  icon: "/SVG/camping-tent.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Advanced"
@@ -18,6 +17,5 @@ also:
     - "Ranger"
     - "how-to-play"
 ---
-
 
 When you set the watch for the night, everyone takes +1 to take watch.

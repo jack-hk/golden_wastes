@@ -5,10 +5,9 @@ title: "Steel Hide"
 type: "wiki"
 infobox:
   header: "Steel Hide"
-  image: "icon-metal-plate"
-  imageSize: 50
+  icon: "/SVG/metal-plate.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Expert"
@@ -21,6 +20,5 @@ also:
     - "Fighter"
     - "how-to-play"
 ---
-
 
 You gain +2 armor.

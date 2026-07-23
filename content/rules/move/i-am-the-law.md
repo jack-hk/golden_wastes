@@ -5,10 +5,9 @@ title: "I Am the Law"
 type: "wiki"
 infobox:
   header: "I Am the Law"
-  image: "/SVG/book-cover.svg"
-  imageSize: 50
+  icon: "/SVG/book-cover.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Starting"
@@ -18,7 +17,6 @@ also:
     - "Paladin"
     - "how-to-play"
 ---
-
 
 When you give an NPC an order based on your divine authority, roll+Cha. ✴On a 7+, they choose one:
 * Do what you say

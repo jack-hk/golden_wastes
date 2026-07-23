@@ -5,10 +5,9 @@ title: "Envenom"
 type: "wiki"
 infobox:
   header: "Envenom"
-  image: "/SVG/bestial-fangs.svg"
-  imageSize: 50
+  icon: "/SVG/bestial-fangs.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Advanced"
@@ -18,6 +17,5 @@ also:
     - "Thief"
     - "how-to-play"
 ---
-
 
 You can apply even complex poisons with a pinprick. When you apply a poison that’s not dangerous for you to use to your weapon it’s touch instead of applied.

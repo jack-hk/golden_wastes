@@ -5,10 +5,9 @@ title: "Bloodthirsty"
 type: "wiki"
 infobox:
   header: "Bloodthirsty"
-  image: "/SVG/dripping-sword.svg"
-  imageSize: 50
+  icon: "/SVG/dripping-sword.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Expert"
@@ -21,6 +20,5 @@ also:
     - "Fighter"
     - "how-to-play"
 ---
-
 
 When you deal damage, deal +1d8 damage.

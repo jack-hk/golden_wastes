@@ -1,0 +1,131 @@
+{{- $image := .image | default "" -}}
+{{- $imageSize := .imageSize | default 50 -}}
+{{- $imageMargin := .imageMargin | default "10px auto" -}}
+{{- $iconColor := partial "normalize-color.html" (dict "value" .iconColor) -}}
+{{- $badgePath := .badgePath | default "" -}}
+{{- $badgeBackgroundColor := .badgeBackgroundColor | default (.badgeColor | default (site.Params.infoboxBadges.backgroundColor | default (site.Params.infoboxBadges.color | default "#e00020"))) -}}
+{{- $badgeForegroundColor := .badgeForegroundColor | default (site.Params.infoboxBadges.foregroundColor | default "") -}}
+{{- $badgeSize := .badgeSize | default (site.Params.infoboxBadges.size | default 32) -}}
+{{- $badgeEnabled := true -}}
+{{- if and (isset . "badgeEnabled") (ne (printf "%T" .badgeEnabled) "<nil>") -}}
+  {{- $badgeEnabled = .badgeEnabled -}}
+{{- else if and (isset site.Params "infoboxBadges") (isset site.Params.infoboxBadges "enabled") -}}
+  {{- $badgeEnabled = site.Params.infoboxBadges.enabled -}}
+{{- end -}}
+{{- $badgeBackgroundCss := partial "normalize-color.html" (dict "value" $badgeBackgroundColor "fallback" "#e00020") -}}
+{{- $imagePathIsLocal := and $image (hasPrefix $image "/") -}}
+{{- $imagePathIsRemote := and $image (hasPrefix $image "http") -}}
+{{- $imagePathIsImage := and $image (findRE `\.(svg|png|jpg|jpeg|webp|gif)$` $image) -}}
+{{- $imageUrl := $image -}}
+{{- if and $imagePathIsLocal $imagePathIsImage -}}
+  {{- $imageUrl = $image | relURL -}}
+{{- end -}}
+
+{{- $badgePathIsLocal := and $badgePath (hasPrefix $badgePath "/") -}}
+{{- $badgePathIsRemote := and $badgePath (hasPrefix $badgePath "http") -}}
+{{- $badgePathIsImage := and $badgePath (findRE `\.(svg|png|jpg|jpeg|webp|gif)$` $badgePath) -}}
+{{- $badgePathIsLocalSvg := and $badgePathIsLocal $badgePath (findRE `\.svg$` $badgePath) -}}
+{{- $badgeForegroundCss := partial "normalize-color.html" (dict "value" $badgeForegroundColor "fallback" "currentColor") -}}
+{{- $badgeSizeInt := 32 -}}
+{{- if and (ne (printf "%v" $badgeSize) "") (not (findRE "[^0-9]" (printf "%v" $badgeSize))) -}}
+  {{- $badgeSizeInt = int (printf "%v" $badgeSize) -}}
+{{- end -}}
+{{- if lt $badgeSizeInt 1 -}}
+  {{- $badgeSizeInt = 32 -}}
+{{- end -}}
+
+{{- $badgeRendererStyle := printf "--image-size: %vpx; --image-margin: %v; --infobox-icon-color: %v; --infobox-badge-size: %dpx; --infobox-badge-background-color: %v; --infobox-badge-foreground-color: %v;" $imageSize $imageMargin $iconColor $badgeSizeInt $badgeBackgroundCss $badgeForegroundCss -}}
+
+
+<div
+  class="wiki__infobox-image-renderer"
+  style="{{ $badgeRendererStyle | safeCSS }}">
+  <div class="wiki__infobox-image-wrapper">
+    {{- if and $imagePathIsImage -}}
+      {{- if $iconColor -}}
+        <span
+          class="wiki__infobox-image wiki__infobox-image--colored"
+          role="img"
+          aria-label="icon"
+          style="--infobox-icon-image: url('{{ $imageUrl | safeURL }}')"></span>
+        <span data-pagefind-meta="image:{{ $imageUrl }}"></span>
+        <span data-pagefind-meta="icon_color:{{ $iconColor }}"></span>
+      {{- else -}}
+        <img
+          src="{{ $imageUrl }}"
+          alt="icon"
+          class="wiki__infobox-image"
+          data-pagefind-meta="image[src]" />
+      {{- end -}}
+    {{- else if or (hasPrefix $image "fa-") (hasPrefix $image "icon-") (hasPrefix $image "material-icons") (findRE " " $image) -}}
+      <i
+        class="{{ $image }} wiki__infobox-icon"></i>
+    {{- else if $imagePathIsRemote -}}
+      {{- if $iconColor -}}
+        <span
+          class="wiki__infobox-image wiki__infobox-image--colored"
+          role="img"
+          aria-label="image"
+          style="--infobox-icon-image: url('{{ $image | safeURL }}')"></span>
+        <span data-pagefind-meta="image:{{ $image }}"></span>
+        <span data-pagefind-meta="icon_color:{{ $iconColor }}"></span>
+      {{- else -}}
+        <img
+          src="{{ $image }}"
+          alt="image"
+          class="wiki__infobox-image"
+          data-pagefind-meta="image[src]" />
+      {{- end -}}
+    {{- else -}}
+      <span
+        class="wiki__infobox-image-wrapper wiki__infobox-image--{{ $image }}"></span>
+    {{- end -}}
+
+    {{- if and $badgeEnabled $badgePath -}}
+      <div class="wiki__infobox-badge-shell">
+        <svg
+          class="wiki__infobox-badge"
+          viewBox="0 0 100 100"
+          aria-hidden="true"
+          focusable="false"
+          preserveAspectRatio="xMidYMid meet">
+          <circle
+            cx="50"
+            cy="50"
+            r="42"
+            fill="var(--infobox-badge-background-color)" />
+        </svg>
+        {{- if $badgePathIsLocalSvg -}}
+          <div
+            class="wiki__infobox-badge-mark"
+            style="color: var(--infobox-badge-foreground-color);">
+            {{- readFile (printf "static%s" $badgePath) | safeHTML -}}
+          </div>
+        {{- else if $badgePathIsImage -}}
+          <img
+            class="wiki__infobox-badge-image"
+            src="{{ if $badgePathIsLocal }}
+              {{ $badgePath | relURL }}
+            {{ else }}
+              {{ $badgePath }}
+            {{ end }}"
+            alt=""
+            aria-hidden="true" />
+        {{- else if or (hasPrefix $badgePath "fa-") (hasPrefix $badgePath "icon-") (hasPrefix $badgePath "material-icons") (findRE " " $badgePath) -}}
+          <i
+            class="{{ $badgePath }} wiki__infobox-badge-icon"></i>
+        {{- else if $badgePathIsRemote -}}
+          <img
+            class="wiki__infobox-badge-image"
+            src="{{ $badgePath }}"
+            alt=""
+            aria-hidden="true" />
+        {{- else -}}
+          <span
+            class="wiki__infobox-badge-mark wiki__infobox-badge--{{ $badgePath }}"
+            aria-hidden="true"></span>
+        {{- end -}}
+      </div>
+    {{- end -}}
+  </div>
+</div>

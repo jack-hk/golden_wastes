@@ -5,10 +5,9 @@ title: "Charming and Open"
 type: "wiki"
 infobox:
   header: "Charming and Open"
-  image: "/SVG/charm.svg"
-  imageSize: 50
+  icon: "/SVG/charm.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Starting"
@@ -18,7 +17,6 @@ also:
     - "Bard"
     - "how-to-play"
 ---
-
 
 When you speak frankly with someone, you can ask their player a question from the list below. They must answer it truthfully, then they may ask you a question from the list (which you must answer truthfully).
 * Whom do you serve?

@@ -5,10 +5,9 @@ title: "Human (Bard)"
 type: "wiki"
 infobox:
   header: "Human (Bard)"
-  image: "/SVG/lute.svg"
-  imageSize: 50
+  icon: "/SVG/lute.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Optional"
@@ -18,6 +17,5 @@ also:
     - "Bard"
     - "how-to-play"
 ---
-
 
 When you first enter a civilized settlement someone who respects the custom of hospitality to minstrels will take you in as their guest.

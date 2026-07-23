@@ -5,10 +5,9 @@ title: "Human (Ranger)"
 type: "wiki"
 infobox:
   header: "Human (Ranger)"
-  image: "/SVG/crossbow.svg"
-  imageSize: 50
+  icon: "/SVG/crossbow.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Optional"
@@ -18,6 +17,5 @@ also:
     - "Ranger"
     - "how-to-play"
 ---
-
 
 When you make camp in a dungeon or city, you don’t need to consume a ration.

@@ -5,10 +5,9 @@ title: "Healing Song"
 type: "wiki"
 infobox:
   header: "Healing Song"
-  image: "/SVG/lyre.svg"
-  imageSize: 50
+  icon: "/SVG/lyre.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Advanced"
@@ -18,6 +17,5 @@ also:
     - "Bard"
     - "how-to-play"
 ---
-
 
 When you heal with arcane art, you heal +1d8 damage.

@@ -5,10 +5,9 @@ title: "Eldritch Tones"
 type: "wiki"
 infobox:
   header: "Eldritch Tones"
-  image: "/SVG/sound-waves.svg"
-  imageSize: 50
+  icon: "/SVG/sound-waves.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Advanced"
@@ -18,6 +17,5 @@ also:
     - "Bard"
     - "how-to-play"
 ---
-
 
 Your arcane art is strong, allowing you to choose two effects instead of one.

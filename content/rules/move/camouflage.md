@@ -5,10 +5,9 @@ title: "Camouflage"
 type: "wiki"
 infobox:
   header: "Camouflage"
-  image: "/SVG/hidden.svg"
-  imageSize: 50
+  icon: "/SVG/hidden.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Advanced"
@@ -18,6 +17,5 @@ also:
     - "Ranger"
     - "how-to-play"
 ---
-
 
 When you keep still in natural surroundings, enemies never spot you until you make a movement.

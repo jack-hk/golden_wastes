@@ -5,10 +5,9 @@ title: "Alchemist"
 type: "wiki"
 infobox:
   header: "Alchemist"
-  image: "/svg/potion-ball.svg"
-  imageSize: 50
+  icon: "/SVG/potion-ball.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Expert"
@@ -21,7 +20,6 @@ also:
     - "Thief"
     - "how-to-play"
 ---
-
 
 When you have you have time to gather materials and a safe place to brew you can create three doses of any poison you’ve used before. Alternately you can describe the effects of a poison you’d like to create. The GM will tell you that you can create it, but with one or more caveats:
 * It will only work under specific circumstances

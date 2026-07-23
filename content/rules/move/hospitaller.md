@@ -5,10 +5,9 @@ title: "Hospitaller"
 type: "wiki"
 infobox:
   header: "Hospitaller"
-  image: "/SVG/caduceus.svg"
-  imageSize: 50
+  icon: "/SVG/caduceus.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Advanced"
@@ -18,6 +17,5 @@ also:
     - "Paladin"
     - "how-to-play"
 ---
-
 
 When you heal an ally, you heal +1d8 damage.

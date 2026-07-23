@@ -5,10 +5,9 @@ title: "Evidence of Faith"
 type: "wiki"
 infobox:
   header: "Evidence of Faith"
-  image: "/SVG/look-at.svg"
-  imageSize: 50
+  icon: "/SVG/look-at.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Expert"
@@ -18,6 +17,5 @@ also:
     - "Paladin"
     - "how-to-play"
 ---
-
 
 When you see divine magic as it happens, you can ask the GM which deity granted the spell and its effects. Take +1 when acting on the answers.

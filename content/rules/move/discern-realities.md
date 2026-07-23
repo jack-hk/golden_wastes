@@ -5,17 +5,15 @@ title: "Discern Realities"
 type: "wiki"
 infobox:
   header: "Discern Realities"
-  image: "/SVG/magnifying-glass.svg"
-  imageSize: 50
+  icon: "/SVG/magnifying-glass.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Basic"
 also:
     - "how-to-play"
 ---
-
 
 When you closely study a situation or person, roll+Wis. On a 10+ ask the GM 3 questions from the list below. On a 7–9 ask 1. Take +1 forward when acting on the answers.
 - What happened here recently?

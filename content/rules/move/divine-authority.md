@@ -5,10 +5,9 @@ title: "Divine Authority"
 type: "wiki"
 infobox:
   header: "Divine Authority"
-  image: "/SVG/pope-crown.svg"
-  imageSize: 50
+  icon: "/SVG/pope-crown.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Expert"
@@ -21,6 +20,5 @@ also:
     - "Paladin"
     - "how-to-play"
 ---
-
 
 Take +1 to order hirelings. When you roll a 12+ the hireling transcends their moment of fear and doubt and carries out your order with particular effectiveness or efficiency.

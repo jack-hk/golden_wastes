@@ -5,10 +5,9 @@ title: "Unforgettable Face"
 type: "wiki"
 infobox:
   header: "Unforgettable Face"
-  image: "/SVG/think.svg"
-  imageSize: 50
+  icon: "/SVG/think.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Expert"
@@ -18,6 +17,5 @@ also:
     - "Bard"
     - "how-to-play"
 ---
-
 
 When you meet someone you’ve met before (your call) after some time apart you take +1 forward against them.

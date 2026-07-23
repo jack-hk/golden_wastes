@@ -5,17 +5,15 @@ title: "Defy Danger"
 type: "wiki"
 infobox:
   header: "Defy Danger"
-  image: "/SVG/fist.svg"
-  imageSize: 50
+  icon: "/SVG/fist.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Basic"
 also:
     - "how-to-play"
 ---
-
 
 When you act despite an imminent threat or suffer a calamity, say how you deal with it and roll. If you do it:
 - …by powering through, +Str

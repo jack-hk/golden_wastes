@@ -5,10 +5,9 @@ title: "Heirloom"
 type: "wiki"
 infobox:
   header: "Heirloom"
-  image: "/SVG/abstract-064.svg"
-  imageSize: 50
+  icon: "/SVG/abstract-064.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Advanced"
@@ -18,6 +17,5 @@ also:
     - "Fighter"
     - "how-to-play"
 ---
-
 
 When you consult the spirits that reside within your signature weapon, they will give you an insight relating to the current situation, and might ask you some questions in return, roll+CHA. ✴On a 10+, the GM will give you good detail. ✴On a 7-9, the GM will give you an impression.

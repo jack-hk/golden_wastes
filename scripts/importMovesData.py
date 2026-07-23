@@ -91,7 +91,7 @@ def markdown_to_json(md_content: str) -> List[Dict[str, Any]]:
             
         # Icon field
         elif line.startswith('Icon:'):
-            icon_match = re.search(r'<img src="https://seiyria\.com/gameicons-font/svg/([^.]+)\.svg"[^>]*width="(\d+)"[^>]*/?>', line)
+            icon_match = re.search(r'<img src="(?:https://seiyria\.com/gameicons-font/svg/|/)?SVG/([^.]+)\.svg"[^>]*width="(\d+)"[^>]*/?>', line)
             if icon_match:
                 current_entry['icon'] = icon_match.group(1).strip()
             else:
@@ -169,7 +169,7 @@ def json_to_markdown(json_data: List[Dict[str, Any]]) -> str:
                 
                 # Icon field
                 if entry.get('icon'):
-                    markdown_lines.append(f'Icon: <img src="https://seiyria.com/gameicons-font/svg/{entry["icon"]}.svg" width="32" />')
+                    markdown_lines.append(f'Icon: <img src="/SVG/{entry["icon"]}.svg" width="32" />')
                     markdown_lines.append("")
                 
                 # Add extra line between moves

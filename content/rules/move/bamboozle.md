@@ -5,10 +5,9 @@ title: "Bamboozle"
 type: "wiki"
 infobox:
   header: "Bamboozle"
-  image: "/SVG/misdirection.svg"
-  imageSize: 50
+  icon: "/SVG/misdirection.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Advanced"
@@ -18,6 +17,5 @@ also:
     - "Bard"
     - "how-to-play"
 ---
-
 
 When you parley with someone, on a 7+ you also take +1 forward with them.

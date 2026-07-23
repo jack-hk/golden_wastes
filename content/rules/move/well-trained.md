@@ -5,10 +5,9 @@ title: "Well-Trained"
 type: "wiki"
 infobox:
   header: "Well-Trained"
-  image: "/SVG/hunting-horn.svg"
-  imageSize: 50
+  icon: "/SVG/hunting-horn.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Advanced"
@@ -18,6 +17,5 @@ also:
     - "Ranger"
     - "how-to-play"
 ---
-
 
 Choose another training for your animal companion.

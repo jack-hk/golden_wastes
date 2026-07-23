@@ -5,10 +5,9 @@ title: "Elf (Fighter)"
 type: "wiki"
 infobox:
   header: "Elf (Fighter)"
-  image: "/SVG/bow-arrow.svg"
-  imageSize: 50
+  icon: "/SVG/bow-arrow.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Optional"
@@ -18,6 +17,5 @@ also:
     - "Fighter"
     - "how-to-play"
 ---
-
 
 Choose one weapon—you can always treat weapons of that type as if they had the precise tag.

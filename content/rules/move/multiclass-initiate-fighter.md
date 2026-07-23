@@ -5,10 +5,9 @@ title: "Multiclass Initiate (Fighter)"
 type: "wiki"
 infobox:
   header: "Multiclass Initiate (Fighter)"
-  image: "/SVG/open-gate.svg"
-  imageSize: 50
+  icon: "/SVG/open-gate.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Expert"
@@ -18,6 +17,5 @@ also:
     - "Fighter"
     - "how-to-play"
 ---
-
 
 Get one move from another class. Treat your level as one lower for choosing the move.

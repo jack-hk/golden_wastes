@@ -5,10 +5,9 @@ title: "Trap Expert"
 type: "wiki"
 infobox:
   header: "Trap Expert"
-  image: "/SVG/mantrap.svg"
-  imageSize: 50
+  icon: "/SVG/mantrap.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Starting"
@@ -18,7 +17,6 @@ also:
     - "Thief"
     - "how-to-play"
 ---
-
 
 When you spend a moment to survey a dangerous area, roll+DEX. ✴On a 10+, hold 3. ✴On a 7–9, hold 1. Spend your hold as you walk through the area to ask these questions:
 * Is there a trap here and if so, what activates it?

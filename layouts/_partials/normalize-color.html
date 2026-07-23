@@ -1,0 +1,10 @@
+{{- $rawValue := .value | default "" -}}
+{{- $value := strings.TrimSpace (printf "%v" $rawValue) -}}
+{{- $fallback := .fallback | default "" -}}
+{{- if not $value -}}
+  {{- $value = $fallback -}}
+{{- end -}}
+{{- if findRE `^[0-9A-Fa-f]{3,4}$|^[0-9A-Fa-f]{6}$|^[0-9A-Fa-f]{8}$` $value -}}
+  {{- $value = printf "#%s" $value -}}
+{{- end -}}
+{{- return $value -}}

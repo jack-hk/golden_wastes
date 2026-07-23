@@ -5,10 +5,9 @@ title: "A Safer Place"
 type: "wiki"
 infobox:
   header: "A Safer Place"
-  image: "/SVG/forest-camp.svg"
-  imageSize: 50
+  icon: "/SVG/forest-camp.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Expert"
@@ -21,6 +20,5 @@ also:
     - "Ranger"
     - "how-to-play"
 ---
-
 
 When you set the watch for the night everyone takes +1 to take watch. After a night in camp when you set the watch everyone takes +1 forward.

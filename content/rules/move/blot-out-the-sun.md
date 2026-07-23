@@ -5,10 +5,9 @@ title: "Blot Out the Sun"
 type: "wiki"
 infobox:
   header: "Blot Out the Sun"
-  image: "/SVG/solar-time.svg"
-  imageSize: 50
+  icon: "/SVG/solar-time.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Advanced"
@@ -18,6 +17,5 @@ also:
     - "Ranger"
     - "how-to-play"
 ---
-
 
 When you volley you may spend extra ammo before rolling. For each point of ammo spent you may choose an extra target. Roll once and apply damage to all targets.

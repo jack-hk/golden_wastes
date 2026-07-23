@@ -5,10 +5,9 @@ title: "Duelist’s Parry"
 type: "wiki"
 infobox:
   header: "Duelist’s Parry"
-  image: "/SVG/riposte.svg"
-  imageSize: 50
+  icon: "/SVG/riposte.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Advanced"
@@ -18,6 +17,5 @@ also:
     - "Bard"
     - "how-to-play"
 ---
-
 
 When you hack and slash, you take +1 armor forward.

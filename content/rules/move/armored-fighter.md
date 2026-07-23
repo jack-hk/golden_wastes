@@ -5,10 +5,9 @@ title: "Armored (Fighter)"
 type: "wiki"
 infobox:
   header: "Armored (Fighter)"
-  image: "/SVG/spiked-shoulder-armor.svg"
-  imageSize: 50
+  icon: "/SVG/spiked-shoulder-armor.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Starting"
@@ -18,6 +17,5 @@ also:
     - "Fighter"
     - "how-to-play"
 ---
-
 
 You ignore the clumsy tag on armor you wear.

@@ -250,12 +250,18 @@
   text-align: center;
 }
 
+.wiki__infobox-image-renderer {
+  display: inline-block;
+  position: relative;
+}
+
 .wiki__infobox-image-wrapper {
   align-items: center;
   display: flex;
   height: var(--image-size, 50px);
   justify-content: center;
   margin: var(--image-margin, 10px auto);
+  position: relative;
   width: var(--image-size, 50px);
 }
 
@@ -266,8 +272,76 @@
   width: var(--image-size, 50px);
 }
 
+.wiki__infobox-image--colored {
+  aspect-ratio: 1;
+  background-color: var(--infobox-icon-color, currentColor);
+  -webkit-mask-image: var(--infobox-icon-image);
+  mask-image: var(--infobox-icon-image);
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+
+.wiki__infobox-icon {
+  color: var(--infobox-icon-color, currentColor);
+}
+
 .wiki__infobox-image-wrapper svg {
   fill: var(--color-ink);
+}
+
+.wiki__infobox-badge-shell {
+  bottom: -0.25rem;
+  height: var(--infobox-badge-size, 32px);
+  pointer-events: none;
+  position: absolute;
+  right: -0.25rem;
+  width: var(--infobox-badge-size, 32px);
+  z-index: 2;
+}
+
+.wiki__infobox-badge {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.wiki__infobox-badge circle {
+  fill: var(--infobox-badge-background-color, #e00020);
+}
+
+.wiki__infobox-badge-mark,
+.wiki__infobox-badge-image {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  inset: 0;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+}
+
+.wiki__infobox-badge-mark svg {
+  fill: currentColor;
+  height: 78%;
+  width: 78%;
+}
+
+.wiki__infobox-badge-image {
+  left: 50%;
+  max-height: 78%;
+  max-width: 78%;
+  object-fit: contain;
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: auto;
 }
 
 .wiki__infobox-content {

@@ -5,10 +5,9 @@ title: "Strong Arm, True Aim"
 type: "wiki"
 infobox:
   header: "Strong Arm, True Aim"
-  image: "/SVG/axe-in-stump.svg"
-  imageSize: 50
+  icon: "/SVG/axe-in-stump.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Expert"
@@ -18,6 +17,5 @@ also:
     - "Thief"
     - "how-to-play"
 ---
-
 
 You can throw any melee weapon, using it to volley. A thrown melee weapon is gone; you can never choose to reduce ammo on a 7–9.

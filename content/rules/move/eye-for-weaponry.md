@@ -5,10 +5,9 @@ title: "Eye for Weaponry"
 type: "wiki"
 infobox:
   header: "Eye for Weaponry"
-  image: "/SVG/switch-weapon.svg"
-  imageSize: 50
+  icon: "/SVG/switch-weapon.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Expert"
@@ -18,6 +17,5 @@ also:
     - "Fighter"
     - "how-to-play"
 ---
-
 
 When you look over an enemy’s weaponry, ask the GM how much damage they do.

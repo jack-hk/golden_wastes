@@ -5,10 +5,9 @@ title: "Observant"
 type: "wiki"
 infobox:
   header: "Observant"
-  image: "/SVG/beast-eye.svg"
-  imageSize: 50
+  icon: "/SVG/beast-eye.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Expert"
@@ -18,6 +17,5 @@ also:
     - "Ranger"
     - "how-to-play"
 ---
-
 
 When you hunt and track, on a hit you may also ask one question about the creature you are tracking from the discern realities list for free.

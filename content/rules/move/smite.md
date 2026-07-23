@@ -5,10 +5,9 @@ title: "Smite"
 type: "wiki"
 infobox:
   header: "Smite"
-  image: "/SVG/lightning-trio.svg"
-  imageSize: 50
+  icon: "/SVG/lightning-trio.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Advanced"
@@ -18,6 +17,5 @@ also:
     - "Paladin"
     - "how-to-play"
 ---
-
 
 While on a quest you deal +1d4 damage.

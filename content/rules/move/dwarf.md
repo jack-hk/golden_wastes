@@ -5,10 +5,9 @@ title: "Dwarf"
 type: "wiki"
 infobox:
   header: "Dwarf"
-  image: "/SVG/battle-axe.svg"
-  imageSize: 50
+  icon: "/SVG/battle-axe.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Optional"
@@ -18,6 +17,5 @@ also:
     - "Fighter"
     - "how-to-play"
 ---
-
 
 When you share a drink with someone, you may parley with them using CON instead of CHA.

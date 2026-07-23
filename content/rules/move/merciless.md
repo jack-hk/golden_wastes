@@ -5,10 +5,9 @@ title: "Merciless"
 type: "wiki"
 infobox:
   header: "Merciless"
-  image: "/SVG/overkill.svg"
-  imageSize: 50
+  icon: "/SVG/overkill.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Advanced"
@@ -18,6 +17,5 @@ also:
     - "Fighter"
     - "how-to-play"
 ---
-
 
 When you deal damage, deal +1d4 damage.

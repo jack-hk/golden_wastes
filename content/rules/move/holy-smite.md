@@ -5,10 +5,9 @@ title: "Holy Smite"
 type: "wiki"
 infobox:
   header: "Holy Smite"
-  image: "/SVG/thunder-struck.svg"
-  imageSize: 50
+  icon: "/SVG/thunder-struck.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Expert"
@@ -21,6 +20,5 @@ also:
     - "Paladin"
     - "how-to-play"
 ---
-
 
 While on a quest you deal +1d8 damage.

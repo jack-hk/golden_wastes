@@ -5,10 +5,9 @@ title: "Perfect Knight"
 type: "wiki"
 infobox:
   header: "Perfect Knight"
-  image: "/SVG/knight-banner.svg"
-  imageSize: 50
+  icon: "/SVG/knight-banner.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Expert"
@@ -18,6 +17,5 @@ also:
     - "Paladin"
     - "how-to-play"
 ---
-
 
 When you quest you choose three boons instead of two.

@@ -5,10 +5,9 @@ title: "Multiclass Dabbler (Fighter)"
 type: "wiki"
 infobox:
   header: "Multiclass Dabbler (Fighter)"
-  image: "/SVG/crossed-swords.svg"
-  imageSize: 50
+  icon: "/SVG/crossed-swords.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Advanced"
@@ -18,6 +17,5 @@ also:
     - "Fighter"
     - "how-to-play"
 ---
-
 
 Get one move from another class. Treat your level as one lower for choosing the move.

@@ -5,10 +5,9 @@ title: "Cautious"
 type: "wiki"
 infobox:
   header: "Cautious"
-  image: "/SVG/surprised.svg"
-  imageSize: 50
+  icon: "/SVG/surprised.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Advanced"
@@ -18,6 +17,5 @@ also:
     - "Thief"
     - "how-to-play"
 ---
-
 
 When you use trap expert you always get +1 hold, even on a 6-.

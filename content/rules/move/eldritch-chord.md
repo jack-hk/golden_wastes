@@ -5,10 +5,9 @@ title: "Eldritch Chord"
 type: "wiki"
 infobox:
   header: "Eldritch Chord"
-  image: "/SVG/harp.svg"
-  imageSize: 50
+  icon: "/SVG/harp.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Expert"
@@ -21,6 +20,5 @@ also:
     - "Bard"
     - "how-to-play"
 ---
-
 
 When you use arcane art, you choose two effects. You also get to choose one of those effects to double.

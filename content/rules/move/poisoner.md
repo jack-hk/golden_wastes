@@ -5,10 +5,9 @@ title: "Poisoner"
 type: "wiki"
 infobox:
   header: "Poisoner"
-  image: "/SVG/poison-bottle.svg"
-  imageSize: 50
+  icon: "/SVG/poison-bottle.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Starting"
@@ -18,7 +17,6 @@ also:
     - "Thief"
     - "how-to-play"
 ---
-
 
 You’ve mastered the care and use of a poison. Choose a poison from the list below; that poison is no longer dangerous for you to use. You also start with three uses of the poison you choose. Whenever you have time to gather materials and a safe place to brew you can make three uses of the poison you choose for free. Note that some poisons are applied, meaning you have to carefully apply it to the target or something they eat or drink. Touch poisons just need to touch the target, they can even be used on the blade of a weapon.
 * Oil of Tagit (applied): The target falls into a light sleep

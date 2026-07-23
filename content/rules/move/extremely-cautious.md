@@ -5,10 +5,9 @@ title: "Extremely Cautious"
 type: "wiki"
 infobox:
   header: "Extremely Cautious"
-  image: "/SVG/sheikah-eye.svg"
-  imageSize: 50
+  icon: "/SVG/sheikah-eye.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Expert"
@@ -21,6 +20,5 @@ also:
     - "Thief"
     - "how-to-play"
 ---
-
 
 When you use trap expert you always get +1 hold, even on a 6-. On a 12+ you get 3 hold and the next time you come near a trap the GM will immediately tell you what it does, what triggers it, who set it, and how you can use it to your advantage.

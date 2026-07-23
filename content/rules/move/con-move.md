@@ -5,10 +5,9 @@ title: "Con"
 type: "wiki"
 infobox:
   header: "Con"
-  image: "/SVG/face-to-face.svg"
-  imageSize: 50
+  icon: "/SVG/face-to-face.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Expert"
@@ -21,6 +20,5 @@ also:
     - "Bard"
     - "how-to-play"
 ---
-
 
 When you parley with someone, on a 7+ you also take +1 forward with them and get to ask their player one question which they must answer truthfully.

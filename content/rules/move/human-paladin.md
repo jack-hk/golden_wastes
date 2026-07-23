@@ -5,10 +5,9 @@ title: "Human (Paladin)"
 type: "wiki"
 infobox:
   header: "Human (Paladin)"
-  image: "/SVG/shield-bash.svg"
-  imageSize: 50
+  icon: "/SVG/shield-bash.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Optional"
@@ -18,6 +17,5 @@ also:
     - "Paladin"
     - "how-to-play"
 ---
-
 
 When you pray for guidance, even for a moment, and ask, “What here is evil?” the GM will tell you, honestly.

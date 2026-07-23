@@ -5,10 +5,9 @@ title: "Animal Companion"
 type: "wiki"
 infobox:
   header: "Animal Companion"
-  image: "/SVG/wolf-head.svg"
-  imageSize: 50
+  icon: "/SVG/wolf-head.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Starting"
@@ -18,7 +17,6 @@ also:
     - "Ranger"
     - "how-to-play"
 ---
-
 
 You have a supernatural connection with a loyal animal. You can’t talk to it per se but it always acts as you wish it to. Name your animal companion and choose a species:
 Wolf, cougar, bear, eagle, dog, hawk, cat, owl, pigeon, rat, mule

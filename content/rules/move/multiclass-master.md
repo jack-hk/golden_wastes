@@ -5,10 +5,9 @@ title: "Multiclass Master"
 type: "wiki"
 infobox:
   header: "Multiclass Master"
-  image: "/SVG/master-of-arms.svg"
-  imageSize: 50
+  icon: "/SVG/master-of-arms.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Expert"
@@ -18,6 +17,5 @@ also:
     - "Bard"
     - "how-to-play"
 ---
-
 
 Get one move from another class. Treat your level as one lower for choosing the move.

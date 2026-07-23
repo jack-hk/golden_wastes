@@ -5,10 +5,9 @@ title: "Poison Master"
 type: "wiki"
 infobox:
   header: "Poison Master"
-  image: "/SVG/poison-gas.svg"
-  imageSize: 50
+  icon: "/SVG/poison-gas.svg"
+  iconSize: 50
 
-  invertDark: true
   labels:
     - label: "Type"
       item: "Advanced"
@@ -18,6 +17,5 @@ also:
     - "Thief"
     - "how-to-play"
 ---
-
 
 After you’ve used a poison once it’s no longer dangerous for you to use.
