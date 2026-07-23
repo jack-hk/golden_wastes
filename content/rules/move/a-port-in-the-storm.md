@@ -10,6 +10,7 @@ infobox:
   badgePath: "/SVG/village.svg"
   badgeSize: 25
   iconColor: "var(--color-primary)"
+  badgeForegroundColor: "var(--color-background-light)"
 
   labels:
     - label: "Type"
