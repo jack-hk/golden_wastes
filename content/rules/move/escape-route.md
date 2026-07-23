@@ -5,7 +5,7 @@ title: "Escape Route"
 type: "wiki"
 infobox:
   header: "Escape Route"
-  image: "https://seiyria.com/gameicons-font/svg/jump-across.svg"
+  image: "/SVG/jump-across.svg"
   imageSize: 50
 
   invertDark: true

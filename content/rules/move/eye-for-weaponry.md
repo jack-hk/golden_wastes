@@ -5,7 +5,7 @@ title: "Eye for Weaponry"
 type: "wiki"
 infobox:
   header: "Eye for Weaponry"
-  image: "https://seiyria.com/gameicons-font/svg/switch-weapon.svg"
+  image: "/SVG/switch-weapon.svg"
   imageSize: 50
 
   invertDark: true

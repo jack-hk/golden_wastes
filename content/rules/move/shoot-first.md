@@ -5,7 +5,7 @@ title: "Shoot First"
 type: "wiki"
 infobox:
   header: "Shoot First"
-  image: "https://seiyria.com/gameicons-font/svg/crosshair-arrow.svg"
+  image: "/SVG/crosshair-arrow.svg"
   imageSize: 50
 
   invertDark: true

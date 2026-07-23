@@ -4,7 +4,7 @@
 
 {When you attack an enemy in melee, roll+Str. On a 10+ you deal your damage to the enemy and avoid their attack. At your option, you may choose to do +1d6 damage but expose yourself to the enemy’s attack. On a 7–9, you deal your damage to the enemy and the enemy makes an attack against you.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/sword-clash.svg" width="20"/>
+Icon: <img src="/SVG/sword-clash.svg" width="20"/>
 
 **Volley**
 
@@ -13,7 +13,7 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/sword-clash.svg" width="2
 - You have to take what you can get: -1d6 damage
 - You have to take several shots, reducing your ammo by one.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/arrow-dunk.svg" width="20"/>
+Icon: <img src="/SVG/arrow-dunk.svg" width="20"/>
 
 **Defy Danger**
 
@@ -26,7 +26,7 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/arrow-dunk.svg" width="20
 - …using charm and social grace, +Cha
 On a 10+, you do what you set out to, the threat doesn’t come to bear. On a 7–9, you stumble, hesitate, or flinch: the GM will offer you a worse outcome, hard bargain, or ugly choice.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/fist.svg" width="20"/>
+Icon: <img src="/SVG/fist.svg" width="20"/>
 
 **Defend**
 
@@ -36,13 +36,13 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/fist.svg" width="20"/>
 - Open up the attacker to an ally giving that ally +1 forward against the attacker
 - Deal damage to the attacker equal to your level.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/slashed-shield.svg" width="20"/>
+Icon: <img src="/SVG/slashed-shield.svg" width="20"/>
 
 **Spout Lore**
 
 {When you consult your accumulated knowledge about something, roll+Int. On a 10+ the GM will tell you something interesting and useful about the subject relevant to your situation. On a 7–9 the GM will only tell you something interesting—it’s on you to make it useful. The GM might ask you “How do you know this?” Tell them the truth, now.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/open-book.svg" width="20"/>
+Icon: <img src="/SVG/open-book.svg" width="20"/>
 
 **Discern Realities**
 
@@ -54,19 +54,19 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/open-book.svg" width="20"
 - Who’s really in control here?
 - What here is not what it appears to be?}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/magnifying-glass.svg" width="20"/>
+Icon: <img src="/SVG/magnifying-glass.svg" width="20"/>
 
 **Parley**
 
 {When you have leverage on a GM character and manipulate them, roll+Cha. Leverage is something they need or want. On a hit they ask you for something and do it if you make them a promise first. On a 7–9, they need some concrete assurance of your promise, right now.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/conversation.svg" width="20"/>
+Icon: <img src="/SVG/conversation.svg" width="20"/>
 
 **Aid or Interfere**
 
 {When you help or hinder someone you have a bond with, roll+Bond with them. On a 10+ they take +1 or -2, your choice. On a 7–9 you also expose yourself to danger, retribution, or cost.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/shaking-hands.svg" width="20"/>
+Icon: <img src="/SVG/shaking-hands.svg" width="20"/>
 
 # Bard
 
@@ -76,13 +76,13 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/shaking-hands.svg" width=
 
 {When you enter an important location (your call) you can ask the GM for one fact from the history of that location.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/pointy-hat.svg" width="20"/>
+Icon: <img src="/SVG/pointy-hat.svg" width="20"/>
 
 **Human (Bard)**
 
 {When you first enter a civilized settlement someone who respects the custom of hospitality to minstrels will take you in as their guest.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/lute.svg" width="20"/>
+Icon: <img src="/SVG/lute.svg" width="20"/>
 
 ## Starting
 
@@ -95,7 +95,7 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/lute.svg" width="20"/>
 * The next time someone successfully assists the target with aid, they get +2 instead of +1
 Then roll+Cha. ✴On a 10+, the ally gets the selected effect. ✴On a 7-9, your spell still works, but you draw unwanted attention or your magic reverberates to other targets affecting them as well, GM’s choice.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/magic-swirl.svg" width="20"/>
+Icon: <img src="/SVG/magic-swirl.svg" width="20"/>
 
 **Bardic Lore**
 
@@ -109,7 +109,7 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/magic-swirl.svg" width="2
 * Gods and Their Servants
 When you first encounter an important creature, location, or item (your call) covered by your bardic lore you can ask the GM any one question about it; the GM will answer truthfully. The GM may then ask you what tale, song, or legend you heard that information in.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/music-spell.svg" width="20"/>
+Icon: <img src="/SVG/music-spell.svg" width="20"/>
 
 **Charming and Open**
 
@@ -120,13 +120,13 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/music-spell.svg" width="2
 * What are you really feeling right now?
 * What do you most desire?}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/charm.svg" width="20"/>
+Icon: <img src="/SVG/charm.svg" width="20"/>
 
 **A Port in the Storm**
 
 {When you return to a civilized settlement you’ve visited before, tell the GM when you were last here. They’ll tell you how it’s changed since then.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/village.svg" width="20"/>
+Icon: <img src="/SVG/village.svg" width="20"/>
 
 ## Advanced
 
@@ -134,61 +134,61 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/village.svg" width="20"/>
 
 {When you heal with arcane art, you heal +1d8 damage.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/lyre.svg" width="20"/>
+Icon: <img src="/SVG/lyre.svg" width="20"/>
 
 **Vicious Cacophony**
 
 {When you grant bonus damage with arcane art, you grant an extra +1d4 damage.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/sonic-shout.svg" width="20"/>
+Icon: <img src="/SVG/sonic-shout.svg" width="20"/>
 
 **It Goes To Eleven**
 
 {When you unleash a crazed performance (a righteous lute solo or mighty brass blast, maybe) choose a target who can hear you and roll+Cha. ✴On a 10+ the target attacks their nearest ally in range. ✴On a 7–9 they attack their nearest ally, but you also draw their attention and ire.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/tune-pitch.svg" width="20"/>
+Icon: <img src="/SVG/tune-pitch.svg" width="20"/>
 
 **Metal Hurlant**
 
 {When you shout with great force or play a shattering note choose a target and roll+Con. ✴On a 10+ the target takes 1d10 damage and is deafened for a few minutes. ✴On a 7–9 you still damage your target, but it’s out of control: the GM will choose an additional target nearby.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/barbed-coil.svg" width="20"/>
+Icon: <img src="/SVG/barbed-coil.svg" width="20"/>
 
 **A Little Help From My Friends**
 
 {When you successfully aid someone you take +1 forward as well.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/three-friends.svg" width="20"/>
+Icon: <img src="/SVG/three-friends.svg" width="20"/>
 
 **Eldritch Tones**
 
 {Your arcane art is strong, allowing you to choose two effects instead of one.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/sound-waves.svg" width="20"/>
+Icon: <img src="/SVG/sound-waves.svg" width="20"/>
 
 **Duelist’s Parry**
 
 {When you hack and slash, you take +1 armor forward.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/riposte.svg" width="20"/>
+Icon: <img src="/SVG/riposte.svg" width="20"/>
 
 **Bamboozle**
 
 {When you parley with someone, on a 7+ you also take +1 forward with them.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/misdirection.svg" width="20"/>
+Icon: <img src="/SVG/misdirection.svg" width="20"/>
 
 **Multiclass Dabbler (Bard)**
 
 {Get one move from another class. Treat your level as one lower for choosing the move.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/scroll-quill.svg" width="20"/>
+Icon: <img src="/SVG/scroll-quill.svg" width="20"/>
 
 **Multiclass Initiate (Bard)**
 
 {Get one move from another class. Treat your level as one lower for choosing the move.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/open-chest.svg" width="20"/>
+Icon: <img src="/SVG/open-chest.svg" width="20"/>
 
 ## Expert
 
@@ -198,7 +198,7 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/open-chest.svg" width="20
 
 Replaces: Healing Song
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/ringing-bell.svg" width="20"/>
+Icon: <img src="/SVG/ringing-bell.svg" width="20"/>
 
 **Vicious Blast**
 
@@ -206,19 +206,19 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/ringing-bell.svg" width="
 
 Replaces: Vicious Cacophony
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/spark-spirit.svg" width="20"/>
+Icon: <img src="/SVG/spark-spirit.svg" width="20"/>
 
 **Unforgettable Face**
 
 {When you meet someone you’ve met before (your call) after some time apart you take +1 forward against them.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/think.svg" width="20"/>
+Icon: <img src="/SVG/think.svg" width="20"/>
 
 **Reputation**
 
 {When you first meet someone who’s heard songs about you, roll+Cha. ✴On a 10+, tell the GM two things they’ve heard about you. ✴On a 7-9, tell the GM one thing they’ve heard, and the GM tells you one thing.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/wanted-reward.svg" width="20"/>
+Icon: <img src="/SVG/wanted-reward.svg" width="20"/>
 
 **Eldritch Chord**
 
@@ -226,19 +226,19 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/wanted-reward.svg" width=
 
 Replaces: Eldritch Tones
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/harp.svg" width="20"/>
+Icon: <img src="/SVG/harp.svg" width="20"/>
 
 **An Ear For Magic**
 
 {When you hear an enemy cast a spell the GM will tell you the name of the spell and its effects. Take +1 forward when acting on the answers.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/human-ear.svg" width="20"/>
+Icon: <img src="/SVG/human-ear.svg" width="20"/>
 
 **Devious**
 
 {When you use charming and open you may also ask “How are you vulnerable to me?” Your subject may not ask this question of you.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/imp.svg" width="20"/>
+Icon: <img src="/SVG/imp.svg" width="20"/>
 
 **Duelist’s Block**
 
@@ -246,7 +246,7 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/imp.svg" width="20"/>
 
 Replaces: Duelist’s Parry
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/arrows-shield.svg" width="20"/>
+Icon: <img src="/SVG/arrows-shield.svg" width="20"/>
 
 **Con**
 
@@ -254,13 +254,13 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/arrows-shield.svg" width=
 
 Replaces: Bamboozle
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/face-to-face.svg" width="20"/>
+Icon: <img src="/SVG/face-to-face.svg" width="20"/>
 
 **Multiclass Master**
 
 {Get one move from another class. Treat your level as one lower for choosing the move.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/master-of-arms.svg" width="20"/>
+Icon: <img src="/SVG/master-of-arms.svg" width="20"/>
 
 # Fighter
 
@@ -270,25 +270,25 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/master-of-arms.svg" width
 
 {When you share a drink with someone, you may parley with them using CON instead of CHA.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/battle-axe.svg" width="20"/>
+Icon: <img src="/SVG/battle-axe.svg" width="20"/>
 
 **Elf (Fighter)**
 
 {Choose one weapon—you can always treat weapons of that type as if they had the precise tag.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/bow-arrow.svg" width="20"/>
+Icon: <img src="/SVG/bow-arrow.svg" width="20"/>
 
 **Halfling (Fighter)**
 
 {When you defy danger and use your small size to your advantage, take +1.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/buckler.svg" width="20"/>
+Icon: <img src="/SVG/buckler.svg" width="20"/>
 
 **Human (Fighter)**
 
 {Once per battle you may reroll a single damage roll (yours or someone else’s).}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/sword-wound.svg" width="20"/>
+Icon: <img src="/SVG/sword-wound.svg" width="20"/>
 
 ## Starting
 
@@ -300,13 +300,13 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/sword-wound.svg" width="2
 * It doesn’t make an inordinate amount of noise
 * You can fix the thing again without a lot of effort}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/groundbreaker.svg" width="20"/>
+Icon: <img src="/SVG/groundbreaker.svg" width="20"/>
 
 **Armored (Fighter)**
 
 {You ignore the clumsy tag on armor you wear.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/spiked-shoulder-armor.svg" width="20"/>
+Icon: <img src="/SVG/spiked-shoulder-armor.svg" width="20"/>
 
 **Signature Weapon**
 
@@ -338,7 +338,7 @@ Choose a look:
 * Blood-stained
 * Sinister}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/shining-sword.svg" width="20"/>
+Icon: <img src="/SVG/shining-sword.svg" width="20"/>
 
 ## Advanced
 
@@ -346,61 +346,61 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/shining-sword.svg" width=
 
 {When you deal damage, deal +1d4 damage.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/overkill.svg" width="20"/>
+Icon: <img src="/SVG/overkill.svg" width="20"/>
 
 **Heirloom**
 
 {When you consult the spirits that reside within your signature weapon, they will give you an insight relating to the current situation, and might ask you some questions in return, roll+CHA. ✴On a 10+, the GM will give you good detail. ✴On a 7-9, the GM will give you an impression.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/abstract-064.svg" width="20"/>
+Icon: <img src="/SVG/abstract-064.svg" width="20"/>
 
 **Armor Mastery**
 
 {When you make your armor take the brunt of damage dealt to you, the damage is negated but you must reduce the armor value of your armor or shield (your choice) by 1. The value is reduced each time you make this choice. If the reduction leaves the item with 0 armor it is destroyed.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/breastplate.svg" width="20"/>
+Icon: <img src="/SVG/breastplate.svg" width="20"/>
 
 **Improved Weapon**
 
 {Choose one extra enhancement for your signature weapon.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/upgrade.svg" width="20"/>
+Icon: <img src="/SVG/upgrade.svg" width="20"/>
 
 **Seeing Red**
 
 {When you discern realities during combat, you take +1.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/eye-target.svg" width="20"/>
+Icon: <img src="/SVG/eye-target.svg" width="20"/>
 
 **Interrogator**
 
 {When you parley using threats of impending violence as leverage, you may use STR instead of CHA.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/talk.svg" width="20"/>
+Icon: <img src="/SVG/talk.svg" width="20"/>
 
 **Scent of Blood**
 
 {When you hack and slash an enemy, your next attack against that same foe deals +1d4 damage.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/drop.svg" width="20"/>
+Icon: <img src="/SVG/drop.svg" width="20"/>
 
 **Multiclass Dabbler (Fighter)**
 
 {Get one move from another class. Treat your level as one lower for choosing the move.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/crossed-swords.svg" width="20"/>
+Icon: <img src="/SVG/crossed-swords.svg" width="20"/>
 
 **Iron Hide**
 
 {You gain +1 armor.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/metal-bar.svg" width="20"/>
+Icon: <img src="/SVG/metal-bar.svg" width="20"/>
 
 **Blacksmith**
 
 {When you have access to a forge you can graft the magical powers of a weapon onto your signature weapon. This process destroys the magical weapon. Your signature weapon gains the magical powers of the destroyed weapon.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/anvil-impact.svg" width="20"/>
+Icon: <img src="/SVG/anvil-impact.svg" width="20"/>
 
 ## Expert
 
@@ -410,7 +410,7 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/anvil-impact.svg" width="
 
 Replaces: Merciless
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/dripping-sword.svg" width="20"/>
+Icon: <img src="/SVG/dripping-sword.svg" width="20"/>
 
 **Armored Perfection (Fighter)**
 
@@ -418,13 +418,13 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/dripping-sword.svg" width
 
 Replaces: Armor Mastery
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/visored-helm.svg" width="20"/>
+Icon: <img src="/SVG/visored-helm.svg" width="20"/>
 
 **Evil Eye**
 
 {When you enter combat, roll+CHA. ✴On a 10+, hold 2. ✴On a 7-9, hold 1. Spend your hold to make eye contact with an NPC present, who freezes or flinches and can’t act until you break it off. ✴On a 6-, your enemies immediately identify you as their biggest threat.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/eyepatch.svg" width="20"/>
+Icon: <img src="/SVG/eyepatch.svg" width="20"/>
 
 **Taste of Blood**
 
@@ -432,13 +432,13 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/eyepatch.svg" width="20"/
 
 Replaces: Scent of Blood
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/bloody-sword.svg" width="20"/>
+Icon: <img src="/SVG/bloody-sword.svg" width="20"/>
 
 **Multiclass Initiate (Fighter)**
 
 {Get one move from another class. Treat your level as one lower for choosing the move.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/open-gate.svg" width="20"/>
+Icon: <img src="/SVG/open-gate.svg" width="20"/>
 
 **Steel Hide**
 
@@ -446,25 +446,25 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/open-gate.svg" width="20"
 
 Replaces: Iron Hide
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/metal-plate.svg" width="20"/>
+Icon: <img src="/SVG/metal-plate.svg" width="20"/>
 
 **Through Death’s Eyes**
 
 {When you go into battle, roll+WIS. ✴On a 10+, name someone who will live and someone who will die. ✴On a 7-9, name someone who will live or someone who will die. Name NPCs, not player characters. The GM will make your vision come true, if it’s even remotely possible. ✴On a 6- you see your own death and consequently take -1 ongoing throughout the battle.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/grim-reaper.svg" width="20"/>
+Icon: <img src="/SVG/grim-reaper.svg" width="20"/>
 
 **Eye for Weaponry**
 
 {When you look over an enemy’s weaponry, ask the GM how much damage they do.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/switch-weapon.svg" width="20"/>
+Icon: <img src="/SVG/switch-weapon.svg" width="20"/>
 
 **Superior Warrior**
 
 {When you hack and slash on a 12+ you deal your damage, avoid their attack, and impress, dismay, or frighten your enemy.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/spartan.svg" width="20"/>
+Icon: <img src="/SVG/spartan.svg" width="20"/>
 
 # Paladin
 
@@ -474,7 +474,7 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/spartan.svg" width="20"/>
 
 {When you pray for guidance, even for a moment, and ask, “What here is evil?” the GM will tell you, honestly.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/shield-bash.svg" width="20"/>
+Icon: <img src="/SVG/shield-bash.svg" width="20"/>
 
 ## Starting
 
@@ -482,13 +482,13 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/shield-bash.svg" width="2
 
 {When you touch someone, skin to skin, and pray for their well-being, roll+CHA. ✴On a 10+ you heal 1d8 damage or remove one disease. ✴On a 7–9, they are healed, but the damage or disease is transferred to you.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/hand.svg" width="20"/>
+Icon: <img src="/SVG/hand.svg" width="20"/>
 
 **Armored (Paladin)**
 
 {You ignore the clumsy tag on armor you wear.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/spiked-shoulder-armor.svg" width="20"/>
+Icon: <img src="/SVG/spiked-shoulder-armor.svg" width="20"/>
 
 **I Am the Law**
 
@@ -498,7 +498,7 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/spiked-shoulder-armor.svg
 * Attack you
 ✴On a 10+, you also take +1 forward against them. ✴On a miss, they do as they please and you take -1 forward against them.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/book-cover.svg" width="20"/>
+Icon: <img src="/SVG/book-cover.svg" width="20"/>
 
 **Quest**
 
@@ -521,7 +521,7 @@ The GM will then tell you what vow or vows is required of you to maintain your b
 * Truth (forbidden: lies)
 * Hospitality (required: comfort to those in need, no matter who they are)}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/scroll-unfurled.svg" width="20"/>
+Icon: <img src="/SVG/scroll-unfurled.svg" width="20"/>
 
 ## Advanced
 
@@ -529,61 +529,61 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/scroll-unfurled.svg" widt
 
 {Dedicate yourself to a deity (name a new one or choose one that’s already been established). You gain the commune and cast a spell cleric moves. When you select this move, treat yourself as a cleric of level 1 for using spells. Every time you gain a level thereafter, increase your effective cleric level by 1.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/holy-grail.svg" width="20"/>
+Icon: <img src="/SVG/holy-grail.svg" width="20"/>
 
 **Bloody Aegis**
 
 {When you take damage you can grit your teeth and accept the blow. If you do you take no damage but instead suffer a debility of your choice. If you already have all six debilities you can’t use this move.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/blood.svg" width="20"/>
+Icon: <img src="/SVG/blood.svg" width="20"/>
 
 **Smite**
 
 {While on a quest you deal +1d4 damage.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/lightning-trio.svg" width="20"/>
+Icon: <img src="/SVG/lightning-trio.svg" width="20"/>
 
 **Exterminatus**
 
 {When you speak aloud your promise to defeat an enemy, you deal +2d4 damage against that enemy and -4 damage against anyone else. This effect lasts until the enemy is defeated. If you fail to defeat the enemy or give up the fight, you can admit your failure, but the effect continues until you find a way to redeem yourself.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/iron-cross.svg" width="20"/>
+Icon: <img src="/SVG/iron-cross.svg" width="20"/>
 
 **Charge!**
 
 {When you lead the charge into combat, those you lead take +1 forward.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/shield-bash.svg" width="20"/>
+Icon: <img src="/SVG/shield-bash.svg" width="20"/>
 
 **Staunch Defender**
 
 {When you defend you always get +1 hold, even on a 6-.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/checked-shield.svg" width="20"/>
+Icon: <img src="/SVG/checked-shield.svg" width="20"/>
 
 **Setup Strike**
 
 {When you hack and slash, choose an ally. Their next attack against your target does +1d4 damage.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/bouncing-sword.svg" width="20"/>
+Icon: <img src="/SVG/bouncing-sword.svg" width="20"/>
 
 **Holy Protection**
 
 {You get +1 armor while on a quest.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/holy-symbol.svg" width="20"/>
+Icon: <img src="/SVG/holy-symbol.svg" width="20"/>
 
 **Voice of Authority**
 
 {Take +1 to order hirelings.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/acoustic-megaphone.svg" width="20"/>
+Icon: <img src="/SVG/acoustic-megaphone.svg" width="20"/>
 
 **Hospitaller**
 
 {When you heal an ally, you heal +1d8 damage.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/caduceus.svg" width="20"/>
+Icon: <img src="/SVG/caduceus.svg" width="20"/>
 
 ## Expert
 
@@ -591,7 +591,7 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/caduceus.svg" width="20"/
 
 {When you see divine magic as it happens, you can ask the GM which deity granted the spell and its effects. Take +1 when acting on the answers.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/look-at.svg" width="20"/>
+Icon: <img src="/SVG/look-at.svg" width="20"/>
 
 **Holy Smite**
 
@@ -599,7 +599,7 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/look-at.svg" width="20"/>
 
 Replaces: Smite
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/thunder-struck.svg" width="20"/>
+Icon: <img src="/SVG/thunder-struck.svg" width="20"/>
 
 **Ever Onward**
 
@@ -607,7 +607,7 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/thunder-struck.svg" width
 
 Replaces: Charge!
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/charging-bull.svg" width="20"/>
+Icon: <img src="/SVG/charging-bull.svg" width="20"/>
 
 **Impervious Defender**
 
@@ -615,7 +615,7 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/charging-bull.svg" width=
 
 Replaces: Staunch Defender
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/spiked-shield.svg" width="20"/>
+Icon: <img src="/SVG/spiked-shield.svg" width="20"/>
 
 **Tandem Strike**
 
@@ -623,7 +623,7 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/spiked-shield.svg" width=
 
 Replaces: Setup Strike
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/round-struck.svg" width="20"/>
+Icon: <img src="/SVG/round-struck.svg" width="20"/>
 
 **Divine Protection**
 
@@ -631,7 +631,7 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/round-struck.svg" width="
 
 Replaces: Holy Protection
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/shield-opposition.svg" width="20"/>
+Icon: <img src="/SVG/shield-opposition.svg" width="20"/>
 
 **Divine Authority**
 
@@ -639,7 +639,7 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/shield-opposition.svg" wi
 
 Replaces: Voice of Authority
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/pope-crown.svg" width="20"/>
+Icon: <img src="/SVG/pope-crown.svg" width="20"/>
 
 **Perfect Hospitaller**
 
@@ -647,19 +647,19 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/pope-crown.svg" width="20
 
 Replaces: Hospitaller
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/hospital-cross.svg" width="20"/>
+Icon: <img src="/SVG/hospital-cross.svg" width="20"/>
 
 **Indomitable**
 
 {When you suffer a debility (even through Bloody Aegis) take +1 forward against whatever caused it.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/muscle-up.svg" width="20"/>
+Icon: <img src="/SVG/muscle-up.svg" width="20"/>
 
 **Perfect Knight**
 
 {When you quest you choose three boons instead of two.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/knight-banner.svg" width="20"/>
+Icon: <img src="/SVG/knight-banner.svg" width="20"/>
 
 # Ranger
 
@@ -669,13 +669,13 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/knight-banner.svg" width=
 
 {When you undertake a perilous journey through wilderness whatever job you take you succeed as if you rolled a 10+.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/quiver.svg" width="20"/>
+Icon: <img src="/SVG/quiver.svg" width="20"/>
 
 **Human (Ranger)**
 
 {When you make camp in a dungeon or city, you don’t need to consume a ration.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/crossbow.svg" width="20"/>
+Icon: <img src="/SVG/crossbow.svg" width="20"/>
 
 ## Starting
 
@@ -685,7 +685,7 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/crossbow.svg" width="20"/
 * Gain a useful bit of information about your quarry, the GM will tell you what
 * Determine what caused the trail to end}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/lynx-head.svg" width="20"/>
+Icon: <img src="/SVG/lynx-head.svg" width="20"/>
 
 **Called Shot**
 
@@ -694,7 +694,7 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/lynx-head.svg" width="20"
 * Arms ✴10+: As 7-9, plus your damage ✴7-9: They drop anything they’re holding.
 * Legs ✴10+: As 7-9, plus your damage ✴7-9: They’re hobbled and slow moving.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/target-dummy.svg" width="20"/>
+Icon: <img src="/SVG/target-dummy.svg" width="20"/>
 
 **Animal Companion**
 
@@ -712,7 +712,7 @@ Hunt, search, scout, guard, fight monsters, perform, labor, travel
 Choose as many weaknesses as its instinct:
 Flighty, savage, slow, broken, frightening, forgetful, stubborn, lame}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/wolf-head.svg" width="20"/>
+Icon: <img src="/SVG/wolf-head.svg" width="20"/>
 
 **Command**
 
@@ -724,7 +724,7 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/wolf-head.svg" width="20"
 * …and you parley, add its cunning to your roll
 * …and someone interferes with you, add its instinct to their roll}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/whistle.svg" width="20"/>
+Icon: <img src="/SVG/whistle.svg" width="20"/>
 
 ## Advanced
 
@@ -732,67 +732,67 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/whistle.svg" width="20"/>
 
 {Somewhere in your lineage lies mixed blood and it begins to show its presence. You gain the elf starting move if you took the human one at character creation or vice versa.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/boot.svg" width="20"/>
+Icon: <img src="/SVG/boot.svg" width="20"/>
 
 **Wild Empathy**
 
 {You can speak with and understand animals.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/love-howl.svg" width="20"/>
+Icon: <img src="/SVG/love-howl.svg" width="20"/>
 
 **Familiar Prey**
 
 {When you spout lore about a monster you use WIS instead of INT.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/footprint.svg" width="20"/>
+Icon: <img src="/SVG/footprint.svg" width="20"/>
 
 **Viper’s Strike**
 
 {When you strike an enemy with two weapons at once, add an extra 1d4 damage for your off-hand strike.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/snake-tongue.svg" width="20"/>
+Icon: <img src="/SVG/snake-tongue.svg" width="20"/>
 
 **Camouflage**
 
 {When you keep still in natural surroundings, enemies never spot you until you make a movement.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/hidden.svg" width="20"/>
+Icon: <img src="/SVG/hidden.svg" width="20"/>
 
 **Man’s Best Friend**
 
 {When you allow your animal companion to take a blow that was meant for you, the damage is negated and your animal companion’s ferocity becomes 0. If its ferocity is already 0 you can’t use this ability. When you have a few hours of rest with your animal companion its ferocity returns to normal.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/dog-bowl.svg" width="20"/>
+Icon: <img src="/SVG/dog-bowl.svg" width="20"/>
 
 **Blot Out the Sun**
 
 {When you volley you may spend extra ammo before rolling. For each point of ammo spent you may choose an extra target. Roll once and apply damage to all targets.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/solar-time.svg" width="20"/>
+Icon: <img src="/SVG/solar-time.svg" width="20"/>
 
 **Well-Trained**
 
 {Choose another training for your animal companion.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/hunting-horn.svg" width="20"/>
+Icon: <img src="/SVG/hunting-horn.svg" width="20"/>
 
 **God Amidst the Wastes**
 
 {Dedicate yourself to a deity (name a new one or choose one that’s already been established). You gain the commune and cast a spell cleric moves. When you select this move, treat yourself as a cleric of level 1 for using spells. Every time you gain a level thereafter, increase your effective cleric level by 1.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/monument-valley.svg" width="20"/>
+Icon: <img src="/SVG/monument-valley.svg" width="20"/>
 
 **Follow Me**
 
 {When you undertake a perilous journey you can take two roles. You make a separate roll for each.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/fur-boot.svg" width="20"/>
+Icon: <img src="/SVG/fur-boot.svg" width="20"/>
 
 **A Safe Place**
 
 {When you set the watch for the night, everyone takes +1 to take watch.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/camping-tent.svg" width="20"/>
+Icon: <img src="/SVG/camping-tent.svg" width="20"/>
 
 ## Expert
 
@@ -802,7 +802,7 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/camping-tent.svg" width="
 
 Replaces: Wild Empathy
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/shouting.svg" width="20"/>
+Icon: <img src="/SVG/shouting.svg" width="20"/>
 
 **Hunter’s Prey**
 
@@ -810,7 +810,7 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/shouting.svg" width="20"/
 
 Replaces: Familiar Prey
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/target-shot.svg" width="20"/>
+Icon: <img src="/SVG/target-shot.svg" width="20"/>
 
 **Viper’s Fangs**
 
@@ -818,13 +818,13 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/target-shot.svg" width="2
 
 Replaces: Viper’s Strike
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/snake-bite.svg" width="20"/>
+Icon: <img src="/SVG/snake-bite.svg" width="20"/>
 
 **Smaug’s Belly**
 
 {When you know your target’s weakest point your arrows have 2 piercing.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/dragon-head.svg" width="20"/>
+Icon: <img src="/SVG/dragon-head.svg" width="20"/>
 
 **Strider**
 
@@ -832,7 +832,7 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/dragon-head.svg" width="2
 
 Replaces: Follow Me
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/metal-boot.svg" width="20"/>
+Icon: <img src="/SVG/metal-boot.svg" width="20"/>
 
 **A Safer Place**
 
@@ -840,25 +840,25 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/metal-boot.svg" width="20
 
 Replaces: A Safe Place
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/forest-camp.svg" width="20"/>
+Icon: <img src="/SVG/forest-camp.svg" width="20"/>
 
 **Observant**
 
 {When you hunt and track, on a hit you may also ask one question about the creature you are tracking from the discern realities list for free.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/beast-eye.svg" width="20"/>
+Icon: <img src="/SVG/beast-eye.svg" width="20"/>
 
 **Special Trick**
 
 {Choose a move from another class. So long as you are working with your animal companion you have access to that move.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/jumping-dog.svg" width="20"/>
+Icon: <img src="/SVG/jumping-dog.svg" width="20"/>
 
 **Unnatural Ally**
 
 {Your animal companion is a monster, not an animal. Describe it. Give it +2 ferocity and +1 instinct, plus a new training.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/chewed-heart.svg" width="20"/>
+Icon: <img src="/SVG/chewed-heart.svg" width="20"/>
 
 # Thief
 
@@ -868,13 +868,13 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/chewed-heart.svg" width="
 
 {When you attack with a ranged weapon, deal +2 damage.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/hobbit-door.svg" width="20"/>
+Icon: <img src="/SVG/hobbit-door.svg" width="20"/>
 
 **Human (Thief)**
 
 {You are a professional. When you spout lore or discern realities about criminal activities, take +1.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/manacles.svg" width="20"/>
+Icon: <img src="/SVG/manacles.svg" width="20"/>
 
 ## Starting
 
@@ -885,13 +885,13 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/manacles.svg" width="20"/
 * What does the trap do when activated?
 * What else is hidden here?}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/mantrap.svg" width="20"/>
+Icon: <img src="/SVG/mantrap.svg" width="20"/>
 
 **Tricks of the Trade**
 
 {When you pick locks or pockets or disable traps, roll+DEX. ✴On a 10+, you do it, no problem. ✴On a 7–9, you still do it, but the GM will offer you two options between suspicion, danger, or cost.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/magick-trick.svg" width="20"/>
+Icon: <img src="/SVG/magick-trick.svg" width="20"/>
 
 **Backstab**
 
@@ -901,13 +901,13 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/magick-trick.svg" width="
 * You create an advantage, +1 forward to you or an ally acting on it
 * Reduce their armor by 1 until they repair it}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/backstab.svg" width="20"/>
+Icon: <img src="/SVG/backstab.svg" width="20"/>
 
 **Flexible Morals**
 
 {When someone tries to detect your alignment you can tell them any alignment you like.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/pretty-fangs.svg" width="20"/>
+Icon: <img src="/SVG/pretty-fangs.svg" width="20"/>
 
 **Poisoner**
 
@@ -917,7 +917,7 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/pretty-fangs.svg" width="
 * Goldenroot (applied): The target treats the next creature they see as a trusted ally, until proved otherwise
 * Serpent’s Tears (touch): Anyone dealing damage to the target rolls twice and takes the better result.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/poison-bottle.svg" width="20"/>
+Icon: <img src="/SVG/poison-bottle.svg" width="20"/>
 
 ## Advanced
 
@@ -925,55 +925,55 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/poison-bottle.svg" width=
 
 {When using a precise or hand weapon, your backstab deals an extra +1d6 damage.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/sly.svg" width="20"/>
+Icon: <img src="/SVG/sly.svg" width="20"/>
 
 **Cautious**
 
 {When you use trap expert you always get +1 hold, even on a 6-.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/surprised.svg" width="20"/>
+Icon: <img src="/SVG/surprised.svg" width="20"/>
 
 **Wealth and Taste**
 
 {When you make a show of flashing around your most valuable possession, choose someone present. They will do anything they can to obtain your item or one like it.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/coinflip.svg" width="20"/>
+Icon: <img src="/SVG/coinflip.svg" width="20"/>
 
 **Shoot First**
 
 {You’re never caught by surprise. When an enemy would get the drop on you, you get to act first instead.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/crosshair-arrow.svg" width="20"/>
+Icon: <img src="/SVG/crosshair-arrow.svg" width="20"/>
 
 **Poison Master**
 
 {After you’ve used a poison once it’s no longer dangerous for you to use.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/poison-gas.svg" width="20"/>
+Icon: <img src="/SVG/poison-gas.svg" width="20"/>
 
 **Envenom**
 
 {You can apply even complex poisons with a pinprick. When you apply a poison that’s not dangerous for you to use to your weapon it’s touch instead of applied.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/bestial-fangs.svg" width="20"/>
+Icon: <img src="/SVG/bestial-fangs.svg" width="20"/>
 
 **Brewer**
 
 {When you have time to gather materials and a safe place to brew you can create three doses of any one poison you’ve used before.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/pestle-mortar.svg" width="20"/>
+Icon: <img src="/SVG/pestle-mortar.svg" width="20"/>
 
 **Underdog**
 
 {When you’re outnumbered, you have +1 armor.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/hooded-assassin.svg" width="20"/>
+Icon: <img src="/SVG/hooded-assassin.svg" width="20"/>
 
 **Connections**
 
 {When you put out word to the criminal underbelly about something you want or need, roll+CHA. ✴On a 10+, someone has it, just for you. ✴On a 7–9, you’ll have to settle for something close or it comes with strings attached, your call.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/mesh-network.svg" width="20"/>
+Icon: <img src="/SVG/mesh-network.svg" width="20"/>
 
 ## Expert
 
@@ -983,7 +983,7 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/mesh-network.svg" width="
 
 Replaces: Cheap Shot
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/rusty-sword.svg" width="20"/>
+Icon: <img src="/SVG/rusty-sword.svg" width="20"/>
 
 **Extremely Cautious**
 
@@ -991,7 +991,7 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/rusty-sword.svg" width="2
 
 Replaces: Cautious
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/sheikah-eye.svg" width="20"/>
+Icon: <img src="/SVG/sheikah-eye.svg" width="20"/>
 
 **Alchemist**
 
@@ -1003,7 +1003,7 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/sheikah-eye.svg" width="2
 
 Replaces: Brewer
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/potion-ball.svg" width="20"/>
+Icon: <img src="/SVG/potion-ball.svg" width="20"/>
 
 **Serious Underdog**
 
@@ -1011,31 +1011,31 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/potion-ball.svg" width="2
 
 Replaces: Underdog
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/assassin-pocket.svg" width="20"/>
+Icon: <img src="/SVG/assassin-pocket.svg" width="20"/>
 
 **Evasion**
 
 {When you defy danger on a 12+, you transcend the danger. You not only do what you set out to, but the GM will offer you a better outcome, true beauty, or a moment of grace.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/dodging.svg" width="20"/>
+Icon: <img src="/SVG/dodging.svg" width="20"/>
 
 **Strong Arm, True Aim**
 
 {You can throw any melee weapon, using it to volley. A thrown melee weapon is gone; you can never choose to reduce ammo on a 7–9.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/axe-in-stump.svg" width="20"/>
+Icon: <img src="/SVG/axe-in-stump.svg" width="20"/>
 
 **Escape Route**
 
 {When you’re in too deep and need a way out, name your escape route and roll+DEX. ✴On a 10+ you’re gone. ✴On a 7–9 you can stay or go, but if you go it costs you: leave something behind or take something with you, the GM will tell you what.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/jump-across.svg" width="20"/>
+Icon: <img src="/SVG/jump-across.svg" width="20"/>
 
 **Disguise**
 
 {When you have time and materials you can create a disguise that will fool anyone into thinking you’re another creature of about the same size and shape. Your actions can give you away but your appearance won’t.}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/drama-masks.svg" width="20"/>
+Icon: <img src="/SVG/drama-masks.svg" width="20"/>
 
 **Heist**
 
@@ -1045,4 +1045,4 @@ Icon: <img src="https://seiyria.com/gameicons-font/svg/drama-masks.svg" width="2
 * Who will come after it?
 * Who else wants it?}
 
-Icon: <img src="https://seiyria.com/gameicons-font/svg/gold-bar.svg" width="20"/>
+Icon: <img src="/SVG/gold-bar.svg" width="20"/>

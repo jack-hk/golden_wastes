@@ -5,7 +5,7 @@ title: "Indomitable"
 type: "wiki"
 infobox:
   header: "Indomitable"
-  image: "https://seiyria.com/gameicons-font/svg/muscle-up.svg"
+  image: "/SVG/muscle-up.svg"
   imageSize: 50
 
   invertDark: true

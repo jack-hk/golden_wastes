@@ -5,7 +5,7 @@ title: "Charming and Open"
 type: "wiki"
 infobox:
   header: "Charming and Open"
-  image: "https://seiyria.com/gameicons-font/svg/charm.svg"
+  image: "/SVG/charm.svg"
   imageSize: 50
 
   invertDark: true

@@ -5,7 +5,7 @@ title: "Command"
 type: "wiki"
 infobox:
   header: "Command"
-  image: "https://seiyria.com/gameicons-font/svg/whistle.svg"
+  image: "/SVG/whistle.svg"
   imageSize: 50
 
   invertDark: true

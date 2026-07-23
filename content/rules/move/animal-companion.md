@@ -5,7 +5,7 @@ title: "Animal Companion"
 type: "wiki"
 infobox:
   header: "Animal Companion"
-  image: "https://seiyria.com/gameicons-font/svg/wolf-head.svg"
+  image: "/SVG/wolf-head.svg"
   imageSize: 50
 
   invertDark: true

@@ -5,7 +5,7 @@ title: "Interrogator"
 type: "wiki"
 infobox:
   header: "Interrogator"
-  image: "https://seiyria.com/gameicons-font/svg/talk.svg"
+  image: "/SVG/talk.svg"
   imageSize: 50
 
   invertDark: true

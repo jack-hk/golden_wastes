@@ -5,7 +5,7 @@ title: "Divine Favor"
 type: "wiki"
 infobox:
   header: "Divine Favor"
-  image: "https://seiyria.com/gameicons-font/svg/holy-grail.svg"
+  image: "/SVG/holy-grail.svg"
   imageSize: 50
 
   invertDark: true

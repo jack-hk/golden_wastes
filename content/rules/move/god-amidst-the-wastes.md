@@ -5,7 +5,7 @@ title: "God Amidst the Wastes"
 type: "wiki"
 infobox:
   header: "God Amidst the Wastes"
-  image: "https://seiyria.com/gameicons-font/svg/monument-valley.svg"
+  image: "/SVG/monument-valley.svg"
   imageSize: 50
 
   invertDark: true

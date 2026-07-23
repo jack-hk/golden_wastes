@@ -5,7 +5,7 @@ title: "Superior Warrior"
 type: "wiki"
 infobox:
   header: "Superior Warrior"
-  image: "https://seiyria.com/gameicons-font/svg/spartan.svg"
+  image: "/SVG/spartan.svg"
   imageSize: 50
 
   invertDark: true

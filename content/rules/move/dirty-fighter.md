@@ -5,7 +5,7 @@ title: "Dirty Fighter"
 type: "wiki"
 infobox:
   header: "Dirty Fighter"
-  image: "https://seiyria.com/gameicons-font/svg/rusty-sword.svg"
+  image: "/SVG/rusty-sword.svg"
   imageSize: 50
 
   invertDark: true

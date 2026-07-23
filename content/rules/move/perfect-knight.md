@@ -5,7 +5,7 @@ title: "Perfect Knight"
 type: "wiki"
 infobox:
   header: "Perfect Knight"
-  image: "https://seiyria.com/gameicons-font/svg/knight-banner.svg"
+  image: "/SVG/knight-banner.svg"
   imageSize: 50
 
   invertDark: true

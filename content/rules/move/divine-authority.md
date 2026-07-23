@@ -5,7 +5,7 @@ title: "Divine Authority"
 type: "wiki"
 infobox:
   header: "Divine Authority"
-  image: "https://seiyria.com/gameicons-font/svg/pope-crown.svg"
+  image: "/SVG/pope-crown.svg"
   imageSize: 50
 
   invertDark: true

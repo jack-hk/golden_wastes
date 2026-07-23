@@ -5,7 +5,7 @@ title: "Follow Me"
 type: "wiki"
 infobox:
   header: "Follow Me"
-  image: "https://seiyria.com/gameicons-font/svg/fur-boot.svg"
+  image: "/SVG/fur-boot.svg"
   imageSize: 50
 
   invertDark: true

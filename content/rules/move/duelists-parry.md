@@ -5,7 +5,7 @@ title: "Duelist’s Parry"
 type: "wiki"
 infobox:
   header: "Duelist’s Parry"
-  image: "https://seiyria.com/gameicons-font/svg/riposte.svg"
+  image: "/SVG/riposte.svg"
   imageSize: 50
 
   invertDark: true

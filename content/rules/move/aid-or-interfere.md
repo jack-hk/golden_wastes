@@ -5,7 +5,7 @@ title: "Aid or Interfere"
 type: "wiki"
 infobox:
   header: "Aid or Interfere"
-  image: "https://seiyria.com/gameicons-font/svg/shaking-hands.svg"
+  image: "/SVG/shaking-hands.svg"
   imageSize: 50
   invertDark: true
   labels:

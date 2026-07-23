@@ -5,7 +5,7 @@ title: "Ever Onward"
 type: "wiki"
 infobox:
   header: "Ever Onward"
-  image: "https://seiyria.com/gameicons-font/svg/charging-bull.svg"
+  image: "/SVG/charging-bull.svg"
   imageSize: 50
 
   invertDark: true

@@ -5,7 +5,7 @@ title: "Signature Weapon"
 type: "wiki"
 infobox:
   header: "Signature Weapon"
-  image: "https://seiyria.com/gameicons-font/svg/shining-sword.svg"
+  image: "/SVG/shining-sword.svg"
   imageSize: 50
 
   invertDark: true

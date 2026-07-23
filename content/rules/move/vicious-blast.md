@@ -5,7 +5,7 @@ title: "Vicious Blast"
 type: "wiki"
 infobox:
   header: "Vicious Blast"
-  image: "https://seiyria.com/gameicons-font/svg/spark-spirit.svg"
+  image: "/SVG/spark-spirit.svg"
   imageSize: 50
 
   invertDark: true

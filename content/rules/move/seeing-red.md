@@ -5,7 +5,7 @@ title: "Seeing Red"
 type: "wiki"
 infobox:
   header: "Seeing Red"
-  image: "https://seiyria.com/gameicons-font/svg/eye-target.svg"
+  image: "/SVG/eye-target.svg"
   imageSize: 50
 
   invertDark: true

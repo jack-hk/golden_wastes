@@ -5,7 +5,7 @@ title: "Blacksmith"
 type: "wiki"
 infobox:
   header: "Blacksmith"
-  image: "https://seiyria.com/gameicons-font/svg/anvil-impact.svg"
+  image: "/SVG/anvil-impact.svg"
   imageSize: 50
 
   invertDark: true

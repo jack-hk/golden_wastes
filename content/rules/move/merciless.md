@@ -5,7 +5,7 @@ title: "Merciless"
 type: "wiki"
 infobox:
   header: "Merciless"
-  image: "https://seiyria.com/gameicons-font/svg/overkill.svg"
+  image: "/SVG/overkill.svg"
   imageSize: 50
 
   invertDark: true

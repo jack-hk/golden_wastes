@@ -5,7 +5,7 @@ title: "Duelist’s Block"
 type: "wiki"
 infobox:
   header: "Duelist’s Block"
-  image: "https://seiyria.com/gameicons-font/svg/arrows-shield.svg"
+  image: "/SVG/arrows-shield.svg"
   imageSize: 50
 
   invertDark: true

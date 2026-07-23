@@ -5,7 +5,7 @@ title: "Charge!"
 type: "wiki"
 infobox:
   header: "Charge!"
-  image: "https://seiyria.com/gameicons-font/svg/shield-bash.svg"
+  image: "/SVG/shield-bash.svg"
   imageSize: 50
 
   invertDark: true

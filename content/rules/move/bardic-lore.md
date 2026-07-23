@@ -5,7 +5,7 @@ title: "Bardic Lore"
 type: "wiki"
 infobox:
   header: "Bardic Lore"
-  image: "https://seiyria.com/gameicons-font/svg/music-spell.svg"
+  image: "/SVG/music-spell.svg"
   imageSize: 50
 
   invertDark: true

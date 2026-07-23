@@ -5,7 +5,7 @@ title: "Evasion"
 type: "wiki"
 infobox:
   header: "Evasion"
-  image: "https://seiyria.com/gameicons-font/svg/dodging.svg"
+  image: "/SVG/dodging.svg"
   imageSize: 50
 
   invertDark: true

@@ -5,7 +5,7 @@ title: "A Safe Place"
 type: "wiki"
 infobox:
   header: "A Safe Place"
-  image: "https://seiyria.com/gameicons-font/svg/camping-tent.svg"
+  image: "/SVG/camping-tent.svg"
   imageSize: 50
 
   invertDark: true

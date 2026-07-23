@@ -5,7 +5,7 @@ title: "Well-Trained"
 type: "wiki"
 infobox:
   header: "Well-Trained"
-  image: "https://seiyria.com/gameicons-font/svg/hunting-horn.svg"
+  image: "/SVG/hunting-horn.svg"
   imageSize: 50
 
   invertDark: true

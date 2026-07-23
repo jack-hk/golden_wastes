@@ -5,7 +5,7 @@ title: "Heirloom"
 type: "wiki"
 infobox:
   header: "Heirloom"
-  image: "https://seiyria.com/gameicons-font/svg/abstract-064.svg"
+  image: "/SVG/abstract-064.svg"
   imageSize: 50
 
   invertDark: true

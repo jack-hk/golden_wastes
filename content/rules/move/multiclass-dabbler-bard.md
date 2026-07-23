@@ -5,7 +5,7 @@ title: "Multiclass Dabbler (Bard)"
 type: "wiki"
 infobox:
   header: "Multiclass Dabbler (Bard)"
-  image: "https://seiyria.com/gameicons-font/svg/scroll-quill.svg"
+  image: "/SVG/scroll-quill.svg"
   imageSize: 50
 
   invertDark: true

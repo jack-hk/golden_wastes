@@ -5,7 +5,7 @@ title: "Strider"
 type: "wiki"
 infobox:
   header: "Strider"
-  image: "https://seiyria.com/gameicons-font/svg/metal-boot.svg"
+  image: "/SVG/metal-boot.svg"
   imageSize: 50
 
   invertDark: true

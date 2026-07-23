@@ -5,7 +5,7 @@ title: "Taste of Blood"
 type: "wiki"
 infobox:
   header: "Taste of Blood"
-  image: "https://seiyria.com/gameicons-font/svg/bloody-sword.svg"
+  image: "/SVG/bloody-sword.svg"
   imageSize: 50
 
   invertDark: true

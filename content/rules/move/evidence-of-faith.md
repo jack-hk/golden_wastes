@@ -5,7 +5,7 @@ title: "Evidence of Faith"
 type: "wiki"
 infobox:
   header: "Evidence of Faith"
-  image: "https://seiyria.com/gameicons-font/svg/look-at.svg"
+  image: "/SVG/look-at.svg"
   imageSize: 50
 
   invertDark: true

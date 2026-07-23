@@ -5,7 +5,7 @@ title: "Heist"
 type: "wiki"
 infobox:
   header: "Heist"
-  image: "https://seiyria.com/gameicons-font/svg/gold-bar.svg"
+  image: "/SVG/gold-bar.svg"
   imageSize: 50
 
   invertDark: true

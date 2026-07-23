@@ -5,7 +5,7 @@ title: "Holy Smite"
 type: "wiki"
 infobox:
   header: "Holy Smite"
-  image: "https://seiyria.com/gameicons-font/svg/thunder-struck.svg"
+  image: "/SVG/thunder-struck.svg"
   imageSize: 50
 
   invertDark: true

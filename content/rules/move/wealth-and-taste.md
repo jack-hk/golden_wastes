@@ -5,7 +5,7 @@ title: "Wealth and Taste"
 type: "wiki"
 infobox:
   header: "Wealth and Taste"
-  image: "https://seiyria.com/gameicons-font/svg/coinflip.svg"
+  image: "/SVG/coinflip.svg"
   imageSize: 50
 
   invertDark: true

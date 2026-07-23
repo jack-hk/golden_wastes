@@ -5,7 +5,7 @@ title: "Brewer"
 type: "wiki"
 infobox:
   header: "Brewer"
-  image: "https://seiyria.com/gameicons-font/svg/pestle-mortar.svg"
+  image: "/SVG/pestle-mortar.svg"
   imageSize: 50
 
   invertDark: true

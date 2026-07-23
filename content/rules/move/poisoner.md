@@ -5,7 +5,7 @@ title: "Poisoner"
 type: "wiki"
 infobox:
   header: "Poisoner"
-  image: "https://seiyria.com/gameicons-font/svg/poison-bottle.svg"
+  image: "/SVG/poison-bottle.svg"
   imageSize: 50
 
   invertDark: true

@@ -5,7 +5,7 @@ title: "Familiar Prey"
 type: "wiki"
 infobox:
   header: "Familiar Prey"
-  image: "https://seiyria.com/gameicons-font/svg/footprint.svg"
+  image: "/SVG/footprint.svg"
   imageSize: 50
 
   invertDark: true

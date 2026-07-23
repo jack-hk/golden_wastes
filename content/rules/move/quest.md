@@ -5,7 +5,7 @@ title: "Quest"
 type: "wiki"
 infobox:
   header: "Quest"
-  image: "https://seiyria.com/gameicons-font/svg/scroll-unfurled.svg"
+  image: "/SVG/scroll-unfurled.svg"
   imageSize: 50
 
   invertDark: true

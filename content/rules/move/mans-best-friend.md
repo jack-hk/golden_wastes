@@ -5,7 +5,7 @@ title: "Man’s Best Friend"
 type: "wiki"
 infobox:
   header: "Man’s Best Friend"
-  image: "https://seiyria.com/gameicons-font/svg/dog-bowl.svg"
+  image: "/SVG/dog-bowl.svg"
   imageSize: 50
 
   invertDark: true

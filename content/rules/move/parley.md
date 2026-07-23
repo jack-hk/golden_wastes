@@ -5,7 +5,7 @@ title: "Parley"
 type: "wiki"
 infobox:
   header: "Parley"
-  image: "https://seiyria.com/gameicons-font/svg/conversation.svg"
+  image: "/SVG/conversation.svg"
   imageSize: 50
 
   invertDark: true

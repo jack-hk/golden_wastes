@@ -5,7 +5,7 @@ title: "Hunter’s Prey"
 type: "wiki"
 infobox:
   header: "Hunter’s Prey"
-  image: "https://seiyria.com/gameicons-font/svg/target-shot.svg"
+  image: "/SVG/target-shot.svg"
   imageSize: 50
 
   invertDark: true

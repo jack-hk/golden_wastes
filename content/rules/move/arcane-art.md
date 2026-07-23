@@ -5,7 +5,7 @@ title: "Arcane Art"
 type: "wiki"
 infobox:
   header: "Arcane Art"
-  image: "https://seiyria.com/gameicons-font/svg/magic-swirl.svg"
+  image: "/SVG/magic-swirl.svg"
   imageSize: 50
 
   invertDark: true

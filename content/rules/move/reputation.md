@@ -5,7 +5,7 @@ title: "Reputation"
 type: "wiki"
 infobox:
   header: "Reputation"
-  image: "https://seiyria.com/gameicons-font/svg/wanted-reward.svg"
+  image: "/SVG/wanted-reward.svg"
   imageSize: 50
 
   invertDark: true

@@ -5,7 +5,7 @@ title: "Defend"
 type: "wiki"
 infobox:
   header: "Defend"
-  image: "https://seiyria.com/gameicons-font/svg/slashed-shield.svg"
+  image: "/SVG/slashed-shield.svg"
   imageSize: 50
 
   invertDark: true

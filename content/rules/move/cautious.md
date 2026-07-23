@@ -5,7 +5,7 @@ title: "Cautious"
 type: "wiki"
 infobox:
   header: "Cautious"
-  image: "https://seiyria.com/gameicons-font/svg/surprised.svg"
+  image: "/SVG/surprised.svg"
   imageSize: 50
 
   invertDark: true

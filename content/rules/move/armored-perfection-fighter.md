@@ -5,7 +5,7 @@ title: "Armored Perfection (Fighter)"
 type: "wiki"
 infobox:
   header: "Armored Perfection (Fighter)"
-  image: "https://seiyria.com/gameicons-font/svg/visored-helm.svg"
+  image: "/SVG/visored-helm.svg"
   imageSize: 50
 
   invertDark: true

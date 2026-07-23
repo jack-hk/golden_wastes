@@ -5,7 +5,7 @@ title: "Iron Hide"
 type: "wiki"
 infobox:
   header: "Iron Hide"
-  image: "https://seiyria.com/gameicons-font/svg/metal-bar.svg"
+  image: "/SVG/metal-bar.svg"
   imageSize: 50
   imageMargin: "10px auto"
   invertDark: true

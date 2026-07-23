@@ -5,7 +5,7 @@ title: "Special Trick"
 type: "wiki"
 infobox:
   header: "Special Trick"
-  image: "https://seiyria.com/gameicons-font/svg/jumping-dog.svg"
+  image: "/SVG/jumping-dog.svg"
   imageSize: 50
 
   invertDark: true

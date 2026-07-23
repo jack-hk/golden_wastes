@@ -5,7 +5,7 @@ title: "Viper’s Strike"
 type: "wiki"
 infobox:
   header: "Viper’s Strike"
-  image: "https://seiyria.com/gameicons-font/svg/snake-tongue.svg"
+  image: "/SVG/snake-tongue.svg"
   imageSize: 50
 
   invertDark: true

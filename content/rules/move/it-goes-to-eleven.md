@@ -5,7 +5,7 @@ title: "It Goes To Eleven"
 type: "wiki"
 infobox:
   header: "It Goes To Eleven"
-  image: "https://seiyria.com/gameicons-font/svg/tune-pitch.svg"
+  image: "/SVG/tune-pitch.svg"
   imageSize: 50
 
   invertDark: true

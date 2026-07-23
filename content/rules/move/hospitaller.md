@@ -5,7 +5,7 @@ title: "Hospitaller"
 type: "wiki"
 infobox:
   header: "Hospitaller"
-  image: "https://seiyria.com/gameicons-font/svg/caduceus.svg"
+  image: "/SVG/caduceus.svg"
   imageSize: 50
 
   invertDark: true

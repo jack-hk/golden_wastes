@@ -5,7 +5,7 @@ title: "Bloody Aegis"
 type: "wiki"
 infobox:
   header: "Bloody Aegis"
-  image: "https://seiyria.com/gameicons-font/svg/blood.svg"
+  image: "/SVG/blood.svg"
   imageSize: 50
 
   invertDark: true

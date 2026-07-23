@@ -5,7 +5,7 @@ title: "Multiclass Initiate (Bard)"
 type: "wiki"
 infobox:
   header: "Multiclass Initiate (Bard)"
-  image: "https://seiyria.com/gameicons-font/svg/open-chest.svg"
+  image: "/SVG/open-chest.svg"
   imageSize: 50
 
   invertDark: true

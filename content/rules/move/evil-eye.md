@@ -5,7 +5,7 @@ title: "Evil Eye"
 type: "wiki"
 infobox:
   header: "Evil Eye"
-  image: "https://seiyria.com/gameicons-font/svg/eyepatch.svg"
+  image: "/SVG/eyepatch.svg"
   imageSize: 50
 
   invertDark: true

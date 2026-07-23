@@ -5,7 +5,7 @@ title: "Elf (Bard)"
 type: "wiki"
 infobox:
   header: "Elf (Bard)"
-  image: "https://seiyria.com/gameicons-font/svg/pointy-hat.svg"
+  image: "/SVG/pointy-hat.svg"
   imageSize: 50
 
   invertDark: true

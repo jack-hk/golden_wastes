@@ -5,7 +5,7 @@ title: "Connections"
 type: "wiki"
 infobox:
   header: "Connections"
-  image: "https://seiyria.com/gameicons-font/svg/mesh-network.svg"
+  image: "/SVG/mesh-network.svg"
   imageSize: 50
 
   invertDark: true

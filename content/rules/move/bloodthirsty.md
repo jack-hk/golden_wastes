@@ -5,7 +5,7 @@ title: "Bloodthirsty"
 type: "wiki"
 infobox:
   header: "Bloodthirsty"
-  image: "https://seiyria.com/gameicons-font/svg/dripping-sword.svg"
+  image: "/SVG/dripping-sword.svg"
   imageSize: 50
 
   invertDark: true

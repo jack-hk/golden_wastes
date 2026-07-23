@@ -5,7 +5,7 @@ title: "Divine Protection"
 type: "wiki"
 infobox:
   header: "Divine Protection"
-  image: "https://seiyria.com/gameicons-font/svg/shield-opposition.svg"
+  image: "/SVG/shield-opposition.svg"
   imageSize: 50
 
   invertDark: true

@@ -5,7 +5,7 @@ title: "Called Shot"
 type: "wiki"
 infobox:
   header: "Called Shot"
-  image: "https://seiyria.com/gameicons-font/svg/target-dummy.svg"
+  image: "/SVG/target-dummy.svg"
   imageSize: 50
 
   invertDark: true

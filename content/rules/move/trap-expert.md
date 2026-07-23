@@ -5,7 +5,7 @@ title: "Trap Expert"
 type: "wiki"
 infobox:
   header: "Trap Expert"
-  image: "https://seiyria.com/gameicons-font/svg/mantrap.svg"
+  image: "/SVG/mantrap.svg"
   imageSize: 50
 
   invertDark: true

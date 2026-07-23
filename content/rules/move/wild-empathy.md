@@ -5,7 +5,7 @@ title: "Wild Empathy"
 type: "wiki"
 infobox:
   header: "Wild Empathy"
-  image: "https://seiyria.com/gameicons-font/svg/love-howl.svg"
+  image: "/SVG/love-howl.svg"
   imageSize: 50
 
   invertDark: true

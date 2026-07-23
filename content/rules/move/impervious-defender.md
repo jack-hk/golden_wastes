@@ -5,7 +5,7 @@ title: "Impervious Defender"
 type: "wiki"
 infobox:
   header: "Impervious Defender"
-  image: "https://seiyria.com/gameicons-font/svg/spiked-shield.svg"
+  image: "/SVG/spiked-shield.svg"
   imageSize: 50
 
   invertDark: true

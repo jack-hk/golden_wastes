@@ -5,7 +5,7 @@ title: "Voice of Authority"
 type: "wiki"
 infobox:
   header: "Voice of Authority"
-  image: "https://seiyria.com/gameicons-font/svg/acoustic-megaphone.svg"
+  image: "/SVG/acoustic-megaphone.svg"
   imageSize: 50
 
   invertDark: true

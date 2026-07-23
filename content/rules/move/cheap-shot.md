@@ -5,7 +5,7 @@ title: "Cheap Shot"
 type: "wiki"
 infobox:
   header: "Cheap Shot"
-  image: "https://seiyria.com/gameicons-font/svg/sly.svg"
+  image: "/SVG/sly.svg"
   imageSize: 50
 
   invertDark: true

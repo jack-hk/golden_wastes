@@ -5,7 +5,7 @@ title: "Armor Mastery"
 type: "wiki"
 infobox:
   header: "Armor Mastery"
-  image: "https://seiyria.com/gameicons-font/svg/breastplate.svg"
+  image: "/SVG/breastplate.svg"
   imageSize: 50
 
   invertDark: true

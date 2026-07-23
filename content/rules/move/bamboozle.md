@@ -5,7 +5,7 @@ title: "Bamboozle"
 type: "wiki"
 infobox:
   header: "Bamboozle"
-  image: "https://seiyria.com/gameicons-font/svg/misdirection.svg"
+  image: "/SVG/misdirection.svg"
   imageSize: 50
 
   invertDark: true

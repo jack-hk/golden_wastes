@@ -5,7 +5,7 @@ title: "Extremely Cautious"
 type: "wiki"
 infobox:
   header: "Extremely Cautious"
-  image: "https://seiyria.com/gameicons-font/svg/sheikah-eye.svg"
+  image: "/SVG/sheikah-eye.svg"
   imageSize: 50
 
   invertDark: true

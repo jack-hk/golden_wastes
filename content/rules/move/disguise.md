@@ -5,7 +5,7 @@ title: "Disguise"
 type: "wiki"
 infobox:
   header: "Disguise"
-  image: "https://seiyria.com/gameicons-font/svg/drama-masks.svg"
+  image: "/SVG/drama-masks.svg"
   imageSize: 50
 
   invertDark: true

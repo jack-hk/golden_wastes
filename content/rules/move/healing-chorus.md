@@ -5,7 +5,7 @@ title: "Healing Chorus"
 type: "wiki"
 infobox:
   header: "Healing Chorus"
-  image: "https://seiyria.com/gameicons-font/svg/ringing-bell.svg"
+  image: "/SVG/ringing-bell.svg"
   imageSize: 50
 
   invertDark: true

@@ -5,7 +5,7 @@ title: "Elf (Ranger)"
 type: "wiki"
 infobox:
   header: "Elf (Ranger)"
-  image: "https://seiyria.com/gameicons-font/svg/quiver.svg"
+  image: "/SVG/quiver.svg"
   imageSize: 50
 
   invertDark: true

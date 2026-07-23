@@ -5,7 +5,7 @@ title: "Vicious Cacophony"
 type: "wiki"
 infobox:
   header: "Vicious Cacophony"
-  image: "https://seiyria.com/gameicons-font/svg/sonic-shout.svg"
+  image: "/SVG/sonic-shout.svg"
   imageSize: 50
 
   invertDark: true

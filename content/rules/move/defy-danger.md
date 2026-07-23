@@ -5,7 +5,7 @@ title: "Defy Danger"
 type: "wiki"
 infobox:
   header: "Defy Danger"
-  image: "https://seiyria.com/gameicons-font/svg/fist.svg"
+  image: "/SVG/fist.svg"
   imageSize: 50
 
   invertDark: true

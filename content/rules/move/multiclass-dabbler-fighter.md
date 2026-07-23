@@ -5,7 +5,7 @@ title: "Multiclass Dabbler (Fighter)"
 type: "wiki"
 infobox:
   header: "Multiclass Dabbler (Fighter)"
-  image: "https://seiyria.com/gameicons-font/svg/crossed-swords.svg"
+  image: "/SVG/crossed-swords.svg"
   imageSize: 50
 
   invertDark: true

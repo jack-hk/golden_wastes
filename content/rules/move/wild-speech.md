@@ -5,7 +5,7 @@ title: "Wild Speech"
 type: "wiki"
 infobox:
   header: "Wild Speech"
-  image: "https://seiyria.com/gameicons-font/svg/shouting.svg"
+  image: "/SVG/shouting.svg"
   imageSize: 50
 
   invertDark: true

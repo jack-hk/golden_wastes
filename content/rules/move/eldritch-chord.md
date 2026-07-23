@@ -5,7 +5,7 @@ title: "Eldritch Chord"
 type: "wiki"
 infobox:
   header: "Eldritch Chord"
-  image: "https://seiyria.com/gameicons-font/svg/harp.svg"
+  image: "/SVG/harp.svg"
   imageSize: 50
 
   invertDark: true

@@ -5,7 +5,7 @@ title: "Halfling (Fighter)"
 type: "wiki"
 infobox:
   header: "Halfling (Fighter)"
-  image: "https://seiyria.com/gameicons-font/svg/buckler.svg"
+  image: "/SVG/buckler.svg"
   imageSize: 50
 
   invertDark: true

@@ -5,7 +5,7 @@ title: "Through Death’s Eyes"
 type: "wiki"
 infobox:
   header: "Through Death’s Eyes"
-  image: "https://seiyria.com/gameicons-font/svg/grim-reaper.svg"
+  image: "/SVG/grim-reaper.svg"
   imageSize: 50
 
   invertDark: true

@@ -5,7 +5,7 @@ title: "An Ear For Magic"
 type: "wiki"
 infobox:
   header: "An Ear For Magic"
-  image: "https://seiyria.com/gameicons-font/svg/human-ear.svg"
+  image: "/SVG/human-ear.svg"
   imageSize: 50
 
   invertDark: true

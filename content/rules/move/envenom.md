@@ -5,7 +5,7 @@ title: "Envenom"
 type: "wiki"
 infobox:
   header: "Envenom"
-  image: "https://seiyria.com/gameicons-font/svg/bestial-fangs.svg"
+  image: "/SVG/bestial-fangs.svg"
   imageSize: 50
 
   invertDark: true

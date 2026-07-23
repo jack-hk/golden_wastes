@@ -5,7 +5,7 @@ title: "Tricks of the Trade"
 type: "wiki"
 infobox:
   header: "Tricks of the Trade"
-  image: "https://seiyria.com/gameicons-font/svg/magick-trick.svg"
+  image: "/SVG/magick-trick.svg"
   imageSize: 50
 
   invertDark: true

@@ -5,7 +5,7 @@ title: "Backstab"
 type: "wiki"
 infobox:
   header: "Backstab"
-  image: "https://seiyria.com/gameicons-font/svg/backstab.svg"
+  image: "/SVG/backstab.svg"
   imageSize: 50
 
   invertDark: true

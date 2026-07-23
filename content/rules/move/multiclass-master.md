@@ -5,7 +5,7 @@ title: "Multiclass Master"
 type: "wiki"
 infobox:
   header: "Multiclass Master"
-  image: "https://seiyria.com/gameicons-font/svg/master-of-arms.svg"
+  image: "/SVG/master-of-arms.svg"
   imageSize: 50
 
   invertDark: true

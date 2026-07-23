@@ -5,7 +5,7 @@ title: "A Safer Place"
 type: "wiki"
 infobox:
   header: "A Safer Place"
-  image: "https://seiyria.com/gameicons-font/svg/forest-camp.svg"
+  image: "/SVG/forest-camp.svg"
   imageSize: 50
 
   invertDark: true

@@ -5,7 +5,7 @@ title: "Scent of Blood"
 type: "wiki"
 infobox:
   header: "Scent of Blood"
-  image: "https://seiyria.com/gameicons-font/svg/drop.svg"
+  image: "/SVG/drop.svg"
   imageSize: 50
 
   invertDark: true

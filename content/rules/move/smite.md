@@ -5,7 +5,7 @@ title: "Smite"
 type: "wiki"
 infobox:
   header: "Smite"
-  image: "https://seiyria.com/gameicons-font/svg/lightning-trio.svg"
+  image: "/SVG/lightning-trio.svg"
   imageSize: 50
 
   invertDark: true

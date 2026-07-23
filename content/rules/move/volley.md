@@ -5,7 +5,7 @@ title: "Volley"
 type: "wiki"
 infobox:
   header: "Volley"
-  image: "https://seiyria.com/gameicons-font/svg/arrow-dunk.svg"
+  image: "/SVG/arrow-dunk.svg"
   imageSize: 50
 
   invertDark: true

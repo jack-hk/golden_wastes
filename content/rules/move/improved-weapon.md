@@ -5,7 +5,7 @@ title: "Improved Weapon"
 type: "wiki"
 infobox:
   header: "Improved Weapon"
-  image: "https://seiyria.com/gameicons-font/svg/upgrade.svg"
+  image: "/SVG/upgrade.svg"
   imageSize: 50
 
   invertDark: true

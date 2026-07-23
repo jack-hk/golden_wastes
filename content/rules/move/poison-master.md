@@ -5,7 +5,7 @@ title: "Poison Master"
 type: "wiki"
 infobox:
   header: "Poison Master"
-  image: "https://seiyria.com/gameicons-font/svg/poison-gas.svg"
+  image: "/SVG/poison-gas.svg"
   imageSize: 50
 
   invertDark: true

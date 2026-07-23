@@ -5,7 +5,7 @@ title: "Metal Hurlant"
 type: "wiki"
 infobox:
   header: "Metal Hurlant"
-  image: "https://seiyria.com/gameicons-font/svg/barbed-coil.svg"
+  image: "/SVG/barbed-coil.svg"
   imageSize: 50
 
   invertDark: true

@@ -5,7 +5,7 @@ title: "Armored (Fighter)"
 type: "wiki"
 infobox:
   header: "Armored (Fighter)"
-  image: "https://seiyria.com/gameicons-font/svg/spiked-shoulder-armor.svg"
+  image: "/SVG/spiked-shoulder-armor.svg"
   imageSize: 50
 
   invertDark: true

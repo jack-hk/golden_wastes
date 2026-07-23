@@ -5,7 +5,7 @@ title: "Hack and Slash"
 type: "wiki"
 infobox:
   header: "Hack and Slash"
-  image: "https://seiyria.com/gameicons-font/svg/sword-clash.svg"
+  image: "/SVG/sword-clash.svg"
   imageSize: 50
 
   invertDark: true

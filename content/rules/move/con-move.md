@@ -5,7 +5,7 @@ title: "Con"
 type: "wiki"
 infobox:
   header: "Con"
-  image: "https://seiyria.com/gameicons-font/svg/face-to-face.svg"
+  image: "/SVG/face-to-face.svg"
   imageSize: 50
 
   invertDark: true

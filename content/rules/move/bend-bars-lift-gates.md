@@ -5,7 +5,7 @@ title: "Bend Bars, Lift Gates"
 type: "wiki"
 infobox:
   header: "Bend Bars, Lift Gates"
-  image: "https://seiyria.com/gameicons-font/svg/groundbreaker.svg"
+  image: "/SVG/groundbreaker.svg"
   imageSize: 50
 
   invertDark: true

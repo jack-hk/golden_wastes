@@ -5,7 +5,7 @@ title: "A Port in the Storm"
 type: "wiki"
 infobox:
   header: "A Port in the Storm"
-  image: "https://seiyria.com/gameicons-font/svg/village.svg"
+  image: "/SVG/village.svg"
   imageSize: 50
 
   invertDark: true

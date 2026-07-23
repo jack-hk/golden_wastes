@@ -5,7 +5,7 @@ title: "Camouflage"
 type: "wiki"
 infobox:
   header: "Camouflage"
-  image: "https://seiyria.com/gameicons-font/svg/hidden.svg"
+  image: "/SVG/hidden.svg"
   imageSize: 50
 
   invertDark: true

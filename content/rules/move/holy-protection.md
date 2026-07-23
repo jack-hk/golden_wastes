@@ -5,7 +5,7 @@ title: "Holy Protection"
 type: "wiki"
 infobox:
   header: "Holy Protection"
-  image: "https://seiyria.com/gameicons-font/svg/holy-symbol.svg"
+  image: "/SVG/holy-symbol.svg"
   imageSize: 50
 
   invertDark: true

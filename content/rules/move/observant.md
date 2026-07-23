@@ -5,7 +5,7 @@ title: "Observant"
 type: "wiki"
 infobox:
   header: "Observant"
-  image: "https://seiyria.com/gameicons-font/svg/beast-eye.svg"
+  image: "/SVG/beast-eye.svg"
   imageSize: 50
 
   invertDark: true

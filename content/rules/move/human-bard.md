@@ -5,7 +5,7 @@ title: "Human (Bard)"
 type: "wiki"
 infobox:
   header: "Human (Bard)"
-  image: "https://seiyria.com/gameicons-font/svg/lute.svg"
+  image: "/SVG/lute.svg"
   imageSize: 50
 
   invertDark: true

@@ -5,7 +5,7 @@ title: "Lay on Hands (Cha)"
 type: "wiki"
 infobox:
   header: "Lay on Hands (Cha)"
-  image: "https://seiyria.com/gameicons-font/svg/hand.svg"
+  image: "/SVG/hand.svg"
   imageSize: 50
 
   invertDark: true

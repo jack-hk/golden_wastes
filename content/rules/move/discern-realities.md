@@ -5,7 +5,7 @@ title: "Discern Realities"
 type: "wiki"
 infobox:
   header: "Discern Realities"
-  image: "https://seiyria.com/gameicons-font/svg/magnifying-glass.svg"
+  image: "/SVG/magnifying-glass.svg"
   imageSize: 50
 
   invertDark: true

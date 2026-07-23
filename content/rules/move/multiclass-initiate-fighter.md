@@ -5,7 +5,7 @@ title: "Multiclass Initiate (Fighter)"
 type: "wiki"
 infobox:
   header: "Multiclass Initiate (Fighter)"
-  image: "https://seiyria.com/gameicons-font/svg/open-gate.svg"
+  image: "/SVG/open-gate.svg"
   imageSize: 50
 
   invertDark: true

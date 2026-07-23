@@ -5,7 +5,7 @@ title: "I Am the Law"
 type: "wiki"
 infobox:
   header: "I Am the Law"
-  image: "https://seiyria.com/gameicons-font/svg/book-cover.svg"
+  image: "/SVG/book-cover.svg"
   imageSize: 50
 
   invertDark: true

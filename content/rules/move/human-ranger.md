@@ -5,7 +5,7 @@ title: "Human (Ranger)"
 type: "wiki"
 infobox:
   header: "Human (Ranger)"
-  image: "https://seiyria.com/gameicons-font/svg/crossbow.svg"
+  image: "/SVG/crossbow.svg"
   imageSize: 50
 
   invertDark: true

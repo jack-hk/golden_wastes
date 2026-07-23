@@ -5,7 +5,7 @@ title: "Blot Out the Sun"
 type: "wiki"
 infobox:
   header: "Blot Out the Sun"
-  image: "https://seiyria.com/gameicons-font/svg/solar-time.svg"
+  image: "/SVG/solar-time.svg"
   imageSize: 50
 
   invertDark: true

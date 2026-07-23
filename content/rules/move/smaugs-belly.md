@@ -5,7 +5,7 @@ title: "Smaug’s Belly"
 type: "wiki"
 infobox:
   header: "Smaug’s Belly"
-  image: "https://seiyria.com/gameicons-font/svg/dragon-head.svg"
+  image: "/SVG/dragon-head.svg"
   imageSize: 50
 
   invertDark: true

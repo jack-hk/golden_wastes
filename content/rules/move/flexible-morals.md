@@ -5,7 +5,7 @@ title: "Flexible Morals"
 type: "wiki"
 infobox:
   header: "Flexible Morals"
-  image: "https://seiyria.com/gameicons-font/svg/pretty-fangs.svg"
+  image: "/SVG/pretty-fangs.svg"
   imageSize: 50
 
   invertDark: true

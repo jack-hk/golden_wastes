@@ -5,7 +5,7 @@ title: "Eldritch Tones"
 type: "wiki"
 infobox:
   header: "Eldritch Tones"
-  image: "https://seiyria.com/gameicons-font/svg/sound-waves.svg"
+  image: "/SVG/sound-waves.svg"
   imageSize: 50
 
   invertDark: true

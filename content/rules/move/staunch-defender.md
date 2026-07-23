@@ -5,7 +5,7 @@ title: "Staunch Defender"
 type: "wiki"
 infobox:
   header: "Staunch Defender"
-  image: "https://seiyria.com/gameicons-font/svg/checked-shield.svg"
+  image: "/SVG/checked-shield.svg"
   imageSize: 50
 
   invertDark: true

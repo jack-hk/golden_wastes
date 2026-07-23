@@ -5,7 +5,7 @@ title: "Perfect Hospitaller"
 type: "wiki"
 infobox:
   header: "Perfect Hospitaller"
-  image: "https://seiyria.com/gameicons-font/svg/hospital-cross.svg"
+  image: "/SVG/hospital-cross.svg"
   imageSize: 50
 
   invertDark: true

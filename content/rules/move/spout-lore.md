@@ -5,7 +5,7 @@ title: "Spout Lore"
 type: "wiki"
 infobox:
   header: "Spout Lore"
-  image: "https://seiyria.com/gameicons-font/svg/open-book.svg"
+  image: "/SVG/open-book.svg"
   imageSize: 50
 
   invertDark: true

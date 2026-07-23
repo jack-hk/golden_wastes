@@ -5,7 +5,7 @@ title: "Devious"
 type: "wiki"
 infobox:
   header: "Devious"
-  image: "https://seiyria.com/gameicons-font/svg/imp.svg"
+  image: "/SVG/imp.svg"
   imageSize: 50
 
   invertDark: true

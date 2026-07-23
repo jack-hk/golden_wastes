@@ -5,7 +5,7 @@ title: "Unnatural Ally"
 type: "wiki"
 infobox:
   header: "Unnatural Ally"
-  image: "https://seiyria.com/gameicons-font/svg/chewed-heart.svg"
+  image: "/SVG/chewed-heart.svg"
   imageSize: 50
 
   invertDark: true

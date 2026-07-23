@@ -5,7 +5,7 @@ title: "Underdog"
 type: "wiki"
 infobox:
   header: "Underdog"
-  image: "https://seiyria.com/gameicons-font/svg/hooded-assassin.svg"
+  image: "/SVG/hooded-assassin.svg"
   imageSize: 50
 
   invertDark: true

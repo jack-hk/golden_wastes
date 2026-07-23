@@ -5,7 +5,7 @@ title: "Viper’s Fangs"
 type: "wiki"
 infobox:
   header: "Viper’s Fangs"
-  image: "https://seiyria.com/gameicons-font/svg/snake-bite.svg"
+  image: "/SVG/snake-bite.svg"
   imageSize: 50
 
   invertDark: true

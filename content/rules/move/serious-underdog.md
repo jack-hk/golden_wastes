@@ -5,7 +5,7 @@ title: "Serious Underdog"
 type: "wiki"
 infobox:
   header: "Serious Underdog"
-  image: "https://seiyria.com/gameicons-font/svg/assassin-pocket.svg"
+  image: "/SVG/assassin-pocket.svg"
   imageSize: 50
 
   invertDark: true

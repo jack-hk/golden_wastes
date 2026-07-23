@@ -5,7 +5,7 @@ title: "Halfling (Thief)"
 type: "wiki"
 infobox:
   header: "Halfling (Thief)"
-  image: "https://seiyria.com/gameicons-font/svg/hobbit-door.svg"
+  image: "/SVG/hobbit-door.svg"
   imageSize: 50
 
   invertDark: true

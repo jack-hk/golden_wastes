@@ -5,7 +5,7 @@ title: "Elf (Fighter)"
 type: "wiki"
 infobox:
   header: "Elf (Fighter)"
-  image: "https://seiyria.com/gameicons-font/svg/bow-arrow.svg"
+  image: "/SVG/bow-arrow.svg"
   imageSize: 50
 
   invertDark: true

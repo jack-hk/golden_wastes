@@ -5,7 +5,7 @@ title: "Healing Song"
 type: "wiki"
 infobox:
   header: "Healing Song"
-  image: "https://seiyria.com/gameicons-font/svg/lyre.svg"
+  image: "/SVG/lyre.svg"
   imageSize: 50
 
   invertDark: true

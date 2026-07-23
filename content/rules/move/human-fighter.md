@@ -5,7 +5,7 @@ title: "Human (Fighter)"
 type: "wiki"
 infobox:
   header: "Human (Fighter)"
-  image: "https://seiyria.com/gameicons-font/svg/sword-wound.svg"
+  image: "/SVG/sword-wound.svg"
   imageSize: 50
 
   invertDark: true

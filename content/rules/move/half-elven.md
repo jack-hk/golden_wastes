@@ -5,7 +5,7 @@ title: "Half-Elven"
 type: "wiki"
 infobox:
   header: "Half-Elven"
-  image: "https://seiyria.com/gameicons-font/svg/boot.svg"
+  image: "/SVG/boot.svg"
   imageSize: 50
 
   invertDark: true

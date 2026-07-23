@@ -5,7 +5,7 @@ title: "Hunt and Track (Wis)"
 type: "wiki"
 infobox:
   header: "Hunt and Track (Wis)"
-  image: "https://seiyria.com/gameicons-font/svg/lynx-head.svg"
+  image: "/SVG/lynx-head.svg"
   imageSize: 50
 
   invertDark: true

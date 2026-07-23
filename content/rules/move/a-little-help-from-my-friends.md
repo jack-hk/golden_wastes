@@ -3,10 +3,10 @@ bookHidden: true
 BookToC: false
 title: "A Little Help From My Friends"
 type: "wiki"
-image: "https://seiyria.com/gameicons-font/svg/three-friends.svg"
+image: "/SVG/three-friends.svg"
 infobox:
   header: "A Little Help From My Friends"
-  image: "https://seiyria.com/gameicons-font/svg/three-friends.svg"
+  image: "/SVG/three-friends.svg"
   imageSize: 50
   invertDark: true
   labels:

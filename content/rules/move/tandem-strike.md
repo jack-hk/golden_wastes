@@ -5,7 +5,7 @@ title: "Tandem Strike"
 type: "wiki"
 infobox:
   header: "Tandem Strike"
-  image: "https://seiyria.com/gameicons-font/svg/round-struck.svg"
+  image: "/SVG/round-struck.svg"
   imageSize: 50
 
   invertDark: true

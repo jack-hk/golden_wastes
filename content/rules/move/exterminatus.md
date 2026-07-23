@@ -5,7 +5,7 @@ title: "Exterminatus"
 type: "wiki"
 infobox:
   header: "Exterminatus"
-  image: "https://seiyria.com/gameicons-font/svg/iron-cross.svg"
+  image: "/SVG/iron-cross.svg"
   imageSize: 50
 
   invertDark: true

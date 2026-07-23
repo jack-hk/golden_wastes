@@ -5,7 +5,7 @@ title: "Unforgettable Face"
 type: "wiki"
 infobox:
   header: "Unforgettable Face"
-  image: "https://seiyria.com/gameicons-font/svg/think.svg"
+  image: "/SVG/think.svg"
   imageSize: 50
 
   invertDark: true

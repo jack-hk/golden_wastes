@@ -5,7 +5,7 @@ title: "Setup Strike"
 type: "wiki"
 infobox:
   header: "Setup Strike"
-  image: "https://seiyria.com/gameicons-font/svg/bouncing-sword.svg"
+  image: "/SVG/bouncing-sword.svg"
   imageSize: 50
 
   invertDark: true

@@ -5,7 +5,7 @@ title: "Human (Thief)"
 type: "wiki"
 infobox:
   header: "Human (Thief)"
-  image: "https://seiyria.com/gameicons-font/svg/manacles.svg"
+  image: "/SVG/manacles.svg"
   imageSize: 50
 
   invertDark: true

@@ -5,7 +5,7 @@ title: "Strong Arm, True Aim"
 type: "wiki"
 infobox:
   header: "Strong Arm, True Aim"
-  image: "https://seiyria.com/gameicons-font/svg/axe-in-stump.svg"
+  image: "/SVG/axe-in-stump.svg"
   imageSize: 50
 
   invertDark: true
