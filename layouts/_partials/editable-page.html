@@ -28,11 +28,14 @@
 
     {{- if and $owner $repo -}}
       {{- $url := "" -}}
+      {{- $encodedBranch := replace ($branch | urlquery) "+" "%20" -}}
+      {{- $encodedSchema := replace ($schema | urlquery) "+" "%20" -}}
       {{- if eq $schemaType "file" -}}
-        {{- $url = printf "%s/%s/%s/%s/file/%s" $baseURL $owner $repo ($branch | urlquery) ($schema | urlquery) -}}
+        {{- $url = printf "%s/%s/%s/%s/file/%s" $baseURL $owner $repo $encodedBranch $encodedSchema -}}
       {{- else -}}
         {{- $repoPath := printf "content/%s" $path -}}
-        {{- $url = printf "%s/%s/%s/%s/collection/%s/edit/%s" $baseURL $owner $repo ($branch | urlquery) ($schema | urlquery) ($repoPath | urlquery) -}}
+        {{- $encodedRepoPath := replace ($repoPath | urlquery) "+" "%20" -}}
+        {{- $url = printf "%s/%s/%s/%s/collection/%s/edit/%s" $baseURL $owner $repo $encodedBranch $encodedSchema $encodedRepoPath -}}
       {{- end -}}
       {{- $result = dict "editable" true "url" $url -}}
     {{- end -}}
