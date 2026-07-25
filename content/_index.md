@@ -1,8 +1,6 @@
 +++
 title = 'Home'
-date = 2023-01-01T08:00:00-07:00
+date = '2023-01-01T15:00:00Z'
 draft = false
 +++
-Welcome to Golden Wastes, a brutal TTRPG where survival is earned with blood, cunning, and the occasional stroke of luck.
-
-In the endless expanse of sun-bleached dunes and crumbling ruins, civilization is a fleeting memory. The great cities have fallen to sand and time, leaving behind only scattered settlements clinging to precious water sources and the bones of a forgotten age. Here, in the Golden Wastes, every decision matters—because the desert forgives nothing and no one.
+Welcome to the Golden Wastes, an apocalyptic fantasy setting created for TTRPG and world-building. The project explores a brutally harsh region between one and three centuries after the global apocalypse known as the Second Great Pulse. Scorching salt flats, towering teeth-like formations and all kinds of riches as far as the eye can see, while far below lies a colossal network of caverns known simply as the Beneath.
