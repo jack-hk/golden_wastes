@@ -1,10 +1,67 @@
 {{ define "main" }}
+  {{ $showWikiDate := default false site.Params.wiki.show_date }}
+  {{ if isset .Params "show_date" }}
+    {{ $showWikiDate = .Params.show_date }}
+  {{ end }}
+
   <article class="wiki wiki--mobile-fullscreen">
     {{- partial "breadcrumbs" . -}}
 
-    {{ if site.Params.pageLayout.showHeader | default true }}
+    {{ if or (site.Params.pageLayout.showHeader | default true) (and $showWikiDate .Date) (and (site.Params.pageLayout.showTaxonomies | default true) (or (.GetTerms "categories") (.GetTerms "tags"))) }}
       <header class="wiki__header">
-        <h1 class="wiki__title">{{ .Title }}</h1>
+        {{ if site.Params.pageLayout.showHeader | default true }}
+          <h1 class="wiki__title page__title">{{ .Title }}</h1>
+        {{ end }}
+
+        {{ if and (site.Params.pageLayout.showMeta | default true) $showWikiDate .Date }}
+          <div class="page__meta">
+            <time
+              class="page__date"
+              datetime="{{ .Date | time.Format "2006-01-02T15:04:05Z07:00" }}">
+              {{ .Date | time.Format ":date_long" }}
+            </time>
+          </div>
+        {{ end }}
+
+        {{ if and (site.Params.pageLayout.showTaxonomies | default true) (or (.GetTerms "categories") (.GetTerms "tags")) }}
+          <div class="page__taxonomies">
+            {{ with .GetTerms "categories" }}
+              <div class="page__categories">
+                <span class="page__label">Categories:</span>
+                <ul class="page__list page__list--categories">
+                  {{ range . }}
+                    <li class="page__list-item">
+                      <a href="{{ .RelPermalink }}" class="page__link page__link--block">
+                        {{ if site.Params.pageLayout.showTaxonomyIcons | default true }}
+                          <span class="page__icon page__icon--category">{{ partial "icons/category" }}</span>
+                        {{ end }}
+                        <span class="page__link-text">{{ .LinkTitle }}</span>
+                      </a>
+                    </li>
+                  {{ end }}
+                </ul>
+              </div>
+            {{ end }}
+
+            {{ with .GetTerms "tags" }}
+              <div class="page__tags">
+                <span class="page__label">Tags:</span>
+                <ul class="page__list page__list--tags">
+                  {{ range . }}
+                    <li class="page__list-item">
+                      <a href="{{ .RelPermalink }}" class="page__link page__link--block">
+                        {{ if site.Params.pageLayout.showTaxonomyIcons | default true }}
+                          <span class="page__icon page__icon--tag">{{ partial "icons/tag" }}</span>
+                        {{ end }}
+                        <span class="page__link-text">#{{ .LinkTitle }}</span>
+                      </a>
+                    </li>
+                  {{ end }}
+                </ul>
+              </div>
+            {{ end }}
+          </div>
+        {{ end }}
       </header>
     {{ end }}
 
@@ -99,76 +156,22 @@
       {{ .Content }}
     </div>
 
-    {{/* Merged Content Footer: Taxonomies first, then See Also */}}
-    {{ if or .Params.also (and (site.Params.pageLayout.showTaxonomies | default true) (or (.GetTerms "categories") (.GetTerms "tags"))) }}
+    {{ if .Params.also }}
       <div class="wiki__content-footer">
-        {{/* taxonomies block */}}
-        {{ if and (site.Params.pageLayout.showTaxonomies | default true) (or (.GetTerms "categories") (.GetTerms "tags")) }}
-          <div class="wiki__taxonomies">
-            {{ with .GetTerms "categories" }}
-              <div class="wiki__categories">
-                <span class="wiki__label">Categories:</span>
-                <ul class="wiki__list wiki__list--categories">
-                  {{ range . }}
-                    <li class="wiki__list-item">
-                      <a
-                        href="{{ .RelPermalink }}"
-                        class="wiki__link wiki__link--block">
-                        {{ if site.Params.pageLayout.showTaxonomyIcons | default true }}
-                          <span class="wiki__icon wiki__icon--category"
-                            >{{ partial "icons/category" }}</span
-                          >
-                        {{ end }}
-                        <span class="wiki__link-text">{{ .LinkTitle }}</span>
-                      </a>
-                    </li>
-                  {{ end }}
-                </ul>
-              </div>
+        <div class="wiki__see-also">
+          <h2 class="wiki__see-also-title">See also</h2>
+          <ul class="wiki__see-also-list">
+            {{ range .Params.also }}
+              <li class="wiki__see-also-item">
+                <a
+                  href="{{ (printf "/rules/%s" (. | urlize)) | relURL }}"
+                  class="wiki__see-also-link">
+                  {{ . | replaceRE "-" " " | title }}
+                </a>
+              </li>
             {{ end }}
-
-            {{ with .GetTerms "tags" }}
-              <div class="wiki__tags">
-                <span class="wiki__label">Tags:</span>
-                <ul class="wiki__list wiki__list--tags">
-                  {{ range . }}
-                    <li class="wiki__list-item">
-                      <a
-                        href="{{ .RelPermalink }}"
-                        class="wiki__link wiki__link--block">
-                        {{ if site.Params.pageLayout.showTaxonomyIcons | default true }}
-                          <span class="wiki__icon wiki__icon--tag"
-                            >{{ partial "icons/tag" }}</span
-                          >
-                        {{ end }}
-                        <span class="wiki__link-text">#{{ .LinkTitle }}</span>
-                      </a>
-                    </li>
-                  {{ end }}
-                </ul>
-              </div>
-            {{ end }}
-          </div>
-        {{ end }}
-
-        {{/* see also block */}}
-        {{ if .Params.also }}
-          <div class="wiki__see-also">
-            <h2 class="wiki__see-also-title">See also</h2>
-            <ul class="wiki__see-also-list">
-              {{ range .Params.also }}
-                <li class="wiki__see-also-item">
-                  <a
-                    href="{{ (printf "/rules/%s" (. | urlize)) | relURL }}"
-                    class="wiki__see-also-link">
-                    {{ . | replaceRE "-" " " | title }}
-                  </a>
-                </li>
-              {{ end }}
-            </ul>
-          </div>
-        {{ end }}
-
+          </ul>
+        </div>
       </div>
     {{ end }}
 
