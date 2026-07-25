@@ -4,6 +4,10 @@ title = "Golden Wastes"
 
 [module]
 [[module.mounts]]
+source = "layouts"
+target = "layouts"
+
+[[module.mounts]]
 source = "themes/cleanwiki/layouts"
 target = "layouts"
 
@@ -14,10 +18,6 @@ target = "assets"
 [[module.mounts]]
 source = "themes/cleanwiki/static"
 target = "static"
-
-[[module.mounts]]
-source = "layouts"
-target = "layouts"
 
 [[module.mounts]]
 source = "assets"
@@ -74,6 +74,12 @@ taxonomy_blacklist = ["campaign"]
 [params.navbarBar]
 iconsHaveLabels = false
 iconSeparator = true
+
+[params.pagesCMS]
+baseURL = "https://app.pagescms.org"
+owner = "jack-hk"
+repo = "golden_wastes"
+branch = "production"
 
 [params.smallTiles]
 type = "categories"
@@ -171,9 +177,18 @@ weight = 30
   popoverContentPartial = "popovers/navigation.html"
 
 [[menus.main]]
+name = "Edit"
+pre = "pencil"
+weight = 40
+
+  [menus.main.params]
+  InBottom = true
+  editCurrentPage = true
+
+[[menus.main]]
 name = "Settings"
 pre = "cog"
-weight = 40
+weight = 45
 
   [menus.main.params]
   InBottom = true

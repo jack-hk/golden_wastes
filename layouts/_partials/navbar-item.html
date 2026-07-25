@@ -1,0 +1,43 @@
+{{- $page := .page }}
+{{- $e := .entry }}
+{{- $isFirst := .isFirst | default false }}
+{{- $editablePage := .editablePage | default (dict "editable" false "url" "") }}
+
+<li class="navbar__item {{ if $isFirst }}navbar__item--first{{ end }}">
+  {{- if $e.Params.popover }}
+    {{- partial "navbar-item-popover.html" (dict "page" $page "entry" $e) }}
+  {{- else }}
+    {{- $href := $e.URL }}
+    {{- if and ($e.Params.editCurrentPage | default false) $editablePage.editable }}
+      {{- $href = $editablePage.url }}
+    {{- end }}
+    {{- $attrs := dict "href" $href }}
+    {{- if $e.Params.editCurrentPage }}
+      {{- $attrs = merge $attrs (dict "target" "_blank" "rel" "noopener noreferrer" "aria-label" "Edit this page") }}
+    {{- else if $page.IsMenuCurrent $e.Menu $e }}
+      {{- $attrs = merge $attrs (dict "class" "navbar__item-button active" "aria-current" "page") }}
+    {{- else if $page.HasMenuCurrent $e.Menu $e }}
+      {{- $attrs = merge $attrs (dict "class" "navbar__item-button ancestor" "aria-current" "true") }}
+    {{- end }}
+    {{- if not (isset $attrs "class") }}
+      {{- $attrs = merge $attrs (dict "class" "navbar__item-button") }}
+    {{- end }}
+
+    <a
+      {{- range $k, $v := $attrs }}
+        {{ printf " %s=%q" $k $v | safeHTMLAttr }}
+      {{- end }}>
+      {{ partial "navbar-item-icon.html" (dict "entry" $e) }}
+    </a>
+  {{- end }}
+
+  {{- with $e.Children }}
+    <ul>
+      {{- partial "walk.html" (dict "page" $page "menuEntries" . "editablePage" $editablePage) }}
+    </ul>
+  {{- end }}
+</li>
+
+{{- if $e.Params.separator }}
+  {{- partial "navbar-separator.html" . }}
+{{- end }}

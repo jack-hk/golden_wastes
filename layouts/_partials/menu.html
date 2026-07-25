@@ -1,0 +1,36 @@
+{{- /*
+  Renders a menu for the given menu ID.
+
+  @context {page} page The current page.
+  @context {string} menuID The menu ID.
+*/}}
+{{- $page := .page }}
+{{- $menuID := .menuID }}
+{{- $editablePage := partial "editable-page.html" $page }}
+
+{{- with index site.Menus $menuID }}
+  <nav class="navbar">
+    {{- partial "popover.html" . -}}
+
+    <ul class="navbar__list navbar__list--top">
+      {{- $topEntries := slice }}
+      {{- range . }}
+        {{- if not .Params.inBottom }}
+          {{- $topEntries = $topEntries | append . }}
+        {{- end }}
+      {{- end }}
+      {{- partial "walk.html" (dict "page" $page "menuEntries" $topEntries) }}
+    </ul>
+
+    <ul class="navbar__list navbar__list--bottom">
+      {{- $bottomEntries := slice }}
+      {{- range . }}
+        {{- $isEditCurrentPage := .Params.editCurrentPage | default false }}
+        {{- if and .Params.inBottom (or (not $isEditCurrentPage) $editablePage.editable) }}
+          {{- $bottomEntries = $bottomEntries | append . }}
+        {{- end }}
+      {{- end }}
+      {{- partial "walk.html" (dict "page" $page "menuEntries" $bottomEntries "editablePage" $editablePage) }}
+    </ul>
+  </nav>
+{{- end }}

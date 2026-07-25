@@ -1,0 +1,9 @@
+{{- /*
+  Iterates through menu entries and delegates rendering to navbar-item partial.
+*/}}
+{{- $page := .page }}
+{{- $editablePage := .editablePage | default (dict "editable" false "url" "") }}
+
+{{- range $i, $e := .menuEntries }}
+  {{- partial "navbar-item.html" (dict "page" $page "entry" $e "isFirst" (eq $i 0) "editablePage" $editablePage) }}
+{{- end }}

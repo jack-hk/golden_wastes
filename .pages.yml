@@ -1,0 +1,238 @@
+media:
+  - name: images
+    label: Images
+    input: static/uploads
+    output: /uploads
+    categories: [image]
+    extensions: [png, jpg, jpeg, gif, webp, svg]
+    rename: safe
+
+settings:
+  content:
+    # Preserve front matter that is not represented by an editor field.
+    merge: true
+  commit:
+    identity: user
+    templates:
+      create: "content: create {path}"
+      update: "content: update {path}"
+      delete: "content: delete {path}"
+      rename: "content: rename {oldPath} to {newPath}"
+
+components:
+  markdown_page:
+    type: object
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: date
+        label: Date
+        type: date
+        required: false
+        options:
+          time: true
+      - name: draft
+        label: Draft
+        type: boolean
+        required: false
+      - name: weight
+        label: Navigation weight
+        type: number
+        required: false
+      - name: type
+        label: Layout type
+        type: string
+        required: false
+      - name: categories
+        label: Categories
+        type: string
+        list: true
+        required: false
+      - name: image
+        label: Featured image URL or /uploads path
+        type: string
+        required: false
+      - name: body
+        label: Content
+        type: rich-text
+        options:
+          format: markdown
+          media: images
+          switcher: true
+
+content:
+  - name: posts
+    label: Posts
+    type: collection
+    path: content/posts
+    format: toml-frontmatter
+    subfolders: true
+    filename: "{primary}.md"
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: date
+        label: Date
+        type: date
+        required: false
+        options:
+          time: true
+      - name: draft
+        label: Draft
+        type: boolean
+        required: false
+      - name: categories
+        label: Categories
+        type: string
+        list: true
+        required: false
+      - name: image
+        label: Featured image URL or /uploads path
+        type: string
+        required: false
+      - name: body
+        label: Content
+        type: rich-text
+        options:
+          format: markdown
+          media: images
+          switcher: true
+    view:
+      fields: [title, date, draft]
+      primary: title
+      sort: [date, title]
+      default:
+        sort: date
+        order: desc
+
+  - name: rules
+    label: Rules and wiki
+    type: collection
+    path: content/rules
+    format: yaml-frontmatter
+    subfolders: true
+    filename: "{primary}.md"
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: weight
+        label: Navigation weight
+        type: number
+        required: false
+      - name: type
+        label: Layout type
+        type: string
+        required: false
+      - name: categories
+        label: Categories
+        type: string
+        list: true
+        required: false
+      - name: image
+        label: Featured image URL or /uploads path
+        type: string
+        required: false
+      - name: body
+        label: Content
+        type: rich-text
+        options:
+          format: markdown
+          media: images
+          switcher: true
+    view:
+      layout: tree
+      node:
+        filename: index.md
+      fields: [title, type]
+      primary: title
+
+  - name: world
+    label: World
+    type: collection
+    path: content/world
+    format: yaml-frontmatter
+    subfolders: true
+    filename: "{primary}.md"
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: weight
+        label: Navigation weight
+        type: number
+        required: false
+      - name: type
+        label: Layout type
+        type: string
+        required: false
+      - name: categories
+        label: Categories
+        type: string
+        list: true
+        required: false
+      - name: image
+        label: Featured image URL or /uploads path
+        type: string
+        required: false
+      - name: body
+        label: Content
+        type: rich-text
+        options:
+          format: markdown
+          media: images
+          switcher: true
+    view:
+      layout: tree
+      node:
+        filename: index.md
+      fields: [title]
+      primary: title
+
+  - name: categories
+    label: Category pages
+    type: collection
+    path: content/categories
+    format: yaml-frontmatter
+    subfolders: true
+    filename: "{primary}.md"
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: weight
+        label: Navigation weight
+        type: number
+        required: false
+      - name: body
+        label: Content
+        type: rich-text
+        options:
+          format: markdown
+          media: images
+          switcher: true
+    view:
+      layout: tree
+      node:
+        filename: index.md
+      fields: [title]
+      primary: title
+
+  - name: home
+    label: Home page
+    type: file
+    path: content/_index.md
+    format: yaml-frontmatter
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: body
+        label: Content
+        type: rich-text
+        options:
+          format: markdown
+          media: images
+          switcher: true

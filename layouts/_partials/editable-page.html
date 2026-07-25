@@ -1,0 +1,42 @@
+{{- $result := dict "editable" false "url" "" -}}
+{{- $page := . -}}
+
+{{- with $page.File -}}
+  {{- $path := replace .Path "\\" "/" -}}
+  {{- $schema := "" -}}
+  {{- $schemaType := "collection" -}}
+
+  {{- if hasPrefix $path "posts/" -}}
+    {{- $schema = "posts" -}}
+  {{- else if hasPrefix $path "rules/" -}}
+    {{- $schema = "rules" -}}
+  {{- else if hasPrefix $path "world/" -}}
+    {{- $schema = "world" -}}
+  {{- else if hasPrefix $path "categories/" -}}
+    {{- $schema = "categories" -}}
+  {{- else if eq $path "_index.md" -}}
+    {{- $schema = "home" -}}
+    {{- $schemaType = "file" -}}
+  {{- end -}}
+
+  {{- if $schema -}}
+    {{- $cms := site.Params.pagesCMS -}}
+    {{- $baseURL := strings.TrimRight "/" ($cms.baseURL | default "https://app.pagescms.org") -}}
+    {{- $owner := $cms.owner | default "" -}}
+    {{- $repo := $cms.repo | default "" -}}
+    {{- $branch := $cms.branch | default "main" -}}
+
+    {{- if and $owner $repo -}}
+      {{- $url := "" -}}
+      {{- if eq $schemaType "file" -}}
+        {{- $url = printf "%s/%s/%s/%s/file/%s" $baseURL $owner $repo ($branch | urlquery) ($schema | urlquery) -}}
+      {{- else -}}
+        {{- $repoPath := printf "content/%s" $path -}}
+        {{- $url = printf "%s/%s/%s/%s/collection/%s/edit/%s" $baseURL $owner $repo ($branch | urlquery) ($schema | urlquery) ($repoPath | urlquery) -}}
+      {{- end -}}
+      {{- $result = dict "editable" true "url" $url -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return $result -}}
