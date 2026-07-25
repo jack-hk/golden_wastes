@@ -1,5 +1,9 @@
 {{- $headerIcon := site.Params.navigationMenu.headerIcon | default "sun" }}
 {{- $headerTitle := site.Params.navigationMenu.headerTitle | default site.Title }}
+{{- $mobileLogo := site.Params.navigationMenu.mobileLogo | default "/logo.png" }}
+{{- $mobileLogoDark := site.Params.navigationMenu.mobileLogoDark | default "/logo-dark.png" }}
+{{- $mobileLogoSmall := site.Params.navigationMenu.mobileLogoSmall | default "/logo-s.png" }}
+{{- $mobileLogoDarkSmall := site.Params.navigationMenu.mobileLogoDarkSmall | default "/logo-dark-s.png" }}
 {{- $subtitle := site.Params.navigationMenu.subtitle | default "Explore" }}
 {{- $showFooter := site.Params.navigationMenu.showFooter | default false }}
 {{- $columnsOnDesktop := site.Params.navigationMenu.columnsOnDesktop | default 2 }}
@@ -13,6 +17,28 @@
       {{ partial (printf "icons/%s.html" $headerIcon) . }}
     </div>
     <h2 class="popover-navigation__header-title">{{ $headerTitle }}</h2>
+    <h2
+      class="popover-navigation__header-mobile-brand"
+      aria-label="{{ $headerTitle }}">
+      <span class="popover-navigation__header-mobile-logo" aria-hidden="true">
+        <img
+          class="popover-navigation__header-mobile-logo-image popover-navigation__header-mobile-logo-image--wide popover-navigation__header-mobile-logo-image--light"
+          src="{{ $mobileLogo | relURL }}"
+          alt="" />
+        <img
+          class="popover-navigation__header-mobile-logo-image popover-navigation__header-mobile-logo-image--wide popover-navigation__header-mobile-logo-image--dark"
+          src="{{ $mobileLogoDark | relURL }}"
+          alt="" />
+        <img
+          class="popover-navigation__header-mobile-logo-image popover-navigation__header-mobile-logo-image--small popover-navigation__header-mobile-logo-image--light"
+          src="{{ $mobileLogoSmall | relURL }}"
+          alt="" />
+        <img
+          class="popover-navigation__header-mobile-logo-image popover-navigation__header-mobile-logo-image--small popover-navigation__header-mobile-logo-image--dark"
+          src="{{ $mobileLogoDarkSmall | relURL }}"
+          alt="" />
+      </span>
+    </h2>
   </div>
   <button
     class="popover-navigation__close"

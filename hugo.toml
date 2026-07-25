@@ -109,6 +109,10 @@ event = "big-tile-event.html"
 [params.navigationMenu]
   headerIcon = "sun"
   headerTitle = "Golden Wastes"
+  mobileLogo = "/logo.png"
+  mobileLogoDark = "/logo-dark.png"
+  mobileLogoSmall = "/logo-s.png"
+  mobileLogoDarkSmall = "/logo-dark-s.png"
   subtitle = "Explore"
   columnsOnDesktop = 2
   showFooter = false
