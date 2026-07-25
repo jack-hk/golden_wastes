@@ -62,6 +62,7 @@ showSeries = true
 showUpdated = true
 showReferences = true
 showTaxonomyIcons = true
+showReadingTime = false
 metaBelowContent = false
 taxonomiesBelowContent = false
 
@@ -90,17 +91,22 @@ type = "categories"
 [params.bigTiles]
 count = 3
 truncate = 130
+pages = [
+  "/article/the-project",
+  "/article/how-to-play",
+  "/article/the-wastes",
+]
 
 [params.smallTiles.images]
-article = "https://cdnb.artstation.com/p/assets/images/images/031/091/817/large/kate-vigdis-.jpg?1602586366"
-campaign = "https://cdnb.artstation.com/p/assets/images/images/000/388/611/large/wes-wheeler-crystal-cavern-01-by-wwsketch-d7kdc41.jpg?1420507158"
-event = "https://thumbs.dreamstime.com/b/painting-desert-blue-sky-background-done-watercolor-351087324.jpg"
-class = "https://olddungeonmaster.com/wp-content/uploads/2020/08/player-equipment.jpg?w=640"
+monster = "/uploads/monster.jpg"
+article = "/uploads/blue-abstract.jpg"
+class = "/uploads/tools.jpg"
+campaign = "/uploads/red-abstract.jpg"
+location = "/uploads/cave.jpg"
 
 [params.bigTiles.partials]
 article = "big-tile-article.html"
 quote = "big-tile-quote.html"
-event = "big-tile-event.html"
 
 [params.portal]
   default_view = "list"
@@ -154,15 +160,10 @@ event = "big-tile-event.html"
   # You can also omit the pre parameter to show link without an icon
   
   [[params.navigationMenu.externalLinks]]
-    name = "Example Link 1"
-    url = "https://example.com"
-    pre = "house"
-    title = "Visit Example Website 1"
-
-  [[params.navigationMenu.externalLinks]]
-    name = "Example Link 2"
-    url = "https://example.org"
-    title = "Visit Example Website 2"
+    name = "Join our Discord!"
+    url = "https://discord.gg/qezpwPvDpr"
+    pre = "discord"
+    title = "Join our Discord!"
 
 [menus]
 
@@ -217,7 +218,7 @@ weight = 45
 [[menus.navigation]]
 name = "How To Play"
 pre = "graduate"
-pageRef = "/rules/how to play"
+pageRef = "/article/how-to-play"
 weight = 10
 
   [menus.navigation.params]
@@ -226,17 +227,8 @@ weight = 10
 [[menus.navigation]]
 name = "The Wastes"
 pre = "animal-skull"
-pageRef = "/posts/introduction"
+pageRef = "/article/the-wastes"
 weight = 20
-
-  [menus.navigation.params]
-  group = "learn"
-
-[[menus.navigation]]
-name = "Events"
-pre = "dice"
-pageRef = "/categories/event"
-weight = 30
 
   [menus.navigation.params]
   group = "learn"
@@ -251,18 +243,9 @@ weight = 40
   group = "play"
 
 [[menus.navigation]]
-name = "Equipment"
-pre = "torch"
-pageRef = "/rules"
-weight = 50
-
-  [menus.navigation.params]
-  group = "play"
-
-[[menus.navigation]]
 name = "Bestiary"
 pre = "bestial-fangs"
-pageRef = "/rules"
+pageRef = "/categories/monster"
 weight = 60
 
   [menus.navigation.params]

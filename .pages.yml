@@ -16,7 +16,6 @@ media:
 
 settings:
   content:
-    # Keep future or legacy front matter keys even if they are not yet modeled.
     merge: true
   commit:
     identity: user
@@ -61,7 +60,7 @@ components:
         type: number
         required: false
       - name: badgeForegroundColor
-        label: Badge foreground colour (CSS value)
+        label: Badge foreground colour
         type: string
         required: false
       - name: labels
@@ -75,7 +74,7 @@ components:
             type: string
             required: false
           - name: item
-            label: Value (Markdown supported)
+            label: Value
             type: string
             required: false
           - name: divider
@@ -84,17 +83,14 @@ components:
             required: false
 
 content:
-  - name: posts
-    label: Posts and campaigns
+  - name: articles
+    label: Articles
     type: collection
-    path: content/posts
-    format: toml-frontmatter
-    subfolders: true
+    path: content/article
+    format: yaml-frontmatter
     filename: "{primary}.md"
     fields:
-      - name: title
-        label: Title
-        type: string
+      - { name: title, label: Title, type: string }
       - name: date
         label: Published date
         type: date
@@ -102,302 +98,209 @@ content:
         options:
           time: true
           format: "yyyy-MM-dd'T'HH:mm:ssXXX"
-      - name: draft
-        label: Draft
-        type: boolean
-        required: false
+      - { name: draft, label: Draft, type: boolean, required: false }
+      - name: type
+        label: Layout type
+        type: select
+        options:
+          values: [page, wiki]
       - name: categories
         label: Categories
         type: string
         list: true
-        required: false
-      - name: eventDate
-        label: Event date
-        type: string
-        required: false
-      - name: eventTime
-        label: Event time
-        type: string
-        required: false
-      - name: image
-        label: Featured image URL or /uploads path
-        type: string
-        required: false
+      - { name: image, label: Featured image, type: string, required: false }
+      - { name: show_date, label: Show date, type: boolean, required: false }
+      - { name: show_reading_time, label: Show reading time, type: boolean, required: false }
+      - { name: infobox, component: infobox }
+      - { name: also, label: Related pages, type: string, list: true, required: false }
       - name: body
-        label: Content
+        label: Article body
         type: rich-text
-        options:
-          format: markdown
-          media: images
-          switcher: true
+        options: { format: markdown, media: images, switcher: true }
     view:
-      fields: [title, date, draft, categories]
-      primary: title
-      sort: [date, title]
-      search: [title, categories, body]
-      default:
-        sort: date
-        order: desc
-
-  - name: moves
-    label: Wiki moves
-    type: collection
-    path: content/rules/move
-    format: yaml-frontmatter
-    subfolders: false
-    filename: "{primary}.md"
-    fields:
-      - name: title
-        label: Move name
-        type: string
-      - name: type
-        label: Layout type
-        type: string
-        required: false
-      - name: bookHidden
-        label: Hidden in book
-        type: boolean
-        required: false
-      - name: bookSearchExclude
-        label: Exclude from book search
-        type: boolean
-        required: false
-      - name: BookToC
-        label: Include in book table of contents
-        type: boolean
-        required: false
-      - name: infobox
-        component: infobox
-      - name: also
-        label: Related pages
-        type: string
-        list: true
-        required: false
-      - name: body
-        label: Move text
-        type: rich-text
-        options:
-          format: markdown
-          media: images
-          switcher: true
-    view:
-      fields: [title, type, bookHidden, infobox.header]
+      fields: [title, date, draft, type]
       primary: title
       sort: [title]
-      search: [title, also, infobox.header, infobox.labels, body]
-      default:
-        sort: title
-        order: asc
+      search: [title, body]
+
+  - name: campaigns
+    label: Campaigns
+    type: collection
+    path: content/campaign
+    format: yaml-frontmatter
+    filename: "{primary}.md"
+    fields:
+      - { name: title, label: Title, type: string }
+      - name: date
+        label: Published date
+        type: date
+        required: false
+        options:
+          time: true
+          format: "yyyy-MM-dd'T'HH:mm:ssXXX"
+      - { name: draft, label: Draft, type: boolean, required: false }
+      - name: categories
+        label: Categories
+        type: string
+        list: true
+      - { name: eventDate, label: Campaign date, type: string, required: false }
+      - { name: eventTime, label: Campaign time, type: string, required: false }
+      - { name: image, label: Featured image, type: string, required: false }
+      - { name: show_reading_time, label: Show reading time, type: boolean, required: false }
+      - name: body
+        label: Campaign body
+        type: rich-text
+        options: { format: markdown, media: images, switcher: true }
+    view:
+      fields: [title, date, draft]
+      primary: title
+      sort: [title]
+      search: [title, body]
+
+  - name: monsters
+    label: Monsters
+    type: collection
+    path: content/monster
+    format: yaml-frontmatter
+    filename: "{primary}.md"
+    fields:
+      - { name: title, label: Name, type: string }
+      - name: type
+        label: Layout type
+        type: select
+        options:
+          values: [wiki, page]
+      - name: categories
+        label: Categories
+        type: string
+        list: true
+      - { name: image, label: Featured image, type: string, required: false }
+      - { name: show_date, label: Show date, type: boolean, required: false }
+      - { name: show_reading_time, label: Show reading time, type: boolean, required: false }
+      - { name: infobox, component: infobox }
+      - { name: also, label: Related pages, type: string, list: true, required: false }
+      - name: body
+        label: Monster body
+        type: rich-text
+        options: { format: markdown, media: images, switcher: true }
+    view:
+      fields: [title, type, infobox.header]
+      primary: title
+      sort: [title]
+      search: [title, infobox.labels, body]
+
+  - name: locations
+    label: Locations
+    type: collection
+    path: content/location
+    format: yaml-frontmatter
+    filename: "{primary}.md"
+    fields:
+      - { name: title, label: Name, type: string }
+      - name: type
+        label: Layout type
+        type: select
+        options:
+          values: [wiki, page]
+      - name: categories
+        label: Categories
+        type: string
+        list: true
+      - { name: image, label: Featured image, type: string, required: false }
+      - { name: show_date, label: Show date, type: boolean, required: false }
+      - { name: show_reading_time, label: Show reading time, type: boolean, required: false }
+      - { name: infobox, component: infobox }
+      - { name: also, label: Related pages, type: string, list: true, required: false }
+      - name: body
+        label: Location body
+        type: rich-text
+        options: { format: markdown, media: images, switcher: true }
+    view:
+      fields: [title, type, infobox.header]
+      primary: title
+      sort: [title]
+      search: [title, infobox.labels, body]
 
   - name: classes
-    label: Wiki classes
+    label: Classes
     type: collection
-    path: content/rules/class
+    path: content/class
     format: yaml-frontmatter
-    subfolders: false
     filename: "{primary}.md"
     fields:
-      - name: title
-        label: Class name
-        type: string
-      - name: header
-        label: Page heading
-        type: string
-        required: false
+      - { name: title, label: Class name, type: string }
+      - { name: header, label: Page heading, type: string, required: false }
       - name: type
         label: Layout type
-        type: string
-        required: false
-      - name: categories
-        label: Category
-        type: string
-        required: false
-      - name: image
-        label: Featured image URL or /uploads path
-        type: string
-        required: false
-      - name: infobox
-        component: infobox
-      - name: also
-        label: Related pages
-        type: string
-        list: true
-        required: false
-      - name: body
-        label: Class description
-        type: rich-text
+        type: select
         options:
-          format: markdown
-          media: images
-          switcher: true
-    view:
-      fields: [title, header, categories, infobox.header]
-      primary: title
-      sort: [title]
-      search: [title, header, also, body]
-      default:
-        sort: title
-        order: asc
-
-  - name: rules_home
-    label: Rules landing page
-    type: file
-    path: content/rules/_index.md
-    format: yaml-frontmatter
-    fields:
-      - name: title
-        label: Title
-        type: string
-      - name: weight
-        label: Navigation weight
-        type: number
-        required: false
-      - name: bookFlatSection
-        label: Flat book section
-        type: boolean
-        required: false
-      - name: body
-        label: Content
-        type: rich-text
-        options:
-          format: markdown
-          media: images
-          switcher: true
-
-  - name: how_to_play
-    label: How to play
-    type: file
-    path: content/rules/how to play/index.md
-    format: yaml-frontmatter
-    fields:
-      - name: title
-        label: Title
-        type: string
-      - name: weight
-        label: Navigation weight
-        type: number
-        required: false
-      - name: type
-        label: Layout type
-        type: string
-        required: false
+          values: [wiki, page]
       - name: categories
         label: Categories
         type: string
         list: true
-        required: false
-      - name: image
-        label: Featured image URL or /uploads path
-        type: string
-        required: false
+      - { name: image, label: Featured image, type: string, required: false }
+      - { name: show_date, label: Show date, type: boolean, required: false }
+      - { name: show_reading_time, label: Show reading time, type: boolean, required: false }
+      - { name: infobox, component: infobox }
+      - { name: also, label: Related pages, type: string, list: true, required: false }
       - name: body
-        label: Content
+        label: Class body
         type: rich-text
-        options:
-          format: markdown
-          media: images
-          switcher: true
+        options: { format: markdown, media: images, switcher: true }
+    view:
+      fields: [title, header, type, infobox.header]
+      primary: title
+      sort: [title]
+      search: [title, header, infobox.labels, body]
 
-  - name: world_home
-    label: World landing page
-    type: file
-    path: content/world/_index.md
+  - name: category_portals
+    label: Category portals
+    type: collection
+    path: content/categories
     format: yaml-frontmatter
+    subfolders: true
+    filename: "{primary}.md"
     fields:
-      - name: title
-        label: Title
-        type: string
-      - name: weight
-        label: Navigation weight
-        type: number
-        required: false
-      - name: bookFlatSection
-        label: Flat book section
-        type: boolean
-        required: false
-      - name: body
-        label: Content
-        type: rich-text
-        options:
-          format: markdown
-          media: images
-          switcher: true
-
-  - name: article_category
-    label: Article category page
-    type: file
-    path: content/categories/article/_index.md
-    format: yaml-frontmatter
-    fields:
-      - name: title
-        label: Title
-        type: string
+      - { name: title, label: Title, type: string }
       - name: portal_view
         label: Portal layout
         type: select
         options:
           values: [list, card]
-      - name: showcase_tiles
-        label: Showcase tile count
-        type: number
-        required: false
-      - name: min_showcase_tiles
-        label: Minimum showcase tiles
-        type: number
-        required: false
-      - name: truncate_limit
-        label: Description character limit
-        type: number
-        required: false
-      - name: show_alphabet
-        label: Show alphabet navigation
-        type: boolean
-        required: false
-      - name: body
-        label: Introduction
-        type: rich-text
-        options:
-          format: markdown
-          media: images
-          switcher: true
-
-  - name: class_category
-    label: Class category page
-    type: file
-    path: content/categories/class/_index.md
-    format: yaml-frontmatter
-    fields:
-      - name: title
-        label: Title
-        type: string
-      - name: portal_view
-        label: Portal layout
+      - { name: showcase_tiles, label: Showcase count, type: number, required: false }
+      - { name: min_showcase_tiles, label: Minimum showcase count, type: number, required: false }
+      - { name: card_count, label: Card count, type: number, required: false }
+      - { name: min_card_count, label: Minimum card count, type: number, required: false }
+      - { name: truncate_limit, label: Description limit, type: number, required: false }
+      - { name: carousel_on_desktop, label: Desktop carousel, type: boolean, required: false }
+      - { name: show_alphabet, label: Show alphabet, type: boolean, required: false }
+      - { name: show_layout_toggle, label: Show layout toggle, type: boolean, required: false }
+      - name: list_layout
+        label: Default list layout
         type: select
+        required: false
         options:
-          values: [list, card]
-      - name: card_count
-        label: Card count
-        type: number
-        required: false
-      - name: min_card_count
-        label: Minimum card count
-        type: number
-        required: false
-      - name: truncate_limit
-        label: Description character limit
-        type: number
-        required: false
-      - name: carousel_on_desktop
-        label: Enable desktop carousel
-        type: boolean
-        required: false
+          values: [fixed, masonry]
+      - { name: show_intro_text, label: Show intro text, type: boolean, required: false }
+      - { name: intro_text, label: Intro text, type: string, required: false }
+      - { name: show_left_textbox, label: Show left textbox, type: boolean, required: false }
+      - { name: left_textbox_title, label: Left textbox title, type: string, required: false }
+      - { name: left_textbox_text, label: Left textbox text, type: string, required: false }
+      - { name: show_right_textbox, label: Show right textbox, type: boolean, required: false }
+      - { name: right_textbox_title, label: Right textbox title, type: string, required: false }
+      - { name: right_textbox_text, label: Right textbox text, type: string, required: false }
+      - { name: show_bottom_textbox, label: Show bottom textbox, type: boolean, required: false }
+      - { name: bottom_textbox_text, label: Bottom textbox text, type: string, required: false }
       - name: body
-        label: Introduction
+        label: Portal body
         type: rich-text
-        options:
-          format: markdown
-          media: images
-          switcher: true
+        options: { format: markdown, media: images, switcher: true }
+    view:
+      fields: [title, portal_view]
+      primary: title
+      sort: [title]
+      search: [title]
 
   - name: home
     label: Home page
@@ -405,9 +308,7 @@ content:
     path: content/_index.md
     format: toml-frontmatter
     fields:
-      - name: title
-        label: Title
-        type: string
+      - { name: title, label: Title, type: string }
       - name: date
         label: Date
         type: date
@@ -415,14 +316,8 @@ content:
         options:
           time: true
           format: "yyyy-MM-dd'T'HH:mm:ssXXX"
-      - name: draft
-        label: Draft
-        type: boolean
-        required: false
+      - { name: draft, label: Draft, type: boolean, required: false }
       - name: body
         label: Content
         type: rich-text
-        options:
-          format: markdown
-          media: images
-          switcher: true
+        options: { format: markdown, media: images, switcher: true }

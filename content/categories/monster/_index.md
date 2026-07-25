@@ -1,7 +1,7 @@
 ---
-title: "Article"
+title: "Monster"
 portal_view: "list"
-showcase_tiles: 4
+showcase_tiles: 3
 min_showcase_tiles: 2
 truncate_limit: 150
 show_alphabet: true
