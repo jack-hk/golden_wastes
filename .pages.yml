@@ -1,15 +1,22 @@
 media:
   - name: images
-    label: Images
+    label: Uploaded images
     input: static/uploads
     output: /uploads
     categories: [image]
     extensions: [png, jpg, jpeg, gif, webp, svg]
     rename: safe
+  - name: wiki_icons
+    label: Wiki SVG icons
+    input: static/SVG
+    output: /SVG
+    extensions: [svg]
+    categories: [image]
+    rename: safe
 
 settings:
   content:
-    # Preserve front matter that is not represented by an editor field.
+    # Keep future or legacy front matter keys even if they are not yet modeled.
     merge: true
   commit:
     identity: user
@@ -20,51 +27,65 @@ settings:
       rename: "content: rename {oldPath} to {newPath}"
 
 components:
-  markdown_page:
+  infobox:
     type: object
+    label: Infobox
+    required: false
     fields:
-      - name: title
-        label: Title
+      - name: header
+        label: Heading
         type: string
-      - name: date
-        label: Date
-        type: date
-        required: false
-        options:
-          time: true
-          format: "yyyy-MM-dd'T'HH:mm:ssXXX"
-      - name: draft
-        label: Draft
-        type: boolean
-        required: false
-      - name: weight
-        label: Navigation weight
-        type: number
-        required: false
-      - name: type
-        label: Layout type
-        type: string
-        required: false
-      - name: categories
-        label: Categories
-        type: string
-        list: true
         required: false
       - name: image
-        label: Featured image URL or /uploads path
+        label: Image URL or repository path
         type: string
         required: false
-      - name: body
-        label: Content
-        type: rich-text
-        options:
-          format: markdown
-          media: images
-          switcher: true
+      - name: icon
+        label: Icon URL or /SVG path
+        type: string
+        required: false
+      - name: iconSize
+        label: Icon size
+        type: number
+        required: false
+      - name: iconColor
+        label: Icon colour (CSS value)
+        type: string
+        required: false
+      - name: badgePath
+        label: Badge URL or /SVG path
+        type: string
+        required: false
+      - name: badgeSize
+        label: Badge size
+        type: number
+        required: false
+      - name: badgeForegroundColor
+        label: Badge foreground colour (CSS value)
+        type: string
+        required: false
+      - name: labels
+        label: Infobox rows
+        type: object
+        list: true
+        required: false
+        fields:
+          - name: label
+            label: Label
+            type: string
+            required: false
+          - name: item
+            label: Value (Markdown supported)
+            type: string
+            required: false
+          - name: divider
+            label: Show divider
+            type: boolean
+            required: false
 
 content:
   - name: posts
-    label: Posts
+    label: Posts and campaigns
     type: collection
     path: content/posts
     format: toml-frontmatter
@@ -75,7 +96,7 @@ content:
         label: Title
         type: string
       - name: date
-        label: Date
+        label: Published date
         type: date
         required: false
         options:
@@ -90,6 +111,14 @@ content:
         type: string
         list: true
         required: false
+      - name: eventDate
+        label: Event date
+        type: string
+        required: false
+      - name: eventTime
+        label: Event time
+        type: string
+        required: false
       - name: image
         label: Featured image URL or /uploads path
         type: string
@@ -102,20 +131,144 @@ content:
           media: images
           switcher: true
     view:
-      fields: [title, date, draft]
+      fields: [title, date, draft, categories]
       primary: title
       sort: [date, title]
+      search: [title, categories, body]
       default:
         sort: date
         order: desc
 
-  - name: rules
-    label: Rules and wiki
+  - name: moves
+    label: Wiki moves
     type: collection
-    path: content/rules
+    path: content/rules/move
     format: yaml-frontmatter
-    subfolders: true
+    subfolders: false
     filename: "{primary}.md"
+    fields:
+      - name: title
+        label: Move name
+        type: string
+      - name: type
+        label: Layout type
+        type: string
+        required: false
+      - name: bookHidden
+        label: Hidden in book
+        type: boolean
+        required: false
+      - name: bookSearchExclude
+        label: Exclude from book search
+        type: boolean
+        required: false
+      - name: BookToC
+        label: Include in book table of contents
+        type: boolean
+        required: false
+      - name: infobox
+        component: infobox
+      - name: also
+        label: Related pages
+        type: string
+        list: true
+        required: false
+      - name: body
+        label: Move text
+        type: rich-text
+        options:
+          format: markdown
+          media: images
+          switcher: true
+    view:
+      fields: [title, type, bookHidden, infobox.header]
+      primary: title
+      sort: [title]
+      search: [title, also, infobox.header, infobox.labels, body]
+      default:
+        sort: title
+        order: asc
+
+  - name: classes
+    label: Wiki classes
+    type: collection
+    path: content/rules/class
+    format: yaml-frontmatter
+    subfolders: false
+    filename: "{primary}.md"
+    fields:
+      - name: title
+        label: Class name
+        type: string
+      - name: header
+        label: Page heading
+        type: string
+        required: false
+      - name: type
+        label: Layout type
+        type: string
+        required: false
+      - name: categories
+        label: Category
+        type: string
+        required: false
+      - name: image
+        label: Featured image URL or /uploads path
+        type: string
+        required: false
+      - name: infobox
+        component: infobox
+      - name: also
+        label: Related pages
+        type: string
+        list: true
+        required: false
+      - name: body
+        label: Class description
+        type: rich-text
+        options:
+          format: markdown
+          media: images
+          switcher: true
+    view:
+      fields: [title, header, categories, infobox.header]
+      primary: title
+      sort: [title]
+      search: [title, header, also, body]
+      default:
+        sort: title
+        order: asc
+
+  - name: rules_home
+    label: Rules landing page
+    type: file
+    path: content/rules/_index.md
+    format: yaml-frontmatter
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: weight
+        label: Navigation weight
+        type: number
+        required: false
+      - name: bookFlatSection
+        label: Flat book section
+        type: boolean
+        required: false
+      - name: body
+        label: Content
+        type: rich-text
+        options:
+          format: markdown
+          media: images
+          switcher: true
+
+  - name: how_to_play
+    label: How to play
+    type: file
+    path: content/rules/how to play/index.md
+    format: yaml-frontmatter
     fields:
       - name: title
         label: Title
@@ -144,20 +297,12 @@ content:
           format: markdown
           media: images
           switcher: true
-    view:
-      layout: tree
-      node:
-        filename: index.md
-      fields: [title, type]
-      primary: title
 
-  - name: world
-    label: World
-    type: collection
-    path: content/world
+  - name: world_home
+    label: World landing page
+    type: file
+    path: content/world/_index.md
     format: yaml-frontmatter
-    subfolders: true
-    filename: "{primary}.md"
     fields:
       - name: title
         label: Title
@@ -166,18 +311,9 @@ content:
         label: Navigation weight
         type: number
         required: false
-      - name: type
-        label: Layout type
-        type: string
-        required: false
-      - name: categories
-        label: Categories
-        type: string
-        list: true
-        required: false
-      - name: image
-        label: Featured image URL or /uploads path
-        type: string
+      - name: bookFlatSection
+        label: Flat book section
+        type: boolean
         required: false
       - name: body
         label: Content
@@ -186,51 +322,103 @@ content:
           format: markdown
           media: images
           switcher: true
-    view:
-      layout: tree
-      node:
-        filename: index.md
-      fields: [title]
-      primary: title
 
-  - name: categories
-    label: Category pages
-    type: collection
-    path: content/categories
+  - name: article_category
+    label: Article category page
+    type: file
+    path: content/categories/article/_index.md
     format: yaml-frontmatter
-    subfolders: true
-    filename: "{primary}.md"
     fields:
       - name: title
         label: Title
         type: string
-      - name: weight
-        label: Navigation weight
+      - name: portal_view
+        label: Portal layout
+        type: select
+        options:
+          values: [list, card]
+      - name: showcase_tiles
+        label: Showcase tile count
         type: number
         required: false
+      - name: min_showcase_tiles
+        label: Minimum showcase tiles
+        type: number
+        required: false
+      - name: truncate_limit
+        label: Description character limit
+        type: number
+        required: false
+      - name: show_alphabet
+        label: Show alphabet navigation
+        type: boolean
+        required: false
       - name: body
-        label: Content
+        label: Introduction
         type: rich-text
         options:
           format: markdown
           media: images
           switcher: true
-    view:
-      layout: tree
-      node:
-        filename: index.md
-      fields: [title]
-      primary: title
+
+  - name: class_category
+    label: Class category page
+    type: file
+    path: content/categories/class/_index.md
+    format: yaml-frontmatter
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: portal_view
+        label: Portal layout
+        type: select
+        options:
+          values: [list, card]
+      - name: card_count
+        label: Card count
+        type: number
+        required: false
+      - name: min_card_count
+        label: Minimum card count
+        type: number
+        required: false
+      - name: truncate_limit
+        label: Description character limit
+        type: number
+        required: false
+      - name: carousel_on_desktop
+        label: Enable desktop carousel
+        type: boolean
+        required: false
+      - name: body
+        label: Introduction
+        type: rich-text
+        options:
+          format: markdown
+          media: images
+          switcher: true
 
   - name: home
     label: Home page
     type: file
     path: content/_index.md
-    format: yaml-frontmatter
+    format: toml-frontmatter
     fields:
       - name: title
         label: Title
         type: string
+      - name: date
+        label: Date
+        type: date
+        required: false
+        options:
+          time: true
+          format: "yyyy-MM-dd'T'HH:mm:ssXXX"
+      - name: draft
+        label: Draft
+        type: boolean
+        required: false
       - name: body
         label: Content
         type: rich-text
