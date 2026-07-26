@@ -9,4 +9,4 @@ Welcome to the [Golden Wastes](/article/the-wastes/), a post-apocalyptic fantasy
 
 The [project](/article/the-project/) explores a brutally harsh region between one and three centuries after the global apocalypse known as the [Second Great Pulse](/article/second-great-pulse/).
 
-Scorching salt flats, towering teeth-like formations and all kinds of riches stretch as far as the eye can see, while far below lies a colossal network of caverns known simply as [The Beneath](/location/the-beneath/). 
+Scorching salt flats, towering teeth-like formations and all kinds of riches stretch as far as the eye can see, while far below lies a colossal network of caverns known simply as [The Beneath](/location/the-beneath/).
