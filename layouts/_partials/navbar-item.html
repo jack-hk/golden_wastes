@@ -8,6 +8,9 @@
     {{- partial "navbar-item-popover.html" (dict "page" $page "entry" $e) }}
   {{- else }}
     {{- $href := $e.URL }}
+    {{- if and $isFirst (eq (lower $e.Name) "home") }}
+      {{- $href = "/" | relURL }}
+    {{- end }}
     {{- if and ($e.Params.editCurrentPage | default false) $editablePage.editable }}
       {{- $href = $editablePage.url }}
     {{- end }}
