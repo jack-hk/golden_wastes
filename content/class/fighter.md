@@ -3,11 +3,12 @@ title: "Fighter"
 header: "The Fighter"
 type: "wiki"
 categories: ["class"]
-image: "/uploads/man.png"
+image: "/uploads/fighter.jpg"
 show_date: false
 infobox:
   header: "Fighter"
-  image:
+  image: "/uploads/fighter.jpg"
+  iconSize: 200
   icon:
   labels:
     - label: "Type"

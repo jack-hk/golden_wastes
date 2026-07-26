@@ -43,9 +43,21 @@ components:
         label: Icon URL or /SVG path
         type: string
         required: false
+      - name: imageSize
+        label: Image size
+        type: number
+        required: false
       - name: iconSize
         label: Icon size
         type: number
+        required: false
+      - name: imageMargin
+        label: Image margin
+        type: string
+        required: false
+      - name: iconMargin
+        label: Icon margin
+        type: string
         required: false
       - name: iconColor
         label: Icon colour (CSS value)
@@ -55,9 +67,37 @@ components:
         label: Badge URL or /SVG path
         type: string
         required: false
+      - name: badge
+        label: Badge path alias
+        type: string
+        required: false
+      - name: badgeIcon
+        label: Badge icon alias
+        type: string
+        required: false
+      - name: badgeSvg
+        label: Badge SVG alias
+        type: string
+        required: false
       - name: badgeSize
         label: Badge size
         type: number
+        required: false
+      - name: badgeEnabled
+        label: Show badge
+        type: boolean
+        required: false
+      - name: badgeOnThumbnail
+        label: Show badge on thumbnails
+        type: boolean
+        required: false
+      - name: badgeBackgroundColor
+        label: Badge background colour
+        type: string
+        required: false
+      - name: badgeColor
+        label: Badge colour alias
+        type: string
         required: false
       - name: badgeForegroundColor
         label: Badge foreground colour
@@ -82,6 +122,15 @@ components:
             type: boolean
             required: false
 
+  references:
+    type: object
+    label: References
+    list: true
+    required: false
+    fields:
+      - { name: title, label: Link title, type: string }
+      - { name: url, label: URL, type: string }
+
 content:
   - name: articles
     label: Articles
@@ -98,7 +147,16 @@ content:
         options:
           time: true
           format: "yyyy-MM-dd'T'HH:mm:ssXXX"
+      - { name: updated, label: Updated date, type: date, required: false }
       - { name: draft, label: Draft, type: boolean, required: false }
+      - { name: placeholder, label: Hide as placeholder, type: boolean, required: false }
+      - { name: slug, label: URL slug, type: string, required: false }
+      - { name: url, label: URL override, type: string, required: false }
+      - { name: aliases, label: Previous URLs, type: string, list: true, required: false }
+      - { name: weight, label: Sort weight, type: number, required: false }
+      - { name: description, label: Description, type: string, required: false }
+      - { name: summary, label: Summary, type: text, required: false }
+      - { name: author, label: Author, type: string, required: false }
       - name: type
         label: Layout type
         type: select
@@ -108,11 +166,20 @@ content:
         label: Categories
         type: string
         list: true
+      - { name: tags, label: Tags, type: string, list: true, required: false }
+      - { name: series, label: Series, type: string, required: false }
       - { name: image, label: Featured image, type: string, required: false }
+      - { name: featured_image, label: Page header image, type: string, required: false }
+      - { name: image_caption, label: Image caption, type: string, required: false }
       - { name: show_date, label: Show date, type: boolean, required: false }
       - { name: show_reading_time, label: Show reading time, type: boolean, required: false }
+      - { name: iconColor, label: Page icon colour, type: string, required: false }
+      - { name: badgeOnThumbnail, label: Show badge on thumbnails, type: boolean, required: false }
+      - { name: bookHidden, label: Hide from legacy book navigation, type: boolean, required: false }
+      - { name: BookToC, label: Show legacy book table of contents, type: boolean, required: false }
       - { name: infobox, component: infobox }
       - { name: also, label: Related pages, type: string, list: true, required: false }
+      - { name: references, component: references }
       - name: body
         label: Article body
         type: rich-text
@@ -138,15 +205,34 @@ content:
         options:
           time: true
           format: "yyyy-MM-dd'T'HH:mm:ssXXX"
+      - { name: updated, label: Updated date, type: date, required: false }
       - { name: draft, label: Draft, type: boolean, required: false }
+      - { name: placeholder, label: Hide as placeholder, type: boolean, required: false }
+      - { name: slug, label: URL slug, type: string, required: false }
+      - { name: url, label: URL override, type: string, required: false }
+      - { name: aliases, label: Previous URLs, type: string, list: true, required: false }
+      - { name: weight, label: Sort weight, type: number, required: false }
+      - { name: description, label: Description, type: string, required: false }
+      - { name: summary, label: Summary, type: text, required: false }
+      - { name: author, label: Author, type: string, required: false }
+      - name: type
+        label: Layout type
+        type: select
+        options:
+          values: [page]
       - name: categories
         label: Categories
         type: string
         list: true
+      - { name: tags, label: Tags, type: string, list: true, required: false }
+      - { name: series, label: Series, type: string, required: false }
       - { name: eventDate, label: Campaign date, type: string, required: false }
       - { name: eventTime, label: Campaign time, type: string, required: false }
       - { name: image, label: Featured image, type: string, required: false }
+      - { name: featured_image, label: Page header image, type: string, required: false }
+      - { name: image_caption, label: Image caption, type: string, required: false }
       - { name: show_reading_time, label: Show reading time, type: boolean, required: false }
+      - { name: references, component: references }
       - name: body
         label: Campaign body
         type: rich-text
@@ -165,6 +251,17 @@ content:
     filename: "{primary}.md"
     fields:
       - { name: title, label: Name, type: string }
+      - { name: date, label: Published date, type: date, required: false }
+      - { name: updated, label: Updated date, type: date, required: false }
+      - { name: draft, label: Draft, type: boolean, required: false }
+      - { name: placeholder, label: Hide as placeholder, type: boolean, required: false }
+      - { name: slug, label: URL slug, type: string, required: false }
+      - { name: url, label: URL override, type: string, required: false }
+      - { name: aliases, label: Previous URLs, type: string, list: true, required: false }
+      - { name: weight, label: Sort weight, type: number, required: false }
+      - { name: description, label: Description, type: string, required: false }
+      - { name: summary, label: Summary, type: text, required: false }
+      - { name: author, label: Author, type: string, required: false }
       - name: type
         label: Layout type
         type: select
@@ -174,11 +271,20 @@ content:
         label: Categories
         type: string
         list: true
+      - { name: tags, label: Tags, type: string, list: true, required: false }
+      - { name: series, label: Series, type: string, required: false }
       - { name: image, label: Featured image, type: string, required: false }
+      - { name: featured_image, label: Page header image, type: string, required: false }
+      - { name: image_caption, label: Image caption, type: string, required: false }
       - { name: show_date, label: Show date, type: boolean, required: false }
       - { name: show_reading_time, label: Show reading time, type: boolean, required: false }
+      - { name: iconColor, label: Page icon colour, type: string, required: false }
+      - { name: badgeOnThumbnail, label: Show badge on thumbnails, type: boolean, required: false }
+      - { name: bookHidden, label: Hide from legacy book navigation, type: boolean, required: false }
+      - { name: BookToC, label: Show legacy book table of contents, type: boolean, required: false }
       - { name: infobox, component: infobox }
       - { name: also, label: Related pages, type: string, list: true, required: false }
+      - { name: references, component: references }
       - name: body
         label: Monster body
         type: rich-text
@@ -197,6 +303,17 @@ content:
     filename: "{primary}.md"
     fields:
       - { name: title, label: Name, type: string }
+      - { name: date, label: Published date, type: date, required: false }
+      - { name: updated, label: Updated date, type: date, required: false }
+      - { name: draft, label: Draft, type: boolean, required: false }
+      - { name: placeholder, label: Hide as placeholder, type: boolean, required: false }
+      - { name: slug, label: URL slug, type: string, required: false }
+      - { name: url, label: URL override, type: string, required: false }
+      - { name: aliases, label: Previous URLs, type: string, list: true, required: false }
+      - { name: weight, label: Sort weight, type: number, required: false }
+      - { name: description, label: Description, type: string, required: false }
+      - { name: summary, label: Summary, type: text, required: false }
+      - { name: author, label: Author, type: string, required: false }
       - name: type
         label: Layout type
         type: select
@@ -206,11 +323,20 @@ content:
         label: Categories
         type: string
         list: true
+      - { name: tags, label: Tags, type: string, list: true, required: false }
+      - { name: series, label: Series, type: string, required: false }
       - { name: image, label: Featured image, type: string, required: false }
+      - { name: featured_image, label: Page header image, type: string, required: false }
+      - { name: image_caption, label: Image caption, type: string, required: false }
       - { name: show_date, label: Show date, type: boolean, required: false }
       - { name: show_reading_time, label: Show reading time, type: boolean, required: false }
+      - { name: iconColor, label: Page icon colour, type: string, required: false }
+      - { name: badgeOnThumbnail, label: Show badge on thumbnails, type: boolean, required: false }
+      - { name: bookHidden, label: Hide from legacy book navigation, type: boolean, required: false }
+      - { name: BookToC, label: Show legacy book table of contents, type: boolean, required: false }
       - { name: infobox, component: infobox }
       - { name: also, label: Related pages, type: string, list: true, required: false }
+      - { name: references, component: references }
       - name: body
         label: Location body
         type: rich-text
@@ -229,6 +355,17 @@ content:
     filename: "{primary}.md"
     fields:
       - { name: title, label: Class name, type: string }
+      - { name: date, label: Published date, type: date, required: false }
+      - { name: updated, label: Updated date, type: date, required: false }
+      - { name: draft, label: Draft, type: boolean, required: false }
+      - { name: placeholder, label: Hide as placeholder, type: boolean, required: false }
+      - { name: slug, label: URL slug, type: string, required: false }
+      - { name: url, label: URL override, type: string, required: false }
+      - { name: aliases, label: Previous URLs, type: string, list: true, required: false }
+      - { name: weight, label: Sort weight, type: number, required: false }
+      - { name: description, label: Description, type: string, required: false }
+      - { name: summary, label: Summary, type: text, required: false }
+      - { name: author, label: Author, type: string, required: false }
       - { name: header, label: Page heading, type: string, required: false }
       - name: type
         label: Layout type
@@ -239,11 +376,20 @@ content:
         label: Categories
         type: string
         list: true
+      - { name: tags, label: Tags, type: string, list: true, required: false }
+      - { name: series, label: Series, type: string, required: false }
       - { name: image, label: Featured image, type: string, required: false }
+      - { name: featured_image, label: Page header image, type: string, required: false }
+      - { name: image_caption, label: Image caption, type: string, required: false }
       - { name: show_date, label: Show date, type: boolean, required: false }
       - { name: show_reading_time, label: Show reading time, type: boolean, required: false }
+      - { name: iconColor, label: Page icon colour, type: string, required: false }
+      - { name: badgeOnThumbnail, label: Show badge on thumbnails, type: boolean, required: false }
+      - { name: bookHidden, label: Hide from legacy book navigation, type: boolean, required: false }
+      - { name: BookToC, label: Show legacy book table of contents, type: boolean, required: false }
       - { name: infobox, component: infobox }
       - { name: also, label: Related pages, type: string, list: true, required: false }
+      - { name: references, component: references }
       - name: body
         label: Class body
         type: rich-text
@@ -263,6 +409,17 @@ content:
     filename: "{primary}.md"
     fields:
       - { name: title, label: Title, type: string }
+      - { name: date, label: Date, type: date, required: false }
+      - { name: updated, label: Updated date, type: date, required: false }
+      - { name: draft, label: Draft, type: boolean, required: false }
+      - { name: placeholder, label: Hide as placeholder, type: boolean, required: false }
+      - { name: slug, label: URL slug, type: string, required: false }
+      - { name: url, label: URL override, type: string, required: false }
+      - { name: aliases, label: Previous URLs, type: string, list: true, required: false }
+      - { name: weight, label: Sort weight, type: number, required: false }
+      - { name: description, label: Description, type: string, required: false }
+      - { name: summary, label: Summary, type: text, required: false }
+      - { name: image, label: Portal image, type: string, required: false }
       - name: portal_view
         label: Portal layout
         type: select
@@ -272,6 +429,8 @@ content:
       - { name: min_showcase_tiles, label: Minimum showcase count, type: number, required: false }
       - { name: card_count, label: Card count, type: number, required: false }
       - { name: min_card_count, label: Minimum card count, type: number, required: false }
+      - { name: random_cards, label: Randomise cards, type: boolean, required: false }
+      - { name: cards, label: Ordered card page paths, type: string, list: true, required: false }
       - { name: truncate_limit, label: Description limit, type: number, required: false }
       - { name: carousel_on_desktop, label: Desktop carousel, type: boolean, required: false }
       - { name: show_alphabet, label: Show alphabet, type: boolean, required: false }
@@ -317,6 +476,18 @@ content:
           time: true
           format: "yyyy-MM-dd'T'HH:mm:ssXXX"
       - { name: draft, label: Draft, type: boolean, required: false }
+      - { name: placeholder, label: Hide as placeholder, type: boolean, required: false }
+      - { name: updated, label: Updated date, type: date, required: false }
+      - { name: slug, label: URL slug, type: string, required: false }
+      - { name: url, label: URL override, type: string, required: false }
+      - { name: aliases, label: Previous URLs, type: string, list: true, required: false }
+      - { name: weight, label: Sort weight, type: number, required: false }
+      - { name: description, label: Description, type: string, required: false }
+      - { name: summary, label: Summary, type: text, required: false }
+      - { name: author, label: Author, type: string, required: false }
+      - { name: categories, label: Categories, type: string, list: true, required: false }
+      - { name: tags, label: Tags, type: string, list: true, required: false }
+      - { name: image, label: Image, type: string, required: false }
       - name: body
         label: Content
         type: rich-text

@@ -2,11 +2,12 @@
 title: "Cultist"
 type: "wiki"
 categories: ["class"]
-image: "/uploads/man.png"
+image: "/uploads/cultist.jpg"
 show_date: false
 infobox:
   header: "Cultist"
-  image:
+  image: "/uploads/cultist.jpg"
+  iconSize: 200
   icon:
   labels:
     - label: "Type"

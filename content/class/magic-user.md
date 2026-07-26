@@ -2,11 +2,12 @@
 title: "Magic User"
 type: "wiki"
 categories: ["class"]
-image: "/uploads/man.png"
+image: "/uploads/magic-user.jpg"
 show_date: false
 infobox:
   header: "Magic User"
-  image:
+  image: "/uploads/magic-user.jpg"
+  iconSize: 200
   icon:
   labels:
     - label: "Type"

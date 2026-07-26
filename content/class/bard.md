@@ -3,11 +3,12 @@ title: "Bard"
 type: "wiki"
 header: "The Bard"
 categories: ["class"]
-image: "/uploads/man.png"
+image: "/uploads/bard.jpg"
 show_date: false
 infobox:
       header: "Hiii"
-      image: "hi"
+      image: "/uploads/bard.jpg"
+      iconSize: 200
       labels:
         - label: "Partner 1"
           item: "Description for Partner 1"
@@ -21,6 +22,9 @@ also:
   - related-topic-two
 categories: 'class'
 ---
+
+![Scenario 1: Across columns](/uploads/card1.jpg)
+
 
 ## Bards inspire with magic and music.
 
