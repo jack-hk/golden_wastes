@@ -1,0 +1,15 @@
+{{- $target := printf "/categories/%s/" (.Section | urlize) | relURL -}}
+<!doctype html>
+<html lang="{{ site.Language.LanguageCode | default "en" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="0; url={{ $target }}">
+    <link rel="canonical" href="{{ $target | absURL }}">
+    <meta name="robots" content="noindex">
+    <title>Redirecting to {{ .Title }}</title>
+    <script>window.location.replace({{ $target | jsonify | safeJS }});</script>
+  </head>
+  <body>
+    <p><a href="{{ $target }}">Continue to {{ .Title }}</a></p>
+  </body>
+</html>
