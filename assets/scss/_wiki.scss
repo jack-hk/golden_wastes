@@ -31,7 +31,6 @@
       display: flex;
       flex-direction: column;
       margin: 0;
-      min-height: 100vh;
       padding: 0 0 1rem 0;
       width: 100%;
     }
@@ -245,30 +244,37 @@
 .wiki__infobox-image-container {
   background-color: var(--color-background-light);
   border-bottom: 1px solid var(--color-border-default);
+  box-sizing: border-box;
+  overflow: hidden;
   padding: 0.75rem 0.875rem;
   text-align: center;
 }
 
 .wiki__infobox-image-renderer {
-  display: inline-block;
+  display: block;
+  margin: var(--image-margin, 10px auto);
+  max-width: 100%;
   position: relative;
+  width: var(--image-size, 50px);
 }
 
 .wiki__infobox-image-wrapper {
   align-items: center;
+  aspect-ratio: 1;
   display: flex;
-  height: var(--image-size, 50px);
+  height: auto;
   justify-content: center;
-  margin: var(--image-margin, 10px auto);
   position: relative;
-  width: var(--image-size, 50px);
+  width: 100%;
 }
 
 .wiki__infobox-image {
   display: block;
-  height: auto;
+  height: 100%;
+  max-height: 100%;
   max-width: 100%;
-  width: var(--image-size, 50px);
+  object-fit: contain;
+  width: 100%;
 }
 
 .wiki__infobox-image--colored {

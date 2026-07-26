@@ -2,11 +2,12 @@
 title: "Monk"
 type: "wiki"
 categories: ["class"]
-image: "/uploads/man.png"
+image: "/uploads/monk.jpg"
 show_date: false
 infobox:
   header: "Monk"
-  image:
+  image: "/uploads/monk.jpg"
+  iconSize: 200
   icon:
   labels:
     - label: "Type"

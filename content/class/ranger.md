@@ -3,11 +3,12 @@ title: "Ranger"
 header: "The Ranger"
 type: "wiki"
 categories: ["class"]
-image: "/uploads/man.png"
+image: "/uploads/ranger.jpg"
 show_date: false
 infobox:
   header: "Ranger"
-  image:
+  image: "/uploads/ranger.jpg"
+  iconSize: 200
   icon:
   labels:
     - label: "Type"

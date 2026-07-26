@@ -3,11 +3,12 @@ title: "Rogue"
 header: "The Rogue"
 type: "wiki"
 categories: ["class"]
-image: "/uploads/man.png"
+image: "/uploads/rouge.jpg"
 show_date: false
 infobox:
   header: "Rogue"
-  image:
+  image: "/uploads/rouge.jpg"
+  iconSize: 200
   icon:
   labels:
     - label: "Type"

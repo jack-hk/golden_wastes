@@ -2,11 +2,12 @@
 title: "Artificer"
 type: "wiki"
 categories: ["class"]
-image: "/uploads/man.png"
+image: "/uploads/artificer.jpg"
 show_date: false
 infobox:
   header: "Artificer"
-  image:
+  image: "/uploads/artificer.jpg"
+  iconSize: 200
   icon:
   labels:
     - label: "Type"
