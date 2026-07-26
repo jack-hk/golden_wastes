@@ -6,27 +6,18 @@
   {{- $schema := "" -}}
   {{- $schemaType := "collection" -}}
 
-  {{- if hasPrefix $path "posts/" -}}
-    {{- $schema = "posts" -}}
-  {{- else if hasPrefix $path "rules/move/" -}}
-    {{- $schema = "moves" -}}
-  {{- else if hasPrefix $path "rules/class/" -}}
+  {{- if hasPrefix $path "article/" -}}
+    {{- $schema = "articles" -}}
+  {{- else if hasPrefix $path "campaign/" -}}
+    {{- $schema = "campaigns" -}}
+  {{- else if hasPrefix $path "monster/" -}}
+    {{- $schema = "monsters" -}}
+  {{- else if hasPrefix $path "location/" -}}
+    {{- $schema = "locations" -}}
+  {{- else if hasPrefix $path "class/" -}}
     {{- $schema = "classes" -}}
-  {{- else if eq $path "rules/_index.md" -}}
-    {{- $schema = "rules_home" -}}
-    {{- $schemaType = "file" -}}
-  {{- else if eq $path "rules/how to play/index.md" -}}
-    {{- $schema = "how_to_play" -}}
-    {{- $schemaType = "file" -}}
-  {{- else if eq $path "world/_index.md" -}}
-    {{- $schema = "world_home" -}}
-    {{- $schemaType = "file" -}}
-  {{- else if eq $path "categories/article/_index.md" -}}
-    {{- $schema = "article_category" -}}
-    {{- $schemaType = "file" -}}
-  {{- else if eq $path "categories/class/_index.md" -}}
-    {{- $schema = "class_category" -}}
-    {{- $schemaType = "file" -}}
+  {{- else if hasPrefix $path "categories/" -}}
+    {{- $schema = "category_portals" -}}
   {{- else if eq $path "_index.md" -}}
     {{- $schema = "home" -}}
     {{- $schemaType = "file" -}}
