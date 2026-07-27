@@ -102,7 +102,7 @@ type = "categories"
 count = 3
 truncate = 130
 pages = [
-  "/lore/the-project",
+  "/campaign/the-project",
   "/campaign/how-to-play",
   "/lore/the-wastes",
 ]
@@ -116,6 +116,7 @@ location = "/uploads/cave.jpg"
 
 [params.bigTiles.partials]
 lore = "big-tile-lore.html"
+campaign = "big-tile-campaign.html"
 quote = "big-tile-quote.html"
 
 [params.portal]

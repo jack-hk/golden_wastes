@@ -79,20 +79,33 @@
       </figure>
     {{ end }}
 
-    {{ if .Params.infobox }}
+    {{- $showInfobox := false -}}
+    {{- with .Params.infobox -}}
+      {{- $hasHeader := ne (strings.TrimSpace (.header | default "")) "" -}}
+      {{- $hasImage := ne (strings.TrimSpace ((or .image .icon) | default "")) "" -}}
+      {{- $hasRows := false -}}
+      {{- range .labels -}}
+        {{- $hasLabel := ne (strings.TrimSpace (.label | default "")) "" -}}
+        {{- $hasValue := ne (strings.TrimSpace (.item | default "")) "" -}}
+        {{- if or .divider $hasLabel $hasValue -}}
+          {{- $hasRows = true -}}
+        {{- end -}}
+      {{- end -}}
+      {{- $showInfobox = or $hasHeader $hasImage $hasRows -}}
+    {{- end -}}
+
+    {{ if $showInfobox }}
       <aside class="wiki__infobox" data-pagefind-ignore>
         {{ with .Params.infobox }}
           {{- $infoboxImage := (or .image .icon) -}}
           {{- $infoboxImageSize := (or .imageSize .iconSize) -}}
           {{- $infoboxImageMargin := (or .imageMargin .iconMargin) -}}
           {{- $infoboxIconColor := .iconColor | default $.Params.iconColor -}}
-
-
-          <div class="wiki__infobox-header">
-            {{ if .header }}
+          {{ if ne (strings.TrimSpace (.header | default "")) "" }}
+            <div class="wiki__infobox-header">
               <h2 class="wiki__infobox-title">{{ .header }}</h2>
-            {{ end }}
-          </div>
+            </div>
+          {{ end }}
 
           {{ if $infoboxImage }}
             <div
@@ -125,24 +138,34 @@
             </div>
           {{ end }}
 
-          {{ if .labels }}
+          {{- $hasRows := false -}}
+          {{- range .labels -}}
+            {{- if or .divider (ne (strings.TrimSpace (.label | default "")) "") (ne (strings.TrimSpace (.item | default "")) "") -}}
+              {{- $hasRows = true -}}
+            {{- end -}}
+          {{- end -}}
+          {{ if $hasRows }}
             <div class="wiki__infobox-content">
               {{ range .labels }}
-                {{ if .divider }}
-                  <div class="wiki__infobox-divider"></div>
-                {{ else }}
-                  <div class="wiki__infobox-item">
-                    {{ if .label }}
-                      <span class="wiki__infobox-label"
-                        >{{ .label | markdownify }}</span
-                      >
-                    {{ end }}
-                    {{ if .item }}
-                      <span class="wiki__infobox-value"
-                        >{{ .item | markdownify }}</span
-                      >
-                    {{ end }}
-                  </div>
+                {{- $hasLabel := ne (strings.TrimSpace (.label | default "")) "" -}}
+                {{- $hasValue := ne (strings.TrimSpace (.item | default "")) "" -}}
+                {{ if or .divider $hasLabel $hasValue }}
+                  {{ if .divider }}
+                    <div class="wiki__infobox-divider"></div>
+                  {{ else }}
+                    <div class="wiki__infobox-item">
+                      {{ if $hasLabel }}
+                        <span class="wiki__infobox-label"
+                          >{{ .label | markdownify }}</span
+                        >
+                      {{ end }}
+                      {{ if $hasValue }}
+                        <span class="wiki__infobox-value"
+                          >{{ .item | markdownify }}</span
+                        >
+                      {{ end }}
+                    </div>
+                  {{ end }}
                 {{ end }}
               {{ end }}
             </div>

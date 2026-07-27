@@ -1,5 +1,5 @@
 <article
-  class="big-tile__item big-tile__item--lore"
+  class="big-tile__item big-tile__item--campaign"
   style="background-image: url('{{ .page.Params.image }}')">
   <a href="{{ .page.RelPermalink }}" class="big-tile__link">
     <span class="big-tile__category">{{ .category }}</span>
@@ -9,7 +9,7 @@
         <p class="big-tile__excerpt">
           {{- .page.Summary | plainify | truncate .truncate -}}
         </p>
-        <div class="special-text">❔ Click here to explore the lore...</div>
+        <div class="special-text">❓ Click here to learn more about us...</div>
       </div>
     </div>
   </a>
