@@ -1,16 +1,17 @@
 ---
-title: "Beak Thing"
-type: "wiki"
-categories: ["monster"]
+title: Beak Thing
+type: wiki
+categories:
+  - monster
 image:
 show_date: false
 infobox:
-  header: "Beak Thing"
+  header: Beak Thing
   image:
   icon:
   labels:
-    - label: "Type"
-      item: "Monster"
+    - label: Type
+      item: Monster
 also: []
 ---
 

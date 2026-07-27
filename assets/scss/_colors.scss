@@ -25,6 +25,12 @@
   /* Borders */
   --color-border-default: #9c9c9c5f;
   --color-border-navbar: #dbdbdb;
+
+  /* Quotations */
+  --color-quote-background: #f0ddd4;
+  --color-quote-border: #c47c6d;
+  --color-quote-text: #333333;
+  --color-quote-attribution: #737373;
 }
 
 [data-theme='dark'] {
@@ -62,4 +68,10 @@
   /* Borders */
   --color-border-default: #302e2e; /* Subtle border for dark mode */
   --color-border-navbar: #333333; /* Lighter border for navbar sections */
+
+  /* Quotations */
+  --color-quote-background: #2b2225;
+  --color-quote-border: #e1a17d;
+  --color-quote-text: #e8e4df;
+  --color-quote-attribution: #b3b3b3;
 }

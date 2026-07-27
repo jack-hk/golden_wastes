@@ -1,16 +1,17 @@
 ---
-title: "The Beneath"
-type: "wiki"
-categories: ["location"]
+title: The Beneath
+type: wiki
+categories:
+  - location
 image:
 show_date: false
 infobox:
-  header: "The Beneath"
+  header: The Beneath
   image:
   icon:
   labels:
-    - label: "Type"
-      item: "Location"
+    - label: Type
+      item: Location
 also: []
 ---
 

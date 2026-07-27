@@ -1,0 +1,47 @@
+{{- $alt := .PlainText -}}
+{{- $title := .Title -}}
+{{- $caption := .Attributes.caption | default "" -}}
+{{- $alignment := lower (.Attributes.align | default "center") -}}
+{{- $classes := split (.Attributes.class | default "") " " -}}
+{{- if in $classes "float-left" }}{{ $alignment = "left" }}{{ end -}}
+{{- if in $classes "float-right" }}{{ $alignment = "right" }}{{ end -}}
+{{- if in $classes "image-center" }}{{ $alignment = "center" }}{{ end -}}
+{{- if not (in (slice "left" "right" "center") $alignment) }}{{ $alignment = "center" }}{{ end -}}
+{{- $width := printf "%v" (.Attributes.width | default "") -}}
+{{- $validWidth := findRE `^[0-9]+(?:\.[0-9]+)?(?:px|rem|em|%|vw)?$` $width -}}
+{{- if and $width (not (findRE `[a-zA-Z%]` $width)) }}{{ $width = printf "%spx" $width }}{{ end -}}
+{{- $mobileMinWidth := printf "%v" (index .Attributes "mobile-min-width" | default "") -}}
+{{- $validMobileMinWidth := findRE `^[0-9]+(?:\.[0-9]+)?(?:px|rem|em|%|vw)?$` $mobileMinWidth -}}
+{{- if and $mobileMinWidth (not (findRE `[a-zA-Z%]` $mobileMinWidth)) }}{{ $mobileMinWidth = printf "%spx" $mobileMinWidth }}{{ end -}}
+{{- $mobileMaxWidth := printf "%v" (index .Attributes "mobile-max-width" | default "") -}}
+{{- $validMobileMaxWidth := findRE `^[0-9]+(?:\.[0-9]+)?(?:px|rem|em|%|vw)?$` $mobileMaxWidth -}}
+{{- if and $mobileMaxWidth (not (findRE `[a-zA-Z%]` $mobileMaxWidth)) }}{{ $mobileMaxWidth = printf "%spx" $mobileMaxWidth }}{{ end -}}
+
+{{- if .IsBlock -}}
+<figure
+  class="embedded-image embedded-image--{{ $alignment }}"
+  {{- if or $validWidth $validMobileMinWidth $validMobileMaxWidth }}
+    style="
+      {{- with $validWidth }}--embedded-image-width: {{ $width | safeCSS }};{{ end }}
+      {{- with $validMobileMinWidth }}--embedded-image-mobile-min-width: {{ $mobileMinWidth | safeCSS }};{{ end }}
+      {{- with $validMobileMaxWidth }}--embedded-image-mobile-max-width: {{ $mobileMaxWidth | safeCSS }};{{ end }}"
+  {{- end }}>
+  <img
+    src="{{ .Destination | safeURL }}"
+    alt="{{ $alt }}"
+    loading="lazy"
+    decoding="async"
+    {{- with $title }} title="{{ . }}"{{ end }}>
+  {{- with $caption }}
+    <figcaption>{{ . | markdownify }}</figcaption>
+  {{- end }}
+</figure>
+{{- else -}}
+<img
+  class="embedded-image__inline"
+  src="{{ .Destination | safeURL }}"
+  alt="{{ $alt }}"
+  loading="lazy"
+  decoding="async"
+  {{- with $title }} title="{{ . }}"{{ end }}>
+{{- end -}}

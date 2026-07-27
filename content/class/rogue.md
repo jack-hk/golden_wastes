@@ -1,18 +1,19 @@
 ---
-title: "Rogue"
-header: "The Rogue"
-type: "wiki"
-categories: ["class"]
-image: "/uploads/rouge.jpg"
+title: Rogue
+header: The Rogue
+type: wiki
+categories:
+  - class
+image: /uploads/rouge.jpg
 show_date: false
 infobox:
-  header: "Rogue"
-  image: "/uploads/rouge.jpg"
+  header: Rogue
+  image: /uploads/rouge.jpg
   iconSize: 200
   icon:
   labels:
-    - label: "Type"
-      item: "Class"
+    - label: Type
+      item: Class
 also: []
 ---
 

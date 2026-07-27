@@ -1,16 +1,17 @@
 ---
-title: "Yheglin"
-type: "wiki"
-categories: ["monster"]
+title: Yheglin
+type: wiki
+categories:
+  - monster
 image:
 show_date: false
 infobox:
-  header: "Yheglin"
+  header: Yheglin
   image:
   icon:
   labels:
-    - label: "Type"
-      item: "Monster"
+    - label: Type
+      item: Monster
 also: []
 ---
 

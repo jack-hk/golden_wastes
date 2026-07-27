@@ -1,9 +1,10 @@
 ---
-title: "Once upon a time..."
+title: Once upon a time...
 date: 2025-07-26T00:00:00Z
 draft: false
-type: "page"
-categories: ["campaign"]
+type: page
+categories:
+  - campaign
 show_date: true
 eventDate:
 eventTime:

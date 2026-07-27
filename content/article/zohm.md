@@ -1,6 +1,6 @@
 ---
 title: Zohm
-date: 2026-07-27T10:11:00Z
+date: 2026-06-27T10:11:00Z
 draft: false
 type: page
 categories:
@@ -24,7 +24,8 @@ Zohm does not describe what something is. It only allows that thing to exist. It
 
 An idea or object exists through Zohm, and the way people recognize and **Name** it change its power and Form in unpredictable ways.  
   
-`![Zohm, Form and Name](uploads/zohm/.png)`
+![Zohm, Form and Name](/uploads/zohm.png)
+{width="280" align="left" mobile-min-width="200" mobile-max-width="280" caption="All matter is a result of these three ingredients."}
 
 ## Form
 

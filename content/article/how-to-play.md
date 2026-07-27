@@ -1,11 +1,12 @@
 ---
 weight: 15
-title: "How to play"
+title: How to play
 date: 2025-07-26T00:00:00Z
 draft: false
-type: "page"
-categories: ["article"]
-image: "/uploads/ruins.jpg"
+type: page
+categories:
+  - article
+image: /uploads/ruins.jpg
 show_date: true
 ---
 

@@ -1,18 +1,19 @@
 ---
-title: "Ranger"
-header: "The Ranger"
-type: "wiki"
-categories: ["class"]
-image: "/uploads/ranger.jpg"
+title: Ranger
+header: The Ranger
+type: wiki
+categories:
+  - class
+image: /uploads/ranger.jpg
 show_date: false
 infobox:
-  header: "Ranger"
-  image: "/uploads/ranger.jpg"
+  header: Ranger
+  image: /uploads/ranger.jpg
   iconSize: 200
   icon:
   labels:
-    - label: "Type"
-      item: "Class"
+    - label: Type
+      item: Class
 also: []
 ---
 

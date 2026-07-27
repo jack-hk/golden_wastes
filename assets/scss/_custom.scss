@@ -217,7 +217,8 @@
 
 .page__content,
 .wiki__content {
-  img {
+  > img,
+  > p > img {
     display: block;
     height: auto;
     margin: 1.5rem auto;
@@ -225,6 +226,60 @@
     max-width: 100%;
     object-fit: contain;
     width: auto;
+  }
+
+  .embedded-image {
+    clear: both;
+    margin: 1.5rem auto;
+    max-width: 100%;
+    width: var(--embedded-image-width, 100%);
+
+    img {
+      display: block;
+      height: auto;
+      margin: 0;
+      max-height: 70vh;
+      max-width: 100%;
+      object-fit: contain;
+      width: 100%;
+    }
+
+    figcaption {
+      color: var(--color-text-muted);
+      font-size: var(--font-size-sm);
+      margin-top: 0.45rem;
+      text-align: center;
+    }
+  }
+
+  .embedded-image--left,
+  .embedded-image--right {
+    clear: none;
+    max-width: 45%;
+    width: var(--embedded-image-width, 22rem);
+  }
+
+  .embedded-image--left {
+    float: left;
+    margin: 0.35rem 1.25rem 0.85rem 0;
+  }
+
+  .embedded-image--right {
+    float: right;
+    margin: 0.35rem 0 0.85rem 1.25rem;
+  }
+
+  @include for-screen(mobile) {
+    .embedded-image,
+    .embedded-image--left,
+    .embedded-image--right {
+      clear: both;
+      float: none;
+      margin: 1.25rem auto;
+      max-width: var(--embedded-image-mobile-max-width, 100%);
+      min-width: var(--embedded-image-mobile-min-width, 0);
+      width: 100%;
+    }
   }
 }
 

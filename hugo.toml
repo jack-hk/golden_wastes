@@ -2,6 +2,16 @@ baseURL = "https://goldenwastes.wiki/"
 languageCode = "en-US"
 title = "Golden Wastes"
 
+[markup.goldmark.parser]
+wrapStandAloneImageWithinParagraph = false
+
+[markup.goldmark.parser.attribute]
+block = true
+title = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
 [module]
 [[module.mounts]]
 source = "layouts"

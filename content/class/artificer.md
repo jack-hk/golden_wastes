@@ -1,17 +1,18 @@
 ---
-title: "Artificer"
-type: "wiki"
-categories: ["class"]
-image: "/uploads/artificer.jpg"
+title: Artificer
+type: wiki
+categories:
+  - class
+image: /uploads/artificer.jpg
 show_date: false
 infobox:
-  header: "Artificer"
-  image: "/uploads/artificer.jpg"
+  header: Artificer
+  image: /uploads/artificer.jpg
   iconSize: 200
   icon:
   labels:
-    - label: "Type"
-      item: "Class"
+    - label: Type
+      item: Class
 also: []
 ---
 

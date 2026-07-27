@@ -1,16 +1,17 @@
 ---
-title: "Yorg"
-type: "wiki"
-categories: ["monster"]
+title: Yorg
+type: wiki
+categories:
+  - monster
 image:
 show_date: false
 infobox:
-  header: "Yorg"
+  header: Yorg
   image:
   icon:
   labels:
-    - label: "Type"
-      item: "Monster"
+    - label: Type
+      item: Monster
 also: []
 ---
 

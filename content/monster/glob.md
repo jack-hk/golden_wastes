@@ -1,16 +1,17 @@
 ---
-title: "Glob"
-type: "wiki"
-categories: ["monster"]
+title: Glob
+type: wiki
+categories:
+  - monster
 image:
 show_date: false
 infobox:
-  header: "Glob"
+  header: Glob
   image:
   icon:
   labels:
-    - label: "Type"
-      item: "Monster"
+    - label: Type
+      item: Monster
 also: []
 ---
 

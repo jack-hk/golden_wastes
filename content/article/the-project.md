@@ -1,10 +1,11 @@
 ---
-title: "The Project"
+title: The Project
 date: 2025-07-26T00:00:00Z
 draft: false
-type: "page"
-categories: ["article"]
-image: "/uploads/mesa.jpg"
+type: page
+categories:
+  - article
+image: /uploads/mesa.jpg
 show_date: true
 ---
 

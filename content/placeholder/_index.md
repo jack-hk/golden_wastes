@@ -1,6 +1,6 @@
 ---
 placeholder: true
-# title: "Placeholder Front Matter Examples"
+# title: Placeholder Front Matter Examples
 # draft: true
 build:
   render: never

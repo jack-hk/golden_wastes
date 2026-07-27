@@ -1,17 +1,18 @@
 ---
-title: "Magic User"
-type: "wiki"
-categories: ["class"]
-image: "/uploads/magic-user.jpg"
+title: Magic User
+type: wiki
+categories:
+  - class
+image: /uploads/magic-user.jpg
 show_date: false
 infobox:
-  header: "Magic User"
-  image: "/uploads/magic-user.jpg"
+  header: Magic User
+  image: /uploads/magic-user.jpg
   iconSize: 200
   icon:
   labels:
-    - label: "Type"
-      item: "Class"
+    - label: Type
+      item: Class
 also: []
 ---
 

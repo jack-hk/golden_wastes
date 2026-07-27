@@ -1,26 +1,26 @@
 ---
-title: "Bard"
-type: "wiki"
-header: "The Bard"
-categories: ["class"]
-image: "/uploads/bard.jpg"
+title: Bard
+type: wiki
+header: The Bard
+categories:
+  - class
+image: /uploads/bard.jpg
 show_date: false
 infobox:
-      header: "Hiii"
-      image: "/uploads/bard.jpg"
+      header: Hiii
+      image: /uploads/bard.jpg
       iconSize: 200
       labels:
-        - label: "Partner 1"
-          item: "Description for Partner 1"
+        - label: Partner 1
+          item: Description for Partner 1
         - divider: true
-          label: "Partner 2"
-          item: "Description for Partner 2"
-        - label: "Partner 3"
-          item: "Description for Partner 3"
+          label: Partner 2
+          item: Description for Partner 2
+        - label: Partner 3
+          item: Description for Partner 3
 also:
   - related-topic-one
   - related-topic-two
-categories: 'class'
 ---
 
 ![Scenario 1: Across columns](/uploads/card1.jpg)

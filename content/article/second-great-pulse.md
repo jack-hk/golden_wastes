@@ -1,9 +1,10 @@
 ---
-title: "Second Great Pulse"
+title: Second Great Pulse
 date:
 draft: false
-type: "wiki"
-categories: ["article"]
+type: wiki
+categories:
+  - article
 image:
 show_date: false
 ---

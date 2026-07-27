@@ -1,18 +1,19 @@
 ---
-title: "Fighter"
-header: "The Fighter"
-type: "wiki"
-categories: ["class"]
-image: "/uploads/fighter.jpg"
+title: Fighter
+header: The Fighter
+type: wiki
+categories:
+  - class
+image: /uploads/fighter.jpg
 show_date: false
 infobox:
-  header: "Fighter"
-  image: "/uploads/fighter.jpg"
+  header: Fighter
+  image: /uploads/fighter.jpg
   iconSize: 200
   icon:
   labels:
-    - label: "Type"
-      item: "Class"
+    - label: Type
+      item: Class
 also: []
 ---
 

@@ -160,12 +160,14 @@ content:
       - name: type
         label: Layout type
         type: select
+        default: page
         options:
           values: [page, wiki]
       - name: categories
         label: Categories
         type: string
         list: true
+        default: [article]
       - { name: tags, label: Tags, type: string, list: true, required: false }
       - { name: series, label: Series, type: string, required: false }
       - { name: image, label: Featured image, type: string, required: false }
@@ -183,6 +185,7 @@ content:
       - name: body
         label: Article body
         type: rich-text
+        description: 'For image controls, switch to Source and put an attribute line immediately below the image, for example: {width="320" align="right" mobile-min-width="180" mobile-max-width="320" caption="Optional caption"}. The Markdown image title is its hover tooltip.'
         options: { format: markdown, media: images, switcher: true }
     view:
       fields: [title, date, draft, type]

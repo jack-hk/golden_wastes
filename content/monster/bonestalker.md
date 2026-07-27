@@ -1,16 +1,17 @@
 ---
-title: "Bonestalker"
-type: "wiki"
-categories: ["monster"]
+title: Bonestalker
+type: wiki
+categories:
+  - monster
 image:
 show_date: false
 infobox:
-  header: "Bonestalker"
+  header: Bonestalker
   image:
   icon:
   labels:
-    - label: "Type"
-      item: "Monster"
+    - label: Type
+      item: Monster
 also: []
 ---
 
