@@ -1,0 +1,77 @@
+name: Move Pages CMS file
+
+on:
+  workflow_dispatch:
+    inputs:
+      payload:
+        description: Pages CMS action payload
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  move:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out selected branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Validate and move file
+        id: move
+        env:
+          PAGES_CMS_PAYLOAD: ${{ inputs.payload }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          source_path="$(jq -r '.context.path // empty' <<< "$PAGES_CMS_PAYLOAD")"
+          destination="$(jq -r '.inputs.destination // empty' <<< "$PAGES_CMS_PAYLOAD")"
+
+          case "$destination" in
+            campaign|categories|class|event|location|lore|monster|placeholder) ;;
+            *) echo "Invalid destination folder: $destination" >&2; exit 1 ;;
+          esac
+
+          if [[ ! "$source_path" =~ ^content/(campaign|categories|class|event|location|lore|monster|placeholder)/.+\.md$ ]] ||
+             [[ "$source_path" == *".."* ]]; then
+            echo "Source must be a Markdown file in an allowed content folder: $source_path" >&2
+            exit 1
+          fi
+
+          if [[ ! -f "$source_path" ]]; then
+            echo "Source file does not exist: $source_path" >&2
+            exit 1
+          fi
+
+          filename="$(basename "$source_path")"
+          target_path="content/$destination/$filename"
+
+          if [[ "$source_path" == "$target_path" ]]; then
+            echo "File is already in content/$destination." >&2
+            exit 1
+          fi
+
+          if [[ -e "$target_path" ]]; then
+            echo "Target already exists: $target_path" >&2
+            exit 1
+          fi
+
+          git mv -- "$source_path" "$target_path"
+          echo "source_path=$source_path" >> "$GITHUB_OUTPUT"
+          echo "target_path=$target_path" >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push move
+        env:
+          SOURCE_PATH: ${{ steps.move.outputs.source_path }}
+          TARGET_PATH: ${{ steps.move.outputs.target_path }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "content: move $SOURCE_PATH to $TARGET_PATH"
+          git push

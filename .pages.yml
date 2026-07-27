@@ -183,6 +183,32 @@ content:
     exclude: [_index.md]
     format: yaml-frontmatter
     filename: "{primary}.md"
+    actions:
+      - &move_content_file
+        name: move-file
+        label: Move file
+        workflow: pages-cms-move-file.yml
+        ref: current
+        scope: entry
+        cancelable: false
+        confirm:
+          title: Move this file?
+          message: Select the destination content folder. This only moves the file.
+          button: Move file
+        fields:
+          - name: destination
+            label: Destination folder
+            type: select
+            required: true
+            options:
+              - { label: Campaign, value: campaign }
+              - { label: Categories, value: categories }
+              - { label: Class, value: class }
+              - { label: Event, value: event }
+              - { label: Location, value: location }
+              - { label: Lore, value: lore }
+              - { label: Monster, value: monster }
+              - { label: Placeholder, value: placeholder }
     fields:
       - { name: title, label: Title, type: string, description: Page heading and primary name used by lists search and the generated filename. }
       - name: date
@@ -270,6 +296,8 @@ content:
     path: content/campaign
     format: yaml-frontmatter
     filename: "{primary}.md"
+    actions:
+      - *move_content_file
     fields:
       - { name: title, label: Title, type: string, description: Page heading and primary name used by lists search and the filename. }
       - name: date
@@ -329,6 +357,8 @@ content:
     path: content/monster
     format: yaml-frontmatter
     filename: "{primary}.md"
+    actions:
+      - *move_content_file
     fields:
       - { name: title, label: Name, type: string }
       - { name: date, label: Published date, type: date, required: false }
@@ -381,6 +411,8 @@ content:
     path: content/location
     format: yaml-frontmatter
     filename: "{primary}.md"
+    actions:
+      - *move_content_file
     fields:
       - { name: title, label: Name, type: string }
       - { name: date, label: Published date, type: date, required: false }
@@ -433,6 +465,8 @@ content:
     path: content/class
     format: yaml-frontmatter
     filename: "{primary}.md"
+    actions:
+      - *move_content_file
     fields:
       - { name: title, label: Class name, type: string }
       - { name: date, label: Published date, type: date, required: false }
@@ -487,6 +521,8 @@ content:
     format: yaml-frontmatter
     subfolders: true
     filename: "{primary}.md"
+    actions:
+      - *move_content_file
     fields:
       - { name: title, label: Title, type: string }
       - { name: date, label: Date, type: date, required: false }
