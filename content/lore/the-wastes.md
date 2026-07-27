@@ -1,16 +1,26 @@
 ---
 title: The Wastes
-date: 2025-05-15T10:00:00-07:00
 draft: false
-type: page
+type: wiki
 categories:
   - lore
 aliases:
   - /article/the-wastes/
 image: /uploads/barren.jpg
 show_date: true
+placeholder: false
+weight: 0
+show_reading_time: false
+badgeOnThumbnail: false
+bookHidden: false
+BookToC: false
+infobox:
+  imageSize: 0
+  iconSize: 0
+  badgeSize: 0
+  badgeEnabled: false
+  badgeOnThumbnail: false
 ---
-
 **Rolling Dice and Weaving Stories: A Night Around the Table**
 ![Scenario 1: Across columns](/uploads/barren.jpg)
 

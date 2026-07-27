@@ -184,8 +184,7 @@ content:
     format: yaml-frontmatter
     filename: "{primary}.md"
     actions:
-      - &move_content_file
-        name: move-file
+      - name: move-file
         label: Move file
         workflow: pages-cms-move-file.yml
         ref: current
@@ -281,8 +280,7 @@ content:
       - name: body
         label: Lore body
         type: rich-text
-        description: Main Markdown content rendered on the page; supports formatting shortcodes and configurable embedded images.
-        description: 'For image controls, switch to Source and put an attribute line immediately below the image, for example: {width="320" align="right" mobileMinWidth="180" mobileMaxWidth="320" caption="Optional caption"}. The Markdown image title is its hover tooltip.'
+        description: 'Main Markdown content rendered on the page; supports formatting, shortcodes, and configurable embedded images. For image controls, switch to Source and put an attribute line immediately below the image, for example: {width="320" align="right" mobileMinWidth="180" mobileMaxWidth="320" caption="Optional caption"}. The Markdown image title is its hover tooltip.'
         options: { format: markdown, media: images, switcher: true }
     view:
       fields: [title, date, draft, type]
@@ -297,7 +295,26 @@ content:
     format: yaml-frontmatter
     filename: "{primary}.md"
     actions:
-      - *move_content_file
+      - name: move-file
+        label: Move file
+        workflow: pages-cms-move-file.yml
+        ref: current
+        scope: entry
+        cancelable: false
+        fields:
+          - name: destination
+            label: Destination folder
+            type: select
+            required: true
+            options:
+              - { label: Campaign, value: campaign }
+              - { label: Categories, value: categories }
+              - { label: Class, value: class }
+              - { label: Event, value: event }
+              - { label: Location, value: location }
+              - { label: Lore, value: lore }
+              - { label: Monster, value: monster }
+              - { label: Placeholder, value: placeholder }
     fields:
       - { name: title, label: Title, type: string, description: Page heading and primary name used by lists search and the filename. }
       - name: date
@@ -358,7 +375,26 @@ content:
     format: yaml-frontmatter
     filename: "{primary}.md"
     actions:
-      - *move_content_file
+      - name: move-file
+        label: Move file
+        workflow: pages-cms-move-file.yml
+        ref: current
+        scope: entry
+        cancelable: false
+        fields:
+          - name: destination
+            label: Destination folder
+            type: select
+            required: true
+            options:
+              - { label: Campaign, value: campaign }
+              - { label: Categories, value: categories }
+              - { label: Class, value: class }
+              - { label: Event, value: event }
+              - { label: Location, value: location }
+              - { label: Lore, value: lore }
+              - { label: Monster, value: monster }
+              - { label: Placeholder, value: placeholder }
     fields:
       - { name: title, label: Name, type: string }
       - { name: date, label: Published date, type: date, required: false }
@@ -412,7 +448,26 @@ content:
     format: yaml-frontmatter
     filename: "{primary}.md"
     actions:
-      - *move_content_file
+      - name: move-file
+        label: Move file
+        workflow: pages-cms-move-file.yml
+        ref: current
+        scope: entry
+        cancelable: false
+        fields:
+          - name: destination
+            label: Destination folder
+            type: select
+            required: true
+            options:
+              - { label: Campaign, value: campaign }
+              - { label: Categories, value: categories }
+              - { label: Class, value: class }
+              - { label: Event, value: event }
+              - { label: Location, value: location }
+              - { label: Lore, value: lore }
+              - { label: Monster, value: monster }
+              - { label: Placeholder, value: placeholder }
     fields:
       - { name: title, label: Name, type: string }
       - { name: date, label: Published date, type: date, required: false }
@@ -466,7 +521,26 @@ content:
     format: yaml-frontmatter
     filename: "{primary}.md"
     actions:
-      - *move_content_file
+      - name: move-file
+        label: Move file
+        workflow: pages-cms-move-file.yml
+        ref: current
+        scope: entry
+        cancelable: false
+        fields:
+          - name: destination
+            label: Destination folder
+            type: select
+            required: true
+            options:
+              - { label: Campaign, value: campaign }
+              - { label: Categories, value: categories }
+              - { label: Class, value: class }
+              - { label: Event, value: event }
+              - { label: Location, value: location }
+              - { label: Lore, value: lore }
+              - { label: Monster, value: monster }
+              - { label: Placeholder, value: placeholder }
     fields:
       - { name: title, label: Class name, type: string }
       - { name: date, label: Published date, type: date, required: false }
@@ -522,7 +596,26 @@ content:
     subfolders: true
     filename: "{primary}.md"
     actions:
-      - *move_content_file
+      - name: move-file
+        label: Move file
+        workflow: pages-cms-move-file.yml
+        ref: current
+        scope: entry
+        cancelable: false
+        fields:
+          - name: destination
+            label: Destination folder
+            type: select
+            required: true
+            options:
+              - { label: Campaign, value: campaign }
+              - { label: Categories, value: categories }
+              - { label: Class, value: class }
+              - { label: Event, value: event }
+              - { label: Location, value: location }
+              - { label: Lore, value: lore }
+              - { label: Monster, value: monster }
+              - { label: Placeholder, value: placeholder }
     fields:
       - { name: title, label: Title, type: string }
       - { name: date, label: Date, type: date, required: false }

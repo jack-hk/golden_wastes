@@ -1,8 +1,7 @@
 ---
 title: Zohm
-date: 2026-07-27T10:11:00Z
 draft: false
-type: page
+type: wiki
 categories:
   - lore
 aliases:
@@ -17,6 +16,10 @@ BookToC: false
 infobox:
   badgeEnabled: false
   badgeOnThumbnail: false
+  imageSize: 0
+  iconSize: 0
+  badgeSize: 0
+weight: 0
 ---
 > Zohm is the energy and substance of existence.
 
