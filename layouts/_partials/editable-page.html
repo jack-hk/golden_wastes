@@ -6,8 +6,8 @@
   {{- $schema := "" -}}
   {{- $schemaType := "collection" -}}
 
-  {{- if hasPrefix $path "article/" -}}
-    {{- $schema = "articles" -}}
+  {{- if hasPrefix $path "lore/" -}}
+    {{- $schema = "lore" -}}
   {{- else if hasPrefix $path "campaign/" -}}
     {{- $schema = "campaigns" -}}
   {{- else if hasPrefix $path "monster/" -}}

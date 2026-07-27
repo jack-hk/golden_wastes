@@ -1,5 +1,7 @@
 ---
-title: Article
+title: Lore
+aliases:
+  - /categories/article/
 portal_view: list
 showcase_tiles: 3
 min_showcase_tiles: 2

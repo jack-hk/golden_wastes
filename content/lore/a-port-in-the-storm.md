@@ -4,7 +4,9 @@ BookToC: false
 title: A Port in the Storm
 type: wiki
 categories:
-  - article
+  - lore
+aliases:
+  - /article/a-port-in-the-storm/
 image:
 show_date: false
 infobox:

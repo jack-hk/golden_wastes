@@ -19,13 +19,13 @@ placeholder: true
 # show_layout_toggle: true
 # list_layout: fixed
 # show_intro_text: true
-# intro_text: Browse all articles related to {title} in the {taxonomy} taxonomy.
+# intro_text: Browse all lore related to {title} in the {taxonomy} taxonomy.
 # show_left_textbox: true
 # left_textbox_title: About This Category
-# left_textbox_text: You're viewing all articles tagged under {title}.
+# left_textbox_text: You're viewing all lore entries tagged under {title}.
 # show_right_textbox: true
 # right_textbox_title: Get Involved
-# right_textbox_text: Contribute your own articles or suggest related topics to enrich this section.
+# right_textbox_text: Contribute your own lore or suggest related topics to enrich this section.
 # show_bottom_textbox: true
 # bottom_textbox_text: Placeholder full-width list portal text.
 # image: /uploads/blue-abstract.jpg

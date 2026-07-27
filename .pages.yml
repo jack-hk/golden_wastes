@@ -152,10 +152,11 @@ components:
       - { name: url, label: URL, type: string }
 
 content:
-  - name: articles
-    label: Articles
+  - name: lore
+    label: Lore
     type: collection
-    path: content/article
+    path: content/lore
+    exclude: [_index.md]
     format: yaml-frontmatter
     filename: "{primary}.md"
     fields:
@@ -187,7 +188,7 @@ content:
         label: Categories
         type: string
         list: true
-        default: [article]
+        default: [lore]
       - { name: tags, label: Tags, type: string, list: true, required: false, default: [] }
       - { name: series, label: Series, type: string, required: false, default: "" }
       - { name: image, label: Featured image, type: string, required: false, default: "" }
@@ -224,7 +225,7 @@ content:
       - { name: also, label: Related pages, type: string, list: true, required: false, default: [] }
       - { name: references, component: references, default: [] }
       - name: body
-        label: Article body
+        label: Lore body
         type: rich-text
         description: 'For image controls, switch to Source and put an attribute line immediately below the image, for example: {width="320" align="right" mobileMinWidth="180" mobileMaxWidth="320" caption="Optional caption"}. The Markdown image title is its hover tooltip.'
         options: { format: markdown, media: images, switcher: true }

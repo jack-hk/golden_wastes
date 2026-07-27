@@ -44,7 +44,7 @@ placeholder: true
 
 Normal campaign text with **bold**, *italic*, ***bold italic***,
 ~~strikethrough~~, <u>underlined text</u>, `inline code`, and a
-[link](/article/how-to-play/).
+[link](/lore/how-to-play/).
 
 > A wiki-style quotation can contain **formatted text**.
 >

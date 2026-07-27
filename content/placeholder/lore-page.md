@@ -1,20 +1,20 @@
 ---
 placeholder: true
-# title: Placeholder Article Page
+# title: Placeholder Lore Page
 # date: 2026-01-01T12:00:00Z
 # updated: 2026-01-02T12:00:00Z
 # draft: true
 # type: page
-# slug: placeholder-article-page
-# url: /placeholder/article-page/
+# slug: placeholder-lore-page
+# url: /placeholder/lore-page/
 # aliases:
-#   - /placeholder/old-article-page/
+#   - /placeholder/old-lore-page/
 # weight: 10
-# description: Placeholder description for a normal article.
+# description: Placeholder description for a normal lore page.
 # summary: Placeholder summary for cards, lists, and search results.
 # author: Placeholder Author
 # categories:
-#   - article
+#   - lore
 # tags:
 #   - placeholder
 #   - example
@@ -44,7 +44,7 @@ placeholder: true
 
 Normal paragraph text with **bold**, *italic*, ***bold italic***,
 ~~strikethrough~~, <u>underlined text</u>, `inline code`, and a
-[link](/article/how-to-play/).
+[link](/lore/how-to-play/).
 
 > A blockquote can contain **formatting**, links, and multiple paragraphs.
 >

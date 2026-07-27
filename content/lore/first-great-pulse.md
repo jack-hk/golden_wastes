@@ -4,7 +4,9 @@ date:
 draft: false
 type: wiki
 categories:
-  - article
+  - lore
+aliases:
+  - /article/first-great-pulse/
 image:
 show_date: false
 ---

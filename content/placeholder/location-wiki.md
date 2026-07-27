@@ -75,7 +75,7 @@ placeholder: true
 
 Normal location text with **bold**, *italic*, ***bold italic***,
 ~~strikethrough~~, <u>underlined text</u>, `inline code`, and a
-[link](/article/how-to-play/).
+[link](/lore/how-to-play/).
 
 > A location quotation styled like a wiki quotation.
 

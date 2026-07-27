@@ -4,7 +4,9 @@ date: 2025-05-15T10:00:00-07:00
 draft: false
 type: page
 categories:
-  - article
+  - lore
+aliases:
+  - /article/the-wastes/
 image: /uploads/barren.jpg
 show_date: true
 ---

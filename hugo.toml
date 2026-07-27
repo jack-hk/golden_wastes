@@ -102,20 +102,20 @@ type = "categories"
 count = 3
 truncate = 130
 pages = [
-  "/article/the-project",
-  "/article/how-to-play",
-  "/article/the-wastes",
+  "/lore/the-project",
+  "/lore/how-to-play",
+  "/lore/the-wastes",
 ]
 
 [params.smallTiles.images]
 monster = "/uploads/monster.jpg"
-article = "/uploads/blue-abstract.jpg"
+lore = "/uploads/blue-abstract.jpg"
 class = "/uploads/tools.jpg"
 campaign = "/uploads/red-abstract.jpg"
 location = "/uploads/cave.jpg"
 
 [params.bigTiles.partials]
-article = "big-tile-article.html"
+lore = "big-tile-lore.html"
 quote = "big-tile-quote.html"
 
 [params.portal]
@@ -125,13 +125,13 @@ quote = "big-tile-quote.html"
   show_layout_toggle = true
   default_list_layout = "fixed"
   show_intro_text = true
-  intro_text = "Browse all articles related to {title} in the {taxonomy} taxonomy."
+  intro_text = "Browse all lore related to {title} in the {taxonomy} taxonomy."
   show_left_textbox = true
   left_textbox_title = "About This Category"
-  left_textbox_text = "You're viewing all articles tagged under {title}."
+  left_textbox_text = "You're viewing all lore entries tagged under {title}."
   show_right_textbox = true
   right_textbox_title = "Get Involved"
-  right_textbox_text = "Contribute your own articles or suggest related topics to enrich this section."
+  right_textbox_text = "Contribute your own lore or suggest related topics to enrich this section."
   show_bottom_textbox = true
   bottom_textbox_text = "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
   show_alphabet = true
@@ -230,7 +230,7 @@ weight = 45
 [[menus.navigation]]
 name = "How To Play"
 pre = "graduate"
-pageRef = "/article/how-to-play"
+pageRef = "/lore/how-to-play"
 weight = 10
 
   [menus.navigation.params]
@@ -239,7 +239,7 @@ weight = 10
 [[menus.navigation]]
 name = "The Wastes"
 pre = "animal-skull"
-pageRef = "/article/the-wastes"
+pageRef = "/lore/the-wastes"
 weight = 20
 
   [menus.navigation.params]

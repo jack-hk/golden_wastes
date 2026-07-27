@@ -4,7 +4,9 @@ date: 2025-07-26T00:00:00Z
 draft: false
 type: page
 categories:
-  - article
+  - lore
+aliases:
+  - /article/the-project/
 image: /uploads/mesa.jpg
 show_date: true
 ---

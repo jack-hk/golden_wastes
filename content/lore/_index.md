@@ -1,0 +1,5 @@
+---
+title: Lore
+aliases:
+  - /article/
+---

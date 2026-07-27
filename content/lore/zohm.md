@@ -4,7 +4,9 @@ date: 2026-07-27T10:11:00Z
 draft: false
 type: page
 categories:
-  - article
+  - lore
+aliases:
+  - /article/zohm/
 show_date: false
 updated: 2026-07-27
 placeholder: false
