@@ -22,7 +22,9 @@ Everything that exists contains Zohm. This includes physical things such as ston
 
 Zohm does not describe what something is. It only allows that thing to exist. Its identity is known as its **Form**.
 
-An idea or object exists through Zohm, and the way people recognize and **Name** it change its power and Form in unpredictable ways.
+An idea or object exists through Zohm, and the way people recognize and **Name** it change its power and Form in unpredictable ways.  
+  
+`![Zohm, Form and Name](uploads/zohm/.png)`
 
 ## Form
 
@@ -42,7 +44,6 @@ Life experiences Zohm and recognises Form. Through memory and thought, it separa
 Most importantly, only true Life can bestow a Name.
 
 False forms of life may repeat words, obey existing Names or act according to a Name placed upon them, but they cannot create a true Name of their own.
-
 
 ### Zohm, Form and Life
 
