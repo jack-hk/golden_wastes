@@ -29,100 +29,120 @@ components:
   infobox:
     type: object
     label: Infobox
+    description: Optional structured side panel for wiki-layout pages, including imagery badges and labelled facts.
     required: false
     fields:
       - name: header
         label: Heading
+        description: Title displayed at the top of the infobox.
         type: string
         required: false
         default: ""
       - name: image
         label: Image URL or repository path
+        description: Main infobox image; use an uploaded /uploads path or an external URL.
         type: string
         required: false
         default: ""
       - name: icon
         label: Icon URL or /SVG path
+        description: Fallback icon used when no infobox image is supplied.
         type: string
         required: false
         default: ""
       - name: imageSize
         label: Image size
+        description: Infobox image width in pixels; zero or blank uses the site default.
         type: number
         required: false
         default: 0
       - name: iconSize
         label: Icon size
+        description: Infobox icon width in pixels; zero or blank uses the site default.
         type: number
         required: false
         default: 0
       - name: imageMargin
         label: Image margin
+        description: CSS margin around the infobox image, for example 10px auto.
         type: string
         required: false
         default: ""
       - name: iconMargin
         label: Icon margin
+        description: CSS margin around the infobox icon, for example 10px auto.
         type: string
         required: false
         default: ""
       - name: iconColor
         label: Icon colour (CSS value)
+        description: Colour applied to colourable SVG icons; accepts CSS colours or variables.
         type: string
         required: false
         default: ""
       - name: badgePath
         label: Badge URL or /SVG path
+        description: Preferred image or SVG displayed as the infobox badge.
         type: string
         required: false
         default: ""
       - name: badge
         label: Badge path alias
+        description: Legacy alternative to Badge path; use only for older content compatibility.
         type: string
         required: false
         default: ""
       - name: badgeIcon
         label: Badge icon alias
+        description: Legacy badge-icon alternative; Badge path takes precedence.
         type: string
         required: false
         default: ""
       - name: badgeSvg
         label: Badge SVG alias
+        description: Legacy badge-SVG alternative; Badge path takes precedence.
         type: string
         required: false
         default: ""
       - name: badgeSize
         label: Badge size
+        description: Badge width and height in pixels.
         type: number
         required: false
         default: 0
       - name: badgeEnabled
         label: Show badge
+        description: Displays the configured badge on the page infobox.
         type: boolean
         required: false
         default: false
       - name: badgeOnThumbnail
         label: Show badge on thumbnails
+        description: Allows the badge to appear on cards or thumbnails for this entry.
         type: boolean
         required: false
         default: false
       - name: badgeBackgroundColor
         label: Badge background colour
+        description: CSS colour behind the badge.
         type: string
         required: false
         default: ""
       - name: badgeColor
         label: Badge colour alias
+        description: Legacy alternative for the badge background colour.
         type: string
         required: false
         default: ""
       - name: badgeForegroundColor
         label: Badge foreground colour
+        description: CSS colour applied to the badge icon or foreground.
         type: string
         required: false
         default: ""
       - name: labels
         label: Infobox rows
+        description: Ordered label/value rows shown inside the infobox.
         type: object
         list: true
         required: false
@@ -130,26 +150,30 @@ components:
         fields:
           - name: label
             label: Label
+            description: Short heading for this infobox row, such as Type or Region.
             type: string
             required: false
           - name: item
             label: Value
+            description: Row value; Markdown links and basic Markdown formatting are supported.
             type: string
             required: false
           - name: divider
             label: Show divider
+            description: Replaces this row with a visual separator; label and value are ignored.
             type: boolean
             required: false
 
   references:
     type: object
     label: References
+    description: External sources displayed in the page references section.
     list: true
     required: false
     default: []
     fields:
-      - { name: title, label: Link title, type: string }
-      - { name: url, label: URL, type: string }
+      - { name: title, label: Link title, type: string, description: Visible name of the source link. }
+      - { name: url, label: URL, type: string, description: Complete destination URL for the source. }
 
 content:
   - name: lore
@@ -160,48 +184,52 @@ content:
     format: yaml-frontmatter
     filename: "{primary}.md"
     fields:
-      - { name: title, label: Title, type: string }
+      - { name: title, label: Title, type: string, description: Page heading and primary name used by lists search and the generated filename. }
       - name: date
         label: Published date
+        description: Publication date used by Hugo for ordering metadata and future-page scheduling.
         type: date
         required: false
         options:
           time: true
           format: "yyyy-MM-dd'T'HH:mm:ssXXX"
-      - { name: updated, label: Updated date, type: date, required: false }
-      - { name: draft, label: Draft, type: boolean, required: false, default: false }
-      - { name: placeholder, label: Hide as placeholder, type: boolean, required: false, default: false }
-      - { name: slug, label: URL slug, type: string, required: false, default: "" }
-      - { name: url, label: URL override, type: string, required: false, default: "" }
-      - { name: aliases, label: Previous URLs, type: string, list: true, required: false, default: [] }
-      - { name: weight, label: Sort weight, type: number, required: false, default: 0 }
-      - { name: description, label: Description, type: string, required: false, default: "" }
-      - { name: summary, label: Summary, type: text, required: false, default: "" }
-      - { name: author, label: Author, type: string, required: false, default: "" }
+      - { name: updated, label: Updated date, type: date, required: false, description: Last meaningful revision date shown in page metadata where enabled. }
+      - { name: draft, label: Draft, type: boolean, required: false, default: false, description: Prevents the page from appearing in normal production builds. }
+      - { name: placeholder, label: Hide as placeholder, type: boolean, required: false, default: false, description: Keeps template or unfinished content out of portals cards and public page output. }
+      - { name: slug, label: URL slug, type: string, required: false, default: "", description: Replaces the filename-derived final URL segment without moving the source file. }
+      - { name: url, label: URL override, type: string, required: false, default: "", description: Forces a complete site-relative URL; use carefully because it overrides the normal /lore path. }
+      - { name: aliases, label: Previous URLs, type: string, list: true, required: false, default: [], description: Old site-relative URLs that Hugo should redirect to this page. }
+      - { name: weight, label: Sort weight, type: number, required: false, default: 0, description: Manual ordering value; lower numbers sort before higher numbers where weighted ordering is used. }
+      - { name: description, label: Description, type: string, required: false, default: "", description: Concise page description used by metadata search and components that request it. }
+      - { name: summary, label: Summary, type: text, required: false, default: "", description: Custom excerpt for cards and lists; otherwise Hugo derives one from the body. }
+      - { name: author, label: Author, type: string, required: false, default: "", description: Author credit displayed in page metadata when present. }
       - name: type
         label: Layout type
+        description: Selects the page template; page is a standard article layout while wiki supports an infobox.
         type: select
         default: page
         options:
           values: [page, wiki]
       - name: categories
         label: Categories
+        description: Taxonomy terms controlling category portals breadcrumbs cards and discovery; Lore posts should retain lore.
         type: string
         list: true
         default: [lore]
-      - { name: tags, label: Tags, type: string, list: true, required: false, default: [] }
-      - { name: series, label: Series, type: string, required: false, default: "" }
-      - { name: image, label: Featured image, type: string, required: false, default: "" }
-      - { name: featured_image, label: Page header image, type: string, required: false, default: "" }
-      - { name: image_caption, label: Image caption, type: string, required: false, default: "" }
-      - { name: show_date, label: Show date, type: boolean, required: false, default: false }
-      - { name: show_reading_time, label: Show reading time, type: boolean, required: false, default: false }
-      - { name: iconColor, label: Page icon colour, type: string, required: false, default: "" }
-      - { name: badgeOnThumbnail, label: Show badge on thumbnails, type: boolean, required: false, default: false }
-      - { name: bookHidden, label: Hide from legacy book navigation, type: boolean, required: false, default: false }
-      - { name: BookToC, label: Show legacy book table of contents, type: boolean, required: false, default: false }
+      - { name: tags, label: Tags, type: string, list: true, required: false, default: [], description: Additional taxonomy keywords used for navigation filtering and search context. }
+      - { name: series, label: Series, type: string, required: false, default: "", description: Groups this page into a named sequence when series support is used. }
+      - { name: image, label: Featured image, type: string, required: false, default: "", description: Thumbnail image used by cards lists and social or search presentation. }
+      - { name: featured_image, label: Page header image, type: string, required: false, default: "", description: Large image rendered near the top of the page body. }
+      - { name: image_caption, label: Image caption, type: string, required: false, default: "", description: Caption displayed beneath the page header image. }
+      - { name: show_date, label: Show date, type: boolean, required: false, default: false, description: Shows the publication date in this page layout. }
+      - { name: show_reading_time, label: Show reading time, type: boolean, required: false, default: false, description: Shows Hugo's estimated minutes to read beside the page metadata. }
+      - { name: iconColor, label: Page icon colour, type: string, required: false, default: "", description: Default CSS colour for colourable SVG icons used by this page and its infobox. }
+      - { name: badgeOnThumbnail, label: Show badge on thumbnails, type: boolean, required: false, default: false, description: Displays the configured infobox badge on this page's cards or thumbnails. }
+      - { name: bookHidden, label: Hide from legacy book navigation, type: boolean, required: false, default: false, description: Legacy compatibility flag that removes the page from old book-style navigation. }
+      - { name: BookToC, label: Show legacy book table of contents, type: boolean, required: false, default: false, description: Legacy compatibility flag for the old book table of contents. }
       - name: infobox
         component: infobox
+        description: Structured side panel used by wiki-layout pages; standard page layouts may ignore it.
         default:
           header: ""
           image: ""
@@ -222,11 +250,12 @@ content:
           badgeColor: ""
           badgeForegroundColor: ""
           labels: []
-      - { name: also, label: Related pages, type: string, list: true, required: false, default: [] }
-      - { name: references, component: references, default: [] }
+      - { name: also, label: Related pages, type: string, list: true, required: false, default: [], description: Page names used to build the wiki See also section. }
+      - { name: references, component: references, default: [], description: Sources shown in the references footer. }
       - name: body
         label: Lore body
         type: rich-text
+        description: Main Markdown content rendered on the page; supports formatting shortcodes and configurable embedded images.
         description: 'For image controls, switch to Source and put an attribute line immediately below the image, for example: {width="320" align="right" mobileMinWidth="180" mobileMaxWidth="320" caption="Optional caption"}. The Markdown image title is its hover tooltip.'
         options: { format: markdown, media: images, switcher: true }
     view:
