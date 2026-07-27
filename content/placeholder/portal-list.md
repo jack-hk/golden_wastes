@@ -63,8 +63,8 @@ Inline icon: {{< icon name="book" size="24" >}}
 
 ## Configurable images
 
-Image attributes support `width`, `align`, `caption`, `mobile-min-width`, and
-`mobile-max-width`. A number without a unit is treated as pixels.
+Image attributes support `width`, `align`, `caption`, `mobileMinWidth`, and
+`mobileMaxWidth`. A number without a unit is treated as pixels.
 
 ![Ordinary portal image](/uploads/blue-abstract.jpg "Ordinary image tooltip")
 
@@ -79,4 +79,4 @@ Text wraps beside this image on desktop.
 Text wraps beside this image on desktop.
 
 ![Centered portal image](/uploads/red-abstract.jpg "Centered image tooltip")
-{width="640" align="center" mobile-min-width="240" mobile-max-width="480" caption="A centered portal image with mobile width limits."}
+{width="640" align="center" mobileMinWidth="240" mobileMaxWidth="480" caption="A centered portal image with mobile width limits."}

@@ -24,8 +24,8 @@ Zohm does not describe what something is. It only allows that thing to exist. It
 
 An idea or object exists through Zohm, and the way intelligent species recognize and **Name** it change its power and there its Form in unpredictable ways.  
 
-![Zohm, Form and Name](/uploads/zohm.png)  
-{width="280" align="left" mobile-min-width="200" mobile-max-width="280" caption="Existence is a result of these three ingredients."}
+![Zohm, Form and Name](/uploads/zohm.png)
+{width="280" align="left" mobileMinWidth="200" mobileMaxWidth="280" caption="Existence is a result of these three ingredients."}
 
 ## Form
 

@@ -35,79 +35,98 @@ components:
         label: Heading
         type: string
         required: false
+        default: ""
       - name: image
         label: Image URL or repository path
         type: string
         required: false
+        default: ""
       - name: icon
         label: Icon URL or /SVG path
         type: string
         required: false
+        default: ""
       - name: imageSize
         label: Image size
         type: number
         required: false
+        default: 0
       - name: iconSize
         label: Icon size
         type: number
         required: false
+        default: 0
       - name: imageMargin
         label: Image margin
         type: string
         required: false
+        default: ""
       - name: iconMargin
         label: Icon margin
         type: string
         required: false
+        default: ""
       - name: iconColor
         label: Icon colour (CSS value)
         type: string
         required: false
+        default: ""
       - name: badgePath
         label: Badge URL or /SVG path
         type: string
         required: false
+        default: ""
       - name: badge
         label: Badge path alias
         type: string
         required: false
+        default: ""
       - name: badgeIcon
         label: Badge icon alias
         type: string
         required: false
+        default: ""
       - name: badgeSvg
         label: Badge SVG alias
         type: string
         required: false
+        default: ""
       - name: badgeSize
         label: Badge size
         type: number
         required: false
+        default: 0
       - name: badgeEnabled
         label: Show badge
         type: boolean
         required: false
+        default: false
       - name: badgeOnThumbnail
         label: Show badge on thumbnails
         type: boolean
         required: false
+        default: false
       - name: badgeBackgroundColor
         label: Badge background colour
         type: string
         required: false
+        default: ""
       - name: badgeColor
         label: Badge colour alias
         type: string
         required: false
+        default: ""
       - name: badgeForegroundColor
         label: Badge foreground colour
         type: string
         required: false
+        default: ""
       - name: labels
         label: Infobox rows
         type: object
         list: true
         required: false
+        default: []
         fields:
           - name: label
             label: Label
@@ -127,6 +146,7 @@ components:
     label: References
     list: true
     required: false
+    default: []
     fields:
       - { name: title, label: Link title, type: string }
       - { name: url, label: URL, type: string }
@@ -148,15 +168,15 @@ content:
           time: true
           format: "yyyy-MM-dd'T'HH:mm:ssXXX"
       - { name: updated, label: Updated date, type: date, required: false }
-      - { name: draft, label: Draft, type: boolean, required: false }
-      - { name: placeholder, label: Hide as placeholder, type: boolean, required: false }
-      - { name: slug, label: URL slug, type: string, required: false }
-      - { name: url, label: URL override, type: string, required: false }
-      - { name: aliases, label: Previous URLs, type: string, list: true, required: false }
-      - { name: weight, label: Sort weight, type: number, required: false }
-      - { name: description, label: Description, type: string, required: false }
-      - { name: summary, label: Summary, type: text, required: false }
-      - { name: author, label: Author, type: string, required: false }
+      - { name: draft, label: Draft, type: boolean, required: false, default: false }
+      - { name: placeholder, label: Hide as placeholder, type: boolean, required: false, default: false }
+      - { name: slug, label: URL slug, type: string, required: false, default: "" }
+      - { name: url, label: URL override, type: string, required: false, default: "" }
+      - { name: aliases, label: Previous URLs, type: string, list: true, required: false, default: [] }
+      - { name: weight, label: Sort weight, type: number, required: false, default: 0 }
+      - { name: description, label: Description, type: string, required: false, default: "" }
+      - { name: summary, label: Summary, type: text, required: false, default: "" }
+      - { name: author, label: Author, type: string, required: false, default: "" }
       - name: type
         label: Layout type
         type: select
@@ -168,24 +188,45 @@ content:
         type: string
         list: true
         default: [article]
-      - { name: tags, label: Tags, type: string, list: true, required: false }
-      - { name: series, label: Series, type: string, required: false }
-      - { name: image, label: Featured image, type: string, required: false }
-      - { name: featured_image, label: Page header image, type: string, required: false }
-      - { name: image_caption, label: Image caption, type: string, required: false }
-      - { name: show_date, label: Show date, type: boolean, required: false }
-      - { name: show_reading_time, label: Show reading time, type: boolean, required: false }
-      - { name: iconColor, label: Page icon colour, type: string, required: false }
-      - { name: badgeOnThumbnail, label: Show badge on thumbnails, type: boolean, required: false }
-      - { name: bookHidden, label: Hide from legacy book navigation, type: boolean, required: false }
-      - { name: BookToC, label: Show legacy book table of contents, type: boolean, required: false }
-      - { name: infobox, component: infobox }
-      - { name: also, label: Related pages, type: string, list: true, required: false }
-      - { name: references, component: references }
+      - { name: tags, label: Tags, type: string, list: true, required: false, default: [] }
+      - { name: series, label: Series, type: string, required: false, default: "" }
+      - { name: image, label: Featured image, type: string, required: false, default: "" }
+      - { name: featured_image, label: Page header image, type: string, required: false, default: "" }
+      - { name: image_caption, label: Image caption, type: string, required: false, default: "" }
+      - { name: show_date, label: Show date, type: boolean, required: false, default: false }
+      - { name: show_reading_time, label: Show reading time, type: boolean, required: false, default: false }
+      - { name: iconColor, label: Page icon colour, type: string, required: false, default: "" }
+      - { name: badgeOnThumbnail, label: Show badge on thumbnails, type: boolean, required: false, default: false }
+      - { name: bookHidden, label: Hide from legacy book navigation, type: boolean, required: false, default: false }
+      - { name: BookToC, label: Show legacy book table of contents, type: boolean, required: false, default: false }
+      - name: infobox
+        component: infobox
+        default:
+          header: ""
+          image: ""
+          icon: ""
+          imageSize: 0
+          iconSize: 0
+          imageMargin: ""
+          iconMargin: ""
+          iconColor: ""
+          badgePath: ""
+          badge: ""
+          badgeIcon: ""
+          badgeSvg: ""
+          badgeSize: 0
+          badgeEnabled: false
+          badgeOnThumbnail: false
+          badgeBackgroundColor: ""
+          badgeColor: ""
+          badgeForegroundColor: ""
+          labels: []
+      - { name: also, label: Related pages, type: string, list: true, required: false, default: [] }
+      - { name: references, component: references, default: [] }
       - name: body
         label: Article body
         type: rich-text
-        description: 'For image controls, switch to Source and put an attribute line immediately below the image, for example: {width="320" align="right" mobile-min-width="180" mobile-max-width="320" caption="Optional caption"}. The Markdown image title is its hover tooltip.'
+        description: 'For image controls, switch to Source and put an attribute line immediately below the image, for example: {width="320" align="right" mobileMinWidth="180" mobileMaxWidth="320" caption="Optional caption"}. The Markdown image title is its hover tooltip.'
         options: { format: markdown, media: images, switcher: true }
     view:
       fields: [title, date, draft, type]

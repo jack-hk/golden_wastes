@@ -103,8 +103,8 @@ Inline icon: {{< icon name="book" size="24" >}}
 
 ## Configurable images
 
-Image attributes support `width`, `align`, `caption`, `mobile-min-width`, and
-`mobile-max-width`. A number without a unit is treated as pixels.
+Image attributes support `width`, `align`, `caption`, `mobileMinWidth`, and
+`mobileMaxWidth`. A number without a unit is treated as pixels.
 
 ![Ordinary class image](/uploads/artificer.jpg "Ordinary image tooltip")
 
@@ -119,4 +119,4 @@ This text wraps beside the image on desktop.
 This text wraps beside the image on desktop.
 
 ![Centered class image](/uploads/fighter.jpg "Centered image tooltip")
-{width="640" align="center" mobile-min-width="240" mobile-max-width="480" caption="A centered class image with mobile width limits."}
+{width="640" align="center" mobileMinWidth="240" mobileMaxWidth="480" caption="A centered class image with mobile width limits."}

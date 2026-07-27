@@ -10,10 +10,10 @@
 {{- $width := printf "%v" (.Attributes.width | default "") -}}
 {{- $validWidth := findRE `^[0-9]+(?:\.[0-9]+)?(?:px|rem|em|%|vw)?$` $width -}}
 {{- if and $width (not (findRE `[a-zA-Z%]` $width)) }}{{ $width = printf "%spx" $width }}{{ end -}}
-{{- $mobileMinWidth := printf "%v" (index .Attributes "mobile-min-width" | default "") -}}
+{{- $mobileMinWidth := printf "%v" (index .Attributes "mobileminwidth" | default "") -}}
 {{- $validMobileMinWidth := findRE `^[0-9]+(?:\.[0-9]+)?(?:px|rem|em|%|vw)?$` $mobileMinWidth -}}
 {{- if and $mobileMinWidth (not (findRE `[a-zA-Z%]` $mobileMinWidth)) }}{{ $mobileMinWidth = printf "%spx" $mobileMinWidth }}{{ end -}}
-{{- $mobileMaxWidth := printf "%v" (index .Attributes "mobile-max-width" | default "") -}}
+{{- $mobileMaxWidth := printf "%v" (index .Attributes "mobilemaxwidth" | default "") -}}
 {{- $validMobileMaxWidth := findRE `^[0-9]+(?:\.[0-9]+)?(?:px|rem|em|%|vw)?$` $mobileMaxWidth -}}
 {{- if and $mobileMaxWidth (not (findRE `[a-zA-Z%]` $mobileMaxWidth)) }}{{ $mobileMaxWidth = printf "%spx" $mobileMaxWidth }}{{ end -}}
 
