@@ -5,11 +5,9 @@ date: 2025-07-26T00:00:00Z
 draft: false
 type: page
 categories:
-  - lore
   - campaign
 aliases:
   - /article/how-to-play/
-
 image: /uploads/ruins.jpg
 show_date: true
 updated: 2026-07-27
