@@ -8,6 +8,7 @@ categories:
   - campaign
 aliases:
   - /article/how-to-play/
+  - /lore/how-to-play/
 image: /uploads/ruins.jpg
 show_date: true
 updated: 2026-07-27

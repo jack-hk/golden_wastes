@@ -271,45 +271,51 @@ content:
     format: yaml-frontmatter
     filename: "{primary}.md"
     fields:
-      - { name: title, label: Title, type: string }
+      - { name: title, label: Title, type: string, description: Page heading and primary name used by lists search and the filename. }
       - name: date
         label: Published date
+        description: Publication date used for metadata ordering and Hugo future-page scheduling.
         type: date
         required: false
         options:
           time: true
           format: "yyyy-MM-dd'T'HH:mm:ssXXX"
-      - { name: updated, label: Updated date, type: date, required: false }
-      - { name: draft, label: Draft, type: boolean, required: false }
-      - { name: placeholder, label: Hide as placeholder, type: boolean, required: false }
-      - { name: slug, label: URL slug, type: string, required: false }
-      - { name: url, label: URL override, type: string, required: false }
-      - { name: aliases, label: Previous URLs, type: string, list: true, required: false }
-      - { name: weight, label: Sort weight, type: number, required: false }
-      - { name: description, label: Description, type: string, required: false }
-      - { name: summary, label: Summary, type: text, required: false }
-      - { name: author, label: Author, type: string, required: false }
+      - { name: updated, label: Updated date, type: date, required: false, description: Date of the latest meaningful content revision. }
+      - { name: draft, label: Draft, type: boolean, required: false, description: Excludes the page from normal production builds. }
+      - { name: placeholder, label: Hide as placeholder, type: boolean, required: false, description: Hides template or unfinished content from public portals and cards. }
+      - { name: slug, label: URL slug, type: string, required: false, description: Replaces the filename-derived final URL segment. }
+      - { name: url, label: URL override, type: string, required: false, description: Forces a complete site-relative URL instead of the normal /campaign path. }
+      - { name: aliases, label: Previous URLs, type: string, list: true, required: false, description: Old URLs that Hugo redirects to this page. }
+      - { name: weight, label: Sort weight, type: number, required: false, description: Manual ordering value; lower values appear first where weighting is used. }
+      - { name: description, label: Description, type: string, required: false, description: Concise metadata and search description. }
+      - { name: summary, label: Summary, type: text, required: false, description: Custom card and list excerpt; otherwise Hugo derives one from the body. }
+      - { name: author, label: Author, type: string, required: false, description: Author credit displayed in page metadata when enabled. }
       - name: type
         label: Layout type
+        description: Campaign entries use the standard page layout.
         type: select
+        default: page
         options:
           values: [page]
       - name: categories
         label: Categories
+        description: Controls taxonomy portals and breadcrumbs; Campaign entries should retain campaign.
         type: string
         list: true
-      - { name: tags, label: Tags, type: string, list: true, required: false }
-      - { name: series, label: Series, type: string, required: false }
-      - { name: eventDate, label: Campaign date, type: string, required: false }
-      - { name: eventTime, label: Campaign time, type: string, required: false }
-      - { name: image, label: Featured image, type: string, required: false }
-      - { name: featured_image, label: Page header image, type: string, required: false }
-      - { name: image_caption, label: Image caption, type: string, required: false }
-      - { name: show_reading_time, label: Show reading time, type: boolean, required: false }
-      - { name: references, component: references }
+        default: [campaign]
+      - { name: tags, label: Tags, type: string, list: true, required: false, description: Additional taxonomy keywords used for navigation filtering and search context. }
+      - { name: series, label: Series, type: string, required: false, description: Groups related campaign pages into a named sequence. }
+      - { name: eventDate, label: Campaign date, type: string, required: false, description: In-world or scheduled campaign date displayed by campaign-aware components. }
+      - { name: eventTime, label: Campaign time, type: string, required: false, description: In-world or scheduled campaign time displayed by campaign-aware components. }
+      - { name: image, label: Featured image, type: string, required: false, description: Thumbnail used by campaign cards lists and search presentation. }
+      - { name: featured_image, label: Page header image, type: string, required: false, description: Large image rendered near the top of the campaign page. }
+      - { name: image_caption, label: Image caption, type: string, required: false, description: Caption displayed beneath the page header image. }
+      - { name: show_reading_time, label: Show reading time, type: boolean, required: false, description: Displays Hugo's estimated minutes to read. }
+      - { name: references, component: references, description: External sources displayed in the references footer. }
       - name: body
         label: Campaign body
         type: rich-text
+        description: Main Markdown content rendered on the campaign page.
         options: { format: markdown, media: images, switcher: true }
     view:
       fields: [title, date, draft]

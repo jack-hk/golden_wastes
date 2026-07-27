@@ -53,7 +53,7 @@ placeholder: true
 #       item: Class
 #     - divider: true
 #     - label: Example
-#       item: "[Related page](/lore/how-to-play/)"
+#       item: "[Related page](/campaign/how-to-play/)"
 # also:
 #   - Artificer
 #   - How to play
@@ -76,7 +76,7 @@ placeholder: true
 
 Normal class text with **bold**, *italic*, ***bold italic***,
 ~~strikethrough~~, <u>underlined text</u>, `inline code`, and a
-[link](/lore/how-to-play/).
+[link](/campaign/how-to-play/).
 
 > A class quotation styled like a wiki quotation.
 

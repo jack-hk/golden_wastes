@@ -5,7 +5,7 @@ draft = false
 placeholder = false
 updated = '2026-07-26'
 +++
-Welcome to the [Golden Wastes](/lore/the-wastes/), a post-apocalyptic fantasy setting created for [TTRPG play](/lore/how-to-play/) and world-building.
+Welcome to the [Golden Wastes](/lore/the-wastes/), a post-apocalyptic fantasy setting created for [TTRPG play](/campaign/how-to-play/) and world-building.
 
 The [project](/lore/the-project/) explores a brutally harsh region between one and three centuries after the global apocalypse known as the [Second Great Pulse](/lore/second-great-pulse/).
 

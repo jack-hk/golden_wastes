@@ -103,7 +103,7 @@ count = 3
 truncate = 130
 pages = [
   "/lore/the-project",
-  "/lore/how-to-play",
+  "/campaign/how-to-play",
   "/lore/the-wastes",
 ]
 
@@ -230,7 +230,7 @@ weight = 45
 [[menus.navigation]]
 name = "How To Play"
 pre = "graduate"
-pageRef = "/lore/how-to-play"
+pageRef = "/campaign/how-to-play"
 weight = 10
 
   [menus.navigation.params]

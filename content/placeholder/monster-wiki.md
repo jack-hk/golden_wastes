@@ -75,7 +75,7 @@ placeholder: true
 
 Normal monster text with **bold**, *italic*, ***bold italic***,
 ~~strikethrough~~, <u>underlined text</u>, `inline code`, and a
-[link](/lore/how-to-play/).
+[link](/campaign/how-to-play/).
 
 > A monster quotation styled like a wiki quotation.
 

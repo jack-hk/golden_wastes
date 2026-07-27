@@ -44,7 +44,7 @@ placeholder: true
 
 Normal paragraph text with **bold**, *italic*, ***bold italic***,
 ~~strikethrough~~, <u>underlined text</u>, `inline code`, and a
-[link](/lore/how-to-play/).
+[link](/campaign/how-to-play/).
 
 > A blockquote can contain **formatting**, links, and multiple paragraphs.
 >
