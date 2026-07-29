@@ -23,78 +23,84 @@ infobox:
   badgeEnabled: false
   badgeOnThumbnail: false
 ---
-The Second Great Zohm Pulse (simply known as the Second Great Pulsd) is the recent apocalyptic event that destroyed most surviving civilisation and reshaped much of the known world.
+> The Second Great Zohm Pulse was the world’s second known attempt to heal the harm carried by [Fell Names](/lore/names/), after generations ignored the warning left by the old civilisations.
+
+The Second Great Zohm Pulse (simply known as the Second Great Pulse) was the most recent apocalypse to reshape the world.
+
+It was a worldwide surge of [Zohm](/lore/zohm/) that destroyed most surviving civilisations, transformed vast regions and brought many unnatural beings into existence.
 
 ## The Tablet Rediscovered
 
-Several centuries before the Pulse reached its peak, humanity rediscovered the tablet left by survivors of the first disaster.
+Several centuries before the Pulse reached its height, a stone tablet was recovered from the ruins of the old civilisations.
 
-Its inscription warned that another Great Pulse would occur within a limited number of generations.
+Its inscription described the signs of another Great Pulse and warned against cultivating [Fell Names](/lore/names/) as instruments of fear, dominion and power.
 
-Scholars, rulers, priests and philosophers debated its meaning. Some believed it was a genuine warning from the old world. Others dismissed it as a myth, deception or misunderstood record.
+Some peoples accepted the warning. Others believed the tablet was a deception created during the struggle between three rival imperial powers and their allied confederations.
 
-The only certain test was to wait.
+Scholars urged restraint, while fair-minded rulers formed pacts intended to limit the use of Fell Names. These efforts rarely endured wherever ambition, conquest and the demands of war held greater influence.
 
-## Preparations
+## The Great Migration
 
-Wealthier and more advanced civilisations began preparing for the predicted disaster.
+Those who believed the warning began preparing generations before the predicted disaster.
 
-Deep shelters and self-sustaining cave settlements were constructed beneath the earth. These havens were designed to preserve water, food, air and small populations without contact with the surface.
+This centuries-long movement became known as the Great Migration. Peoples of many cultures left vulnerable lands and established societies in places they believed could withstand the coming upheaval.
 
-Some succeeded. Others failed through hunger, disease, collapse or the changing influence of Zohm.
+Some settled within deep caverns. Others fortified highlands, remote valleys, islands or harsh stretches of the surface. These communities preserved food, water, craft, learning, government and the means to support future generations.
 
-Most people had no access to such protection, while many refused to believe it would ever be needed.
+Each culture followed its own methods. Some withdrew almost entirely from the wider world, while others maintained guarded contact and continued watching for the signs recorded upon the tablet.
+
+Not every refuge endured as its founders intended, but some remained when the Pulse finally came.
 
 ## The Cause
 
-In the centuries following the First Memory Plague, intelligent peoples repeated many of the same abuses.
+Despite the warning, Fell Names continued to spread.
 
-Conquerors forced their Names into monuments, laws and occupied lands. Weapons were Named for terror. Prisons became inseparable from suffering, while entire peoples were given degrading Names by those who wished to control them.
+Names shaped by fear, conquest and control became attached to rulers, weapons, laws, monuments and claimed lands. Some were deliberately strengthened so their reputations would travel farther and their influence would become harder to resist.
 
-Only true Life could create these Names. Through fear, repetition and shared experience, mortals gave lasting power to the Forms that caused their suffering.
+As these [Forms](/lore/zohm/#form) gathered greater Zohm, the harm carried by their Names settled more deeply into the world.
 
-When enough corrupted meaning accumulated, the world began to heal itself again.
+The old mistakes had been repeated.
+
+Once again, the world responded.
 
 ## The Rising Pulse
 
-During the early stages of the Second Great Zohm Pulse, ancient legends and powerful Names awakened first.
+The earliest changes gathered around ancient legends and powerful Names.
 
-As the threshold continued to fall, local tales, family heirlooms, feared creatures and ordinary people also gathered significant Zohm.
+Famous objects developed impossible properties. Feared places reshaped themselves around old stories, while living beings began to resemble the reputations attached to them.
 
-A person known throughout one village for great strength might truly gain it. A ruin avoided because of an old story might reshape itself around that tale. A beast given a fearful title might become the creature people already believed it to be.
+As the flow of Zohm increased, lesser Names also awakened. A person known for remarkable strength might truly gain it. A family heirloom could acquire qualities shaped by generations of memory. A creature feared beneath a particular title might become what people already believed it to be.
 
-Humans and animals learned to manipulate this abundance through knowledge, instinct or accidental experience.
+Some living beings learned to guide this abundance through knowledge, instinct or repeated experience, though few could predict what an awakened Name would become.
 
 ## The Peak
 
-At the height of the Pulse, Zohm strengthened Forms faster than Chaos and Order could keep them stable.
+At the height of the Pulse, the abundance of Zohm overwhelmed the balance between [Order and Chaos](/lore/life/#order-and-chaos), leaving many Forms unable to remain stable.
 
-Natural development gave way to sudden transformation. Bodies, instincts, objects and ideas combined in ways that could not have occurred through true Life.
+Bodies changed without natural development. Objects gained movement and purpose. Memories and ideas acquired physical presence, while unfamiliar beings appeared throughout the world.
 
-Autonama, Undead, Mutations and many other unfamiliar categories of beings appeared. Some possessed thought and sensation. Others followed only a Name, memory, instinct or command powerful enough to sustain their Form.
+Many displayed [false Life](/lore/life/). They could move, sense, speak or follow existing Names, but they could not experience the world and bestow new Names as true Life could.
 
-Many behaved like living creatures without possessing true Life. They could respond to Names or repeat them, but they could not bestow new Names themselves.
+Cities fell, populations vanished and entire regions became dangerous or impossible to inhabit.
 
-Cities fell, populations vanished and entire regions became dangerous or impossible to inhabit. Only a fraction of humanity survived, including some of those sheltered deep underground.
+Among those who survived were societies founded during the Great Migration.
 
 ## The Present World
 
-The Second Great Zohm Pulse has weakened, but its effects have not ended.
+The Second Great Zohm Pulse has receded from its height, but its effects have not ended.
 
-Named objects remain unusually powerful, altered creatures continue to roam and many regions still respond unpredictably to memories, stories and reputation.
+Named objects remain unusually powerful, altered creatures continue to roam and many regions still respond unpredictably to memory, story and reputation.
 
-Surviving communities are rebuilding among the remains of older civilisations. Bronze tools and weapons are common, while advanced knowledge survives only in fragments.
+Surviving peoples rebuild among the remains of several ages. Bronze tools and weapons are common, while older knowledge survives in guarded traditions and fragments recovered from ruins.
 
 ## The Expected Second Memory Plague
 
-Scholars believe the Second Great Zohm Pulse will eventually be followed by the Second Memory Plague.
+Scholars believe the Pulse will eventually be followed by a Second Memory Plague.
 
-Records will become distorted, stories will lose important details and generations will forget knowledge once considered ordinary. Names may be divided, misremembered or erased entirely.
+Records will become unreliable, languages will disappear and generations will forget knowledge once considered impossible to lose. As recognition fades, the Zohm associated with many Names will become less active, causing their unusual effects to weaken, vanish or fall dormant.
 
-As fewer living beings recognise these Forms, the abundance of active Zohm will naturally decline. Most supernatural effects will weaken, disappear or become dormant.
+The strongest myths and most widely recognised Names will resist longest.
 
-The strongest Names will be the most resistant. Great myths, enduring legends and Forms recognised across cultures may survive, while thousands of smaller Names vanish.
+This forgetting may weaken many of the Fell Names that helped cause the Pulse. It will also erase histories, discoveries and traditions that caused no harm.
 
-This process may remove many of the cruel Names that caused the Pulse, but it will also destroy languages, discoveries, histories and technologies.
-
-The world can always heal, but its healing comes at a terrible cost.
+The world can heal, but it does not choose what must be forgotten.

@@ -23,60 +23,60 @@ infobox:
   badgeEnabled: false
   badgeOnThumbnail: false
 ---
-> The First Great Zohm Pulse was an attempt by the world to heal the damage carried by corrupted [Names](lore/names/)
+> The First Great Zohm Pulse was the world’s first known attempt to heal the harm carried by [Fell Names](/lore/names/).
 
-The First Great Zohm Pulse (simply known as the First Great Pulse) occurred during the age of the old civilisations, more than a thousand years before the present.
+The **First Great Zohm Pulse** (simply known as the **First Great Pulse**) occurred during the age of the old civilisations, more than a thousand years before the present.
 
-The people of that era worked iron, built great settlements and developed technologies now understood only through surviving ruins. Several kinds of humans are believed to have lived across the world.
+The peoples of that age worked iron, raised great settlements and developed technologies now understood only through surviving ruins. Many intelligent peoples are believed to have inhabited the old world, though little certain knowledge of them remains.
 
 ## The Cause
 
-Across generations, intelligent peoples attached powerful [Names](/lore/names/) to fear, suffering and cruelty.
+Across generations, the peoples of the old world gave powerful [Names](/lore/names/) to deeds, places and symbols shaped by fear, grief and dominion.
 
-Weapons were Named for slaughter. Rulers forced their Names into monuments and conquered lands. Prisons, battlefields and entire populations became recognised through suffering.
+Weapons became known by what they had done. Rulers pressed their Names into monuments and claimed lands. Places and peoples acquired Names shaped by conquest, fear and loss.
 
-These corrupted Names were created through mortal intention, memory and recognition.
+These became known as Fell Names: Names whose meaning was rooted in cruelty, domination or deliberate harm. They grew through mortal intention, memory and recognition.
 
-As their [Zohm](/lore/zohm) grew, the damage associated with them became fixed more deeply within the world.
+As the [Zohm](/lore/zohm/) associated with them increased, the harm they carried settled more deeply into the world.
 
 Eventually, the world responded.
 
 ## The Rising Pulse
 
-The First Great Zohm Pulse was an attempt by the world to heal the damage carried by these Names.
+The Pulse began quietly. Famous weapons developed strange properties, important places reflected their reputations and living beings displayed abilities once thought impossible.
 
-At first, the changes were limited. Famous weapons developed unusual properties, important places began reflecting their reputations and living beings displayed abilities once thought impossible.
+As the flow of Zohm increased, lesser Names awakened. Animals changed according to the Names given to them, stories altered the places associated with them and old events continued to shape the lands where they had occurred.
 
-As Zohm flow steadily increased, smaller Names also awakened. Animals changed according to the Names given to them. Stories influenced physical places, while past events continued shaping the lands associated with them.
-
-Parts of the world became almost unrecognisable and the balance of Chaos and Order drastically suffered.
+As Zohm grew more abundant, the balance between [Order and Chaos](/lore/life/#order-and-chaos) began to falter, weakening the boundaries between [true and false Life](/lore/life/)
 
 ## The Collapse
 
-At the height of the Pulse, Zohm strengthened Forms faster than Chaos and Order could keep them stable.
+At its height, the Pulse strengthened [Forms](/lore/zohm/#form) faster than they could remain stable.
 
-Bodies changed without natural development. Objects gained movement and purpose. Memories and ideas took physical [Form](lore/zohm/#form), while unfamiliar creatures appeared throughout the world.
+Bodies changed without natural development. Objects gained movement and purpose. Memories and ideas took physical Form, while unfamiliar beings appeared throughout the world.
 
-Many of these beings displayed false Life. They could move, sense or follow existing Names, but they could not bestow Names of their own.
+Many displayed false Life. They could move, sense or follow existing Names, but they could not bestow Names of their own.
 
-Civilisations collapsed, much of the living population was destroyed and entire peoples vanished from history.
+Civilisations fell, much of the world’s living population was lost and entire peoples vanished from history.
 
 ## The Inscribed Tablet
 
-Before the last old civilisations disappeared, some survivors recognised that another Great Pulse might occur.
+Before the last old civilisations disappeared, survivors recognised that another Great Pulse might one day occur.
 
-They carved a warning into a stone tablet, describing the signs of the disaster and predicting that the world would one day attempt the same healing again.
+They carved a warning into a stone tablet, recording the signs of the disaster and urging future generations never to cultivate Fell Names as instruments of power. They believed that such Names had deepened the wounds the world had attempted to heal.
 
-The tablet was eventually lost as the remaining settlements declined and knowledge of the old world faded.
+The tablet was lost as the remaining settlements declined and knowledge of the old world faded.
+
+When it was rediscovered centuries later, its prediction of another Pulse drew fear and debate. Its warning against the deliberate use of Fell Names was often dismissed and ignored.
 
 ## The First Memory Plague
 
 The First Memory Plague followed the Pulse.
 
-Records became unreliable, languages disappeared and generations forgot Names once believed impossible to lose. Some writings remained physically intact but could no longer be understood correctly.
+Records became unreliable, languages disappeared and generations forgot Names once believed impossible to lose. Some writings survived intact but could no longer be understood.
 
-As Names vanished from memory, their Zohm became less active. Many supernatural effects weakened, disappeared or became dormant.
+As recognition faded, the Zohm associated with forgotten Names became less active. Many supernatural effects weakened, vanished or fell dormant.
 
-The strongest myths, legends and historical Names were the most resistant to being forgotten.
+The strongest myths, legends and historical Names resisted longest.
 
-The world survived, but civilisation was forced to begin again from scattered ruins and incomplete memories.
+The world survived, but civilisation began again among scattered ruins and incomplete memories
