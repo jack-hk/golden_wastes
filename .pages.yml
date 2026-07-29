@@ -244,6 +244,7 @@ content:
       - { name: tags, label: Tags, type: string, list: true, required: false, default: [], description: Additional taxonomy keywords used for navigation filtering and search context. }
       - { name: series, label: Series, type: string, required: false, default: "", description: Groups this page into a named sequence when series support is used. }
       - { name: image, label: Featured image, type: string, required: false, default: "", description: Thumbnail image used by cards lists and social or search presentation. }
+      - { name: fitThumbnail, label: Fit image inside search thumbnail, type: boolean, required: false, default: false, description: Shows the complete featured image inside the square search-result thumbnail instead of cropping it to fill the frame. Overrides the globally disabled Pagefind thumbnail-fit setting for this page. }
       - { name: featured_image, label: Page header image, type: string, required: false, default: "", description: Large image rendered near the top of the page body. }
       - { name: image_caption, label: Image caption, type: string, required: false, default: "", description: Caption displayed beneath the page header image. }
       - { name: show_date, label: Show date, type: boolean, required: false, default: false, description: Shows the publication date in this page layout. }
@@ -353,6 +354,7 @@ content:
       - { name: eventDate, label: Campaign date, type: string, required: false, description: In-world or scheduled campaign date displayed by campaign-aware components. }
       - { name: eventTime, label: Campaign time, type: string, required: false, description: In-world or scheduled campaign time displayed by campaign-aware components. }
       - { name: image, label: Featured image, type: string, required: false, description: Thumbnail used by campaign cards lists and search presentation. }
+      - { name: fitThumbnail, label: Fit image inside search thumbnail, type: boolean, required: false, default: false, description: Shows the complete featured image inside the square search-result thumbnail instead of cropping it to fill the frame. Overrides the globally disabled Pagefind thumbnail-fit setting for this page. }
       - { name: featured_image, label: Page header image, type: string, required: false, description: Large image rendered near the top of the campaign page. }
       - { name: image_caption, label: Image caption, type: string, required: false, description: Caption displayed beneath the page header image. }
       - { name: show_reading_time, label: Show reading time, type: boolean, required: false, description: Displays Hugo's estimated minutes to read. }
@@ -420,6 +422,7 @@ content:
       - { name: tags, label: Tags, type: string, list: true, required: false }
       - { name: series, label: Series, type: string, required: false }
       - { name: image, label: Featured image, type: string, required: false }
+      - { name: fitThumbnail, label: Fit image inside search thumbnail, type: boolean, required: false, default: false, description: Shows the complete featured image inside the square search-result thumbnail instead of cropping it. Overrides the globally disabled setting for this page. }
       - { name: featured_image, label: Page header image, type: string, required: false }
       - { name: image_caption, label: Image caption, type: string, required: false }
       - { name: show_date, label: Show date, type: boolean, required: false }
@@ -493,6 +496,7 @@ content:
       - { name: tags, label: Tags, type: string, list: true, required: false }
       - { name: series, label: Series, type: string, required: false }
       - { name: image, label: Featured image, type: string, required: false }
+      - { name: fitThumbnail, label: Fit image inside search thumbnail, type: boolean, required: false, default: false, description: Shows the complete featured image inside the square search-result thumbnail instead of cropping it. Overrides the globally disabled setting for this page. }
       - { name: featured_image, label: Page header image, type: string, required: false }
       - { name: image_caption, label: Image caption, type: string, required: false }
       - { name: show_date, label: Show date, type: boolean, required: false }
@@ -567,6 +571,7 @@ content:
       - { name: tags, label: Tags, type: string, list: true, required: false }
       - { name: series, label: Series, type: string, required: false }
       - { name: image, label: Featured image, type: string, required: false }
+      - { name: fitThumbnail, label: Fit image inside search thumbnail, type: boolean, required: false, default: false, description: Shows the complete featured image inside the square search-result thumbnail instead of cropping it. Overrides the globally disabled setting for this page. }
       - { name: featured_image, label: Page header image, type: string, required: false }
       - { name: image_caption, label: Image caption, type: string, required: false }
       - { name: show_date, label: Show date, type: boolean, required: false }
@@ -629,6 +634,7 @@ content:
       - { name: description, label: Description, type: string, required: false }
       - { name: summary, label: Summary, type: text, required: false }
       - { name: image, label: Portal image, type: string, required: false }
+      - { name: fitThumbnail, label: Fit image inside search thumbnail, type: boolean, required: false, default: false, description: Shows the complete portal image inside the square search-result thumbnail instead of cropping it. Overrides the globally disabled setting for this page. }
       - name: portal_view
         label: Portal layout
         type: select
@@ -697,6 +703,7 @@ content:
       - { name: categories, label: Categories, type: string, list: true, required: false }
       - { name: tags, label: Tags, type: string, list: true, required: false }
       - { name: image, label: Image, type: string, required: false }
+      - { name: fitThumbnail, label: Fit image inside search thumbnail, type: boolean, required: false, default: false, description: Shows the complete image inside the square search-result thumbnail instead of cropping it. Overrides the globally disabled setting for this page. }
       - name: body
         label: Content
         type: rich-text

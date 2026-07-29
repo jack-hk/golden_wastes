@@ -4,6 +4,7 @@ date = '2026-07-25T15:00:00Z'
 draft = false
 placeholder = false
 updated = '2026-07-26'
+fitThumbnail = false
 +++
 Welcome to the [Golden Wastes](/lore/the-wastes/), a post-apocalyptic fantasy setting created for [TTRPG play](/campaign/how-to-play/) and world-building.
 

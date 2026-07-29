@@ -22,6 +22,7 @@ weight: 0
 date: 2026-07-27T07:54:00Z
 updated: 2026-07-27
 image: /uploads/zohm.png
+fitThumbnail: false
 ---
 > **Zohm** is the energy from which all existence is made.
 

@@ -20,6 +20,7 @@ placeholder: true
 #   - example
 # series: Placeholder Series
 # image: /uploads/blue-abstract.jpg
+# fitThumbnail: false # true fits the complete image inside its square search thumbnail; false crops it to fill.
 # featured_image: /uploads/blue-abstract.jpg
 # image_caption: Placeholder featured-image caption.
 # show_reading_time: true

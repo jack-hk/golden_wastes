@@ -8,6 +8,7 @@ categories:
 aliases:
   - /article/a-port-in-the-storm/
 image:
+fitThumbnail: false
 show_date: false
 infobox:
   header: A Port in the Storm

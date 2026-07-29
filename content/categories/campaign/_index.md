@@ -1,5 +1,6 @@
 ---
 title: Campaign
+fitThumbnail: false
 portal_view: list
 showcase_tiles: 3
 min_showcase_tiles: 2

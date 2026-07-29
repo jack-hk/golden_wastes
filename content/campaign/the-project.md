@@ -8,6 +8,7 @@ categories:
 aliases:
   - /article/the-project/
 image: /uploads/mesa.jpg
+fitThumbnail: false
 show_date: true
 updated: 2026-07-27
 placeholder: false

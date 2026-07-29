@@ -4,6 +4,7 @@ type: wiki
 categories:
   - location
 image:
+fitThumbnail: false
 show_date: false
 infobox:
   header: Kha'rot Area

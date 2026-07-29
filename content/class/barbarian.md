@@ -4,6 +4,7 @@ type: wiki
 categories:
   - class
 image: /uploads/barbarian.jpg
+fitThumbnail: false
 show_date: false
 infobox:
   header: Barbarian

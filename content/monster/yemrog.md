@@ -4,6 +4,7 @@ type: wiki
 categories:
   - monster
 image:
+fitThumbnail: false
 show_date: false
 infobox:
   header: Yemrog

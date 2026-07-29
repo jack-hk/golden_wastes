@@ -4,6 +4,7 @@ type: wiki
 categories:
   - class
 image: /uploads/magic-user.jpg
+fitThumbnail: false
 show_date: false
 infobox:
   header: Magic User

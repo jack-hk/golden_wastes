@@ -20,6 +20,7 @@ infobox:
 categories:
   - lore
 image: /uploads/elemental-wheel.png
+fitThumbnail: true
 ---
 The Elemental Wheel is a traditional system used in Gharab alchemy. It divides physical [Forms](/lore/zohm#form) into four broad elements: **Wood, Glass, Stone** and **Metal**.  
 

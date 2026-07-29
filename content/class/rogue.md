@@ -5,6 +5,7 @@ type: wiki
 categories:
   - class
 image: /uploads/rouge.jpg
+fitThumbnail: false
 show_date: false
 infobox:
   header: Rogue

@@ -9,6 +9,7 @@ show_date: true
 eventDate:
 eventTime:
 image:
+fitThumbnail: false
 ---
 
 Details about Beware of the Bonesingers! will be added here.

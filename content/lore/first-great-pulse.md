@@ -7,6 +7,7 @@ categories:
   - lore
 aliases:
   - /article/first-great-pulse/
+fitThumbnail: false
 show_date: false
 updated: 2026-07-28
 placeholder: false

@@ -20,6 +20,7 @@ placeholder: true
 #   - location
 # series: Placeholder Wiki Series
 # image: /uploads/cave.jpg
+# fitThumbnail: false # true fits the complete image inside its square search thumbnail; false crops it to fill.
 # featured_image: /uploads/cave.jpg
 # image_caption: Placeholder location image caption.
 # show_date: true

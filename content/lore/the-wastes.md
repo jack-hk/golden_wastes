@@ -7,6 +7,7 @@ categories:
 aliases:
   - /article/the-wastes/
 image: /uploads/barren.jpg
+fitThumbnail: false
 show_date: true
 placeholder: false
 weight: 0

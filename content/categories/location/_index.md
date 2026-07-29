@@ -1,5 +1,6 @@
 ---
 title: Location
+fitThumbnail: false
 portal_view: list
 showcase_tiles: 2
 min_showcase_tiles: 2

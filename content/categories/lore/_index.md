@@ -14,4 +14,5 @@ show_left_textbox: true
 show_right_textbox: true
 show_bottom_textbox: true
 image: /uploads/barren.jpg
+fitThumbnail: false
 ---

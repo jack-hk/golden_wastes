@@ -21,6 +21,7 @@ placeholder: true
 #   - class
 # series: Placeholder Wiki Series
 # image: /uploads/artificer.jpg
+# fitThumbnail: false # true fits the complete image inside its square search thumbnail; false crops it to fill.
 # featured_image: /uploads/artificer.jpg
 # image_caption: Placeholder class image caption.
 # show_date: true

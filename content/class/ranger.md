@@ -5,6 +5,7 @@ type: wiki
 categories:
   - class
 image: /uploads/ranger.jpg
+fitThumbnail: false
 show_date: false
 infobox:
   header: Ranger

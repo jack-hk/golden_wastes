@@ -2,6 +2,7 @@
 placeholder: true
 # title: Placeholder Front Matter Examples
 # draft: true
+# fitThumbnail: false
 build:
   render: never
   list: never

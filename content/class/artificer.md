@@ -4,6 +4,7 @@ type: wiki
 categories:
   - class
 image: /uploads/artificer.jpg
+fitThumbnail: false
 show_date: false
 infobox:
   header: Artificer

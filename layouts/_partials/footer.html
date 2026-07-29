@@ -7,3 +7,13 @@
     Made by Jack with love &lt;3
   </a>
 </div>
+
+{{- if eq .Kind "page" -}}
+  {{- $fitThumbnail := site.Params.pagefind.fitThumbnails | default false -}}
+  {{- if isset .Params "fitthumbnail" -}}
+    {{- $fitThumbnail = .Params.fitThumbnail -}}
+  {{- end -}}
+  {{- if $fitThumbnail -}}
+    <span hidden data-pagefind-meta="thumbnail_fit:true"></span>
+  {{- end -}}
+{{- end -}}

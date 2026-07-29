@@ -29,6 +29,7 @@ placeholder: true
 # show_bottom_textbox: true
 # bottom_textbox_text: Placeholder full-width list portal text.
 # image: /uploads/blue-abstract.jpg
+# fitThumbnail: false # true fits the complete image inside its square search thumbnail; false crops it to fill.
 ---
 
 # Heading level 1

@@ -20,6 +20,7 @@ placeholder: true
 #   - campaign
 # series: Placeholder Campaign Series
 # image: /uploads/red-abstract.jpg
+# fitThumbnail: false # true fits the complete image inside its square search thumbnail; false crops it to fill.
 # featured_image: /uploads/red-abstract.jpg
 # image_caption: Placeholder campaign image caption.
 # show_reading_time: true

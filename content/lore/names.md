@@ -4,6 +4,7 @@ draft: false
 placeholder: false
 weight: 0
 type: wiki
+fitThumbnail: false
 show_date: false
 show_reading_time: false
 badgeOnThumbnail: false

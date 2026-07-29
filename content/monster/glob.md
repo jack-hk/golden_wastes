@@ -4,6 +4,7 @@ type: wiki
 categories:
   - monster
 image:
+fitThumbnail: true
 show_date: false
 infobox:
   header: Glob

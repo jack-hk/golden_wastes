@@ -1,5 +1,6 @@
 ---
 title: Class
+fitThumbnail: false
 portal_view: card
 card_count: 3
 min_card_count: 3

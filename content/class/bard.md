@@ -5,6 +5,7 @@ header: The Bard
 categories:
   - class
 image: /uploads/bard.jpg
+fitThumbnail: false
 show_date: false
 infobox:
       header: Hiii

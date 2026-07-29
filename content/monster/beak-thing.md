@@ -3,6 +3,7 @@ title: Beak Thing
 type: wiki
 categories:
   - monster
+fitThumbnail: true
 show_date: false
 infobox:
   header: Beak Thing

@@ -27,6 +27,7 @@ badgeOnThumbnail: false
 bookHidden: false
 BookToC: false
 image: /uploads/bonestalker.png
+fitThumbnail: true
 date: 2026-07-27
 updated: 2026-07-27
 ---

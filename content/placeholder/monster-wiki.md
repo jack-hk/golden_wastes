@@ -20,6 +20,7 @@ placeholder: true
 #   - monster
 # series: Placeholder Wiki Series
 # image: /uploads/monster.jpg
+# fitThumbnail: false # true fits the complete image inside its square search thumbnail; false crops it to fill.
 # featured_image: /uploads/monster.jpg
 # image_caption: Placeholder monster image caption.
 # show_date: true
