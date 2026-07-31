@@ -155,13 +155,13 @@
                   {{ else }}
                     <div class="wiki__infobox-item">
                       {{ if $hasLabel }}
-                        <span class="wiki__infobox-label"
-                          >{{ .label | markdownify }}</span
+                        <div class="wiki__infobox-label"
+                          >{{ .label | markdownify }}</div
                         >
                       {{ end }}
                       {{ if $hasValue }}
-                        <span class="wiki__infobox-value"
-                          >{{ .item | markdownify }}</span
+                        <div class="wiki__infobox-value"
+                          >{{ .item | markdownify }}</div
                         >
                       {{ end }}
                     </div>
