@@ -13,9 +13,9 @@ infobox:
       item: Monster
       divider: false
     - label: Habitat
-      item: Anywhere on the surface, [The Beneath](/lore/the-beneath/)
+      item: Anywhere on the surface, [The Beneath](/location/the-beneath/)
       divider: false
-    - label: "[True Life?](/lore/true-life/)"
+    - label: "True Life?"
       item: No
       divider: false
   imageSize: 300
@@ -32,7 +32,9 @@ badgeOnThumbnail: false
 bookHidden: false
 BookToC: false
 ---
-The **Glob** is a tough, ooze-like creature whose movements seem to defy natural laws. Despite its heavy, semi-liquid body, it can travel at surprising speed by shifting its weight and rolling across the ground. When attacking, a Glob launches itself towards its target before suddenly hardening into a dense projectile capable of crushing armour, breaking bone and knocking a grown person from their feet.
+> The **Glob** is a tough, ooze-like creature whose movements seem to defy natural laws.
+
+Despite its heavy, semi-liquid body, it can travel at surprising speed by shifting its weight and rolling across the ground. When attacking, a **Glob** launches itself towards its target before suddenly hardening into a dense projectile capable of crushing armour, breaking bone and knocking a grown person from their feet.
 
 Most Globs are roughly a quarter of a human’s size, though rare specimens have been reported to reach twelve feet in height and width.
 

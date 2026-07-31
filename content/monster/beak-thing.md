@@ -30,13 +30,13 @@ BookToC: false
 date: 2026-07-27
 updated: 2026-07-27
 ---
-> The Beak Thing is one of the deadliest creatures in the Golden Wastes. 
+> The **Beak Thing** is one of the deadliest creatures in the [Golden Wastes](/lore/the-wastes/).
 
 These solitary carnivores are known to stalk humans, caravans and wounded animals for miles without giving up. Their sharp senses allow them to detect distant movement, scents and sounds, often before a traveller knows they are being watched. They are also incredibly difficult to kill, with powerful limbs, thick bone plating and enough endurance to continue hunting through serious wounds. In [the Wastes](/lore/the-wastes/), seeing one often means that escape is already unlikely.
 
 ## Appearance
 
-A Beak Thing is a towering, four-legged predator with coarse pale fur, a long muscular neck, huge dark hooves and an enormous hooked beak built for tearing flesh and crushing bone.
+A **Beak Thing** is a towering, four-legged predator with coarse pale fur, a long muscular neck, huge dark hooves and an enormous hooked beak built for tearing flesh and crushing bone.
 
 ## Behaviour
 

@@ -33,7 +33,7 @@ updated: 2026-07-27
 ---
 > They were once human, but have since been transformed into suffering, misshapen creatures under the control of the necromancer Master Shal Kha-rot.
 
-Bonestalkers are restless humanoid Undead found throughout the dune deserts of [Kha-rot](/location/kharot-area/), though rare sightings have been reported elsewhere in the [Gharab region.](/location/garab-region/)  
+**Bonestalkers** are restless humanoid Undead found throughout the dune deserts of [Kha-rot](/location/kharot-area/), though rare sightings have been reported elsewhere in the [Gharab region.](/location/garab-region/)
 
 They wander endlessly in search of something unknown, appearing only during the violent sandstorms known as bonestorms. Destroying a Bonestalker is widely considered an act of mercy, freeing the victim from constant pain and allowing their spirit to rest.
 

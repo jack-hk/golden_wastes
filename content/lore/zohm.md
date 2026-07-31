@@ -24,7 +24,7 @@ updated: 2026-07-27
 image: /uploads/zohm.png
 fitThumbnail: false
 ---
-> **Zohm** allows existence, [Form](#form) gives it identity, [Life](/lore/life/) experiences it and [Names](/lore/names/) influence how its Zohm behaves.
+> **Zohm** allows existence, [Form](#form) gives it identity, Life experiences it and [Names](/lore/names/) influence how its Zohm behaves.
 
 **Zohm** is the energy from which all existence is made. It rises from the core of the planet and flows throughout the world.
 
@@ -32,9 +32,9 @@ Zohm exists within both physical and conceptual things. A tool, a person and a b
 
 Without the perception of true Life, Zohm possesses no distinct identity. It remains formless until a living being experiences part of it and recognises it as something separate from everything around it.
 
-That identity is its Form.
+That identity is its [Form](#form).
 
-A Name preserves and shares this recognition. As more living beings recognise, remember and understand a Form through the same Name, its Zohm may become more abundant and increasingly reflect the meaning attached to it.
+A [Name](/lore/names/) preserves and shares this recognition. As more living beings recognise, remember and understand a Form through the same Name, its Zohm may become more abundant and increasingly reflect the meaning attached to it.
 
 ## Zohm, Form, Life and Name
 
@@ -57,13 +57,13 @@ Without true Life to perceive it, no distinct Form can exist. There is only undi
 
 ## Life
 
-**[Life](/lore/life/)** is the spirit found within true living beings. It allows them to experience Zohm, recognise Forms and create meaning.
+**Life** is the spirit found within true living beings. It allows them to experience Zohm, recognise Forms and create meaning.
 
 Only true Life can bestow a Name. Speaking or repeating a word is not enough; a living being must perceive a Form as distinct and attach meaning to that recognition.
 
-Beings with [false Life](/lore/life/#false-life) may move, sense, speak or follow existing Names, but they cannot create new Forms through genuine perception or bestow Names of their own.
+Beings with false Life may move, sense, speak or follow existing Names, but they cannot create new Forms through genuine perception or bestow Names of their own.
 
-The distinction between true and false Life is traditionally understood through the balance of [Order and Chaos](/lore/life/#order-and-chaos).
+The distinction between true and false Life is traditionally understood through the balance of Order and Chaos.
 
 ## Names
 
@@ -73,7 +73,7 @@ Names allow many living beings to recognise the same Form across different place
 
 A Name shaped by courage may encourage a Form to express courage. A Name shaped by fear may make the Form increasingly resemble what others fear it to be.
 
-Names rooted in cruelty, destructive control or deliberate harm are known as [Fell Names](/lore/names/#fell-names).
+Names rooted in cruelty, destructive control or deliberate harm are known as [Fell Names](/lore/names/).
 
 ## The Source and Flow of Zohm
 
@@ -97,7 +97,7 @@ Both Pulses brought more Zohm into Forms than the balance of Order and Chaos cou
 
 ## The Beneath
 
-**[The Beneath](/lore/the-beneath/)** is the vast realm of caverns below the surface.
+**[The Beneath](/location/the-beneath/)** is the vast realm of caverns below the surface.
 
 It is believed to have taken physical Form during the First Great Pulse, shaped by stories of an immeasurable world beneath the earth. Its Name survived the First Memory Plague through myth and legend, though no reliable account confirmed whether the place was real or could be reached.
 
@@ -107,7 +107,7 @@ It is now easier to reach and has become as important to surviving civilisation 
 
 ## Memory Plagues
 
-A **[Memory Plague](/lore/memory-plagues/)** weakens the relationship between Names and their Forms.
+A **Memory Plague** weakens the relationship between Names and their Forms.
 
 As records become unreliable and recognition fades, the Zohm associated with forgotten Names becomes less active. Their unusual properties may weaken, disappear or remain dormant.
 

@@ -21,11 +21,11 @@ categories:
 date: 2026-07-26T18:26:00Z
 updated: 2026-07-27
 ---
-> A **[Name](/lore/names/)** is a distinct word, title or phrase bestowed upon a [Form](/lore/zohm/#form) by [true Life](/lore/life/). Through recognition, a Name influences how the Form’s Zohm behaves.
+> A **[Name](/lore/names/)** is a distinct word, title or phrase bestowed upon a [Form](/lore/zohm/#form) by true Life. Through recognition, a Name influences how the Form’s Zohm behaves.
 
 A **Name** is more than a label. It allows many minds to recognise the same person, object, place, event or idea across different places and generations.
 
-Names may be spoken, written, remembered or preserved through symbols and traditions. When true living beings repeatedly recognise a Form through the same Name, their shared understanding strengthens its influence over the [Zohm](/lore/zohm/) that the Form possesses.
+Names may be spoken, written, remembered or preserved through symbols and traditions. When true living beings repeatedly recognise a [Form](/lore/zohm/#form) through the same Name, their shared understanding strengthens its influence over the [Zohm](/lore/zohm/) that the Form possesses.
 
 This may gradually alter the Form, whether it is physical, such as a weapon or place, or conceptual, such as a memory, promise or historical event.
 
@@ -59,7 +59,7 @@ This requires the ability to experience a Form, recognise it as distinct and att
 
 Scholars generally believe that any intelligent being possessing true Life can influence Names, Forms and Zohm through genuine recognition. Whether all such beings can bestow Names remains uncertain, as their languages and methods of communication may not be understood.
 
-[False Life](/lore/life/#false-life) cannot bestow, strengthen or otherwise influence Names, Forms or Zohm. Such beings may speak, imitate recognition or obey an existing Name, but these acts create no meaning of their own.
+False Life cannot bestow, strengthen or otherwise influence Names, Forms or Zohm. Such beings may speak, imitate recognition or obey an existing Name, but these acts create no meaning of their own.
 
 An Autonama may repeat the title given to it, while an Undead servant may respond to the Name of its master. Both imitate the actions of Life without possessing its true perception.
 
@@ -80,7 +80,7 @@ Namecrafting is never completely predictable. A practitioner can guide recogniti
 
 A weapon Named to inspire courage may instead become remembered for the fate of those who carried it. A ruler seeking a Name of glory may leave behind one associated only with cruelty.
 
-Names deliberately rooted in fear, domination or harm are known as [Fell Names](/lore/names/#fell-names).
+Names deliberately rooted in fear, domination or harm are known as Fell Names.
 
 Once a Name spreads, its meaning no longer belongs entirely to its creator.
 
@@ -100,4 +100,4 @@ Local tales may influence the surrounding land. A family heirloom may awaken aft
 
 Even a Name known only within a small settlement may become dangerously powerful.
 
-A Great Pulse does not create meaning from nothing. It strengthens what true Life has already experienced, recognised and Named. 
+A Great Pulse does not create meaning from nothing. It strengthens what true Life has already experienced, recognised and Named.

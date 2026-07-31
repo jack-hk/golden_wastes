@@ -23,7 +23,7 @@ infobox:
   badgeEnabled: false
   badgeOnThumbnail: false
 ---
-> The First Great Zohm Pulse was the world’s first known attempt to heal the harm carried by [Fell Names](/lore/names/).
+> The **First Great Zohm Pulse** was the world’s first known attempt to heal the harm carried by [Fell Names](/lore/names/).
 
 The **First Great Zohm Pulse** (simply known as the **First Great Pulse**) occurred during the age of the old civilisations, more than a thousand years before the present.
 
@@ -35,7 +35,7 @@ Across generations, the peoples of the old world gave powerful [Names](/lore/nam
 
 Weapons became known by what they had done. Rulers pressed their Names into monuments and claimed lands. Places and peoples acquired Names shaped by conquest, fear and loss.
 
-These became known as Fell Names: Names whose meaning was rooted in cruelty, domination or deliberate harm. They grew through mortal intention, memory and recognition.
+These became known as [Fell Names](/lore/names/): Names whose meaning was rooted in cruelty, domination or deliberate harm. They grew through mortal intention, memory and recognition.
 
 As the [Zohm](/lore/zohm/) associated with them increased, the harm they carried settled more deeply into the world.
 
@@ -47,7 +47,7 @@ The Pulse began quietly. Famous weapons developed strange properties, important 
 
 As the flow of Zohm increased, lesser Names awakened. Animals changed according to the Names given to them, stories altered the places associated with them and old events continued to shape the lands where they had occurred.
 
-As Zohm grew more abundant, the balance between [Order and Chaos](/lore/life/#order-and-chaos) began to falter, weakening the boundaries between [true and false Life](/lore/life/)
+As Zohm grew more abundant, the balance between Order and Chaos began to falter, weakening the boundaries between true and false Life
 
 ## The Collapse
 

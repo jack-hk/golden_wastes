@@ -25,13 +25,15 @@ infobox:
   badgeEnabled: false
   badgeOnThumbnail: false
 ---
+> **Dungeon Word** is a word-based puzzle game often used in tabletop role-playing games (TTRPGs) as a fun and creative challenge.
+
 ## What is dungeon world?
 
-Dungeon Word is a word-based puzzle game often used in tabletop role-playing games (TTRPGs) as a fun and creative challenge. In it, players use letter tiles or clues to form words that fit a specific theme or puzzle, often within the context of a dungeon or adventure setting. The objective can vary, but it typically involves solving puzzles to unlock secrets, gain rewards, or progress through a dungeon. The game can combine elements of strategy, vocabulary, and problem-solving while adding an interactive and engaging layer to a TTRPG experience.
+In it, players use letter tiles or clues to form words that fit a specific theme or puzzle, often within the context of a dungeon or adventure setting. The objective can vary, but it typically involves solving puzzles to unlock secrets, gain rewards, or progress through a dungeon. The game can combine elements of strategy, vocabulary, and problem-solving while adding an interactive and engaging layer to a TTRPG experience.
 
 ## Moves
 
-In *Dungeon World*, a "move" refers to a specific action or mechanic that characters can perform during the game. Moves are the core actions players take to interact with the world, trigger story events, and resolve conflicts. Each move is triggered by a situation or a player's choice, and they define what happens next in the narrative.
+In ***Dungeon World***, a "move" refers to a specific action or mechanic that characters can perform during the game. Moves are the core actions players take to interact with the world, trigger story events, and resolve conflicts. Each move is triggered by a situation or a player's choice, and they define what happens next in the narrative.
 
 There are two main types of moves:
 
@@ -40,7 +42,7 @@ There are two main types of moves:
   - *Defy Danger* (to avoid harm or a dangerous situation),
   - *Parley* (to negotiate with NPCs),
   - *Spout Lore* (to recall information about the world).
-2. **Special Moves**: These are specific to certain character classes or situations. Each class has its own set of unique moves, like the Bard’s *Cast a Spell* or the Fighter’s *Second Wind*.
+2. **Special Moves**: These are specific to certain character classes or situations. Each class has its own set of unique moves, like the [Bard’s](/class/bard/) *Cast a Spell* or the [Fighter’s](/class/fighter/) *Second Wind*.
 
 When a move is triggered, the player rolls two six-sided dice (2d6), adds a modifier (like Strength or Wisdom), and interprets the result based on a set of outcomes:
 

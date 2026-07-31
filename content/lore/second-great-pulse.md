@@ -23,9 +23,9 @@ infobox:
   badgeEnabled: false
   badgeOnThumbnail: false
 ---
-> The Second Great Zohm Pulse was the world’s second known attempt to heal the harm carried by [Fell Names](/lore/names/), after generations ignored the warning left by the old civilisations.
+> The **Second Great Zohm Pulse** was the world’s second known attempt to heal the harm carried by [Fell Names](/lore/names/), after generations ignored the warning left by the old civilisations.
 
-The Second Great Zohm Pulse (simply known as the Second Great Pulse) was the most recent apocalypse to reshape the world.
+The **Second Great Zohm Pulse** (simply known as the **Second Great Pulse**) was the most recent apocalypse to reshape the world.
 
 It was a worldwide surge of [Zohm](/lore/zohm/) that destroyed most surviving civilisations, transformed vast regions and brought many unnatural beings into existence.
 
@@ -75,11 +75,11 @@ Some living beings learned to guide this abundance through knowledge, instinct o
 
 ## The Peak
 
-At the height of the Pulse, the abundance of Zohm overwhelmed the balance between [Order and Chaos](/lore/life/#order-and-chaos), leaving many Forms unable to remain stable.
+At the height of the Pulse, the abundance of Zohm overwhelmed the balance between Order and Chaos, leaving many Forms unable to remain stable.
 
 Bodies changed without natural development. Objects gained movement and purpose. Memories and ideas acquired physical presence, while unfamiliar beings appeared throughout the world.
 
-Many displayed [false Life](/lore/life/). They could move, sense, speak or follow existing Names, but they could not experience the world and bestow new Names as true Life could.
+Many displayed false Life. They could move, sense, speak or follow existing Names, but they could not experience the world and bestow new Names as true Life could.
 
 Cities fell, populations vanished and entire regions became dangerous or impossible to inhabit.
 

@@ -22,7 +22,7 @@ categories:
 image: /uploads/elemental-wheel.png
 fitThumbnail: true
 ---
-The Elemental Wheel is a traditional system used in Gharab alchemy. It divides physical [Forms](/lore/zohm#form) into four broad elements: **Wood, Glass, Stone** and **Metal**.  
+> The **Elemental Wheel** is a traditional system used in [Gharab](/location/garab-region/) alchemy. It divides physical [Forms](/lore/zohm#form) into four broad elements: **Wood, Glass, Stone** and **Metal**.
 
 ![Elemental Wheel](/uploads/elemental-wheel.png)
 {width="350" align="right" mobileMinWidth="200" mobileMaxWidth="350" caption="Each element is connected to a direction and a traditional colour."}
@@ -69,7 +69,7 @@ It is often chosen for weapons, scientific instruments, symbols of authority and
 
 ### Elemental Practice
 
-The Elemental Wheel influences philosophy, craft and daily life.  
+The **Elemental Wheel** influences philosophy, craft and daily life.
 
 A tool, trinket, weapon or piece of clothing may be made primarily from a chosen element to better suit its purpose. When making the entire object from that material is impractical, craftspeople may add a small plate, thread, inset stone or decorative encrustation instead.
 
@@ -77,5 +77,5 @@ A hunter might carry a stone charm for endurance. A scholar may place glass with
 
 Most people understand the elements through tradition and symbolism, and many of their customary uses are based on inherited belief. Scholars, alchemists, hunters, builders and skilled craftspeople study the deeper relationships between material, purpose and [Zohm](/lore/zohm/).
 
-To these experts, the substance of a Form is never merely decorative. It can directly influence how effectively its Zohm may be directed.
+To these experts, the substance of a [Form](/lore/zohm/#form) is never merely decorative. It can directly influence how effectively its Zohm may be directed.
 
