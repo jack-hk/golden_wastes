@@ -22,7 +22,7 @@ categories:
 image: /uploads/elemental-wheel.png
 fitThumbnail: true
 ---
-> The **Elemental Wheel** is a traditional system used in [Gharab](/location/garab-region/) alchemy. It divides physical [Forms](/lore/zohm#form) into four broad elements: **Wood, Glass, Stone** and **Metal**.
+> The **Elemental Wheel** is a traditional system used in alchemy. It divides physical [Forms](/lore/zohm#form) into four broad elements: **Wood, Glass, Stone** and **Metal**.
 
 ![Elemental Wheel](/uploads/elemental-wheel.png)
 {width="350" align="right" mobileMinWidth="200" mobileMaxWidth="350" caption="Each element is connected to a direction and a traditional colour."}

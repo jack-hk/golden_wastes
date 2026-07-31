@@ -1,5 +1,5 @@
 ---
-title: Garab Region
+title: Gharob Region
 type: wiki
 categories:
   - location
@@ -7,7 +7,7 @@ image:
 fitThumbnail: false
 show_date: false
 infobox:
-  header: Garab Region
+  header: Gharob Region
   image:
   icon:
   labels:
@@ -16,4 +16,4 @@ infobox:
 also: []
 ---
 
-Details about the Garab Region will be added here.
+Details about the Gharob Region will be added here.

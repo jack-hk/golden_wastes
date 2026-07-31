@@ -56,7 +56,7 @@ placeholder: true
 #       item: "[Related page](/location/the-beneath/)"
 # also:
 #   - The Beneath
-#   - Garab Region
+#   - Gharob Region
 # references:
 #   - title: Placeholder location reference
 #     url: https://example.com/location-reference

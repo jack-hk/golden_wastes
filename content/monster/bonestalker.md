@@ -12,7 +12,7 @@ infobox:
       item: Undead
       divider: false
     - label: Habitat
-      item: "[**Kha-rot**](/location/kharot-area/)"
+      item: "[**Kha'rot**](/location/kharot-area/)"
       divider: false
     - label: Origin
       item: False Life
@@ -34,9 +34,9 @@ fitThumbnail: true
 date: 2026-07-27
 updated: 2026-07-27
 ---
-> They were once human, but have since been transformed into suffering, misshapen creatures under the control of the necromancer Master Shal Kha-rot.
+> They were once human, but have since been transformed into suffering, misshapen creatures under the control of the necromancer Master Shal Kha'rot.
 
-**Bonestalkers** are restless humanoid Undead found throughout the dune deserts of [Kha-rot](/location/kharot-area/), though rare sightings have been reported elsewhere in the [Gharab region.](/location/garab-region/)
+**Bonestalkers** are restless humanoid Undead found throughout the dune deserts of [Kha'rot](/location/kharot-area/), though rare sightings have been reported elsewhere in the [Gharob region.](/location/gharob-region/)
 
 They wander endlessly in search of something unknown, appearing only during the violent sandstorms known as bonestorms. Destroying a Bonestalker is widely considered an act of mercy, freeing the victim from constant pain and allowing their spirit to rest.
 
@@ -48,11 +48,11 @@ Two protruding jaws extend from its head, lined with hanging sets of uneven teet
 
 ## Behaviour
 
-Bonestalkers are commonly encountered in groups, often alongside other Kha-rot Undead. They move through bonestorms with disturbing accuracy, recognizing the familiar rhythm of the wind and sand while detecting any unfamiliar movement within it.
+Bonestalkers are commonly encountered in groups, often alongside other Kha'rot Undead. They move through bonestorms with disturbing accuracy, recognizing the familiar rhythm of the wind and sand while detecting any unfamiliar movement within it.
 
 They collect bones wherever they travel, taking them from corpses, burial sites and even living victims. These bones are carried as crude weapons or gathered for purposes known only to their master.
 
-Bonestalkers are known to carry several deadly diseases shared by many of Kha-rot’s Undead monstrosities. Even a minor wound caused by one may prove fatal without immediate treatment.
+Bonestalkers are known to carry several deadly diseases shared by many of Kha'rot’s Undead monstrosities. Even a minor wound caused by one may prove fatal without immediate treatment.
 
 ## Loot
 
