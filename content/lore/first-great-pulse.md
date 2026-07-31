@@ -29,6 +29,9 @@ The **First Great Zohm Pulse** (simply known as the **First Great Pulse**) occur
 
 The peoples of that age worked iron, raised great settlements and developed technologies now understood only through surviving ruins. Many intelligent peoples are believed to have inhabited the old world, though little certain knowledge of them remains.
 
+![](/uploads/tablet-part-3.png)
+{width="280" align="right" mobileMinWidth="200" mobileMaxWidth="280"}
+
 ## The Cause
 
 Across generations, the peoples of the old world gave powerful [Names](/lore/names/) to deeds, places and symbols shaped by fear, grief and dominion.

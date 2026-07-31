@@ -31,6 +31,9 @@ It was a worldwide surge of [Zohm](/lore/zohm/) that destroyed most surviving ci
 
 ## The Tablet Rediscovered
 
+![](/uploads/tablet-part-1.png)
+{width="280" align="left" mobileMinWidth="200" mobileMaxWidth="280"}
+
 Several centuries before the Pulse reached its height, a stone tablet was recovered from the ruins of the old civilisations.
 
 Its inscription described the signs of another Great Pulse and warned against cultivating [Fell Names](/lore/names/) as instruments of fear, dominion and power.

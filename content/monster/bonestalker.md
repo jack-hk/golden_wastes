@@ -14,6 +14,9 @@ infobox:
     - label: Habitat
       item: "[**Kha-rot**](/location/kharot-area/)"
       divider: false
+    - label: Origin
+      item: False Life
+      divider: false
   imageSize: 300
   iconSize: 0
   badgeSize: 0

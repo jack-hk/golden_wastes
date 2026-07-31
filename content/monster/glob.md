@@ -15,8 +15,8 @@ infobox:
     - label: Habitat
       item: Anywhere on the surface, [The Beneath](/location/the-beneath/)
       divider: false
-    - label: "True Life?"
-      item: No
+    - label: Origin
+      item: False Life
       divider: false
   imageSize: 300
   iconSize: 0

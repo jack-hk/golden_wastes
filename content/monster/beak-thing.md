@@ -14,6 +14,9 @@ infobox:
     - label: Habitat
       item: Open, flat areas
       divider: false
+    - label: Origin
+      item: Unknown
+      divider: false
   imageSize: 300
   iconSize: 0
   badgeSize: 0
