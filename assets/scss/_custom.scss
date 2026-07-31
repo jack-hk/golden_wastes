@@ -217,6 +217,12 @@
 
 .page__content,
 .wiki__content {
+  blockquote {
+    // Keep the quote panel and its background inside the space left by floated images.
+    display: flow-root;
+    min-width: 0;
+  }
+
   > img,
   > p > img {
     display: block;
