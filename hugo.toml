@@ -105,7 +105,7 @@ truncate = 130
 pages = [
   "/campaign/the-project",
   "/campaign/how-to-play",
-  "/lore/the-wastes",
+  "/location/the-wastes",
 ]
 
 [params.smallTiles.images]
@@ -117,6 +117,7 @@ location = "/uploads/cave.jpg"
 
 [params.bigTiles.partials]
 lore = "big-tile-lore.html"
+location = "big-tile-lore.html"
 campaign = "big-tile-campaign.html"
 quote = "big-tile-quote.html"
 
@@ -241,7 +242,7 @@ weight = 10
 [[menus.navigation]]
 name = "The Wastes"
 pre = "animal-skull"
-pageRef = "/lore/the-wastes"
+pageRef = "/location/the-wastes"
 weight = 20
 
   [menus.navigation.params]

@@ -6,6 +6,7 @@ categories:
   - location
 aliases:
   - /article/the-wastes/
+  - /lore/the-wastes/
 image: /uploads/barren.jpg
 fitThumbnail: false
 show_date: true
@@ -21,7 +22,7 @@ infobox:
   badgeSize: 0
   badgeEnabled: false
   badgeOnThumbnail: false
-date: 2026-08-01T10:06:00Z
+date: 2026-08-01T10:06:00+01:00
 updated: 2026-08-01
 ---
 **Rolling Dice and Weaving Stories: A Night Around the Table**
