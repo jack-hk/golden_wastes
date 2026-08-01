@@ -46,7 +46,6 @@ Such uncertainty is uncommon among powerful Fell Names. Names deliberately shape
 ## Wounds upon the World
 
 ![](/uploads/tablet-part-2.png)
-
 {width="280" align="right" mobileMinWidth="200" mobileMaxWidth="280" caption="The strongest Fell Names leave little room for honest doubt."}
 
 Fell Names influence how a Form’s [Zohm](/lore/zohm/) behaves.

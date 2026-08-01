@@ -11,20 +11,25 @@ infobox:
   header: Rogue
   image: /uploads/rouge.jpg
   iconSize: 200
-  icon:
   labels:
     - label: Type
       item: Class
-also: []
+      divider: false
+  imageSize: 0
+  badgeSize: 0
+  badgeEnabled: false
+  badgeOnThumbnail: false
+date: 2026-08-01
+updated: 2026-08-01
+draft: false
+placeholder: false
+show_reading_time: false
+badgeOnThumbnail: false
+bookHidden: false
+BookToC: false
 ---
+> A **Rogue** is a swift and cunning adventurer skilled in stealth, acrobatics and sleight of hand.
 
-## **Thieves** are masters of stealth and trickery.
+A **Rogue** may be a daring scout, careful thief, silent assassin or proud freebooter. Whatever their calling, they survive through agility, observation and the ability to recognise an opportunity before anyone else.
 
-You’ve heard them, sitting around the campfire. Bragging about this battle or that. About how their gods are smiling on your merry band. You count your coins and smile to yourself—this is the thrill above all. You alone know the secret of [Dungeon World](/campaign/how-to-play/)—filthy filthy lucre.
-
-Sure, they give you shit for all the times you’ve snuck off alone but without you, who among them wouldn’t have been dissected by a flying guillotine or poisoned straight to death by some ancient needle trap? So, let them complain. When you’re done with all this delving you’ll toast their hero’s graves. From your castle. Full of gold. You **rogue**.
-
-
-**Maximum HP:** 6+Constitution
-
-**Base damage:** d8
+Rogues favour light armour and rely upon speed, deception and well-practised tricks to remain beyond an enemy’s reach. They excel at crossing guarded places, finding hidden dangers and turning confusion to their advantage. When a rogue strikes, the blade often arrives before the true threat has been recognised, ending a fight before heavier warriors have found their footing.

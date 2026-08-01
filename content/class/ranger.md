@@ -11,21 +11,25 @@ infobox:
   header: Ranger
   image: /uploads/ranger.jpg
   iconSize: 200
-  icon:
   labels:
     - label: Type
       item: Class
-also: []
+      divider: false
+  imageSize: 0
+  badgeSize: 0
+  badgeEnabled: false
+  badgeOnThumbnail: false
+date: 2026-08-01
+updated: 2026-08-01
+draft: false
+placeholder: false
+show_reading_time: false
+badgeOnThumbnail: false
+bookHidden: false
+BookToC: false
 ---
+> A **Ranger** is a hunter, scout and guardian of the wild borders between settled lands and the unknown.
 
-## **Rangers** specialize in survival and ranged attacks.
+A **Ranger** may be a faultless tracker, hardy woodsman, beast keeper or veteran explorer. Self-reliant and watchful, they are respected for their skill with bows, knowledge of herbs and ability to cross lands where roads have long vanished.
 
-These city-born folk you travel with. Have they heard the call of the wolf? Felt the winds howl in the bleak deserts of the East? Have they hunted their prey with the bow and the knife like you? Hell no. That’s why they need you. 
-
-Guide. Hunter. Creature of the wilds. 
-
-You are these things and more. Your time in the wilderness may have been solitary until now, but the call of some greater thing—call it fate if you like—has cast your lot with these folk. Brave, they may be. Powerful and strong, too. You know the secrets of the spaces-between, though. Without you, they’d be lost. Blaze a trail through the blood and dark, strider.
-
-**Maximum HP:** 8+Constitution
-
-**Base damage:** d8
+Many rangers hunt altered beasts and beings of false Life, learning the signs such creatures leave behind. Though often considered solitary, they may form lasting bonds with companions and trained animals. Rangers answer to few authorities, trusting experience, the open path and their own judgement to decide where they stand.

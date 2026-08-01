@@ -8,31 +8,31 @@ image: /uploads/bard.jpg
 fitThumbnail: false
 show_date: false
 infobox:
-      header: Hiii
-      image: /uploads/bard.jpg
-      iconSize: 200
-      labels:
-        - label: Partner 1
-          item: Description for Partner 1
-        - divider: true
-          label: Partner 2
-          item: Description for Partner 2
-        - label: Partner 3
-          item: Description for Partner 3
+  header: Bard
+  image: /uploads/bard.jpg
+  iconSize: 200
+  labels:
+    - label: Type
+      item: Class
+      divider: false
+  imageSize: 0
+  badgeSize: 0
+  badgeEnabled: false
+  badgeOnThumbnail: false
 also:
   - related-topic-one
   - related-topic-two
+date: 2026-08-01
+updated: 2026-08-01
+draft: false
+placeholder: false
+show_reading_time: false
+badgeOnThumbnail: false
+bookHidden: false
+BookToC: false
 ---
+> A **Bard** is a wandering artist, diplomat and warrior whose words can strengthen both reputation and resolve.
 
-![Scenario 1: Across columns](/uploads/card1.jpg)
+A **Bard** may be a fearsome skald, celebrated performer or quiet master of whispers. Their travels bring them into courts, camps and forgotten settlements, where they gather knowledge, forge alliances and learn secrets from those who should have guarded them more carefully.
 
-
-## **Bards** inspire with magic and music.
-
-The poems say an adventurer’s life is all open roads and the glory of coin and combat. The tales told in every farmhand-filled inn have to have some ring of truth to them, don’t they? The songs to inspire peasantry and royals alike—to soothe the savage beast or drive men to a frenzy—have to come from somewhere.
-
-Enter the **bard**. You, with your smooth tongue and quick wit. You teller-of-tales and singer-of-songs. It takes a mere minstrel to retell a thing but a true bard to live it. Strap on your boots, noble orator. Sharpen that hidden dagger and take up the call. Someone’s got to be there, fighting shoulder-to-shoulder with the goons and the thugs and the soon-to-be-heroes. Who better than you to write the tale of your own heroism?
-
-**Maximum HP:** 6+Constitution
-
-**Base damage:** d6
+Bards understand that stories shape how people and deeds are remembered. Through speech, music and example, they may strengthen a company’s shared purpose or influence the [Names](/lore/names/) growing around its members. With the right words at the right moment, a bard can make companions greater together than they could ever be alone.

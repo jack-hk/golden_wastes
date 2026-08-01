@@ -3,7 +3,7 @@ title: The Wastes
 draft: false
 type: wiki
 categories:
-  - lore
+  - location
 aliases:
   - /article/the-wastes/
 image: /uploads/barren.jpg
@@ -21,9 +21,10 @@ infobox:
   badgeSize: 0
   badgeEnabled: false
   badgeOnThumbnail: false
+date: 2026-08-01T10:06:00Z
+updated: 2026-08-01
 ---
 **Rolling Dice and Weaving Stories: A Night Around the Table**
-![Scenario 1: Across columns](/uploads/barren.jpg)
 
 There's something magical that happens when five friends gather around a dining table cluttered with character sheets, dice, and half-empty pizza boxes. The living room dims except for the warm glow of a laptop screen displaying a digital battlemap, and suddenly, you're not just Sarah the accountant or Mike the college student anymore. You're Lyralei the elven ranger, tracking orcs through moonlit forests, or Thorin Ironbeard, negotiating with suspicious tavern keepers in voices that make your friends snicker.
 
