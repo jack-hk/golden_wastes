@@ -80,7 +80,7 @@ Namecrafting is never completely predictable. A practitioner can guide recogniti
 
 A weapon Named to inspire courage may instead become remembered for the fate of those who carried it. A ruler seeking a Name of glory may leave behind one associated only with cruelty.
 
-Names deliberately rooted in fear, domination or harm are known as Fell Names.
+Names deliberately rooted in deliberate malice, cruelty or the desire to inflict unjust suffering are known as Fell Names.
 
 Once a Name spreads, its meaning no longer belongs entirely to its creator.
 
