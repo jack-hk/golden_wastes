@@ -239,6 +239,7 @@
 .wiki__infobox-title {
   font-size: var(--font-size-base);
   margin: 0;
+  overflow-wrap: anywhere;
 }
 
 .wiki__infobox-image-container {
@@ -375,18 +376,20 @@
   flex: 0 0 40%;
   font-size: var(--font-size-sm);
   font-weight: bold;
-  min-width: 120px;
+  min-width: 0;
 }
 
 .wiki__infobox-value {
   color: var(--color-text-default);
   flex: 0 0 60%;
   font-size: var(--font-size-sm);
-  min-width: 180px;
+  min-width: 0;
 }
 
 .wiki__infobox-label,
 .wiki__infobox-value {
+  overflow-wrap: anywhere;
+
   strong {
     font-weight: var(--font-weight-bold);
   }
