@@ -130,7 +130,7 @@ itemMinWidth = "120px"
 alternateCardWidth = "180px"
 itemGap = "0.3rem"
 trackMinHeight = "290px"
-bottomMargin = "-2rem"
+bottomMargin = "1rem"
 
 [params.timeline.mobile]
 layout = "vertical"
@@ -206,6 +206,100 @@ description = "Placeholder description for the **Second Great Pulse**."
 pageRef = "/location/the-wastes"
 title = "The Wastes"
 description = "Placeholder description for *the Wastes*."
+
+[params.interactiveMap]
+enabled = true
+title = "Explore the Golden Wastes"
+description = "Explore this **demonstration map of Gharob** and select a marker to reveal its Markdown-enabled details."
+image = "/uploads/gharob-map.jpg"
+imageAlt = "An illustrated map of the Gharob region"
+imageWidth = 1448
+imageHeight = 1086
+height = "100vh"
+minZoom = -2
+maxZoom = 2
+initialZoom = -1
+zoomControl = true
+scrollWheelZoom = false
+dragging = true
+attribution = "Gharob map artwork"
+ariaLabel = "Interactive map of the Gharob region"
+
+[params.interactiveMap.mobile]
+show = true
+height = "100svh"
+
+[[params.interactiveMap.markers]]
+title = "Black Spires"
+description = ""
+x = 8
+y = 18
+
+[[params.interactiveMap.markers]]
+title = "Crater Fields"
+description = ""
+x = 13
+y = 36
+pageRef = "/location/gharob-region"
+linkLabel = "Read about the region"
+
+[[params.interactiveMap.markers]]
+title = "Marshlands"
+description = ""
+x = 33
+y = 15
+
+[[params.interactiveMap.markers]]
+title = "Obsidian Ridge"
+description = ""
+x = 55
+y = 31
+
+[[params.interactiveMap.markers]]
+title = "The Steaming Caldera"
+description = ""
+x = 43
+y = 50
+pageRef = "/location/kharot-area"
+linkLabel = "Read about Kha'rot"
+
+[[params.interactiveMap.markers]]
+title = "Prismatic Mesas"
+description = ""
+x = 87
+y = 17
+
+[[params.interactiveMap.markers]]
+title = "Salt Flats"
+description = ""
+x = 85
+y = 68
+
+[[params.interactiveMap.markers]]
+title = "The Bonelands"
+description = "Weathered remains emerge from the shallow waters of this placeholder area."
+x = 49
+y = 63
+
+[[params.interactiveMap.markers]]
+title = "Southern Tablelands"
+description = "A maze of tall, eroded plateaux leading towards **[the Beneath](/location/the-beneath/)**."
+x = 72
+y = 76
+pageRef = "/location/the-beneath"
+linkLabel = "Enter the Beneath"
+
+[[params.interactiveMap.markers]]
+title = "Ashen Peaks"
+description = ""
+x = 23
+y = 84
+
+[[params.interactiveMap.markers]]
+title = "Steppe"
+description = ""
+x = 35
+y = 72  
 
 [params.portal]
   default_view = "list"
