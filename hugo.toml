@@ -209,36 +209,40 @@ description = "Placeholder description for *the Wastes*."
 
 [params.interactiveMap]
 enabled = true
-title = "Explore the Golden Wastes"
-description = "Explore this **demonstration map of Gharob** and select a marker to reveal its Markdown-enabled details."
-image = "/uploads/gharob-map.jpg"
-imageAlt = "An illustrated map of the Gharob region"
-imageWidth = 1448
-imageHeight = 1086
-height = "100vh"
+title = "Interactive Map"
+description = "Explore the interactive map of [The Wastes](/location/the-wastes/)."
+image = "/uploads/the-wastes-map.png"
+imageAlt = "An illustrated map of the Wastes"
+imageWidth = 1593
+imageHeight = 1195
+height = "82vh"
 minZoom = -2
 maxZoom = 2
 initialZoom = -1
 zoomControl = true
 scrollWheelZoom = false
 dragging = true
-attribution = "Gharob map artwork"
-ariaLabel = "Interactive map of the Gharob region"
+attribution = ""
+ariaLabel = "Interactive map of the Wastes"
 
 [params.interactiveMap.mobile]
 show = true
-height = "100svh"
+height = "76svh"
+clickToActivate = true
+gateOnTablet = true
+activateLabel = "Click to see map"
+hideLabel = "Hide map"
 
 [[params.interactiveMap.markers]]
 title = "Black Spires"
 description = ""
 x = 8
-y = 18
+y = 12
 
 [[params.interactiveMap.markers]]
 title = "Crater Fields"
 description = ""
-x = 13
+x = 17
 y = 36
 pageRef = "/location/gharob-region"
 linkLabel = "Read about the region"
@@ -246,7 +250,7 @@ linkLabel = "Read about the region"
 [[params.interactiveMap.markers]]
 title = "Marshlands"
 description = ""
-x = 33
+x = 37
 y = 15
 
 [[params.interactiveMap.markers]]
@@ -266,14 +270,14 @@ linkLabel = "Read about Kha'rot"
 [[params.interactiveMap.markers]]
 title = "Prismatic Mesas"
 description = ""
-x = 87
-y = 17
+x = 84
+y = 13
 
 [[params.interactiveMap.markers]]
 title = "Salt Flats"
 description = ""
 x = 85
-y = 68
+y = 63
 
 [[params.interactiveMap.markers]]
 title = "The Bonelands"
@@ -284,8 +288,8 @@ y = 63
 [[params.interactiveMap.markers]]
 title = "Southern Tablelands"
 description = "A maze of tall, eroded plateaux leading towards **[the Beneath](/location/the-beneath/)**."
-x = 72
-y = 76
+x = 70
+y = 70
 pageRef = "/location/the-beneath"
 linkLabel = "Enter the Beneath"
 
@@ -293,13 +297,19 @@ linkLabel = "Enter the Beneath"
 title = "Ashen Peaks"
 description = ""
 x = 23
-y = 84
+y = 82
+
+[[params.interactiveMap.markers]]
+title = "Ashen Peaks"
+description = ""
+x = 13
+y = 70
 
 [[params.interactiveMap.markers]]
 title = "Steppe"
 description = ""
-x = 35
-y = 72  
+x = 36
+y = 70
 
 [params.portal]
   default_view = "list"
