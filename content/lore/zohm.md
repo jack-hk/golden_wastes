@@ -33,7 +33,7 @@ references:
 ---
 > **Zohm** is the energy of everything. Every object, living being, place, memory and idea is made from it. 
 
-It rises from the world’s core, flowing upward into all existence, but it is not distributed evenly. A common iron sword may hold little **Zohm**, while a blade known across kingdoms as Kingsbane may gather far more. The more people recognise its [Name](/lore/names/), repeat its story and believe in its reputation, the more Zohm it attracts.
+It rises from the world’s core, flowing upward into all existence, but it is not distributed evenly. A common iron sword may hold little **Zohm**, while a blade known across kingdoms as *Kingsbane* may gather far more. The more people recognise its [Name](/lore/names/), repeat its story and believe in its reputation, the more Zohm it attracts.
 
 Greater Zohm means greater power, though that power is rarely predictable. Kingsbane might reshape its own substance into something no longer made of ordinary bronze. [The Beneath](/locations/the-beneath/) changed in the same way. Once only a myth about an endless world below the earth, generations of stories and belief drew enough Zohm to its Name that the legend gained physical form and became a real place.
 
@@ -41,5 +41,5 @@ Zohm is influenced by how [true Life](/lore/true-life/) perceives it. Skilled pr
 
 ## Rising Levels of Zohm
 
-In both the First and Second Great Zohm Pulse events, Zohm increased significantly. Due to this, now even mundane things twist and change based on their Names. Even household items in private dwellings, local traditions or village tales have enough Zohm to become unpredictably powerful. This has allowed Zohm masters more power to bend substance but the risks are even deadlier.
+Meanwhile in both the [First](/lore/first-great-pulse/) and [Second Great Zohm Pulse](/lore/second-great-pulse/) events, Zohm increased significantly. Due to this, now even mundane things twist and change based on their Names. Even household items in private dwellings, local traditions or village tales have enough Zohm to become unpredictably powerful. This has allowed Zohm masters more power to bend substance but the risks are even deadlier.
 
