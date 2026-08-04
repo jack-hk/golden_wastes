@@ -35,6 +35,11 @@ references:
 
 It rises from the world’s core, flowing upward into all existence, but it is not distributed evenly. A common iron sword may hold little **Zohm**, while a blade known across kingdoms as *Kingsbane* may gather far more. The more people recognise its [Name](/lore/names/), repeat its story and believe in its reputation, the more Zohm it attracts.
 
+![Zohm diagram](/uploads/zohm.png)
+{width="280" align="left" mobileMinWidth="200" mobileMaxWidth="280" caption="**Zohm** rises from the world’s core"}
+
+
+
 Greater Zohm means greater power, though that power is rarely predictable. Kingsbane might reshape its own substance into something no longer made of ordinary metal. [The Beneath](/locations/the-beneath/) changed in the same way. Once only a myth about an endless world below the earth, generations of stories and belief drew enough Zohm to its Name that the legend gained physical form and became a real place.
 
 Zohm is influenced by how [true Life](/lore/true-life/) perceives it. Skilled practitioners can channel Zohm to bend substance and twist reality. Such control is never safe: even the smallest mistake may distort the intended result, turn the power against its wielder or unleash consequences far worse than death.
