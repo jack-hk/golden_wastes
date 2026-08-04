@@ -35,8 +35,13 @@ BookToC: false
 The **Yheglin** is a small, aggressive humanoid creature found in caves and rocky regions across the Golden Wastes. Its unnatural ancestry is believed to trace back to the Great Zohm Pulse, when unstable Names and Forms produced many creatures that could not have developed naturally.
 
 Yheglins are most active at night, when their single eye can see clearly in low light. During the day, they usually remain underground or close to cave entrances, cliffs, mesas and mountain slopes. Bright light can overwhelm their sensitive eye, leaving them dazed and easy to confuse.
+{{< textbox title="Rumours" align="left" style="plain" icon="/SVG/info.svg" iconSize="28" >}}
+This box floats left at half width on larger screens. Following article text
+wraps on its right, while smaller screens display it at full width.
+{{< /textbox >}}
 
 ## Appearance
+
 
 A Yheglin has a broad, hunched body with long arms, short powerful legs and a heavy, rounded belly. Much of its body is covered in coarse golden-yellow fur, while its chest, stomach, face, hands and feet are protected by thick, leathery skin.
 

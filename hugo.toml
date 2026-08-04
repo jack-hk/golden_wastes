@@ -128,6 +128,7 @@ minimumItems = 2
 placement = "alternate"
 itemMinWidth = "120px"
 alternateCardWidth = "180px"
+thumbnailPosition = "above"
 itemGap = "0.3rem"
 trackMinHeight = "290px"
 bottomMargin = "1rem"
@@ -170,6 +171,8 @@ enabledOnMobile = true
 size = "96px"
 minSize = "64px"
 maxSize = "132px"
+sideMinSize = "52px"
+sideMaxSize = "88px"
 mobileSize = "96px"
 mobileMinSize = "64px"
 mobileMaxSize = "128px"
@@ -196,6 +199,9 @@ title = "Tablet Rediscovered"
 description = "Placeholder description for the rediscovered tablet."
 thumbnail = "/uploads/tablet-part-1.png"
 thumbnailAlt = "A fragment of the rediscovered tablet"
+thumbnailPosition = "top"
+thumbnailSideMinSize = "56px"
+thumbnailSideMaxSize = "80px"
 
 [[params.timeline.entries]]
 pageRef = "/lore/second-great-pulse"
@@ -258,6 +264,13 @@ title = "Obsidian Ridge"
 description = ""
 x = 55
 y = 31
+
+
+[[params.interactiveMap.markers]]
+title = "Dunes"
+description = ""
+x = 60
+y = 15
 
 [[params.interactiveMap.markers]]
 title = "The Steaming Caldera"

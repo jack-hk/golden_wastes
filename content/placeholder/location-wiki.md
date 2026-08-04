@@ -120,3 +120,34 @@ This text wraps beside the image on desktop.
 
 ![Centered location image](/uploads/blue-abstract.jpg "Centered image tooltip")
 {width="640" align="center" mobileMinWidth="240" mobileMaxWidth="480" caption="A centered location image with mobile width limits."}
+
+---
+
+## Article text-box shortcode
+
+Use `align="left"`, `align="right"`, or `align="center"`. Use
+`style="plain"`, `style="dotted"`, or `style="dashes"`. The optional
+`icon` parameter accepts an image or SVG path and `iconSize` accepts any CSS
+size or a unitless pixel value.
+
+{{< textbox title="Plain full-width box" align="center" style="plain" >}}
+This centered box uses normal article text with **bold**, *italics*,
+[links](/campaign/how-to-play/), lists, and other Markdown.
+
+> Blockquotes retain the standard article quotation style.
+{{< /textbox >}}
+
+{{< textbox title="Dotted left box" align="left" style="dotted" icon="/SVG/info.svg" iconSize="28" >}}
+This box floats left at half width on larger screens. Following article text
+wraps on its right, while smaller screens display it at full width.
+{{< /textbox >}}
+
+This paragraph demonstrates body text wrapping beside a left-aligned text box
+on larger displays.
+
+{{< textbox title="Dashed right box" align="right" style="dashes" icon="/SVG/scroll-unfurled.svg" iconSize="32px" >}}
+This box floats right at half width on larger screens. Its body supports the
+same **Markdown styling** as ordinary article content.
+{{< /textbox >}}
+
+This paragraph demonstrates body text wrapping beside a right-aligned text box.

@@ -292,3 +292,13 @@
 .layout__main > footer {
   border-top: none;
 }
+
+@include for-screen(mobile) {
+  .layout__main > footer {
+    display: block;
+  }
+
+  .layout__main > footer .footer-line {
+    margin-bottom: calc(6rem + env(safe-area-inset-bottom, 0px));
+  }
+}
