@@ -21,38 +21,21 @@ infobox:
 categories:
   - lore
 ---
-> **True Life** is the living spirit capable of genuine experience, recognition and meaning. [False Life](#false-life) may imitate these qualities, but cannot truly possess them.
+> **True Life** is natural life that cannot be manufactured, restored or recreated. Oru bestowed it as both a gift and a responsibility to influence the world wisely.
 
-**True Life** is the spirit found within natural living beings. It allows them to experience [Zohm](/lore/zohm/), recognise distinct [Forms](/lore/zohm/#form) and give meaning to what they perceive.
-
-Without true Life, Zohm remains without identity. Through perception, a living being distinguishes one existence from another and allows it to possess Form.
-
-## Recognition and Names
-
-True Life can influence Forms and their Zohm through genuine recognition.
-
-Intelligent beings possessing true Life are believed to strengthen [Names](/lore/names/) by remembering, sharing and attaching meaning to them. Whether every such being can bestow a new Name remains uncertain, as many languages and methods of communication are not understood.
-
-Speaking a word alone is not enough. A Name requires true perception and meaning.
-
-## False Life
-
-**False Life** describes beings that imitate the actions of living creatures without possessing a living spirit.
-
-Such beings may move, sense, speak, remember instructions or respond to existing Names. Some appear intelligent and may imitate emotion or choice with remarkable accuracy.
-
-They cannot genuinely recognise Forms, create meaning or influence Names and Zohm. An Autonama may repeat its title and an Undead servant may answer its master, but neither can bestow a Name of its own.
-
-False Life is therefore regarded as an imitation of Life rather than another kind of living existence.
+**True Life** can affect [Zohm](/lore/zohm/) through recognition, memory and meaning, strengthening [Names](/lore/names/) and shaping how their Zohm behaves.
 
 ## Order and Chaos
 
-![](/uploads/life-balance.jpg)
-{width="280" align="center" mobileMinWidth="200" mobileMaxWidth="280"}
+![Life balance](/uploads/life-balance.png)
+{width="400" align="center" mobileMinWidth="200" mobileMaxWidth="400"}
 
-The distinction between true and false Life is often explained through the balance of **Order and Chaos**.
+Within True Life, **Order** and **Chaos** exist in balance. Chaos allows change, individuality and choice, while Order preserves bodily function, memory and learned behaviour. Neither can sustain life alone.
 
-True Life changes through natural experience while retaining a living spirit. False Life arises when Zohm gives movement, purpose or thought-like behaviour to a Form without granting genuine perception.
+## False Life
 
-For this reason, most peoples do not give the destruction of false Life the same moral weight as the taking of true Life, though individual beings may still inspire caution, pity or wonder.
+**False Life** imitates or corrupts True Life. Undead beings, automata and some unexplained lifeforms may move, speak or imitate emotion, but cannot genuinely influence Zohm or bestow Names.
 
+Because True Life was Oru’s sacred gift, attempts to manufacture, restore or reproduce it are often considered inherently evil. Judgement may still depend upon purpose and intent. An automaton created to protect others may be viewed differently from an undead servant raised to enslave.
+
+Whether any being with False Life can eventually acquire True Life remains unknown.
