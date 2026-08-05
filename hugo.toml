@@ -182,18 +182,18 @@ objectPosition = "center"
 borderRadius = "4px"
 
 [[params.timeline.entries]]
-pageRef = "/lore/first-great-pulse"
+pageRef = "/lore/great-pulse"
+anchor = "the-first-great-pulse"
 title = "First Great Pulse"
 description = "Placeholder description for the **First Great Pulse**."
 
 [[params.timeline.entries]]
-pageRef = "/lore/zohm"
-anchor = "memory-plagues"
+pageRef = "/lore/memory-plague"
 title = "Memory Plague"
 description = "Placeholder description for the *Memory Plague*."
 
 [[params.timeline.entries]]
-pageRef = "/lore/second-great-pulse"
+pageRef = "/lore/great-pulse"
 anchor = "the-tablet-rediscovered"
 title = "Tablet Rediscovered"
 description = "Placeholder description for the rediscovered tablet."
@@ -204,7 +204,8 @@ thumbnailSideMinSize = "56px"
 thumbnailSideMaxSize = "80px"
 
 [[params.timeline.entries]]
-pageRef = "/lore/second-great-pulse"
+pageRef = "/lore/great-pulse"
+anchor = "the-second-great-pulse"
 title = "Second Great Pulse"
 description = "Placeholder description for the **Second Great Pulse**."
 

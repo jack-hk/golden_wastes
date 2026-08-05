@@ -1,25 +1,82 @@
 ---
 title: True Life
-date: 2026-07-28T11:08:00Z
-updated: 2026-08-01
+header: ''
+date: 2026-07-28 11:08:00+00:00
+updated: '2026-08-06'
 draft: false
 placeholder: false
-weight: 0
 type: wiki
+slug: ''
+url: ''
+aliases: []
+weight: 0
+description: ''
+summary: ''
+author: ''
+categories:
+- lore
+tags: []
+series: []
+image: /uploads/life-balance.png
 fitThumbnail: false
+featured_image: ''
+image_caption: ''
 show_date: false
 show_reading_time: false
+iconColor: ''
 badgeOnThumbnail: false
 bookHidden: false
 BookToC: false
+eventDate: null
+eventTime: null
 infobox:
+  header: ''
+  image: ''
+  icon: null
   imageSize: 0
   iconSize: 0
-  badgeSize: 0
+  imageMargin: ''
+  iconMargin: ''
+  iconColor: ''
+  badgePath: ''
+  badge: ''
+  badgeIcon: ''
+  badgeSvg: ''
   badgeEnabled: false
   badgeOnThumbnail: false
-categories:
-  - lore
+  badgeBackgroundColor: ''
+  badgeColor: ''
+  badgeForegroundColor: ''
+  badgeSize: 0
+  labels: []
+also: []
+references:
+- title: Zohm
+  url: /lore/zohm/
+- title: Names
+  url: /lore/names/
+portal_view: ''
+showcase_tiles: 0
+min_showcase_tiles: 0
+card_count: 0
+min_card_count: 0
+random_cards: false
+cards: []
+truncate_limit: 0
+carousel_on_desktop: false
+show_alphabet: false
+show_layout_toggle: false
+list_layout: ''
+show_intro_text: false
+intro_text: ''
+show_left_textbox: false
+left_textbox_title: ''
+left_textbox_text: ''
+show_right_textbox: false
+right_textbox_title: ''
+right_textbox_text: ''
+show_bottom_textbox: false
+bottom_textbox_text: ''
 ---
 > **True Life** is natural life that cannot be manufactured, restored or recreated. Oru bestowed it as both a gift and a responsibility to influence the world wisely.
 
