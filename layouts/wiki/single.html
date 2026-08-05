@@ -179,27 +179,11 @@
       {{ .Content }}
     </div>
 
-    {{ if .Params.also }}
-      <div class="wiki__content-footer">
-        <div class="wiki__see-also">
-          <h2 class="wiki__see-also-title">See also</h2>
-          <ul class="wiki__see-also-list">
-            {{ range .Params.also }}
-              <li class="wiki__see-also-item">
-                <a
-                  href="{{ (printf "/rules/%s" (. | urlize)) | relURL }}"
-                  class="wiki__see-also-link">
-                  {{ . | replaceRE "-" " " | title }}
-                </a>
-              </li>
-            {{ end }}
-          </ul>
-        </div>
-      </div>
-    {{ end }}
+    {{ partial "see-also.html" . }}
 
     {{/* Remaining Footer: Updated and References only */}}
-    {{ if or (and (site.Params.pageLayout.showUpdated | default true) .Params.updated) (and (site.Params.pageLayout.showReferences | default true) .Params.references) }}
+    {{ $referencesInSeeAlso := site.Params.pageLayout.referencesInSeeAlso | default false }}
+    {{ if or (and (site.Params.pageLayout.showUpdated | default true) .Params.updated) (and (not $referencesInSeeAlso) (site.Params.pageLayout.showReferences | default true) .Params.references) }}
       <footer class="wiki__footer">
         {{ if and (site.Params.pageLayout.showUpdated | default true) .Params.updated }}
           <div class="wiki__updated">
@@ -210,7 +194,7 @@
           </div>
         {{ end }}
 
-        {{ if and (site.Params.pageLayout.showReferences | default true) .Params.references }}
+        {{ if and (not $referencesInSeeAlso) (site.Params.pageLayout.showReferences | default true) .Params.references }}
           <div class="wiki__references">
             <h3 class="wiki__label">References</h3>
             <ul class="wiki__list wiki__list--references">

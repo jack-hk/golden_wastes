@@ -1,16 +1,78 @@
 ---
 title: Class
+header: ''
+date: null
+updated: '2026-08-06'
+draft: false
+placeholder: false
+type: ''
+slug: ''
+url: ''
+aliases: []
+weight: 0
+description: ''
+summary: ''
+author: ''
+categories: []
+tags: []
+series: []
+image: ''
 fitThumbnail: false
+featured_image: ''
+image_caption: ''
+show_date: false
+show_reading_time: false
+iconColor: ''
+badgeOnThumbnail: false
+bookHidden: false
+BookToC: false
+eventDate: null
+eventTime: null
+infobox:
+  header: ''
+  image: ''
+  icon: null
+  imageSize: 0
+  iconSize: 0
+  imageMargin: ''
+  iconMargin: ''
+  iconColor: ''
+  badgePath: ''
+  badge: ''
+  badgeIcon: ''
+  badgeSvg: ''
+  badgeEnabled: false
+  badgeOnThumbnail: false
+  badgeBackgroundColor: ''
+  badgeColor: ''
+  badgeForegroundColor: ''
+  badgeSize: 0
+  labels: []
+also: []
+references: []
 portal_view: card
+showcase_tiles: 0
+min_showcase_tiles: 0
 card_count: 3
 min_card_count: 3
 random_cards: false
 cards:
-  - /class/artificer/
-  - /class/monk/
-  - /class/cultist/
+- /class/artificer/
+- /class/monk/
+- /class/cultist/
 truncate_limit: 150
 carousel_on_desktop: false
+show_alphabet: false
+show_layout_toggle: false
+list_layout: ''
 show_intro_text: true
+intro_text: ''
+show_left_textbox: false
+left_textbox_title: ''
+left_textbox_text: ''
+show_right_textbox: false
+right_textbox_title: ''
+right_textbox_text: ''
 show_bottom_textbox: true
+bottom_textbox_text: ''
 ---

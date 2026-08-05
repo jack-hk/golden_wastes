@@ -1,47 +1,104 @@
 ---
 title: Yheglin
-type: wiki
-categories:
-  - monster
-fitThumbnail: false
-show_date: false
-infobox:
-  header: Yheglin
-  image: /uploads/yheglin.png
-  labels:
-    - label: Type
-      item: Monster
-      divider: false
-    - label: Habitat
-      item: Shallow caves, rough terrain
-      divider: false
-    - label: Origin
-      item: False Life
-      divider: false
-  imageSize: 300
-  iconSize: 0
-  badgeSize: 0
-  badgeEnabled: false
-  badgeOnThumbnail: false
+header: ''
 date: 2026-08-01
-updated: 2026-08-01
+updated: '2026-08-06'
 draft: false
 placeholder: false
+type: wiki
+slug: ''
+url: ''
+aliases: []
+weight: 0
+description: ''
+summary: ''
+author: ''
+categories:
+- monster
+tags: []
+series: []
+image: ''
+fitThumbnail: false
+featured_image: ''
+image_caption: ''
+show_date: false
 show_reading_time: false
+iconColor: ''
 badgeOnThumbnail: false
 bookHidden: false
 BookToC: false
+eventDate: null
+eventTime: null
+infobox:
+  header: Yheglin
+  image: /uploads/yheglin.png
+  icon: null
+  imageSize: 300
+  iconSize: 0
+  imageMargin: ''
+  iconMargin: ''
+  iconColor: ''
+  badgePath: ''
+  badge: ''
+  badgeIcon: ''
+  badgeSvg: ''
+  badgeEnabled: false
+  badgeOnThumbnail: false
+  badgeBackgroundColor: ''
+  badgeColor: ''
+  badgeForegroundColor: ''
+  badgeSize: 0
+  labels:
+  - label: Type
+    item: Monster
+    divider: false
+  - label: Habitat
+    item: Shallow caves, rough terrain
+    divider: false
+  - label: Origin
+    item: False Life
+    divider: false
+also: []
+references:
+- title: The Wastes
+  url: /location/the-wastes/
+- title: Great Pulse
+  url: /lore/great-pulse/
+- title: Names
+  url: /lore/names/
+- title: True Life
+  url: /lore/true-life/
+portal_view: ''
+showcase_tiles: 0
+min_showcase_tiles: 0
+card_count: 0
+min_card_count: 0
+random_cards: false
+cards: []
+truncate_limit: 0
+carousel_on_desktop: false
+show_alphabet: false
+show_layout_toggle: false
+list_layout: ''
+show_intro_text: false
+intro_text: ''
+show_left_textbox: false
+left_textbox_title: ''
+left_textbox_text: ''
+show_right_textbox: false
+right_textbox_title: ''
+right_textbox_text: ''
+show_bottom_textbox: false
+bottom_textbox_text: ''
 ---
-The **Yheglin** is a small, aggressive humanoid creature found in caves and rocky regions across the Golden Wastes. Its unnatural ancestry is believed to trace back to the Great Zohm Pulse, when unstable Names and Forms produced many creatures that could not have developed naturally.
+> The **Yheglin** is a small, aggressive humanoid creature found in caves and rocky regions across the [Golden Wastes](/location/the-wastes/). Its unnatural ancestry is believed to trace back to the [Great Pulse](/lore/great-pulse/), when unstable [Names](/lore/names/) and Forms produced many creatures that could not have developed naturally.
 
-Yheglins are most active at night, when their single eye can see clearly in low light. During the day, they usually remain underground or close to cave entrances, cliffs, mesas and mountain slopes. Bright light can overwhelm their sensitive eye, leaving them dazed and easy to confuse.
+A **Yheglin** is most active at night, when its single eye can see clearly in low light. During the day, it usually remains underground or close to cave entrances, cliffs, mesas and mountain slopes. Bright light can overwhelm its sensitive eye, leaving it dazed and easy to confuse.
 {{< textbox title="Rumours" align="left" style="plain" icon="/SVG/info.svg" iconSize="28" >}}
-This box floats left at half width on larger screens. Following article text
-wraps on its right, while smaller screens display it at full width.
+This box floats left at half width on larger screens. Following article text wraps on its right, while smaller screens display it at full width.
 {{< /textbox >}}
 
 ## Appearance
-
 
 A Yheglin has a broad, hunched body with long arms, short powerful legs and a heavy, rounded belly. Much of its body is covered in coarse golden-yellow fur, while its chest, stomach, face, hands and feet are protected by thick, leathery skin.
 
@@ -55,7 +112,7 @@ They gather in primitive tribal herds, usually led by whichever member can maint
 
 Under favourable conditions, a Yheglin may continue growing into a Yorg, becoming larger and more muscular. Rarer individuals develop into towering Yemrogs, which possess far greater size and physical power. Scholars do not fully understand these transformations, though access to food, territory and influence within the herd appear to play an important role.
 
-Yheglins inhabit caves, cliffs, mesas and mountainous regions throughout the Golden Wastes. Their fur helps regulate both heat and cold, allowing them to survive hot days, cold nights and the changing temperatures of underground tunnels.
+Yheglins inhabit caves, cliffs, mesas and mountainous regions throughout the [Golden Wastes](/location/the-wastes/). Their fur helps regulate both heat and cold, allowing them to survive hot days, cold nights and the changing temperatures of underground tunnels.
 
 ## Alchemy
 

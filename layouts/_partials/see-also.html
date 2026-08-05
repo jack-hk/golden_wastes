@@ -1,0 +1,42 @@
+{{- $page := . -}}
+{{- $referencesInSeeAlso := site.Params.pageLayout.referencesInSeeAlso | default false -}}
+{{- $items := slice -}}
+{{- $seen := newScratch -}}
+
+{{- if $referencesInSeeAlso -}}
+  {{- range $page.Params.references -}}
+    {{- $title := .title | default "" -}}
+    {{- $url := .url | default "" -}}
+    {{- $key := $title | lower -}}
+    {{- if and $title $url (not ($seen.Get $key)) -}}
+      {{- $items = $items | append (dict "title" $title "url" $url "sortKey" $key) -}}
+      {{- $seen.Set $key true -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- range $page.Params.also -}}
+  {{- $title := . | replaceRE "-" " " | title -}}
+  {{- $url := (printf "/rules/%s" (. | urlize)) | relURL -}}
+  {{- $key := $title | lower -}}
+  {{- if and $title (not ($seen.Get $key)) -}}
+    {{- $items = $items | append (dict "title" $title "url" $url "sortKey" $key) -}}
+    {{- $seen.Set $key true -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $items = sort $items "sortKey" "asc" -}}
+{{- if $items -}}
+  <div class="wiki__content-footer">
+    <div class="wiki__see-also">
+      <h2 class="wiki__see-also-title">See also</h2>
+      <ul class="wiki__see-also-list">
+        {{- range $items }}
+          <li class="wiki__see-also-item">
+            <a href="{{ .url }}" class="wiki__see-also-link">{{ .title }}</a>
+          </li>
+        {{- end }}
+      </ul>
+    </div>
+  </div>
+{{- end -}}
