@@ -151,3 +151,17 @@ same **Markdown styling** as ordinary article content.
 {{< /textbox >}}
 
 This paragraph demonstrates body text wrapping beside a right-aligned text box.
+
+## Responsive content shortcode
+
+{{< responsive hide="mobile, tablet" >}}
+This monster detail is hidden on mobile and tablet screens.
+{{< /responsive >}}
+
+{{< responsive hide="mobile, desktop" >}}
+This monster detail is hidden on mobile and desktop screens.
+{{< /responsive >}}
+
+{{< responsive hide="mobile, tablet, desktop" >}}
+This example demonstrates the three-view maximum and is hidden everywhere.
+{{< /responsive >}}

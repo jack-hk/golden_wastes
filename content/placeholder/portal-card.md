@@ -78,3 +78,13 @@ Text wraps beside this image on desktop.
 
 ![Centered portal image](/uploads/blue-abstract.jpg "Centered image tooltip")
 {width="640" align="center" mobileMinWidth="240" mobileMaxWidth="480" caption="A centered portal image with mobile width limits."}
+
+## Responsive content shortcode
+
+{{< responsive show="mobile, tablet" >}}
+This portal note is shown on mobile and tablet.
+{{< /responsive >}}
+
+{{< responsive hide="tablet, desktop" >}}
+This portal note is hidden on tablet and desktop.
+{{< /responsive >}}

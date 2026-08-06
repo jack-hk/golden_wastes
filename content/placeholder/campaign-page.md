@@ -122,3 +122,16 @@ same **Markdown styling** as ordinary article content.
 {{< /textbox >}}
 
 This paragraph demonstrates body text wrapping beside a right-aligned text box.
+
+## Responsive content shortcode
+
+Values may contain one to three comma-separated views: `mobile`, `tablet`, and
+`desktop`.
+
+{{< responsive show="mobile, tablet" >}}
+This **Markdown content** appears on mobile and tablet screens.
+{{< /responsive >}}
+
+{{< responsive hide="mobile" >}}
+This content appears on tablet and desktop screens, but is hidden on mobile.
+{{< /responsive >}}

@@ -94,10 +94,23 @@ The **Elements**, arranged in the traditional *Elemental Wheel*, form a system u
 ## Stone — West
   
 **Grey Stone** represents endurance, weight, patience and resilience. It is favoured for protection and anything expected to survive pressure or time.  
+
+
+{{< responsive show="desktop">}}
+{{< textbox title="Materials with Purpose" align="right" style="plain" icon="/SVG/open-book.svg" >}}
+Experts use the **Wheel** to match materials with purpose and influence [Zohm](/lore/zohm/). A hunter may wear a *stone* charm, a scholar may use a *glass*-inlaid pen, a healer may carry a *wooden* tool, and an alchemist may encrust an instrument with *gold*.
+{{< /textbox >}}
+{{< /responsive >}}
   
 ## Metal — South
   
 **Yellow Metal** represents strength, pride, discovery and technology. Gold is considered its purest expression because it resists decay and reflects light.  
-  
-Experts use the Wheel to match materials with purpose and influence [Zohm](/lore/zohm/). A hunter may wear a stone charm, a scholar may use a glass-inlaid pen, a healer may carry a wooden tool, and an alchemist may encrust an instrument with gold.
 
+
+
+
+{{< responsive show="mobile, tablet" >}}
+{{< textbox title="Materials with Purpose" align="right" style="plain" icon="/SVG/open-book.svg" >}}
+Experts use the **Wheel** to match materials with purpose and influence [Zohm](/lore/zohm/). A hunter may wear a *stone* charm, a scholar may use a *glass*-inlaid pen, a healer may carry a *wooden* tool, and an alchemist may encrust an instrument with *gold*.
+{{< /textbox >}}
+{{< /responsive >}}

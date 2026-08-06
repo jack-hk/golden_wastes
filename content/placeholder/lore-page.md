@@ -132,3 +132,13 @@ same **Markdown styling** as ordinary article content.
 {{< /textbox >}}
 
 This paragraph demonstrates body text wrapping beside a right-aligned text box.
+
+## Responsive content shortcode
+
+{{< responsive show="mobile, desktop" >}}
+This **Markdown content** appears on mobile and desktop, but not tablet.
+{{< /responsive >}}
+
+{{< responsive hide="tablet, desktop" >}}
+This content appears on mobile, but is hidden on tablet and desktop.
+{{< /responsive >}}

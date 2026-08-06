@@ -91,9 +91,14 @@ bottom_textbox_text: ''
 
 Greater Zohm means greater power, though that power is rarely predictable. *Kingsbane* might reshape its own substance into something no longer made of ordinary metal. [The Beneath](/location/the-beneath/) changed in the same way. Once only a myth about an endless world below the earth, generations of stories and belief drew enough Zohm to its Name that the legend gained physical form and became a real place.
 
-Zohm is influenced by how [true Life](/lore/true-life/) perceives it. Skilled practitioners can channel Zohm to bend substance and twist reality. Such control is never safe: even the smallest mistake may distort the intended result, turn the power against its wielder or unleash consequences far worse than death.
-
 ## Rising Levels of Zohm
 
+{{< textbox title="Channeling Zohm" align="right" style="plain" icon="/SVG/open-book.svg" >}}
+Zohm is influenced by how [true Life](/lore/true-life/) perceives it. Skilled practitioners can channel Zohm to bend substance and twist reality. Such control is never safe: even the smallest mistake may distort the intended result, turn the power against its wielder or unleash consequences far worse than death.
+{{< /textbox >}}
+
 During both the [First Great Pulse](/lore/great-pulse/#the-first-great-pulse) and [Second Great Pulse](/lore/great-pulse/#the-second-great-pulse), Zohm increased significantly. Due to this, now even mundane things twist and change based on their Names. Even household items in private dwellings, local traditions or village tales have enough Zohm to become unpredictably powerful. This has allowed Zohm masters more power to bend substance, but the risks are even deadlier.
+
+
+
 

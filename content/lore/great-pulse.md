@@ -90,11 +90,11 @@ The first **Great Pulse** occurred during the age of the old civilisations. As [
 
 The world was devastated. When the Pulse ended, Zohm sharply decreased and triggered the [First Memory Plague](/lore/memory-plague/). Languages, histories and generations of memories were lost.
 
-## The Second Great Pulse
-
-### The Tablet Rediscovered
-
+{{< textbox title="The Tablet Rediscovered" align="right" style="plain" icon="/SVG/open-book.svg" >}}
 Centuries later, a stone tablet left by survivors of the first disaster was discovered. It warned that another Pulse would occur if [Fell Names](/lore/names/) continued to spread, but many rulers and civilisations ignored or disputed its message.
+{{< /textbox >}}
+
+## The Second Great Pulse
 
 The second Great Pulse caused another apocalypse. The Gharob region was transformed into the wasteland now known as the [Golden Wastes](/location/the-wastes/). How the rest of the world endured remains unknown.
 

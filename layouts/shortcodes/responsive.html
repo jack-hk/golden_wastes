@@ -1,0 +1,34 @@
+{{- $show := lower (printf "%v" (.Get "show" | default "")) -}}
+{{- $hide := lower (printf "%v" (.Get "hide" | default "")) -}}
+{{- $views := slice "mobile" "tablet" "desktop" -}}
+{{- if and (not $show) (not $hide) -}}
+  {{- errorf "The responsive shortcode requires either show or hide: %s" .Position -}}
+{{- else if and $show $hide -}}
+  {{- errorf "The responsive shortcode accepts show or hide, not both: %s" .Position -}}
+{{- else -}}
+  {{- $mode := cond (ne $show "") "show" "hide" -}}
+  {{- $value := cond (ne $show "") $show $hide -}}
+  {{- $selectedViews := slice -}}
+  {{- range split (replace $value "," " ") " " -}}
+    {{- $view := trim . " \t\r\n" -}}
+    {{- if $view -}}
+      {{- if not (in $views $view) -}}
+        {{- errorf "The responsive shortcode %s option contains %q; supported views are mobile, tablet, and desktop: %s" $mode $view $.Position -}}
+      {{- else if not (in $selectedViews $view) -}}
+        {{- $selectedViews = $selectedViews | append $view -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if not $selectedViews -}}
+    {{- errorf "The responsive shortcode %s option must contain at least one view: %s" $mode .Position -}}
+  {{- else if gt (len $selectedViews) 3 -}}
+    {{- errorf "The responsive shortcode supports no more than three views: %s" .Position -}}
+  {{- end -}}
+  {{- $classes := slice "responsive-content" (printf "responsive-content--%s" $mode) -}}
+  {{- range $selectedViews -}}
+    {{- $classes = $classes | append (printf "responsive-content--%s-%s" $mode .) -}}
+  {{- end -}}
+  <div class="{{ delimit $classes " " }}">
+    {{- .Page.RenderString (dict "display" "block") .Inner -}}
+  </div>
+{{- end -}}

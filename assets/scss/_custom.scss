@@ -166,6 +166,58 @@
   filter: none;
 }
 
+// Content visibility helpers used by the responsive shortcode.
+.responsive-content--show {
+  display: none;
+}
+
+@include for-screen(mobile) {
+  .responsive-content--show-mobile {
+    display: block;
+  }
+
+  .responsive-content--hide-mobile {
+    display: none;
+  }
+}
+
+@include for-screen(tablet) {
+  // The theme's mobile and tablet queries overlap at 768px; tablet wins there.
+  .responsive-content--show-mobile {
+    display: none;
+  }
+
+  .responsive-content--show-tablet {
+    display: block;
+  }
+
+  .responsive-content--hide-mobile {
+    display: block;
+  }
+
+  .responsive-content--hide-tablet {
+    display: none;
+  }
+}
+
+@include for-screen(desktop) {
+  .responsive-content--show-tablet {
+    display: none;
+  }
+
+  .responsive-content--show-desktop {
+    display: block;
+  }
+
+  .responsive-content--hide-tablet {
+    display: block;
+  }
+
+  .responsive-content--hide-desktop {
+    display: none;
+  }
+}
+
 .footer-line {
   align-items: center;
   color: var(--color-text-muted);

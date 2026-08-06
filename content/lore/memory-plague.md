@@ -86,4 +86,12 @@ After the [First Great Pulse](/lore/great-pulse/#the-first-great-pulse), languag
 
 ## The Predicted Second Plague
 
+{{< textbox title="A Warning in Stone" align="right" style="plain" icon="/SVG/talk.svg" >}}
+> “A child will wake speaking no language their mother knows.”
+>
+> — *Unknown*
+
+*Translated from an ancient inscription on the [tablet](/lore/great-pulse/#the-tablet-rediscovered). Some words remain uncertain.*
+{{< /textbox >}}
+
 The [Second Great Pulse](/lore/great-pulse/#the-second-great-pulse) is now receding, and scholars expect another **Memory Plague** to follow. It may weaken remaining Fell Names, but it will also erase harmless knowledge, traditions and memories without distinction.

@@ -90,7 +90,7 @@ bottom_textbox_text: ''
 Within True Life, **Order** and **Chaos** exist in balance. Chaos allows change, individuality and choice, while Order preserves bodily function, memory and learned behaviour. Neither can sustain life alone.
 
 ## False Life
-{{< textbox title="Oru’s Gift" align="right" style="plain" icon="/SVG/scroll-quill.svg">}}
+{{< textbox title="Oru’s Gift" align="right" style="plain" icon="/SVG/open-book.svg">}}
 Because True Life was **Oru’s sacred gift**, attempts to manufacture, restore or reproduce it are often considered inherently evil. Judgement may still depend upon purpose and intent. An automaton created to protect others may be viewed differently from an undead servant raised to enslave.
 {{< /textbox >}}
 

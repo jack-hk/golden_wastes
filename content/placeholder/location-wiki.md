@@ -151,3 +151,14 @@ same **Markdown styling** as ordinary article content.
 {{< /textbox >}}
 
 This paragraph demonstrates body text wrapping beside a right-aligned text box.
+
+## Responsive content shortcode
+
+{{< responsive show="mobile, tablet, desktop" >}}
+- This item demonstrates all three allowed views.
+- Inner lists and other **Markdown** are supported.
+{{< /responsive >}}
+
+{{< responsive hide="mobile, desktop" >}}
+This location note is hidden on mobile and desktop, leaving it visible on tablet.
+{{< /responsive >}}
