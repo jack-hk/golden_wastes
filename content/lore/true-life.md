@@ -90,9 +90,10 @@ bottom_textbox_text: ''
 Within True Life, **Order** and **Chaos** exist in balance. Chaos allows change, individuality and choice, while Order preserves bodily function, memory and learned behaviour. Neither can sustain life alone.
 
 ## False Life
+{{< textbox title="Oru’s Gift" align="right" style="plain" icon="/SVG/scroll-quill.svg">}}
+Because True Life was **Oru’s sacred gift**, attempts to manufacture, restore or reproduce it are often considered inherently evil. Judgement may still depend upon purpose and intent. An automaton created to protect others may be viewed differently from an undead servant raised to enslave.
+{{< /textbox >}}
 
 **False Life** imitates or corrupts True Life. Undead beings, automata and some unexplained lifeforms may move, speak or imitate emotion, but cannot genuinely influence Zohm or bestow Names.
-
-Because True Life was Oru’s sacred gift, attempts to manufacture, restore or reproduce it are often considered inherently evil. Judgement may still depend upon purpose and intent. An automaton created to protect others may be viewed differently from an undead servant raised to enslave.
 
 Whether any being with False Life can eventually acquire True Life remains unknown.
