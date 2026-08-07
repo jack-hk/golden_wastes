@@ -1,95 +1,59 @@
 ---
 title: Yheglin
-header: ''
 date: 2026-08-01
-updated: '2026-08-06'
-draft: false
-placeholder: false
+updated: 2026-08-06
+draft: true
+placeholder: true
 type: wiki
-slug: ''
-url: ''
-aliases: []
 weight: 0
-description: ''
-summary: ''
-author: ''
 categories:
-- monster
-tags: []
-series: []
-image: ''
+  - monster
 fitThumbnail: false
-featured_image: ''
-image_caption: ''
 show_date: false
 show_reading_time: false
-iconColor: ''
 badgeOnThumbnail: false
 bookHidden: false
 BookToC: false
-eventDate: null
-eventTime: null
 infobox:
   header: Yheglin
   image: /uploads/yheglin.png
-  icon: null
   imageSize: 300
   iconSize: 0
-  imageMargin: ''
-  iconMargin: ''
-  iconColor: ''
-  badgePath: ''
-  badge: ''
-  badgeIcon: ''
-  badgeSvg: ''
   badgeEnabled: false
   badgeOnThumbnail: false
-  badgeBackgroundColor: ''
-  badgeColor: ''
-  badgeForegroundColor: ''
   badgeSize: 0
   labels:
-  - label: Type
-    item: Monster
-    divider: false
-  - label: Habitat
-    item: Shallow caves, rough terrain
-    divider: false
-  - label: Origin
-    item: False Life
-    divider: false
-also: []
+    - label: Type
+      item: Monster
+      divider: false
+    - label: Habitat
+      item: Shallow caves, rough terrain
+      divider: false
+    - label: Origin
+      item: False Life
+      divider: false
 references:
-- title: The Wastes
-  url: /location/the-wastes/
-- title: Great Pulse
-  url: /lore/great-pulse/
-- title: Names
-  url: /lore/names/
-- title: True Life
-  url: /lore/true-life/
-portal_view: ''
+  - title: The Wastes
+    url: /location/the-wastes/
+  - title: Great Pulse
+    url: /lore/great-pulse/
+  - title: Names
+    url: /lore/names/
+  - title: True Life
+    url: /lore/true-life/
 showcase_tiles: 0
 min_showcase_tiles: 0
 card_count: 0
 min_card_count: 0
 random_cards: false
-cards: []
 truncate_limit: 0
 carousel_on_desktop: false
 show_alphabet: false
 show_layout_toggle: false
-list_layout: ''
 show_intro_text: false
-intro_text: ''
 show_left_textbox: false
-left_textbox_title: ''
-left_textbox_text: ''
 show_right_textbox: false
-right_textbox_title: ''
-right_textbox_text: ''
 show_bottom_textbox: false
-bottom_textbox_text: ''
 ---
 > The **Yheglin** is a small, aggressive humanoid creature found in caves and rocky regions across the [Golden Wastes](/location/the-wastes/). Its unnatural ancestry is believed to trace back to the [Great Pulse](/lore/great-pulse/), when unstable [Names](/lore/names/) and Forms produced many creatures that could not have developed naturally.
 
