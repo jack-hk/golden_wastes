@@ -1,7 +1,7 @@
 ---
-title: Glob
+title: Danger Rating
 header: ''
-date: 2026-07-29
+date: 2026-08-01
 updated: '2026-08-06'
 draft: false
 placeholder: false
@@ -14,11 +14,11 @@ description: ''
 summary: ''
 author: ''
 categories:
-- monster
+- lore
 tags: []
 series: []
-image: ''
-fitThumbnail: true
+image: null
+fitThumbnail: false
 featured_image: ''
 image_caption: ''
 show_date: false
@@ -30,10 +30,10 @@ BookToC: false
 eventDate: null
 eventTime: null
 infobox:
-  header: Glob
-  image: /uploads/glob.png
+  header: ''
+  image: null
   icon: null
-  imageSize: 300
+  imageSize: 0
   iconSize: 0
   imageMargin: ''
   iconMargin: ''
@@ -49,24 +49,7 @@ infobox:
   badgeForegroundColor: ''
   badgeSize: 0
   labels:
-  - label: Type
-    item: Monster
-    divider: false
-  - label: Danger
-    item: '{{< danger 3 >}}'
-    divider: true
-  - label: Habitat
-    item: Anywhere on the surface, [The Beneath](/location/the-beneath/)
-    divider: false
-  - label: Origin
-    item: False Life
-    divider: false
 also: []
-references:
-- title: The Beneath
-  url: /location/the-beneath/
-- title: True Life
-  url: /lore/true-life/
 portal_view: ''
 showcase_tiles: 0
 min_showcase_tiles: 0
@@ -90,12 +73,10 @@ right_textbox_text: ''
 show_bottom_textbox: false
 bottom_textbox_text: ''
 ---
-> The **Glob** is a tough, ooze-like creature known for impossible bursts of speed and sudden changes in density.
+> Danger Rating is a simple scale used to show how hazardous a [place](/categories/location/), [monster](/categories/monster/) or other threat is.
 
-**Globs** have silver, semi-transparent body containing visible drifting organs and can harden into a dense, metal-like mass when threatened. Globs roll across open terrain, launching themselves at prey with crushing force.
+It gives a quick idea of how likely something is to cause serious harm, from relatively safe encounters to near-certain death.
 
-Most are small, though rare specimens grow enormous. They are omnivorous, dissolving food inside their bodies, and can briefly lose pieces of slime without harm.
+The scale below lists every possible rating and what each level means.
 
-## Alchemy
-
-Glob gel is a valuable alchemical ingredient, prized for its powerful acidic properties.
+{{< danger-table >}}

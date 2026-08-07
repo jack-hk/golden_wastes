@@ -52,6 +52,9 @@ infobox:
   - label: Type
     item: Undead
     divider: false
+  - label: Danger
+    item: '{{< danger 4 >}}'
+    divider: true
   - label: Habitat
     item: Kha'rot
     divider: false
@@ -85,26 +88,16 @@ right_textbox_text: ''
 show_bottom_textbox: false
 bottom_textbox_text: ''
 ---
-> A **Bonestalker** was once human, but has since been transformed into a suffering, misshapen creature under the control of the necromancer Master Shal Kha’rot.
+> A **Bonestalker** was once human, but has since been transformed into a suffering, misshapen creature under the control of the necromancer Master Shaal.
 
-**Bonestalkers** are restless humanoid undead found throughout the dune deserts of Kha’rot, though rare sightings have been reported elsewhere in the Gharob region.
+**Bonestalkers** roam the Ashlands of Kha’rot and are most often seen during violent *bonestorms*. Thin and eyeless, they are covered in pale bone-like armour that protects them from weapons and cutting storms of salt and ash.
 
-They wander endlessly in search of something unknown, appearing only during the violent sandstorms known as bonestorms. Destroying a Bonestalker is widely considered an act of mercy, freeing the victim from constant pain and allowing their spirit to rest.
+They navigate through sound and vibration, moving through storms with unsettling accuracy. Most travel in groups and gather bones wherever they find them, for reasons only known to their necromanic master, Shaal.
 
-## Appearance
+Bonestalkers may spread dangerous diseases through even minor wounds, making close combat especially risky.
 
-A Bonestalker has a thin humanoid frame encased in hard, pale tissue resembling a mixture of bone and cartilage. This natural exoskeleton covers much of its body and provides strong protection against weapons and the cutting sands of a bonestorm.
-
-Two protruding jaws extend from its head, lined with hanging sets of uneven teeth. Bonestalkers possess no functional eyes and rely entirely upon sound and vibrations to navigate their surroundings.
-
-## Behaviour
-
-Bonestalkers are commonly encountered in groups, often alongside other Kha’rot undead. They move through bonestorms with disturbing accuracy, recognising the familiar rhythm of the wind and sand while detecting any unfamiliar movement within it.
-
-They collect bones wherever they travel, taking them from corpses, burial sites and even living victims. These bones are carried as crude weapons or gathered for purposes known only to their master.
-
-Bonestalkers are known to carry several deadly diseases shared by many of Kha'rot’s Undead monstrosities. Even a minor wound caused by one may prove fatal without immediate treatment.
+Destroying one is widely considered an act of mercy.
 
 ## Loot
 
-The hardened exoskeleton of a Bonestalker could be shaped into durable armour resistant to blades and desert weather. Harvesting and preparing it is extremely dangerous, however, and should only be attempted by an expert familiar with diseased Undead remains.
+Their hardened outer shell can be shaped into durable armour, but harvesting it is dangerous and best left to those experienced with undead remains.

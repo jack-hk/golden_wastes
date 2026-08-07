@@ -150,21 +150,28 @@
                 {{- $hasLabel := ne (strings.TrimSpace (.label | default "")) "" -}}
                 {{- $hasValue := ne (strings.TrimSpace (.item | default "")) "" -}}
                 {{ if or .divider $hasLabel $hasValue }}
-                  {{ if .divider }}
-                    <div class="wiki__infobox-divider"></div>
-                  {{ else }}
-                    <div class="wiki__infobox-item">
+                  {{ if or $hasLabel $hasValue }}
+                    <div class="wiki__infobox-item{{ if .divider }} wiki__infobox-item--before-divider{{ end }}">
                       {{ if $hasLabel }}
                         <div class="wiki__infobox-label"
                           >{{ .label | markdownify }}</div
                         >
                       {{ end }}
                       {{ if $hasValue }}
-                        <div class="wiki__infobox-value"
-                          >{{ .item | markdownify }}</div
-                        >
+                        {{- $dangerMatch := findRESubmatch `^\s*\{\{[<%]\s*danger\s+([0-7])\s*[>%]\}\}\s*$` .item -}}
+                        <div class="wiki__infobox-value">
+                          {{- if $dangerMatch -}}
+                            {{- $level := index (index $dangerMatch 0) 1 -}}
+                            {{- partial "danger-rating.html" (dict "level" $level) -}}
+                          {{- else -}}
+                            {{- .item | markdownify -}}
+                          {{- end -}}
+                        </div>
                       {{ end }}
                     </div>
+                  {{ end }}
+                  {{ if .divider }}
+                    <div class="wiki__infobox-divider"></div>
                   {{ end }}
                 {{ end }}
               {{ end }}

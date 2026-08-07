@@ -1,0 +1,17 @@
+{{- $dangerData := resources.Get "data/danger.json" | transform.Unmarshal -}}
+<table class="danger-table">
+  <thead>
+    <tr>
+      <th>Rating</th>
+      <th>General guidance</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{- range $level, $rating := $dangerData.ratings }}
+      <tr>
+        <td>{{ partial "danger-rating.html" (dict "level" $level "linked" false) }}</td>
+        <td>{{ $rating.description }}</td>
+      </tr>
+    {{- end }}
+  </tbody>
+</table>

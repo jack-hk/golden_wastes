@@ -1,0 +1,9 @@
+{{- $rawLevel := .Get 0 -}}
+{{- if eq (printf "%v" $rawLevel) "" -}}
+  {{- errorf "The danger shortcode requires a level from 0 to 7: %s" .Position -}}
+{{- end -}}
+{{- $levelText := printf "%v" $rawLevel -}}
+{{- if not (findRE `^[0-7]$` $levelText) -}}
+  {{- errorf "The danger shortcode level must be a whole number from 0 to 7; got %q: %s" $levelText .Position -}}
+{{- end -}}
+{{- partial "danger-rating.html" (dict "level" $levelText) -}}

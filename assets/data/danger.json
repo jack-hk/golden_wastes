@@ -1,0 +1,36 @@
+{
+  "ratings": [
+    {
+      "name": "Safe",
+      "description": "Little to no danger is expected under normal conditions."
+    },
+    {
+      "name": "Caution",
+      "description": "Some danger is present; ordinary care and preparation are advised."
+    },
+    {
+      "name": "Unsafe",
+      "description": "Danger is likely, and unprepared travellers should avoid the area."
+    },
+    {
+      "name": "High",
+      "description": "Serious threats are common; only capable, well-prepared groups should proceed."
+    },
+    {
+      "name": "Very High",
+      "description": "Severe and potentially lethal threats are expected."
+    },
+    {
+      "name": "Extreme",
+      "description": "Survival is unlikely without exceptional preparation, skill, or protection."
+    },
+    {
+      "name": "Insane",
+      "description": "The danger exceeds ordinary mortal limits and should almost always be avoided."
+    },
+    {
+      "name": "Legendary",
+      "description": "A legendary threat capable of overwhelming even the greatest heroes."
+    }
+  ]
+}

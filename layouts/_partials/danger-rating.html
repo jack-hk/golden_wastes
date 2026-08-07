@@ -1,0 +1,25 @@
+{{- $level := int .level -}}
+{{- $dangerData := resources.Get "data/danger.json" | transform.Unmarshal -}}
+{{- $rating := index $dangerData.ratings $level -}}
+{{- $linked := true -}}
+{{- if isset . "linked" -}}
+  {{- $linked = .linked -}}
+{{- end -}}
+{{- if $linked -}}
+  <a
+    class="danger-rating danger-rating--{{ $level }}"
+    href="{{ "/campaign/danger-rating/" | relURL }}"
+    title="{{ $rating.description }}"
+    aria-label="Danger {{ $rating.name }}, level {{ $level }}. {{ $rating.description }}"
+    ><span class="danger-rating__level">({{ $level }})</span>
+    <span class="danger-rating__name">{{ $rating.name }}</span></a
+  >
+{{- else -}}
+  <span
+    class="danger-rating danger-rating--{{ $level }}"
+    title="{{ $rating.description }}"
+    aria-label="Danger {{ $rating.name }}, level {{ $level }}. {{ $rating.description }}"
+    ><span class="danger-rating__level">({{ $level }})</span>
+    <span class="danger-rating__name">{{ $rating.name }}</span></span
+  >
+{{- end -}}

@@ -12,7 +12,9 @@ infobox:
   icon:
   labels:
     - label: Type
-      item: Location
+      item: Region
+    - label: Giant
+      item: Ghar
 also: []
 ---
 

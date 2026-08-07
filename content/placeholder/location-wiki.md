@@ -51,6 +51,8 @@ placeholder: true
 #   labels:
 #     - label: Type
 #       item: Location
+#     - label: Danger
+#       item: '{{< danger 3 >}}' # Shortcodes in YAML values must be quoted.
 #     - divider: true
 #     - label: Example
 #       item: "[Related page](/location/the-beneath/)"
@@ -151,6 +153,13 @@ same **Markdown styling** as ordinary article content.
 {{< /textbox >}}
 
 This paragraph demonstrates body text wrapping beside a right-aligned text box.
+
+## Danger rating shortcode
+
+Use `{{</* danger 3 */>}}` in page content. In an infobox, the entire shortcode
+must be quoted, as shown in the front matter example above.
+
+{{< danger 0 >}} · {{< danger 1 >}} · {{< danger 2 >}} · {{< danger 3 >}} · {{< danger 4 >}} · {{< danger 5 >}} · {{< danger 6 >}} · {{< danger 7 >}}
 
 ## Responsive content shortcode
 
