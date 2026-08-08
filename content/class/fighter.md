@@ -2,7 +2,7 @@
 title: Fighter
 header: The Fighter
 date: 2026-08-01
-updated: '2026-08-06'
+updated: '2026-08-08'
 draft: false
 placeholder: false
 type: wiki

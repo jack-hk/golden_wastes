@@ -1,7 +1,7 @@
 ---
-title: Glob
+title: Chopper
 header: ''
-date: 2026-07-29
+date: 2026-08-08
 updated: '2026-08-08'
 draft: false
 placeholder: false
@@ -14,11 +14,11 @@ description: ''
 summary: ''
 author: ''
 categories:
-- monster
+  - item
 tags: []
 series: []
 image: ''
-fitThumbnail: true
+fitThumbnail: false
 featured_image: ''
 image_caption: ''
 show_date: false
@@ -30,10 +30,10 @@ BookToC: false
 eventDate: null
 eventTime: null
 infobox:
-  header: Glob
-  image: /uploads/glob.png
+  header: Chopper
+  image: ''
   icon: null
-  imageSize: 300
+  imageSize: 0
   iconSize: 0
   imageMargin: ''
   iconMargin: ''
@@ -49,24 +49,18 @@ infobox:
   badgeForegroundColor: ''
   badgeSize: 0
   labels:
-  - label: Type
-    item: Monster
-    divider: false
-  - label: Danger
-    item: '{{< danger 3 >}}'
-    divider: true
-  - label: Habitat
-    item: Anywhere on the surface, [The Beneath](/location/the-beneath/)
-    divider: false
-  - label: Origin
-    item: False Life
-    divider: false
+    - label: Type
+      item: Weapon
+      divider: true
+    - label: Weight
+      item: Heavy 
+    - label: Material
+      item: '[Scrap Metal](/lore/elements/)'
+      divider: false
 also: []
 references:
-- title: The Beneath
-  url: /location/the-beneath/
-- title: True Life
-  url: /lore/true-life/
+  - title: Mech Wreck
+    url: /location/mech-wreck/
 portal_view: ''
 showcase_tiles: 0
 min_showcase_tiles: 0
@@ -90,12 +84,10 @@ right_textbox_text: ''
 show_bottom_textbox: false
 bottom_textbox_text: ''
 ---
-> The **Glob** is a tough, ooze-like creature known for impossible bursts of speed and sudden changes in density.
+> **Choppers** are traditional heavy swords found throughout north-eastern Gharob.
 
-**Globs** have silver, semi-transparent bodies containing visible drifting organs and can harden into a dense, metal-like mass when threatened. Globs roll across open terrain, launching themselves at prey with crushing force.
+Built for two hands, a Chopper combines the broad cutting edge of an axe with the reach and balance of a sword. Their thick blades are commonly forged from reclaimed scrap metal taken from the ancient copper and bronze relics buried across [Mech Wreck](/location/mech-wreck/).
 
-Most are small, though rare specimens grow enormous. They are omnivorous, dissolving food inside their bodies, and can briefly lose pieces of slime without harm.
+Choppers are crude, heavy and destructive. A strong swing can break through tough armour, dense hide and other materials that lighter weapons struggle against.
 
-## Alchemy
-
-Glob gel is a valuable alchemical ingredient, prized for its powerful acidic properties.
+Because the blade is typically made from scavenged metal, no two Choppers are exactly alike. Their shapes, weight and composition often depend on whatever usable material the smith could recover.

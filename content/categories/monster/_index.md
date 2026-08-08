@@ -2,7 +2,7 @@
 title: Monster
 header: ''
 date: null
-updated: '2026-08-06'
+updated: '2026-08-08'
 draft: false
 placeholder: false
 type: ''
@@ -52,7 +52,7 @@ also: []
 references: []
 portal_view: list
 showcase_tiles: 3
-min_showcase_tiles: 2
+min_showcase_tiles: 3
 card_count: 0
 min_card_count: 0
 random_cards: false
@@ -60,16 +60,16 @@ cards: []
 truncate_limit: 150
 carousel_on_desktop: false
 show_alphabet: true
-show_layout_toggle: true
+show_layout_toggle: false
 list_layout: fixed
 show_intro_text: true
-intro_text: ''
-show_left_textbox: true
+intro_text: 'Explore types of monsters from across the Wastes!'
+show_left_textbox: false
 left_textbox_title: ''
 left_textbox_text: ''
-show_right_textbox: true
+show_right_textbox: false
 right_textbox_title: ''
 right_textbox_text: ''
-show_bottom_textbox: true
+show_bottom_textbox: false
 bottom_textbox_text: ''
 ---

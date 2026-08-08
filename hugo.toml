@@ -112,7 +112,8 @@ pages = [
 [params.smallTiles.images]
 monster = "/uploads/monster.jpg"
 lore = "/uploads/blue-abstract.jpg"
-class = "/uploads/tools.jpg"
+class = "/uploads/white-abstract.jpeg"
+item = "/uploads/tools.jpg"
 campaign = "/uploads/red-abstract.jpg"
 location = "/uploads/cave.jpg"
 

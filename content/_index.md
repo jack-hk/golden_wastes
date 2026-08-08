@@ -2,7 +2,7 @@
 title = 'Home'
 header = ''
 date = '2026-07-25T15:00:00Z'
-updated = '2026-08-06'
+updated = '2026-08-08'
 draft = false
 placeholder = false
 type = ''

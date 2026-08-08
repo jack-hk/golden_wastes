@@ -2,7 +2,7 @@
 title: Beak Thing
 header: ''
 date: 2026-07-27
-updated: '2026-08-06'
+updated: '2026-08-08'
 draft: false
 placeholder: false
 type: wiki

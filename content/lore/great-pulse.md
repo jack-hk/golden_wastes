@@ -2,7 +2,7 @@
 title: Great Pulse
 header: ''
 date: 2026-07-27 10:16:00+00:00
-updated: '2026-08-06'
+updated: '2026-08-08'
 draft: false
 placeholder: false
 type: wiki

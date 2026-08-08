@@ -2,7 +2,7 @@
 title: Elements
 header: ''
 date: 2026-07-27 08:06:00+00:00
-updated: '2026-08-06'
+updated: '2026-08-08'
 draft: false
 placeholder: false
 type: wiki
@@ -84,30 +84,26 @@ The **Elements**, arranged in the traditional *Elemental Wheel*, form a system u
 {width="350" align="right" mobileMinWidth="200" mobileMaxWidth="350" caption="Each element is connected to a direction and traditional colour."}
 
 ## Wood — North
-  
-**Brown Wood** represents growth, decay, learning and adaptation. It is linked to water, natural cycles and wisdom gained through experience.  
-  
-## Glass — East
-  
-**White Glass** represents truth, clarity, division and precision. It can reveal, distort or separate, making it useful for lenses, measurements and delicate work.  
-  
-## Stone — West
-  
-**Grey Stone** represents endurance, weight, patience and resilience. It is favoured for protection and anything expected to survive pressure or time.  
 
+**Brown Wood** represents growth, decay, learning and adaptation. It is linked to water, natural cycles and wisdom gained through experience.  
+
+## Glass — East
+
+**White Glass** represents truth, clarity, division and precision. It can reveal, distort or separate, making it useful for lenses, measurements and delicate work.  
+
+## Stone — West
+
+**Grey Stone** represents endurance, weight, patience and resilience. It is favoured for protection and anything expected to survive pressure or time.  
 
 {{< responsive show="desktop">}}
 {{< textbox title="Materials with Purpose" align="right" style="plain" icon="/SVG/open-book.svg" >}}
 Experts use the **Wheel** to match materials with purpose and influence [Zohm](/lore/zohm/). A hunter may wear a *stone* charm, a scholar may use a *glass*-inlaid pen, a healer may carry a *wooden* tool, and an alchemist may encrust an instrument with *gold*.
 {{< /textbox >}}
 {{< /responsive >}}
-  
+
 ## Metal — South
-  
+
 **Yellow Metal** represents strength, pride, discovery and technology. Gold is considered its purest expression because it resists decay and reflects light.  
-
-
-
 
 {{< responsive show="mobile, tablet" >}}
 {{< textbox title="Materials with Purpose" align="right" style="plain" icon="/SVG/open-book.svg" >}}

@@ -2,7 +2,7 @@
 title: Zohm
 header: ''
 date: 2026-07-27 07:54:00+00:00
-updated: '2026-08-06'
+updated: '2026-08-08'
 draft: false
 placeholder: false
 type: wiki
@@ -98,7 +98,6 @@ Zohm is influenced by how [true Life](/lore/true-life/) perceives it. Skilled pr
 {{< /textbox >}}
 
 During both the [First Great Pulse](/lore/great-pulse/#the-first-great-pulse) and [Second Great Pulse](/lore/great-pulse/#the-second-great-pulse), Zohm increased significantly. Due to this, now even mundane things twist and change based on their Names. Even household items in private dwellings, local traditions or village tales have enough Zohm to become unpredictably powerful. This has allowed Zohm masters more power to bend substance, but the risks are even deadlier.
-
 
 
 

@@ -1,7 +1,7 @@
 ---
-title: Location
+title: Item
 header: ''
-date: null
+date: 2026-08-08
 updated: '2026-08-08'
 draft: false
 placeholder: false
@@ -51,8 +51,8 @@ infobox:
 also: []
 references: []
 portal_view: list
-showcase_tiles: 3
-min_showcase_tiles: 3
+showcase_tiles: 0
+min_showcase_tiles: 0
 card_count: 0
 min_card_count: 0
 random_cards: false
@@ -63,7 +63,7 @@ show_alphabet: true
 show_layout_toggle: true
 list_layout: fixed
 show_intro_text: true
-intro_text: 'Explore locations across the Wastes. Settlements, regions and more!'
+intro_text: ''
 show_left_textbox: false
 left_textbox_title: ''
 left_textbox_text: ''

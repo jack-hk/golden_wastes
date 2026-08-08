@@ -1,7 +1,7 @@
 ---
-title: Kha'rot
+title: Mech Wreck
 header: ''
-date: null
+date: 2026-08-07
 updated: '2026-08-08'
 draft: false
 placeholder: false
@@ -30,7 +30,7 @@ BookToC: false
 eventDate: null
 eventTime: null
 infobox:
-  header: Kha'rot
+  header: Mech Wreck
   image:
   icon: null
   imageSize: 0
@@ -50,20 +50,18 @@ infobox:
   badgeSize: 0
   labels:
     - label: Type
-      item: Ashlands
+      item: Desert
       divider: false
     - label: Danger
-      item: '{{< danger 5 >}}'
+      item: '{{< danger 3 >}}'
       divider: true
     - label: Terrain
-      item: Salty
+      item: Sandy
       divider: false
 also: []
 references:
-  - title: Gharob Region
-    url: /location/gharob-region/
-  - title: Bonestalker
-    url: /monster/bonestalker/
+  - title: Copperhelm
+    url: /location/copperhelm/
 portal_view: ''
 showcase_tiles: 0
 min_showcase_tiles: 0
@@ -87,10 +85,12 @@ right_textbox_text: ''
 show_bottom_textbox: false
 bottom_textbox_text: ''
 ---
-> **Kha'rot** is a hostile expanse within the [Gharob Region](/location/gharob-region/), covered in pale, salty ash and scattered remains.
+> **Mech Wreck desert** is a vast sea of soft sandy dunes, broken by colossal rusted cogs made from copper alloys.
 
-Thick ash-fog often reduces visibility across **Kha'rot**, while violent *Bonestorms* sweep across the land without warning. Their abrasive winds can strip exposed skin and make open travel extremely dangerous.
+Some gears are as large as hills, half-buried in the dunes with no known origin. Their exposed teeth and hollow centres often become foundations for settlements.
 
-Bonestorms also draw [Bonestalkers](/monster/bonestalker/) and other undead servants of Master Shaal. These creatures follow in the storms' wake, gathering remains to strengthen his forces.
+**Mech Wreck's** weather is notoriously unstable. Calm skies can turn into violent sandstorms within seconds. Days bring punishing heat, while nights can become bitterly cold.
 
-Few travellers cross Kha'rot without protection, preparation and a clear route. Between poor visibility, unstable weather and the creatures that roam behind the storms, the Ashlands are considered one of the [Gharob Region's](/location/gharob-region/) most dangerous areas.
+Ancient mechanical automata also wander the dunes. Most are damaged but some remain hostile and extremely dangerous.
+
+Despite this, pockets of civilisation survive throughout Mech Wreck. [Copperhelm](/location/copperhelm/), a large settlement in the north-central desert, is among the largest. Settlers build within the great metal ruins, using their curved frames as supports while scavenging the surrounding copper and bronze for materials.

@@ -2,7 +2,7 @@
 title: Oru
 header: ''
 date: 2026-07-27 07:54:00+00:00
-updated: '2026-08-06'
+updated: '2026-08-08'
 draft: false
 placeholder: false
 type: wiki

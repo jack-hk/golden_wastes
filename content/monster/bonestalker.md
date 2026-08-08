@@ -2,7 +2,7 @@
 title: Bonestalker
 header: ''
 date: 2026-07-27
-updated: '2026-08-06'
+updated: '2026-08-08'
 draft: false
 placeholder: false
 type: wiki
@@ -65,6 +65,8 @@ also: []
 references:
 - title: True Life
   url: /lore/true-life/
+- title: Kha'rot
+  url: /location/kharot/
 portal_view: ''
 showcase_tiles: 0
 min_showcase_tiles: 0
@@ -90,7 +92,7 @@ bottom_textbox_text: ''
 ---
 > A **Bonestalker** was once human, but has since been transformed into a suffering, misshapen creature under the control of the necromancer Master Shaal.
 
-**Bonestalkers** roam the Ashlands of Kha’rot and are most often seen during violent *bonestorms*. Thin and eyeless, they are covered in pale bone-like armour that protects them from weapons and cutting storms of salt and ash.
+**Bonestalkers** roam the Ashlands of [Kha’rot](/location/kharot/) and are most often seen during violent *bonestorms*. Thin and eyeless, they are covered in pale bone-like armour that protects them from weapons and cutting storms of salt and ash.
 
 They navigate through sound and vibration, moving through storms with unsettling accuracy. Most travel in groups and gather bones wherever they find them, for reasons only known to their necromanic master, Shaal.
 

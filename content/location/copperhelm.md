@@ -1,8 +1,8 @@
 ---
-title: Kha'rot
+title: Copperhelm
 header: ''
-date: null
-updated: '2026-08-08'
+date: 2026-08-06
+updated: 2026-08-08
 draft: false
 placeholder: false
 type: wiki
@@ -30,7 +30,7 @@ BookToC: false
 eventDate: null
 eventTime: null
 infobox:
-  header: Kha'rot
+  header: Copperhelm
   image:
   icon: null
   imageSize: 0
@@ -50,20 +50,24 @@ infobox:
   badgeSize: 0
   labels:
     - label: Type
-      item: Ashlands
+      item: Settlement
       divider: false
     - label: Danger
-      item: '{{< danger 5 >}}'
+      item: '{{< danger 2 >}}'
       divider: true
-    - label: Terrain
-      item: Salty
+    - label: Population
+      item: Busy
       divider: false
 also: []
 references:
-  - title: Gharob Region
-    url: /location/gharob-region/
-  - title: Bonestalker
-    url: /monster/bonestalker/
+  - title: Mech Wreck
+    url: /location/mech-wreck/
+  - title: The Wastes
+    url: /location/the-wastes/
+  - title: Great Pulse
+    url: /lore/great-pulse/
+  - title: Oru
+    url: /lore/oru/
 portal_view: ''
 showcase_tiles: 0
 min_showcase_tiles: 0
@@ -87,10 +91,10 @@ right_textbox_text: ''
 show_bottom_textbox: false
 bottom_textbox_text: ''
 ---
-> **Kha'rot** is a hostile expanse within the [Gharob Region](/location/gharob-region/), covered in pale, salty ash and scattered remains.
+> **Copperhelm** is a large settlement in the northern reaches of [Mech Wreck](/location/mech-wreck/), built among the remains of an older city.
 
-Thick ash-fog often reduces visibility across **Kha'rot**, while violent *Bonestorms* sweep across the land without warning. Their abrasive winds can strip exposed skin and make open travel extremely dangerous.
+Much of **Copperhelm** lies in ruin. Enormous buildings with smooth, spherical metal roofs still dominate the skyline, though many are damaged or partially collapsed. Some structures remain intact, and sections of the old city wall continue to provide protection.
 
-Bonestorms also draw [Bonestalkers](/monster/bonestalker/) and other undead servants of Master Shaal. These creatures follow in the storms' wake, gathering remains to strengthen his forces.
+Compared with most settlements in [the Wastes](/location/the-wastes/), Copperhelm is busy and well populated, though only a fraction of the people who lived there before the [Great Pulse](/lore/great-pulse/) remain.
 
-Few travellers cross Kha'rot without protection, preparation and a clear route. Between poor visibility, unstable weather and the creatures that roam behind the storms, the Ashlands are considered one of the [Gharob Region's](/location/gharob-region/) most dangerous areas.
+Its most famous landmark is *Oru’s Rest*, a vast surviving temple dedicated to [Oru](/lore/oru/). Parts of its metallic roof and halls still stand, making it one of the clearest reminders of Copperhelm’s former scale.

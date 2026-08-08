@@ -2,7 +2,7 @@
 title: Danger Rating
 header: ''
 date: 2026-08-01
-updated: '2026-08-06'
+updated: '2026-08-08'
 draft: false
 placeholder: false
 type: wiki
@@ -50,6 +50,11 @@ infobox:
   badgeSize: 0
   labels:
 also: []
+references:
+  - title: Location
+    url: /categories/location/
+  - title: Monster
+    url: /categories/monster/
 portal_view: ''
 showcase_tiles: 0
 min_showcase_tiles: 0
@@ -73,9 +78,9 @@ right_textbox_text: ''
 show_bottom_textbox: false
 bottom_textbox_text: ''
 ---
-> Danger Rating is a simple scale used to show how hazardous a [place](/categories/location/), [monster](/categories/monster/) or other threat is.
+> **Danger Rating** is a simple scale used to show how hazardous a [place](/categories/location/), [monster](/categories/monster/) or other threat is.
 
-It gives a quick idea of how likely something is to cause serious harm, from relatively safe encounters to near-certain death.
+**Danger Rating** gives a quick idea of how likely something is to cause serious harm, from relatively safe encounters to near-certain death.
 
 The scale below lists every possible rating and what each level means.
 

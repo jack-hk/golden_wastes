@@ -2,7 +2,7 @@
 title: Campaign
 header: ''
 date: null
-updated: '2026-08-06'
+updated: '2026-08-08'
 draft: false
 placeholder: false
 type: ''
@@ -63,13 +63,13 @@ show_alphabet: true
 show_layout_toggle: true
 list_layout: fixed
 show_intro_text: true
-intro_text: ''
-show_left_textbox: true
+intro_text: 'Read about previous or upcoming campaigns!'
+show_left_textbox: false
 left_textbox_title: ''
 left_textbox_text: ''
-show_right_textbox: true
+show_right_textbox: false
 right_textbox_title: ''
 right_textbox_text: ''
-show_bottom_textbox: true
+show_bottom_textbox: false
 bottom_textbox_text: ''
 ---
