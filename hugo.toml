@@ -220,7 +220,7 @@ description = "Placeholder description for *the Wastes*."
 enabled = true
 title = "Interactive Map"
 description = "Explore the interactive map of [The Wastes](/location/the-wastes/)."
-image = "/uploads/the-wastes-map.png"
+image = "/uploads/the-wastes-map.jpg"
 imageAlt = "An illustrated map of the Wastes"
 imageWidth = 1593
 imageHeight = 1195
@@ -233,6 +233,8 @@ scrollWheelZoom = false
 dragging = true
 attribution = ""
 ariaLabel = "Interactive map of the Wastes"
+markerEnlargeSize = 1.25
+markerTransitionTime = "200ms"
 
 [params.interactiveMap.mobile]
 show = true
@@ -247,12 +249,18 @@ title = "Black Spires"
 description = ""
 x = 8
 y = 12
+icon = "/SVG/position-marker.svg"
+size = 32
+minZoom = -1
 
 [[params.interactiveMap.markers]]
 title = "Crater Fields"
 description = ""
 x = 17
 y = 36
+icon = "/SVG/position-marker.svg"
+size = 32
+minZoom = -1
 pageRef = "/location/gharob-region"
 linkLabel = "Read about the region"
 
@@ -261,51 +269,84 @@ title = "Marshlands"
 description = ""
 x = 37
 y = 15
+icon = "/SVG/position-marker.svg"
+size = 32
+minZoom = -1
 
 [[params.interactiveMap.markers]]
 title = "Obsidian Ridge"
 description = ""
 x = 55
 y = 31
+icon = "/SVG/position-marker.svg"
+size = 32
+minZoom = -1
 
 
 [[params.interactiveMap.markers]]
-title = "Dunes"
-description = ""
+title = "Mech Wreck"
+description = "A vast desert expanse, littered with the remains of ancient scrap metal. "
 x = 60
-y = 15
+y = 20
+icon = "/SVG/position-marker.svg"
+size = 32
+minZoom = -1
+pageRef = "/location/mech-wreck"
 
 [[params.interactiveMap.markers]]
 title = "The Steaming Caldera"
 description = ""
 x = 43
 y = 50
+icon = "/SVG/position-marker.svg"
+size = 36
+minZoom = -1
 pageRef = "/location/kharot-area"
 linkLabel = "Read about Kha'rot"
+thumbnail = "/uploads/barren.jpg"
+thumbnailAlt = "A barren expanse of dunes in the Wastes"
+thumbnailWidth = 280
+thumbnailHeight = 160
 
 [[params.interactiveMap.markers]]
 title = "Prismatic Mesas"
 description = ""
 x = 84
 y = 13
+icon = "/SVG/position-marker.svg"
+size = 32
+minZoom = 0
+thumbnail = "/uploads/mesa.jpg"
+thumbnailAlt = "The towering prismatic mesas"
+thumbnailWidth = 280
+thumbnailHeight = 160
 
 [[params.interactiveMap.markers]]
 title = "Salt Flats"
 description = ""
 x = 85
 y = 63
+icon = "/SVG/position-marker.svg"
+size = 32
+minZoom = -1
 
 [[params.interactiveMap.markers]]
 title = "The Bonelands"
 description = "Weathered remains emerge from the shallow waters of this placeholder area."
 x = 49
 y = 63
+icon = "/SVG/position-marker.svg"
+size = 32
+minZoom = 0
 
 [[params.interactiveMap.markers]]
 title = "Southern Tablelands"
 description = "A maze of tall, eroded plateaux leading towards **[the Beneath](/location/the-beneath/)**."
 x = 70
 y = 70
+icon = "/SVG/position-marker.svg"
+size = 36
+minZoom = -1
 pageRef = "/location/the-beneath"
 linkLabel = "Enter the Beneath"
 
@@ -314,18 +355,27 @@ title = "Ashen Peaks"
 description = ""
 x = 23
 y = 82
+icon = "/SVG/position-marker.svg"
+size = 28
+minZoom = 0
 
 [[params.interactiveMap.markers]]
 title = "Ashen Peaks"
 description = ""
 x = 13
 y = 70
+icon = "/SVG/position-marker.svg"
+size = 28
+minZoom = 0
 
 [[params.interactiveMap.markers]]
 title = "Steppe"
 description = ""
 x = 36
 y = 70
+icon = "/SVG/position-marker.svg"
+size = 32
+minZoom = -1
 
 [params.portal]
   default_view = "list"

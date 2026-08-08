@@ -31,9 +31,9 @@ eventDate: null
 eventTime: null
 infobox:
   header: Chopper
-  image: ''
+  image: /uploads/chopper.png
   icon: null
-  imageSize: 0
+  imageSize: 300
   iconSize: 0
   imageMargin: ''
   iconMargin: ''
@@ -86,7 +86,7 @@ bottom_textbox_text: ''
 ---
 > **Choppers** are traditional heavy swords found throughout north-eastern Gharob.
 
-Built for two hands, a Chopper combines the broad cutting edge of an axe with the reach and balance of a sword. Their thick blades are commonly forged from reclaimed scrap metal taken from the ancient copper and bronze relics buried across [Mech Wreck](/location/mech-wreck/).
+Either as a heavy one-handed weapon or comfortable two-handed choice, a Chopper combines the broad cutting edge of an axe with the reach and balance of a sword. Their thick blades are commonly forged from reclaimed scrap metal taken from the ancient copper and bronze relics buried across [Mech Wreck](/location/mech-wreck/).
 
 Choppers are crude, heavy and destructive. A strong swing can break through tough armour, dense hide and other materials that lighter weapons struggle against.
 

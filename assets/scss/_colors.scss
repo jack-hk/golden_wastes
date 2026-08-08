@@ -21,6 +21,9 @@
   --color-interactive-hover: rgba(0, 0, 0, 0.2);
   --color-interactive-active: rgb(230, 230, 230);
   --color-interactive-focus: #034ad8;
+  --color-map-marker-outline: #2f252a;
+  --color-map-marker-hover: #9f554d;
+  --color-map-control-hover: #e7c8b8;
 
   /* Borders */
   --color-border-default: #9c9c9c5f;
@@ -64,6 +67,9 @@
     60
   ); /* Active state with subtle contrast */
   --color-interactive-focus: #00aaff; /* Bright, noticeable focus color */
+  --color-map-marker-outline: #0c0b0b;
+  --color-map-marker-hover: #f0ad87;
+  --color-map-control-hover: #49353e;
 
   /* Borders */
   --color-border-default: #302e2e; /* Subtle border for dark mode */

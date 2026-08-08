@@ -1,7 +1,7 @@
 ---
-title: Mech Wreck
+title: Shield
 header: ''
-date: 2026-08-07
+date: 2026-08-08
 updated: '2026-08-08'
 draft: false
 placeholder: false
@@ -14,7 +14,7 @@ description: ''
 summary: ''
 author: ''
 categories:
-  - location
+  - item
 tags: []
 series: []
 image: ''
@@ -30,8 +30,8 @@ BookToC: false
 eventDate: null
 eventTime: null
 infobox:
-  header: Mech Wreck
-  image: /uploads/mech-wreck.png
+  header: Shield
+  image: /uploads/shield.png
   icon: null
   imageSize: 300
   iconSize: 0
@@ -50,18 +50,17 @@ infobox:
   badgeSize: 0
   labels:
     - label: Type
-      item: Desert
-      divider: false
-    - label: Danger
-      item: '{{< danger 3 >}}'
+      item: Shield
       divider: true
-    - label: Terrain
-      item: Sandy
+    - label: Weight
+      item: Various 
+    - label: Material
+      item: '[Wood, Metal](/lore/elements/)'
       divider: false
 also: []
 references:
-  - title: Copperhelm
-    url: /location/copperhelm/
+  - title: Mech Wreck
+    url: /location/mech-wreck/
 portal_view: ''
 showcase_tiles: 0
 min_showcase_tiles: 0
@@ -85,12 +84,3 @@ right_textbox_text: ''
 show_bottom_textbox: false
 bottom_textbox_text: ''
 ---
-> **Mech Wreck desert** is a vast sea of soft sandy dunes, broken by colossal rusted cogs made from copper alloys.
-
-Some gears are as large as hills, half-buried in the dunes with no known origin. Their exposed teeth and hollow centres often become foundations for settlements.
-
-**Mech Wreck's** weather is notoriously unstable. Calm skies can turn into violent sandstorms within seconds. Days bring punishing heat, while nights can become bitterly cold.
-
-Ancient mechanical automata also wander the dunes. Most are damaged but some remain hostile and extremely dangerous.
-
-Despite this, pockets of civilisation survive throughout Mech Wreck. [Copperhelm](/location/copperhelm/), a large settlement in the north-central desert, is among the largest. Settlers build within the great metal ruins, using their curved frames as supports while scavenging the surrounding copper and bronze for materials.
