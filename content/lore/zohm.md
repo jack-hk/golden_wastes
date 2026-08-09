@@ -2,7 +2,7 @@
 title: Zohm
 header: ''
 date: 2026-07-27 07:54:00+00:00
-updated: '2026-08-08'
+updated: '2026-08-09'
 draft: false
 placeholder: false
 type: wiki
@@ -51,14 +51,14 @@ infobox:
   labels: []
 also: []
 references:
+- title: Great Pulse
+  url: /lore/great-pulse/
 - title: Names
   url: /lore/names/
 - title: The Beneath
   url: /location/the-beneath/
 - title: True Life
   url: /lore/true-life/
-- title: Great Pulse
-  url: /lore/great-pulse/
 portal_view: ''
 showcase_tiles: 0
 min_showcase_tiles: 0
@@ -94,10 +94,7 @@ Greater Zohm means greater power, though that power is rarely predictable. *King
 ## Rising Levels of Zohm
 
 {{< textbox title="Channeling Zohm" align="right" style="plain" icon="/SVG/open-book.svg" >}}
-Zohm is influenced by how [true Life](/lore/true-life/) perceives it. Skilled practitioners can channel Zohm to bend substance and twist reality. Such control is never safe: even the smallest mistake may distort the intended result, turn the power against its wielder or unleash consequences far worse than death.
+Zohm is influenced by how [True Life](/lore/true-life/) perceives it. Skilled practitioners can channel Zohm to bend substance and twist reality. Such control is never safe: even the smallest mistake may distort the intended result, turn the power against its wielder or unleash consequences far worse than death.
 {{< /textbox >}}
 
 During both the [First Great Pulse](/lore/great-pulse/#the-first-great-pulse) and [Second Great Pulse](/lore/great-pulse/#the-second-great-pulse), Zohm increased significantly. Due to this, now even mundane things twist and change based on their Names. Even household items in private dwellings, local traditions or village tales have enough Zohm to become unpredictably powerful. This has allowed Zohm masters more power to bend substance, but the risks are even deadlier.
-
-
-

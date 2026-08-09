@@ -2,7 +2,7 @@
 title: Gharob Region
 header: ''
 date: 2026-08-08
-updated: '2026-08-08'
+updated: '2026-08-09'
 draft: false
 placeholder: false
 type: wiki
@@ -54,6 +54,8 @@ infobox:
       divider: false
 also: []
 references:
+  - title: Kha'rot
+    url: /location/kharot/
   - title: The Wastes
     url: /location/the-wastes/
 portal_view: ''
@@ -86,3 +88,9 @@ The **Gharob Region** takes its name from *Ghar*, a mythical giant said to sleep
 Gharob is far from uniform. Its landscapes range from vast salt flats and prismatic mesas to enormous mountain ranges, with each area shaped by its own climate.
 
 Together, these varied lands form one of the most distinctive parts of the [Golden Wastes](/location/the-wastes/).
+
+## Locations
+
+| Type | Landmark/subarea | Description |
+| --- | --- | --- |
+| ![Location](/SVG/position-marker.svg) | [Kha'rot](/location/kharot/) | A hostile expanse of pale, salty ash and scattered remains. |

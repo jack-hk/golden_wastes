@@ -2,7 +2,7 @@
 title: How to play
 header: ''
 date: 2025-07-26 00:00:00+00:00
-updated: '2026-08-08'
+updated: '2026-08-09'
 draft: false
 placeholder: false
 type: page

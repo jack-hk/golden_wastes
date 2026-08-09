@@ -2,7 +2,7 @@
 title: The Beneath
 header: ''
 date: 2026-08-07
-updated: '2026-08-08'
+updated: '2026-08-09'
 draft: false
 placeholder: false
 type: wiki
@@ -17,7 +17,7 @@ categories:
   - location
 tags: []
 series: []
-image: ''
+image: /uploads/the-beneath.jpg
 fitThumbnail: false
 featured_image: ''
 image_caption: ''
@@ -51,10 +51,10 @@ infobox:
   labels: []
 also: []
 references:
-  - title: The Wastes
-    url: /location/the-wastes/
   - title: Great Pulse
     url: /lore/great-pulse/
+  - title: The Wastes
+    url: /location/the-wastes/
   - title: Zohm
     url: /lore/zohm/
 portal_view: ''
@@ -86,7 +86,9 @@ Once only a myth, **The Beneath** became real during the [First Great Pulse](/lo
 
 Its depths lie closer to the world’s core, where [Zohm](/lore/zohm/) originates. This makes Zohm far more abundant than on the surface. Channelling it is easier, and objects often possess greater power.
 
-{{< textbox title="Supernatural" align="right" style="plain" icon="/SVG/open-book.svg">}}  
+{{< textbox title="Supernatural" align="right" style="plain" icon="/SVG/open-book.svg">}}
+![Artwork of The Beneath](/uploads/the-beneath.jpg)
+{width="340" mobileMinWidth="200" mobileMaxWidth="340"}
 The abundance of **Zohm** makes the Beneath extremely dangerous. Strange effects, altered creatures and unstable regions are common.  
 {{< /textbox >}}
 

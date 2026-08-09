@@ -2,7 +2,7 @@
 title: Kha'rot
 header: ''
 date: null
-updated: '2026-08-08'
+updated: '2026-08-09'
 draft: false
 placeholder: false
 type: wiki
@@ -60,10 +60,12 @@ infobox:
       divider: false
 also: []
 references:
-  - title: Gharob Region
-    url: /location/gharob-region/
   - title: Bonestalker
     url: /monster/bonestalker/
+  - title: Danger Rating
+    url: /lore/danger-rating/
+  - title: Gharob Region
+    url: /location/gharob-region/
 portal_view: ''
 showcase_tiles: 0
 min_showcase_tiles: 0

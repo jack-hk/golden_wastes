@@ -2,7 +2,7 @@
 title: Memory Plague
 header: ''
 date: 2026-07-27 08:56:00+00:00
-updated: '2026-08-08'
+updated: '2026-08-09'
 draft: false
 placeholder: false
 type: wiki
@@ -53,10 +53,10 @@ also: []
 references:
 - title: Great Pulse
   url: /lore/great-pulse/
-- title: Zohm
-  url: /lore/zohm/
 - title: Names
   url: /lore/names/
+- title: Zohm
+  url: /lore/zohm/
 portal_view: ''
 showcase_tiles: 0
 min_showcase_tiles: 0

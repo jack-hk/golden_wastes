@@ -2,7 +2,7 @@
 title: Bonestalker
 header: ''
 date: 2026-07-27
-updated: '2026-08-08'
+updated: '2026-08-09'
 draft: false
 placeholder: false
 type: wiki
@@ -63,10 +63,12 @@ infobox:
     divider: false
 also: []
 references:
-- title: True Life
-  url: /lore/true-life/
+- title: Danger Rating
+  url: /lore/danger-rating/
 - title: Kha'rot
   url: /location/kharot/
+- title: True Life
+  url: /lore/true-life/
 portal_view: ''
 showcase_tiles: 0
 min_showcase_tiles: 0

@@ -2,7 +2,7 @@
 title: Beak Thing
 header: ''
 date: 2026-07-27
-updated: '2026-08-08'
+updated: '2026-08-09'
 draft: false
 placeholder: false
 type: wiki
@@ -63,6 +63,8 @@ infobox:
     divider: false
 also: []
 references:
+- title: Danger Rating
+  url: /lore/danger-rating/
 - title: The Wastes
   url: /location/the-wastes/
 portal_view: ''

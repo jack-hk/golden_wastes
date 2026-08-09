@@ -2,7 +2,7 @@
 title: Magic User
 header: ''
 date: 2026-08-01
-updated: '2026-08-08'
+updated: '2026-08-09'
 draft: false
 placeholder: false
 type: wiki
@@ -54,12 +54,12 @@ infobox:
     divider: false
 also: []
 references:
-- title: Zohm
-  url: /lore/zohm/
 - title: Names
   url: /lore/names/
 - title: The Wastes
   url: /location/the-wastes/
+- title: Zohm
+  url: /lore/zohm/
 portal_view: ''
 showcase_tiles: 0
 min_showcase_tiles: 0

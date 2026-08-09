@@ -2,7 +2,7 @@
 title: Shield
 header: ''
 date: 2026-08-08
-updated: '2026-08-08'
+updated: '2026-08-09'
 draft: false
 placeholder: false
 type: wiki
@@ -59,8 +59,8 @@ infobox:
       divider: false
 also: []
 references:
-  - title: Mech Wreck
-    url: /location/mech-wreck/
+  - title: Elements
+    url: /lore/elements/
 portal_view: ''
 showcase_tiles: 0
 min_showcase_tiles: 0
@@ -84,3 +84,7 @@ right_textbox_text: ''
 show_bottom_textbox: false
 bottom_textbox_text: ''
 ---
+
+> A **Shield** can vary in weight and may be made from [wood or metal](/lore/elements/).
+
+A **Shield** is available in various weights and may use either [wood or metal](/lore/elements/) in its construction.

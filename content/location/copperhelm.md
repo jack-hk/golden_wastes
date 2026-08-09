@@ -2,7 +2,7 @@
 title: Copperhelm
 header: ''
 date: 2026-08-06
-updated: 2026-08-08
+updated: 2026-08-09
 draft: false
 placeholder: false
 type: wiki
@@ -60,14 +60,16 @@ infobox:
       divider: false
 also: []
 references:
-  - title: Mech Wreck
-    url: /location/mech-wreck/
-  - title: The Wastes
-    url: /location/the-wastes/
+  - title: Danger Rating
+    url: /lore/danger-rating/
   - title: Great Pulse
     url: /lore/great-pulse/
+  - title: Mech Wreck
+    url: /location/mech-wreck/
   - title: Oru
     url: /lore/oru/
+  - title: The Wastes
+    url: /location/the-wastes/
 portal_view: ''
 showcase_tiles: 0
 min_showcase_tiles: 0

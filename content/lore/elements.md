@@ -2,7 +2,7 @@
 title: Elements
 header: ''
 date: 2026-07-27 08:06:00+00:00
-updated: '2026-08-08'
+updated: '2026-08-09'
 draft: false
 placeholder: false
 type: wiki

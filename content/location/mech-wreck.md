@@ -2,7 +2,7 @@
 title: Mech Wreck
 header: ''
 date: 2026-08-07
-updated: '2026-08-08'
+updated: '2026-08-09'
 draft: false
 placeholder: false
 type: wiki
@@ -62,6 +62,8 @@ also: []
 references:
   - title: Copperhelm
     url: /location/copperhelm/
+  - title: Danger Rating
+    url: /lore/danger-rating/
 portal_view: ''
 showcase_tiles: 0
 min_showcase_tiles: 0
@@ -94,3 +96,9 @@ Some gears are as large as hills, half-buried in the dunes with no known origin.
 Ancient mechanical automata also wander the dunes. Most are damaged but some remain hostile and extremely dangerous.
 
 Despite this, pockets of civilisation survive throughout Mech Wreck. [Copperhelm](/location/copperhelm/), a large settlement in the north-central desert, is among the largest. Settlers build within the great metal ruins, using their curved frames as supports while scavenging the surrounding copper and bronze for materials.
+
+## Locations
+
+| Type | Landmark/subarea | Description |
+| --- | --- | --- |
+| ![Settlement](/SVG/village.svg) | [Copperhelm](/location/copperhelm/) | A large settlement built among the remains of an older city. |

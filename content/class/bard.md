@@ -2,7 +2,7 @@
 title: Bard
 header: The Bard
 date: 2026-08-01
-updated: '2026-08-08'
+updated: '2026-08-09'
 draft: false
 placeholder: false
 type: wiki
@@ -52,9 +52,7 @@ infobox:
   - label: Type
     item: Class
     divider: false
-also:
-- related-topic-one
-- related-topic-two
+also: []
 references:
 - title: Names
   url: /lore/names/

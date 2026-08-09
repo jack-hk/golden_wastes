@@ -2,7 +2,7 @@
 title: The Wastes
 header: ''
 date: 2026-08-07
-updated: '2026-08-08'
+updated: '2026-08-09'
 draft: false
 placeholder: false
 type: wiki
@@ -51,12 +51,12 @@ infobox:
   labels: []
 also: []
 references:
+  - title: Gharob Region
+    url: /location/gharob-region/
   - title: Great Pulse
     url: /lore/great-pulse/
   - title: Zohm
     url: /lore/zohm/
-  - title: Gharob Region
-    url: /location/gharob-region/
 portal_view: ''
 showcase_tiles: 0
 min_showcase_tiles: 0
@@ -91,3 +91,9 @@ The area is often called the *Golden Wastes* because rare materials are unusuall
 Civilisation survives only in scattered pockets, built around flats, mountains, caves, geyser fields and other defensible terrain.
 
 High Zohm levels make the Wastes unpredictable and dangerous. Strange flora, altered creatures and hostile environments are found across its many climates, making travel difficult even between nearby settlements.
+
+## Locations
+
+| Type | Landmark/subarea | Description |
+| --- | --- | --- |
+| ![Location](/SVG/position-marker.svg) | [Gharob Region](/location/gharob-region/) | The primary region explored within the Wastes. |

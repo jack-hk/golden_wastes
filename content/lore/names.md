@@ -2,7 +2,7 @@
 title: Names
 header: ''
 date: 2026-07-26 18:26:00+00:00
-updated: '2026-08-08'
+updated: '2026-08-09'
 draft: false
 placeholder: false
 type: wiki
@@ -51,16 +51,16 @@ infobox:
   labels: []
 also: []
 references:
-- title: True Life
-  url: /lore/true-life/
-- title: Zohm
-  url: /lore/zohm/
-- title: Oru
-  url: /lore/oru/
 - title: Great Pulse
   url: /lore/great-pulse/
 - title: Memory Plague
   url: /lore/memory-plague/
+- title: Oru
+  url: /lore/oru/
+- title: True Life
+  url: /lore/true-life/
+- title: Zohm
+  url: /lore/zohm/
 portal_view: ''
 showcase_tiles: 0
 min_showcase_tiles: 0

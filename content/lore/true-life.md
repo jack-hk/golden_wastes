@@ -2,7 +2,7 @@
 title: True Life
 header: ''
 date: 2026-07-28 11:08:00+00:00
-updated: '2026-08-08'
+updated: '2026-08-09'
 draft: false
 placeholder: false
 type: wiki
@@ -51,12 +51,12 @@ infobox:
   labels: []
 also: []
 references:
-- title: Zohm
-  url: /lore/zohm/
 - title: Names
   url: /lore/names/
 - title: Oru
   url: /lore/oru/
+- title: Zohm
+  url: /lore/zohm/
 portal_view: ''
 showcase_tiles: 0
 min_showcase_tiles: 0

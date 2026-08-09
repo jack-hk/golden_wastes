@@ -1,11 +1,11 @@
 ---
-title: Location
+title: Lantern
 header: ''
-date: null
+date: 2026-08-08
 updated: '2026-08-09'
 draft: false
 placeholder: false
-type: ''
+type: wiki
 slug: ''
 url: ''
 aliases: []
@@ -13,7 +13,8 @@ weight: 0
 description: ''
 summary: ''
 author: ''
-categories: []
+categories:
+  - item
 tags: []
 series: []
 image: ''
@@ -29,10 +30,10 @@ BookToC: false
 eventDate: null
 eventTime: null
 infobox:
-  header: ''
-  image: ''
+  header: Lantern
+  image: /uploads/lantern.png
   icon: null
-  imageSize: 0
+  imageSize: 300
   iconSize: 0
   imageMargin: ''
   iconMargin: ''
@@ -47,23 +48,33 @@ infobox:
   badgeColor: ''
   badgeForegroundColor: ''
   badgeSize: 0
-  labels: []
+  labels:
+    - label: Type
+      item: Tool
+      divider: true
+    - label: Weight
+      item: Light 
+    - label: Material
+      item: '[Metal](/lore/elements/)'
+      divider: false
 also: []
-references: []
-portal_view: list
-showcase_tiles: 3
-min_showcase_tiles: 3
+references:
+  - title: Elements
+    url: /lore/elements/
+portal_view: ''
+showcase_tiles: 0
+min_showcase_tiles: 0
 card_count: 0
 min_card_count: 0
 random_cards: false
 cards: []
-truncate_limit: 150
+truncate_limit: 0
 carousel_on_desktop: false
-show_alphabet: true
-show_layout_toggle: true
-list_layout: fixed
-show_intro_text: true
-intro_text: 'Explore locations across the Wastes. Settlements, regions and more!'
+show_alphabet: false
+show_layout_toggle: false
+list_layout: ''
+show_intro_text: false
+intro_text: ''
 show_left_textbox: false
 left_textbox_title: ''
 left_textbox_text: ''
@@ -73,3 +84,8 @@ right_textbox_text: ''
 show_bottom_textbox: false
 bottom_textbox_text: ''
 ---
+
+> A **Lantern** is a light tool made from [metal](/lore/elements/).
+
+A **Lantern** is classified as a light tool and is made from [metal](/lore/elements/).
+
