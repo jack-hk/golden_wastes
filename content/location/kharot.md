@@ -31,9 +31,9 @@ eventDate: null
 eventTime: null
 infobox:
   header: Kha'rot
-  image:
+  image: /uploads/kharot.png
   icon: null
-  imageSize: 0
+  imageSize: 300
   iconSize: 0
   imageMargin: ''
   iconMargin: ''
