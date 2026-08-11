@@ -2,7 +2,7 @@
 title: Great Pulse
 header: ''
 date: 2026-07-27 10:16:00+00:00
-updated: '2026-08-09'
+updated: '2026-08-11'
 draft: false
 placeholder: false
 type: wiki
@@ -32,7 +32,7 @@ eventTime: null
 infobox:
   header: ''
   image: ''
-  icon: null
+  icon: ''
   imageSize: 0
   iconSize: 0
   imageMargin: ''
@@ -51,6 +51,8 @@ infobox:
   labels: []
 also: []
 references:
+- title: Gharob Region
+  url: /location/gharob-region/
 - title: Memory Plague
   url: /lore/memory-plague/
 - title: Names

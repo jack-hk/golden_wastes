@@ -205,6 +205,22 @@
   font-size: var(--font-size-base);
   line-height: 1.7;
 
+  .location-table-icon {
+    background-color: var(--color-ink);
+    display: inline-block;
+    height: 1.5rem;
+    -webkit-mask-image: var(--location-table-icon);
+    mask-image: var(--location-table-icon);
+    -webkit-mask-position: center;
+    mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    vertical-align: middle;
+    width: 1.5rem;
+  }
+
   .wiki--mobile-fullscreen & {
     @include for-screen(mobile) {
       padding: 0 1rem 1rem 1rem;

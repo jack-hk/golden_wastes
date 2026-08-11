@@ -2,7 +2,7 @@
 title: The Wastes
 header: ''
 date: 2026-08-07
-updated: '2026-08-09'
+updated: '2026-08-11'
 draft: false
 placeholder: false
 type: wiki
@@ -32,7 +32,7 @@ eventTime: null
 infobox:
   header: ''
   image: ''
-  icon: null
+  icon: ''
   imageSize: 0
   iconSize: 0
   imageMargin: ''
@@ -96,4 +96,4 @@ High Zohm levels make the Wastes unpredictable and dangerous. Strange flora, alt
 
 | Type | Landmark/subarea | Description |
 | --- | --- | --- |
-| ![Location](/SVG/position-marker.svg) | [Gharob Region](/location/gharob-region/) | The primary region explored within the Wastes. |
+| <span class="location-table-icon" style="--location-table-icon: url('/SVG/position-marker.svg')" role="img" aria-label="Location"></span> | [Gharob Region](/location/gharob-region/) | The primary region explored within the Wastes. |

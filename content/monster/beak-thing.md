@@ -2,7 +2,7 @@
 title: Beak Thing
 header: ''
 date: 2026-07-27
-updated: '2026-08-09'
+updated: '2026-08-11'
 draft: false
 placeholder: false
 type: wiki
@@ -32,7 +32,7 @@ eventTime: null
 infobox:
   header: Beak Thing
   image: /uploads/beak-thing.png
-  icon: null
+  icon: ''
   imageSize: 300
   iconSize: 0
   imageMargin: ''
@@ -63,8 +63,8 @@ infobox:
     divider: false
 also: []
 references:
-- title: Danger Rating
-  url: /lore/danger-rating/
+- title: Shield
+  url: /item/shield/
 - title: The Wastes
   url: /location/the-wastes/
 portal_view: ''
@@ -106,4 +106,4 @@ They can be found across the Golden Wastes in almost any flat, open environment.
 
 ## Loot
 
-Their thick fur can be turned into desert clothing. The reinforced bone cap on the skull may also be shaped into an effective shield, but only if it is harvested and crafted correctly by an expert.
+Their thick fur can be turned into desert clothing. The reinforced bone cap on the skull may also be shaped into an effective [shield](/item/shield/), but only if it is harvested and crafted correctly by an expert.

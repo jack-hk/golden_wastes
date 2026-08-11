@@ -2,7 +2,7 @@
 title: Cultist
 header: ''
 date: 2026-08-01
-updated: '2026-08-09'
+updated: '2026-08-11'
 draft: false
 placeholder: false
 type: wiki
@@ -32,7 +32,7 @@ eventTime: null
 infobox:
   header: Cultist
   image: /uploads/cultist.png
-  icon: null
+  icon: ''
   imageSize: 0
   iconSize: 200
   imageMargin: ''
@@ -56,6 +56,8 @@ also: []
 references:
 - title: Names
   url: /lore/names/
+- title: Shield
+  url: /item/shield/
 - title: The Wastes
   url: /location/the-wastes/
 - title: Zohm
@@ -87,4 +89,4 @@ bottom_textbox_text: ''
 
 A **Cultist** may be a solemn keeper of forbidden teachings, an unflinching hunter of dangerous [Names](/lore/names/) or a haunted wanderer seeking to prevent some foretold disaster. Their rites preserve unusual methods of recognition, memory and channelled [Zohm](/lore/zohm/), often inherited from traditions long forgotten elsewhere.
 
-Cultists carry weapons and armour, knowing that knowledge alone offers little protection in [the Wastes](/location/the-wastes/). Yet when strength fails and shields break, they draw upon prepared symbols, repeated Names and carefully guided Zohm. Whether they command these forces or merely awaken what was already waiting is seldom clear.
+Cultists carry weapons and armour, knowing that knowledge alone offers little protection in [the Wastes](/location/the-wastes/). Yet when strength fails and [shields](/item/shield/) break, they draw upon prepared symbols, repeated Names and carefully guided Zohm. Whether they command these forces or merely awaken what was already waiting is seldom clear.

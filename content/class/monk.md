@@ -2,7 +2,7 @@
 title: Monk
 header: ''
 date: 2026-08-01
-updated: '2026-08-09'
+updated: '2026-08-11'
 draft: false
 placeholder: false
 type: wiki
@@ -32,7 +32,7 @@ eventTime: null
 infobox:
   header: Monk
   image: /uploads/monk.png
-  icon: null
+  icon: ''
   imageSize: 0
   iconSize: 200
   imageMargin: ''

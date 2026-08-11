@@ -1,7 +1,7 @@
 ---
-title: Glob
+title: Ghar’s Throat
 header: ''
-date: 2026-07-29
+date: 2026-08-07
 updated: '2026-08-11'
 draft: false
 placeholder: false
@@ -14,11 +14,11 @@ description: ''
 summary: ''
 author: ''
 categories:
-- monster
+  - location
 tags: []
 series: []
 image: ''
-fitThumbnail: true
+fitThumbnail: false
 featured_image: ''
 image_caption: ''
 show_date: false
@@ -30,8 +30,8 @@ BookToC: false
 eventDate: null
 eventTime: null
 infobox:
-  header: Glob
-  image: /uploads/glob.png
+  header: Ghar’s Throat
+  image: '/uploads/ghars-throat.png'
   icon: ''
   imageSize: 300
   iconSize: 0
@@ -49,24 +49,20 @@ infobox:
   badgeForegroundColor: ''
   badgeSize: 0
   labels:
-  - label: Type
-    item: Monster
-    divider: false
-  - label: Danger
-    item: '{{< danger 3 >}}'
-    divider: true
-  - label: Habitat
-    item: Anywhere on the surface, [The Beneath](/location/the-beneath/)
-    divider: false
-  - label: Origin
-    item: False Life
-    divider: false
+    - label: Type
+      item: Landmark
+      divider: false
+    - label: Danger
+      item: '{{< danger 5 >}}'
+      divider: true
 also: []
 references:
-- title: The Beneath
-  url: /location/the-beneath/
-- title: True Life
-  url: /lore/true-life/
+  - title: Great Pulse
+    url: /lore/great-pulse/
+  - title: Snaggleteeth
+    url: /location/snaggleteeth/
+  - title: The Beneath
+    url: /location/the-beneath/
 portal_view: ''
 showcase_tiles: 0
 min_showcase_tiles: 0
@@ -90,12 +86,10 @@ right_textbox_text: ''
 show_bottom_textbox: false
 bottom_textbox_text: ''
 ---
-> The **Glob** is a tough, ooze-like creature known for impossible bursts of speed and sudden changes in density.
+> **Ghar’s Throat** is a colossal stairway descending from [Snaggleteeth](/location/snaggleteeth/) into the first layer of [the Beneath](/location/the-beneath/).
 
-**Globs** have silver, semi-transparent bodies containing visible drifting organs and can harden into a dense, metal-like mass when threatened. Globs roll across open terrain, launching themselves at prey with crushing force.
+**Ghar’s Throat** predates the [First Great Pulse](/lore/great-pulse/#the-first-great-pulse). At some point, an unknown people carved a vast staircase around the natural spire to create a route into [the Beneath](/location/the-beneath/).
 
-Most are small, though rare specimens grow enormous. They are omnivorous, dissolving food inside their bodies, and can briefly lose pieces of slime without harm.
+The descent can take several days with proper equipment. Travellers often compare it to climbing down an entire mountain, with long exposed stretches and dangerous drops.
 
-## Alchemy
-
-Glob gel is a valuable alchemical ingredient, prized for its powerful acidic properties.
+Despite its age and mystery, Ghar’s Throat remains one of the best-known routes into the Beneath.

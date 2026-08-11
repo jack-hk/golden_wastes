@@ -2,7 +2,7 @@
 title: Bonestalker
 header: ''
 date: 2026-07-27
-updated: '2026-08-09'
+updated: '2026-08-11'
 draft: false
 placeholder: false
 type: wiki
@@ -32,7 +32,7 @@ eventTime: null
 infobox:
   header: Bonestalker
   image: /uploads/bonestalker.png
-  icon: null
+  icon: ''
   imageSize: 300
   iconSize: 0
   imageMargin: ''
@@ -63,8 +63,6 @@ infobox:
     divider: false
 also: []
 references:
-- title: Danger Rating
-  url: /lore/danger-rating/
 - title: Kha'rot
   url: /location/kharot/
 - title: True Life

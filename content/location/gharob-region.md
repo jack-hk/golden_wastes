@@ -2,7 +2,7 @@
 title: Gharob Region
 header: ''
 date: 2026-08-08
-updated: '2026-08-09'
+updated: '2026-08-11'
 draft: false
 placeholder: false
 type: wiki
@@ -17,7 +17,7 @@ categories:
   - location
 tags: []
 series: []
-image: ''
+image: /SVG/position-marker.svg
 fitThumbnail: false
 featured_image: ''
 image_caption: ''
@@ -32,7 +32,7 @@ eventTime: null
 infobox:
   header: Gharob Region
   image: ''
-  icon: null
+  icon: ''
   imageSize: 0
   iconSize: 0
   imageMargin: ''
@@ -56,6 +56,10 @@ also: []
 references:
   - title: Kha'rot
     url: /location/kharot/
+  - title: Mech Wreck
+    url: /location/mech-wreck/
+  - title: Snaggleteeth
+    url: /location/snaggleteeth/
   - title: The Wastes
     url: /location/the-wastes/
 portal_view: ''
@@ -93,4 +97,6 @@ Together, these varied lands form one of the most distinctive parts of the [Gold
 
 | Type | Landmark/subarea | Description |
 | --- | --- | --- |
-| ![Location](/SVG/position-marker.svg) | [Kha'rot](/location/kharot/) | A hostile expanse of pale, salty ash and scattered remains. |
+| <span class="location-table-icon" style="--location-table-icon: url('/SVG/position-marker.svg')" role="img" aria-label="Location"></span> | [Kha'rot](/location/kharot/) | A hostile expanse of pale, salty ash and scattered remains. |
+| <span class="location-table-icon" style="--location-table-icon: url('/SVG/position-marker.svg')" role="img" aria-label="Location"></span> | [Mech Wreck](/location/mech-wreck/) | A vast sea of sandy dunes broken by colossal rusted cogs. |
+| <span class="location-table-icon" style="--location-table-icon: url('/SVG/position-marker.svg')" role="img" aria-label="Location"></span> | [Snaggleteeth](/location/snaggleteeth/) | A hot, arid region marked by enormous black stone spires. |

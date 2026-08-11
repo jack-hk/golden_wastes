@@ -1,7 +1,7 @@
 ---
-title: Kha'rot
+title: Spikewood
 header: ''
-date: null
+date: 2026-07-27 07:54:00+00:00
 updated: '2026-08-11'
 draft: false
 placeholder: false
@@ -14,7 +14,7 @@ description: ''
 summary: ''
 author: ''
 categories:
-  - location
+- lore
 tags: []
 series: []
 image: ''
@@ -30,8 +30,8 @@ BookToC: false
 eventDate: null
 eventTime: null
 infobox:
-  header: Kha'rot
-  image: /uploads/kharot.png
+  header: Spikewood
+  image: /uploads/spikewood.png
   icon: ''
   imageSize: 300
   iconSize: 0
@@ -50,20 +50,20 @@ infobox:
   badgeSize: 0
   labels:
     - label: Type
-      item: Ashlands
+      item: Tree
       divider: false
     - label: Danger
-      item: '{{< danger 5 >}}'
+      item: '{{< danger 2 >}}'
       divider: true
-    - label: Terrain
-      item: Salty
+    - label: Habitat
+      item: Everywhere in The Wastes
       divider: false
 also: []
 references:
-  - title: Bonestalker
-    url: /monster/bonestalker/
-  - title: Gharob Region
-    url: /location/gharob-region/
+  - title: Shield
+    url: /item/shield/
+  - title: The Wastes
+    url: /location/the-wastes/
 portal_view: ''
 showcase_tiles: 0
 min_showcase_tiles: 0
@@ -87,10 +87,14 @@ right_textbox_text: ''
 show_bottom_textbox: false
 bottom_textbox_text: ''
 ---
-> **Kha'rot** is a hostile expanse within the [Gharob Region](/location/gharob-region/), covered in pale, salty ash and scattered remains.
+> **Spikewood** is one of the hardiest trees in [the Wastes](/location/the-wastes/), built to survive where most plants would fail.
 
-Thick ash-fog often reduces visibility across **Kha'rot**, while violent *Bonestorms* sweep across the land without warning. Their abrasive winds can strip exposed skin and make open travel extremely dangerous.
+Its swollen base, thin trunk and flat crimson, orange and yellow leaves make it easy to recognise. Even when wilted or apparently dead, **Spikewood** can survive extreme swings between heat and cold, with some specimens living for centuries.
 
-Bonestorms also draw [Bonestalkers](/monster/bonestalker/) and other undead servants of Master Shaal. These creatures follow in the storms' wake, gathering remains to strengthen his forces.
+Larger trees can reach around two to three metres tall. Their ghastly grey bark is exceptionally tough and is often worked into durable [shields](/item/shield/).
 
-Few travellers cross Kha'rot without protection, preparation and a clear route. Between poor visibility, unstable weather and the creatures that roam behind the storms, the Ashlands are considered one of the [Gharob Region's](/location/gharob-region/) most dangerous areas.
+Long black spikes grow from the trunk and branches, making harvesting dangerous without proper tools.
+
+Spikewood leaves also have strong alchemical properties, though extracting them safely and using them effectively usually requires an experienced practitioner.
+
+

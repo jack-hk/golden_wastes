@@ -293,25 +293,49 @@ thumbnailPosition = "left"
 
 
 [[params.interactiveMap.markers]]
-title = "Black Spires"
-description = ""
-x = 8
-y = 12
-enabled = false
+title = "Snaggleteeth"
+description = "A harsh wasteland of black stone spires, deep craters and extreme heat."
+x = 21
+y = 33
+icon = "/SVG/position-marker.svg"
+size = 32
+minZoom = -2
+pageRef = "/location/snaggleteeth"
+thumbnail = "/uploads/snaggleteeth.png"
+thumbnailAlt = "Snaggleteeth"
+thumbnailHeight = 150
+thumbnailWidth = 150
+thumbnailPosition = "left"
+
 
 [[params.interactiveMap.markers]]
-title = "Crater Fields"
-description = ""
+title = "Ghar's Throat"
+description = "A colossal ancient stairway descending from Snaggleteeth into the first layer of the Beneath."
 x = 17
-y = 36
-enabled = false
+y = 38
+icon = "/SVG/peaks.svg"
+size = 32
+minZoom = -2
+pageRef = "/location/ghars-throat"
+thumbnail = "/uploads/ghars-throat.png"
+thumbnailAlt = "Ghar's Throat"
+thumbnailHeight = 150
+thumbnailWidth = 150
+thumbnailPosition = "left"
 
 [[params.interactiveMap.markers]]
-title = "Marshlands"
-description = ""
-x = 37
-y = 15
-enabled = false
+title = "Spire"
+description = "A sparse surviving town sheltered against one of Snaggleteeth’s enormous stone formations."
+x = 20
+y = 20
+icon = "/SVG/village.svg"
+size = 32
+minZoom = -2
+pageRef = "/location/spire"
+thumbnailAlt = "Spire"
+thumbnailHeight = 150
+thumbnailWidth = 150
+thumbnailPosition = "left"
 
 [[params.interactiveMap.markers]]
 title = "Obsidian Ridge"

@@ -1,7 +1,7 @@
 ---
-title: Kha'rot
+title: Spire
 header: ''
-date: null
+date: 2026-08-07
 updated: '2026-08-11'
 draft: false
 placeholder: false
@@ -30,8 +30,8 @@ BookToC: false
 eventDate: null
 eventTime: null
 infobox:
-  header: Kha'rot
-  image: /uploads/kharot.png
+  header: Spire
+  image: ''
   icon: ''
   imageSize: 300
   iconSize: 0
@@ -50,20 +50,24 @@ infobox:
   badgeSize: 0
   labels:
     - label: Type
-      item: Ashlands
+      item: Settlement
       divider: false
     - label: Danger
-      item: '{{< danger 5 >}}'
+      item: '{{< danger 4 >}}'
       divider: true
-    - label: Terrain
-      item: Salty
+    - label: Population
+      item: Sparse
       divider: false
 also: []
 references:
-  - title: Bonestalker
-    url: /monster/bonestalker/
-  - title: Gharob Region
-    url: /location/gharob-region/
+  - title: Ghar’s Throat
+    url: /location/ghars-throat/
+  - title: Great Pulse
+    url: /lore/great-pulse/
+  - title: Snaggleteeth
+    url: /location/snaggleteeth/
+  - title: The Beneath
+    url: /location/the-beneath/
 portal_view: ''
 showcase_tiles: 0
 min_showcase_tiles: 0
@@ -87,10 +91,10 @@ right_textbox_text: ''
 show_bottom_textbox: false
 bottom_textbox_text: ''
 ---
-> **Kha'rot** is a hostile expanse within the [Gharob Region](/location/gharob-region/), covered in pale, salty ash and scattered remains.
+> **Spire** is one of the few surviving settlements in [Snaggleteeth](/location/snaggleteeth/).
 
-Thick ash-fog often reduces visibility across **Kha'rot**, while violent *Bonestorms* sweep across the land without warning. Their abrasive winds can strip exposed skin and make open travel extremely dangerous.
+Before the [Second Great Pulse](/lore/great-pulse/#the-second-great-pulse), **Spire** was a much larger town. Today, only a sparse population remains.
 
-Bonestorms also draw [Bonestalkers](/monster/bonestalker/) and other undead servants of Master Shaal. These creatures follow in the storms' wake, gathering remains to strengthen his forces.
+The town endures thanks to a nearby water geyser and the enormous stone spire it is built against, which provides shade, high ground and a natural defensive wall. Its name comes from this formation.
 
-Few travellers cross Kha'rot without protection, preparation and a clear route. Between poor visibility, unstable weather and the creatures that roam behind the storms, the Ashlands are considered one of the [Gharob Region's](/location/gharob-region/) most dangerous areas.
+Nearby lies [Ghar’s Throat](/location/ghars-throat/), a famous crater where a winding stone spire forms a natural spiral path into the first layer of [the Beneath](/location/the-beneath/). It is a well-known starting point for adventurers hoping to delve below.

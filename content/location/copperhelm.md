@@ -2,7 +2,7 @@
 title: Copperhelm
 header: ''
 date: 2026-08-06
-updated: 2026-08-09
+updated: '2026-08-11'
 draft: false
 placeholder: false
 type: wiki
@@ -32,7 +32,7 @@ eventTime: null
 infobox:
   header: Copperhelm
   image: /uploads/copperhelm.png
-  icon: null
+  icon: ''
   imageSize: 300
   iconSize: 0
   imageMargin: ''
@@ -60,8 +60,6 @@ infobox:
       divider: false
 also: []
 references:
-  - title: Danger Rating
-    url: /lore/danger-rating/
   - title: Great Pulse
     url: /lore/great-pulse/
   - title: Mech Wreck

@@ -2,7 +2,7 @@
 title: Monster
 header: ''
 date: null
-updated: '2026-08-09'
+updated: '2026-08-11'
 draft: false
 placeholder: false
 type: ''
@@ -31,7 +31,7 @@ eventTime: null
 infobox:
   header: ''
   image: ''
-  icon: null
+  icon: ''
   imageSize: 0
   iconSize: 0
   imageMargin: ''

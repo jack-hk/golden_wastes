@@ -2,7 +2,7 @@
 title: Mech Wreck
 header: ''
 date: 2026-08-07
-updated: '2026-08-09'
+updated: '2026-08-11'
 draft: false
 placeholder: false
 type: wiki
@@ -17,7 +17,7 @@ categories:
   - location
 tags: []
 series: []
-image: ''
+image: /SVG/village.svg
 fitThumbnail: false
 featured_image: ''
 image_caption: ''
@@ -32,7 +32,7 @@ eventTime: null
 infobox:
   header: Mech Wreck
   image: /uploads/mech-wreck.png
-  icon: null
+  icon: ''
   imageSize: 300
   iconSize: 0
   imageMargin: ''
@@ -62,8 +62,8 @@ also: []
 references:
   - title: Copperhelm
     url: /location/copperhelm/
-  - title: Danger Rating
-    url: /lore/danger-rating/
+  - title: Gharob Region
+    url: /location/gharob-region/
 portal_view: ''
 showcase_tiles: 0
 min_showcase_tiles: 0
@@ -87,9 +87,9 @@ right_textbox_text: ''
 show_bottom_textbox: false
 bottom_textbox_text: ''
 ---
-> **Mech Wreck desert** is a vast sea of soft sandy dunes, broken by colossal rusted cogs made from copper alloys.
+> **Mech Wreck desert** is a vast sea of soft sandy dunes within the [Gharob Region](/location/gharob-region/), broken by colossal rusted cogs made from copper alloys.
 
-Some gears are as large as hills, half-buried in the dunes with no known origin. Their exposed teeth and hollow centres often become foundations for settlements.
+Within the [Gharob Region](/location/gharob-region/), some gears are as large as hills, half-buried in the dunes with no known origin. Their exposed teeth and hollow centres often become foundations for settlements.
 
 **Mech Wreck's** weather is notoriously unstable. Calm skies can turn into violent sandstorms within seconds. Days bring punishing heat, while nights can become bitterly cold.
 
@@ -101,4 +101,4 @@ Despite this, pockets of civilisation survive throughout Mech Wreck. [Copperhelm
 
 | Type | Landmark/subarea | Description |
 | --- | --- | --- |
-| ![Settlement](/SVG/village.svg) | [Copperhelm](/location/copperhelm/) | A large settlement built among the remains of an older city. |
+| <span class="location-table-icon" style="--location-table-icon: url('/SVG/village.svg')" role="img" aria-label="Settlement"></span> | [Copperhelm](/location/copperhelm/) | A large settlement built among the remains of an older city. |

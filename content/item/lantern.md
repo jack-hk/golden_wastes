@@ -2,7 +2,7 @@
 title: Lantern
 header: ''
 date: 2026-08-08
-updated: '2026-08-09'
+updated: '2026-08-11'
 draft: false
 placeholder: false
 type: wiki
@@ -32,7 +32,7 @@ eventTime: null
 infobox:
   header: Lantern
   image: /uploads/lantern.png
-  icon: null
+  icon: ''
   imageSize: 300
   iconSize: 0
   imageMargin: ''
