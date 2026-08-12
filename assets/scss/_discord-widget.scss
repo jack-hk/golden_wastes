@@ -1,0 +1,197 @@
+// Site-owned styles for the Dipped v4 Discord widget.
+.discord-widget {
+  max-width: 100%;
+  overflow-x: auto;
+  width: 350px;
+
+  &,
+  * {
+    box-sizing: border-box;
+  }
+}
+
+discord-widget {
+  --color: #5865f2;
+  --bgColor: #0c0c0d;
+  --textColor: #fff;
+  --buttonColor: #5865f2;
+  --buttonHoverColor: #4752c4;
+  --statusColor: #858585;
+  border-radius: 6px;
+  color: var(--textColor);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  max-width: 100%;
+  overflow: hidden;
+
+  ::-webkit-scrollbar {
+    width: 20px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--bgColor);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #222;
+    border: 8px solid var(--bgColor);
+    border-radius: 10px;
+    transition: background 0.5s ease-in-out;
+
+    &:hover {
+      background: var(--color);
+    }
+  }
+
+  widget-header {
+    align-items: center;
+    background-color: var(--color);
+    display: flex;
+    flex-shrink: 0;
+    padding: 20px;
+  }
+
+  widget-logo {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    display: inline-block;
+    flex-shrink: 0;
+    height: 34px;
+    width: 124px;
+  }
+
+  widget-header-count {
+    flex: 1;
+    text-align: right;
+  }
+
+  widget-body {
+    background-color: var(--bgColor);
+    box-shadow: 0 1px 0 var(--bgColor);
+    display: block;
+    flex: 1;
+    min-height: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 20px;
+  }
+
+  widget-member {
+    align-items: center;
+    display: flex;
+    height: 32px;
+    margin: 6px 0;
+    position: relative;
+    width: auto;
+  }
+
+  widget-member-avatar {
+    contain: content;
+    display: block;
+    flex: 0 0 32px;
+    height: 32px;
+    margin-right: 4px;
+    position: relative;
+
+    img {
+      background-color: var(--color);
+      border: 2px solid var(--color);
+      border-radius: 50%;
+      display: block;
+      height: 32px;
+      margin: 0;
+      max-height: none;
+      max-width: none;
+      width: 32px;
+    }
+  }
+
+  .widget-member-status {
+    border: 2px solid var(--color);
+    border-radius: 50%;
+    bottom: 1px;
+    height: 10px;
+    position: absolute;
+    right: 0;
+    width: 10px;
+  }
+
+  widget-member-status-online {
+    background-color: #57f287;
+  }
+
+  widget-member-status-idle {
+    background-color: #fee75c;
+  }
+
+  widget-member-status-dnd {
+    background-color: #ed4245;
+  }
+
+  widget-member-name,
+  widget-member-status-text {
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    text-overflow: ellipsis;
+    top: 0;
+    user-select: none;
+    white-space: nowrap;
+  }
+
+  widget-member-name {
+    font-weight: 700;
+    left: 49px;
+    max-width: 123px;
+  }
+
+  widget-member-status-text {
+    color: var(--statusColor);
+    left: 209px;
+    max-width: 80px;
+  }
+
+  widget-footer {
+    align-items: center;
+    background-color: var(--bgColor);
+    box-shadow:
+      0 -1px 18px var(--bgColor),
+      0 -1px 0 var(--bgColor);
+    display: flex;
+    flex-shrink: 0;
+    min-height: 42px;
+    padding: 6px 6px 6px 20px;
+  }
+
+  widget-footer-info {
+    display: inline-block;
+    flex: 1;
+    font-weight: 500;
+    opacity: 0.1;
+  }
+
+  widget-button-join {
+    align-items: center;
+    background-color: var(--buttonColor);
+    border-radius: 4px;
+    color: var(--textColor) !important;
+    display: flex;
+    flex-shrink: 0;
+    font-weight: 700;
+    height: 30px;
+    justify-content: center;
+    text-decoration: none;
+    width: 120px;
+
+    &:hover {
+      background-color: var(--buttonHoverColor);
+      cursor: pointer;
+    }
+  }
+}

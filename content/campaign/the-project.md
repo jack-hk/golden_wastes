@@ -76,6 +76,13 @@ right_textbox_text: ''
 show_bottom_textbox: false
 bottom_textbox_text: ''
 ---
-> **The Project** is a collaborative tabletop roleplaying project about stories, places, creatures and people shaped by a brutal desert world.
+This site is a passion project built around **TTRPGs, worldbuilding and creating a setting worth exploring**.
 
-**The Project**, [Golden Wastes](/location/the-wastes/), is a collaborative tabletop roleplaying project about stories, places, creatures and people shaped by a brutal desert world.
+It began as a scattered collection of notes and ideas before gradually growing into a full website. Over roughly two years and two major revisions, it developed into the project you see today.
+
+Special credit goes to my friend **Bryant**, who helped with the original design of the site’s front page and gave the project an important early push.
+
+The goal is to keep expanding the setting with new lore, locations, creatures, adventures and ideas over time.
+
+If you want to discuss the project, share feedback or talk about anything on the site, the **Discord server** is the best place to do it.
+

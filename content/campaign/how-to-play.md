@@ -78,29 +78,20 @@ right_textbox_text: ''
 show_bottom_textbox: false
 bottom_textbox_text: ''
 ---
-> **How to play** explains *Dungeon World*, its moves and the outcomes used to resolve characters’ actions.
 
-## What is *Dungeon World*?
+{{< textbox align="right" style="dotted">}}
+{{< discord >}} 
+{{< /textbox >}}
 
-**How to play** begins with players using letter tiles or clues to form words that fit a specific theme or puzzle, often within the context of a dungeon or adventure setting. The objective can vary, but it typically involves solving puzzles to unlock secrets, gain rewards or progress through a dungeon. The game can combine elements of strategy, vocabulary and problem-solving while adding an interactive and engaging layer to a TTRPG experience.
+> Welcome to Golden Wastes!
 
-## Moves
+The easiest way to get involved is through the Discord server or by checking the **Campaign** category for upcoming campaigns and one-shots.
 
-In *Dungeon World*, a “move” refers to a specific action or mechanic that characters can perform during the game. Moves are the core actions players take to interact with the world, trigger story events and resolve conflicts. Each move is triggered by a situation or a player’s choice, and they define what happens next in the narrative.
+If you want to find a group, discuss campaigns or talk about anything on the site, the Discord server is the best place to start.
 
-There are two main types of moves:
 
-1. **Basic Moves**: These are general actions that any character can take. Examples include:
-  - *Hack and Slash* (to fight an enemy),
-  - *Defy Danger* (to avoid harm or a dangerous situation),
-  - *Parley* (to negotiate with NPCs),
-  - *Spout Lore* (to recall information about the world).
-2. **Special Moves**: These are specific to certain character classes or situations. Each class has its own set of unique moves, like the [Bard’s](/class/bard/) *Cast a Spell* or the [Fighter’s](/class/fighter/) *Second Wind*.
+Games can use a variety of systems, including *5e*, *OSR* and *Powered by the Apocalypse*, depending on the group.
 
-When a move is triggered, the player rolls two six-sided dice (2d6), adds a modifier (like Strength or Wisdom), and interprets the result based on a set of outcomes:
+You are also welcome to use the setting from this site to run your own games.
 
-- **10+**: A success, often with extra benefits.
-- **7-9**: A partial success, with consequences or choices.
-- **6-**: A failure, often leading to complications or setbacks.
 
-Moves in *Dungeon World* emphasise narrative-driven gameplay, where the consequences of actions shape the unfolding story.

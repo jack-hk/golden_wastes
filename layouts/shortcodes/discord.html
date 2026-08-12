@@ -1,0 +1,15 @@
+<div class="discord-widget">
+  <discord-widget
+    id="968275299202658374"
+    width="350px"
+    height="500px"></discord-widget>
+</div>
+{{- if not (.Page.Store.Get "discordWidgetLoaded") -}}
+  {{- .Page.Store.Set "discordWidgetLoaded" true -}}
+  {{- with resources.Get "js/discord-widget.js" | js.Build (dict "minify" true "targetPath" "js/discord-widget.js") | fingerprint -}}
+    <script
+      src="{{ .RelPermalink }}"
+      integrity="{{ .Data.Integrity }}"
+      crossorigin="anonymous"></script>
+  {{- end -}}
+{{- end -}}
