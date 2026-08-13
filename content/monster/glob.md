@@ -31,7 +31,7 @@ eventDate: null
 eventTime: null
 infobox:
   header: Glob
-  image: /uploads/glob.png
+  image: /uploads/transparent/glob.png
   icon: ''
   imageSize: 300
   iconSize: 0

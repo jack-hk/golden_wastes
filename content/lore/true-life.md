@@ -86,7 +86,7 @@ bottom_textbox_text: ''
 
 ## Order and Chaos
 
-![Life balance](/uploads/life-balance.png)
+![Life balance](/uploads/transparent/life-balance.png)
 {width="400" align="center" mobileMinWidth="200" mobileMaxWidth="400"}
 
 Within True Life, **Order** and **Chaos** exist in balance. Chaos allows change, individuality and choice, while Order preserves bodily function, memory and learned behaviour. Neither can sustain life alone.

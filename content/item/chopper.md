@@ -31,7 +31,7 @@ eventDate: null
 eventTime: null
 infobox:
   header: Chopper
-  image: /uploads/chopper.png
+  image: /uploads/transparent/chopper.png
   icon: ''
   imageSize: 300
   iconSize: 0

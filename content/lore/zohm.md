@@ -84,7 +84,7 @@ bottom_textbox_text: ''
 ---
 > **Zohm** is the energy of everything. Every object, living being, place, memory and idea is made from it. 
 
-![Zohm diagram](/uploads/zohm.png)
+![Zohm diagram](/uploads/transparent/zohm.png)
 {width="280" align="right" mobileMinWidth="200" mobileMaxWidth="280" caption="**Zohm** rises from the world’s core, flowing upward into all existence."}
 
 **Zohm** is not distributed evenly. A common iron sword may hold little Zohm, while a blade known across kingdoms as *Kingsbane* may gather far more. The more people recognise its [Name](/lore/names/), repeat its story and believe in its reputation, the more Zohm it attracts.

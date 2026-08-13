@@ -17,7 +17,7 @@ categories:
 - class
 tags: []
 series: []
-image: /uploads/cultist.png
+image: /uploads/cultist.jpg
 fitThumbnail: false
 featured_image: ''
 image_caption: ''
@@ -31,7 +31,7 @@ eventDate: null
 eventTime: null
 infobox:
   header: Cultist
-  image: /uploads/cultist.png
+  image: /uploads/cultist.jpg
   icon: ''
   imageSize: 0
   iconSize: 200

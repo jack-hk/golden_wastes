@@ -31,7 +31,7 @@ eventDate: null
 eventTime: null
 infobox:
   header: Lantern
-  image: /uploads/lantern.png
+  image: /uploads/transparent/lantern.png
   icon: ''
   imageSize: 300
   iconSize: 0
@@ -88,4 +88,3 @@ bottom_textbox_text: ''
 > A **Lantern** is a light tool made from [metal](/lore/elements/).
 
 A **Lantern** is classified as a light tool and is made from [metal](/lore/elements/).
-

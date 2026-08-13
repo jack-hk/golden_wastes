@@ -92,9 +92,9 @@ The goal is to keep expanding the setting with new lore, locations, creatures, a
 
 If you want to discuss the project, share feedback or talk about anything on the site, the [Discord server](https://discord.gg/qezpwPvDpr) is the best place to do it.
 
-![Site wireframe](/uploads/site-wireframe2.png)
+![Site wireframe](/uploads/site-wireframe2.jpg)
 
-![Site wireframe](/uploads/site-wireframe.png)
+![Site wireframe](/uploads/site-wireframe.jpg)
 
-![Site wireframe](/uploads/site-wireframe3.png)
+![Site wireframe](/uploads/site-wireframe3.jpg)
 

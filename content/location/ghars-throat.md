@@ -31,7 +31,7 @@ eventDate: null
 eventTime: null
 infobox:
   header: Ghar’s Throat
-  image: '/uploads/ghars-throat.png'
+  image: '/uploads/transparent/ghars-throat.png'
   icon: ''
   imageSize: 300
   iconSize: 0

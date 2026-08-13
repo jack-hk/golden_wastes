@@ -31,7 +31,7 @@ eventDate: null
 eventTime: null
 infobox:
   header: Shield
-  image: /uploads/shield.png
+  image: /uploads/transparent/shield.png
   icon: ''
   imageSize: 300
   iconSize: 0

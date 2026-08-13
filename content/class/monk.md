@@ -17,7 +17,7 @@ categories:
 - class
 tags: []
 series: []
-image: /uploads/monk.png
+image: /uploads/monk.jpg
 fitThumbnail: false
 featured_image: ''
 image_caption: ''
@@ -31,7 +31,7 @@ eventDate: null
 eventTime: null
 infobox:
   header: Monk
-  image: /uploads/monk.png
+  image: /uploads/monk.jpg
   icon: ''
   imageSize: 0
   iconSize: 200

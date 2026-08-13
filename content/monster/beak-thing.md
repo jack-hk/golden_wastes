@@ -31,7 +31,7 @@ eventDate: null
 eventTime: null
 infobox:
   header: Beak Thing
-  image: /uploads/beak-thing.png
+  image: /uploads/transparent/beak-thing.png
   icon: ''
   imageSize: 300
   iconSize: 0

@@ -110,12 +110,12 @@ Image attributes support `width`, `align`, `caption`, `mobileMinWidth`, and
 
 ![Ordinary monster image](/uploads/monster.jpg "Ordinary image tooltip")
 
-![Left monster image](/uploads/card1.jpg "Left image tooltip")
+![Left monster image](/uploads/monster.jpg "Left image tooltip")
 {width="280" align="left" caption="A left-floating monster image."}
 
 This text wraps beside the image on desktop.
 
-![Right monster image](/uploads/card10.jpg "Right image tooltip")
+![Right monster image](/uploads/monster.jpg "Right image tooltip")
 {width="35%" align="right" caption="A right-floating monster image."}
 
 This text wraps beside the image on desktop.

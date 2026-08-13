@@ -31,7 +31,7 @@ eventDate: null
 eventTime: null
 infobox:
   header: Snaggleteeth
-  image: /uploads/snaggleteeth.png
+  image: /uploads/transparent/snaggleteeth.png
   icon: ''
   imageSize: 300
   iconSize: 0

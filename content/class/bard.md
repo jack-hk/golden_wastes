@@ -17,7 +17,7 @@ categories:
 - class
 tags: []
 series: []
-image: /uploads/bard.png
+image: /uploads/bard.jpg
 fitThumbnail: false
 featured_image: ''
 image_caption: ''
@@ -31,7 +31,7 @@ eventDate: null
 eventTime: null
 infobox:
   header: Bard
-  image: /uploads/bard.png
+  image: /uploads/bard.jpg
   icon: ''
   imageSize: 0
   iconSize: 200

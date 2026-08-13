@@ -17,7 +17,7 @@ categories:
 - class
 tags: []
 series: []
-image: /uploads/ranger.png
+image: /uploads/ranger.jpg
 fitThumbnail: false
 featured_image: ''
 image_caption: ''
@@ -31,7 +31,7 @@ eventDate: null
 eventTime: null
 infobox:
   header: Ranger
-  image: /uploads/ranger.png
+  image: /uploads/ranger.jpg
   icon: ''
   imageSize: 0
   iconSize: 200

@@ -31,7 +31,7 @@ eventDate: null
 eventTime: null
 infobox:
   header: Spikewood
-  image: /uploads/spikewood.png
+  image: /uploads/transparent/spikewood.png
   icon: ''
   imageSize: 300
   iconSize: 0
@@ -96,5 +96,4 @@ Larger trees can reach around two to three metres tall. Their ghastly grey bark 
 Long black spikes grow from the trunk and branches, making harvesting dangerous without proper tools.
 
 Spikewood leaves also have strong alchemical properties, though extracting them safely and using them effectively usually requires an experienced practitioner.
-
 

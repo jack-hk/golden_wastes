@@ -31,7 +31,7 @@ eventDate: null
 eventTime: null
 infobox:
   header: Copperhelm
-  image: /uploads/copperhelm.png
+  image: /uploads/transparent/copperhelm.png
   icon: ''
   imageSize: 300
   iconSize: 0

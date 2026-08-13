@@ -17,7 +17,7 @@ categories:
 - class
 tags: []
 series: []
-image: /uploads/fighter.png
+image: /uploads/fighter.jpg
 fitThumbnail: false
 featured_image: ''
 image_caption: ''
@@ -31,7 +31,7 @@ eventDate: null
 eventTime: null
 infobox:
   header: Fighter
-  image: /uploads/fighter.png
+  image: /uploads/fighter.jpg
   icon: ''
   imageSize: 0
   iconSize: 200

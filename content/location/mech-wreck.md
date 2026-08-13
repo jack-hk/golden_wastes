@@ -31,7 +31,7 @@ eventDate: null
 eventTime: null
 infobox:
   header: Mech Wreck
-  image: /uploads/mech-wreck.png
+  image: /uploads/transparent/mech-wreck.png
   icon: ''
   imageSize: 300
   iconSize: 0

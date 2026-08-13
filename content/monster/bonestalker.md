@@ -31,7 +31,7 @@ eventDate: null
 eventTime: null
 infobox:
   header: Bonestalker
-  image: /uploads/bonestalker.png
+  image: /uploads/transparent/bonestalker.png
   icon: ''
   imageSize: 300
   iconSize: 0

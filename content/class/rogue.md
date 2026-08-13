@@ -17,7 +17,7 @@ categories:
 - class
 tags: []
 series: []
-image: /uploads/rogue.png
+image: /uploads/rogue.jpg
 fitThumbnail: false
 featured_image: ''
 image_caption: ''
@@ -31,7 +31,7 @@ eventDate: null
 eventTime: null
 infobox:
   header: Rogue
-  image: /uploads/rogue.png
+  image: /uploads/rogue.jpg
   icon: ''
   imageSize: 0
   iconSize: 200

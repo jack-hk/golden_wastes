@@ -80,7 +80,7 @@ bottom_textbox_text: ''
 
 The **Elements**, arranged in the traditional *Elemental Wheel*, form a system used in alchemy, science, craft and hunting. It divides materials into four elements, each represented by a colour and direction.
 
-![Elemental Wheel](/uploads/elemental-wheel.png)
+![Elemental Wheel](/uploads/transparent/elemental-wheel.png)
 {width="350" align="right" mobileMinWidth="200" mobileMaxWidth="350" caption="Each element is connected to a direction and traditional colour."}
 
 ## Wood — North

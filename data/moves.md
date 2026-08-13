@@ -195,7 +195,7 @@ Icon: <img src="/SVG/pointy-hat.svg" width="32" />
 When you first enter a civilized settlement someone who respects the custom of hospitality to minstrels will take you in as their guest.
 }
 
-Icon: <img src="/SVG/lute.svg" width="32" />
+Icon: <img src="/SVG/lyre.svg" width="32" />
 
 
 
@@ -454,7 +454,7 @@ Icon: <img src="/SVG/bow-arrow.svg" width="32" />
 
 {When you defy danger and use your small size to your advantage, take +1.}
 
-Icon: <img src="/SVG/buckler.svg" width="32" />
+Icon: <img src="/SVG/round-shield.svg" width="32" />
 
 
 **Human (Fighter)**
@@ -837,7 +837,7 @@ Icon: <img src="/SVG/monument-valley.svg" width="32" />
 Somewhere in your lineage lies mixed blood and it begins to show its presence. You gain the elf starting move if you took the human one at character creation or vice versa.
 }
 
-Icon: <img src="/SVG/boot.svg" width="32" />
+Icon: <img src="/SVG/boots.svg" width="32" />
 
 
 **Man’s Best Friend**

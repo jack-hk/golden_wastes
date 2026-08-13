@@ -93,7 +93,7 @@ Getting there was less simple...
 Several hopeful volunteers were pecked into retirement by murderous beak-things, way before the survivors even reached the entrance.
 
 {{< textbox title="The Dungeon" align="center" style="plain" >}}
-![Infested Library Dungeon](/uploads/infested-library-dungeon.png)
+![Infested Library Dungeon](/uploads/infested-library-dungeon.jpg)
 {width="340" mobileMinWidth="200" mobileMaxWidth="340"} 
 Inside, they discovered the “library” was actually a vast underground ruin, half-submerged in sand, stretching far beyond anything sensible. Worse, it was crawling with alien insects whose chief dietary preference appears to be "human”.
 

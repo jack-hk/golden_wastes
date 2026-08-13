@@ -64,7 +64,7 @@ function initializeDiscordWidget(widget) {
   }
 
   header.append(logo, count);
-  serverIcon.src = '/uploads/discord-server-icon.png';
+  serverIcon.src = '/uploads/discord-server-icon.jpg';
   serverIcon.alt = '';
   serverName.textContent = "Dice N' Slice";
   serverHeader.append(serverIcon, serverName);

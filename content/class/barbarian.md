@@ -17,7 +17,7 @@ categories:
 - class
 tags: []
 series: []
-image: /uploads/barbarian.png
+image: /uploads/barbarian.jpg
 fitThumbnail: false
 featured_image: ''
 image_caption: ''
@@ -31,7 +31,7 @@ eventDate: null
 eventTime: null
 infobox:
   header: Barbarian
-  image: /uploads/barbarian.png
+  image: /uploads/barbarian.jpg
   icon: ''
   imageSize: 0
   iconSize: 200

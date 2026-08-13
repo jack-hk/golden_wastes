@@ -16,7 +16,7 @@ bookHidden: false
 BookToC: false
 infobox:
   header: Yheglin
-  image: /uploads/yheglin.png
+  image: /uploads/transparent/yheglin.png
   imageSize: 300
   iconSize: 0
   badgeEnabled: false

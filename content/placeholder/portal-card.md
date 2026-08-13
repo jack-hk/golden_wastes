@@ -25,7 +25,7 @@ placeholder: true
 # intro_text: Choose your path. Each class offers unique abilities and playstyles.
 # show_bottom_textbox: true
 # bottom_textbox_text: The cards have spoken. Choose your path wisely.
-# image: /uploads/tools.jpg
+# image: /uploads/white-abstract.jpg
 # fitThumbnail: false # true fits the complete image inside its square search thumbnail; false crops it to fill.
 ---
 
@@ -64,7 +64,7 @@ Inline icon: {{< icon name="book" size="24" >}}
 Image attributes support `width`, `align`, `caption`, `mobileMinWidth`, and
 `mobileMaxWidth`. A number without a unit is treated as pixels.
 
-![Ordinary portal image](/uploads/tools.jpg "Ordinary image tooltip")
+![Ordinary portal image](/uploads/white-abstract.jpg "Ordinary image tooltip")
 
 ![Left portal image](/uploads/barren.jpg "Left image tooltip")
 {width="280" align="left" caption="A left-floating portal image."}

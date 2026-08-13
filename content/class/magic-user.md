@@ -17,7 +17,7 @@ categories:
 - class
 tags: []
 series: []
-image: /uploads/magic-user.png
+image: /uploads/magic-user.jpg
 fitThumbnail: false
 featured_image: ''
 image_caption: ''
@@ -31,7 +31,7 @@ eventDate: null
 eventTime: null
 infobox:
   header: Magic User
-  image: /uploads/magic-user.png
+  image: /uploads/magic-user.jpg
   icon: ''
   imageSize: 0
   iconSize: 200
