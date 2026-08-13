@@ -235,6 +235,9 @@ popupMaxWidthTablet = 300
 
 [params.homeMapNotification]
 enabled = true
+allowedViews = ["desktop"]
+title = "Explore the Interactive Map"
+description = "See our map down below!"
 
 [params.interactiveMap.mobile]
 show = true

@@ -1,13 +1,36 @@
 {{- $settings := site.Params.homeMapNotification -}}
 {{- if and $settings $settings.enabled site.Params.interactiveMap.enabled -}}
+  {{- $allowedViews := $settings.allowedViews | default (slice "mobile" "tablet" "desktop") -}}
   <aside
     class="home-map-notification"
     data-home-map-notification
-    role="status"
-    aria-live="polite"
+    data-allowed-views="{{ delimit $allowedViews "," }}"
+    aria-label="Interactive map notification"
     hidden>
-    <strong>Explore the Wastes</strong>
-    <span>Scroll down to discover the interactive map.</span>
+    <button
+      class="home-map-notification__close"
+      data-home-map-notification-close
+      type="button"
+      aria-label="Dismiss map notification">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="m7 7 10 10M17 7 7 17" />
+      </svg>
+    </button>
+    <button
+      class="home-map-notification__action"
+      data-home-map-notification-action
+      type="button">
+      <span class="home-map-notification__content">
+        <strong>{{ $settings.title | default "Explore the Interactive Map" }}</strong>
+        <span>{{ $settings.description | default "Explore the Interactive Map" }}</span>
+      </span>
+      <svg
+        class="home-map-notification__arrow"
+        viewBox="0 0 24 24"
+        aria-hidden="true">
+        <path d="M12 4v14m-6-6 6 6 6-6" />
+      </svg>
+    </button>
   </aside>
   {{- with resources.Get "js/home-map-notification.js" | js.Build (dict "minify" true "targetPath" "js/home-map-notification.js") | fingerprint }}
     <script
