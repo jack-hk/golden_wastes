@@ -2,7 +2,7 @@
 title: The Wastes
 header: ''
 date: 2026-08-07
-updated: '2026-08-11'
+updated: '2026-08-13'
 draft: false
 placeholder: false
 type: wiki
@@ -55,6 +55,8 @@ references:
     url: /location/gharob-region/
   - title: Great Pulse
     url: /lore/great-pulse/
+  - title: The Project
+    url: /campaign/the-project/
   - title: Zohm
     url: /lore/zohm/
 portal_view: ''
@@ -82,7 +84,7 @@ bottom_textbox_text: ''
 ---
 > **The Wastes** is the common name for a vast stretch of land devastated by the [Great Pulse](/lore/great-pulse/).
 
-**The Wastes** was already a hot, arid region before the [Great Pulse](/lore/great-pulse/). Now it is a patchwork of barren and dangerous regions shaped by extreme [Zohm](/lore/zohm/). The project focuses on the [Gharob Region](/location/gharob-region/), one of the many regions within the Wastes.
+**The Wastes** was already a hot, arid region before the [Great Pulse](/lore/great-pulse/). Now it is a patchwork of barren and dangerous regions shaped by extreme [Zohm](/lore/zohm/). [The project](/campaign/the-project/) focuses on the [Gharob Region](/location/gharob-region/), one of the many regions within the Wastes.
 
 {{< textbox title="Namesake" align="right" style="plain" icon="/SVG/open-book.svg">}}
 The area is often called the *Golden Wastes* because rare materials are unusually abundant there, including gold, luxury resources and substances prized in alchemy. It may also be due to the golden hue of the dusty mesas and waving dunes.  

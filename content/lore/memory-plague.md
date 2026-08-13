@@ -2,7 +2,7 @@
 title: Memory Plague
 header: ''
 date: 2026-07-27 08:56:00+00:00
-updated: '2026-08-11'
+updated: '2026-08-13'
 draft: false
 placeholder: false
 type: wiki
@@ -91,7 +91,7 @@ After the [First Great Pulse](/lore/great-pulse/#the-first-great-pulse), languag
 >
 > — *Unknown*
 
-*Translated from an ancient inscription on the [tablet](/lore/great-pulse/#the-tablet-rediscovered). Some words remain uncertain.*
+*Translated from an ancient inscription on the [tablet](/lore/great-pulse/#the-first-great-pulse). Some words remain uncertain.*
 {{< /textbox >}}
 
 The [Second Great Pulse](/lore/great-pulse/#the-second-great-pulse) is now receding, and scholars expect another **Memory Plague** to follow. It may weaken remaining Fell Names, but it will also erase harmless knowledge, traditions and memories without distinction.

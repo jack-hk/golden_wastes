@@ -55,6 +55,8 @@ references:
   url: /class/bard/
 - title: Fighter
   url: /class/fighter/
+- title: The Wastes
+  url: /location/the-wastes/
 portal_view: ''
 showcase_tiles: 0
 min_showcase_tiles: 0
@@ -79,13 +81,15 @@ show_bottom_textbox: false
 bottom_textbox_text: ''
 ---
 
+> Welcome to the [Golden Wastes](/location/the-wastes/)!
+
 {{< textbox align="right" style="dotted">}}
 {{< discord >}} 
 {{< /textbox >}}
 
-> Welcome to Golden Wastes!
 
-The easiest way to get involved is through the Discord server or by checking the **Campaign** category for upcoming campaigns and one-shots.
+
+The easiest way to get involved is through the Discord server or by checking the [Campaign category](/categories/campaign/) for upcoming campaigns and one-shots.
 
 If you want to find a group, discuss campaigns or talk about anything on the site, the Discord server is the best place to start.
 
@@ -93,5 +97,4 @@ If you want to find a group, discuss campaigns or talk about anything on the sit
 Games can use a variety of systems, including *5e*, *OSR* and *Powered by the Apocalypse*, depending on the group.
 
 You are also welcome to use the setting from this site to run your own games.
-
 

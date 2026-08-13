@@ -1,4 +1,39 @@
 // Site-owned styles for the Dipped v4 Discord widget.
+.discord-btn {
+  align-items: center;
+  background: #5865f2;
+  border-radius: 100px;
+  color: #fff !important;
+  display: flex;
+  font-weight: 600;
+  gap: 0.5rem;
+  margin-inline: auto;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none !important;
+  transition: all 0.3s ease;
+  width: fit-content;
+
+  &:link,
+  &:visited,
+  &:active {
+    color: #fff !important;
+    text-decoration: none !important;
+  }
+
+  &:hover {
+    background: #4752c4;
+    box-shadow: 0 5px 15px rgba(88, 101, 242, 0.4);
+    color: #fff !important;
+    text-decoration: none !important;
+    transform: translateY(-2px);
+  }
+}
+
+.discord-icon {
+  height: 24px;
+  width: 24px;
+}
+
 .discord-widget {
   max-width: 100%;
   overflow-x: auto;
@@ -7,6 +42,13 @@
   &,
   * {
     box-sizing: border-box;
+  }
+}
+
+@media (max-width: 1024px) {
+  .discord-widget,
+  .discord-widget discord-widget {
+    width: 100% !important;
   }
 }
 
@@ -67,6 +109,34 @@ discord-widget {
   widget-header-count {
     flex: 1;
     text-align: right;
+  }
+
+  widget-server-header {
+    align-items: center;
+    background-color: #393a41;
+    display: flex;
+    flex-shrink: 0;
+    gap: 12px;
+    min-height: 64px;
+    padding: 10px 20px;
+
+    img {
+      border-radius: 50%;
+      display: block;
+      height: 44px;
+      margin: 0;
+      max-height: none;
+      max-width: none;
+      object-fit: cover;
+      width: 44px;
+    }
+
+    span {
+      color: var(--textColor);
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 1.2;
+    }
   }
 
   widget-body {

@@ -2,7 +2,7 @@
 title: Gharob Region
 header: ''
 date: 2026-08-08
-updated: '2026-08-11'
+updated: '2026-08-13'
 draft: false
 placeholder: false
 type: wiki
@@ -60,6 +60,8 @@ references:
     url: /location/mech-wreck/
   - title: Snaggleteeth
     url: /location/snaggleteeth/
+  - title: The Project
+    url: /campaign/the-project/
   - title: The Wastes
     url: /location/the-wastes/
 portal_view: ''
@@ -85,7 +87,7 @@ right_textbox_text: ''
 show_bottom_textbox: false
 bottom_textbox_text: ''
 ---
-> The **Gharob Region** is the primary region explored throughout this project.
+> The **Gharob Region** is the primary region explored throughout [this project](/campaign/the-project/).
 
 The **Gharob Region** takes its name from *Ghar*, a mythical giant said to sleep beneath the land. Many people believe Ghar is real and will one day awaken. The region’s borders are traditionally drawn around the supposed size of his buried body, much like the neighbouring regions of *Solis* and *Jyrab*, which are named for their own sleeping giants.
 

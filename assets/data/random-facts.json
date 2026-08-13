@@ -1,0 +1,106 @@
+[
+  {
+    "text": "[Zohm](/lore/zohm/) is the energy of everything, flowing upward from the world's core.",
+    "page": "Zohm",
+    "ref": "/lore/zohm/"
+  },
+  {
+    "text": "The more widely a [Name](/lore/names/) is recognised, the more [Zohm](/lore/zohm/) its subject may attract.",
+    "page": "Names",
+    "ref": "/lore/names/"
+  },
+  {
+    "text": "[True Life](/lore/true-life/) alone holds the natural balance between [Order and Chaos](/lore/true-life/#order-and-chaos).",
+    "page": "True Life",
+    "ref": "/lore/true-life/"
+  },
+  {
+    "text": "“A child will wake speaking no language their mother knows.”",
+    "quote": true,
+    "author": "Unknown",
+    "page": "Memory Plague",
+    "ref": "/lore/memory-plague/"
+  },
+  {
+    "text": "[The Beneath](/location/the-beneath/) began as a myth before the [First Great Pulse](/lore/great-pulse/#the-first-great-pulse) made it real.",
+    "page": "The Beneath",
+    "ref": "/location/the-beneath/"
+  },
+  {
+    "text": "[Zohm](/lore/zohm/) is more abundant in [The Beneath](/location/the-beneath/), making its objects stronger and its depths far more dangerous.",
+    "page": "The Beneath",
+    "ref": "/location/the-beneath/"
+  },
+  {
+    "text": "The [Golden Wastes](/location/the-wastes/) earned their name from their strange abundance of gold and other rare materials.",
+    "page": "The Wastes",
+    "ref": "/location/the-wastes/"
+  },
+  {
+    "text": "[Snaggleteeth](/location/snaggleteeth/) is scarred by enormous black spires and craters said to reach [the Beneath](/location/the-beneath/).",
+    "page": "Snaggleteeth",
+    "ref": "/location/snaggleteeth/"
+  },
+  {
+    "text": "[Ghar's Throat](/location/ghars-throat/) is a colossal ancient stairway that can take days to descend.",
+    "page": "Ghar's Throat",
+    "ref": "/location/ghars-throat/"
+  },
+  {
+    "text": "[Spire](/location/spire/) survives beneath a giant stone formation that provides shade, high ground and a natural wall.",
+    "page": "Spire",
+    "ref": "/location/spire/"
+  },
+  {
+    "text": "Some cogs buried in [Mech Wreck](/location/mech-wreck/) are large enough to rival entire hills.",
+    "page": "Mech Wreck",
+    "ref": "/location/mech-wreck/"
+  },
+  {
+    "text": "[Copperhelm](/location/copperhelm/) survives among enormous ruined buildings crowned by smooth metallic roofs.",
+    "page": "Copperhelm",
+    "ref": "/location/copperhelm/"
+  },
+  {
+    "text": "[Spikewood](/lore/spikewood/) can appear dead for years while surviving extreme heat and cold.",
+    "page": "Spikewood",
+    "ref": "/lore/spikewood/"
+  },
+  {
+    "text": "[Choppers](/item/chopper/) are massive two-handed blades forged from reclaimed copper and bronze relics.",
+    "page": "Chopper",
+    "ref": "/item/chopper/"
+  },
+  {
+    "text": "A [Glob](/monster/glob/) can turn its soft body into a dense metal-like projectile without warning.",
+    "page": "Glob",
+    "ref": "/monster/glob/"
+  },
+  {
+    "text": "[Bonestalkers](/monster/bonestalker/) navigate violent storms without sight, relying on sound and vibration.",
+    "page": "Bonestalker",
+    "ref": "/monster/bonestalker/"
+  },
+  {
+    "text": "Match materials to purpose: [Wood](/lore/elements/#wood-north) adapts, [Glass](/lore/elements/#glass-east) reveals, [Stone](/lore/elements/#stone-west) endures and [Metal](/lore/elements/#metal-south) strengthens.",
+    "page": "Elements",
+    "ref": "/lore/elements/"
+  },
+  {
+    "text": "“The world does not choose which memories deserve to survive.”",
+    "quote": true,
+    "author": "Tablet translation",
+    "page": "Memory Plague",
+    "ref": "/lore/memory-plague/"
+  },
+  {
+    "text": "[Oru's](/lore/oru/) [Name](/lore/names/) survived the [Memory Plagues](/lore/memory-plague/) even as generations of history disappeared.",
+    "page": "Oru",
+    "ref": "/lore/oru/"
+  },
+  {
+    "text": "A [Great Pulse](/lore/great-pulse/) floods the world with [Zohm](/lore/zohm/) to wash away accumulated [Fell Names](/lore/names/#fell-names).",
+    "page": "Great Pulse",
+    "ref": "/lore/great-pulse/"
+  }
+]

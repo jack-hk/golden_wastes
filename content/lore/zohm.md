@@ -2,7 +2,7 @@
 title: Zohm
 header: ''
 date: 2026-07-27 07:54:00+00:00
-updated: '2026-08-11'
+updated: '2026-08-13'
 draft: false
 placeholder: false
 type: wiki
@@ -17,7 +17,7 @@ categories:
 - lore
 tags: []
 series: []
-image: /uploads/zohm.png
+image: ''
 fitThumbnail: false
 featured_image: ''
 image_caption: ''

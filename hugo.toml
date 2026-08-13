@@ -187,34 +187,29 @@ borderRadius = "4px"
 pageRef = "/lore/great-pulse"
 anchor = "the-first-great-pulse"
 title = "First Great Pulse"
-description = "Placeholder description for the **First Great Pulse**."
+description = "An apocalyptic event where Zohm was unleashed in great capacity."
 
 [[params.timeline.entries]]
 pageRef = "/lore/memory-plague"
 title = "Memory Plague"
-description = "Placeholder description for the *Memory Plague*."
+description = "After Zohm receded, the Memory Plague washed generations of knowledge away."
 
 [[params.timeline.entries]]
 pageRef = "/lore/great-pulse"
 anchor = "the-tablet-rediscovered"
 title = "Tablet Rediscovered"
-description = "Placeholder description for the rediscovered tablet."
-thumbnail = "/uploads/tablet-part-1.png"
-thumbnailAlt = "A fragment of the rediscovered tablet"
-thumbnailPosition = "top"
-thumbnailSideMinSize = "56px"
-thumbnailSideMaxSize = "80px"
+description = "A tablet is discovered with a stern warning of a second Great Pulse."
 
 [[params.timeline.entries]]
 pageRef = "/lore/great-pulse"
 anchor = "the-second-great-pulse"
 title = "Second Great Pulse"
-description = "Placeholder description for the **Second Great Pulse**."
+description = "The second Great Pulse returns ruining the known world."
 
 [[params.timeline.entries]]
 pageRef = "/location/the-wastes"
 title = "The Wastes"
-description = "Placeholder description for *the Wastes*."
+description = "The wastleland, an aftermath of the Second Great Pulse."
 
 [params.interactiveMap]
 enabled = true
@@ -237,6 +232,9 @@ markerEnlargeSize = 1.25
 markerTransitionTime = "200ms"
 popupMaxWidthMobile = 300
 popupMaxWidthTablet = 300
+
+[params.homeMapNotification]
+enabled = true
 
 [params.interactiveMap.mobile]
 show = true

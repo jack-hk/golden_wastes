@@ -1,0 +1,49 @@
+{{- $dataResource := resources.Get "data/random-facts.json" -}}
+{{- $facts := transform.Unmarshal $dataResource.Content -}}
+{{- with $facts -}}
+  {{ partial "section-header.html" "Fun Fact" }}
+  <div class="random-fact" data-random-fact>
+    {{- range . }}
+      <article
+        class="random-fact__item random-fact__item--{{ if or .quote .author }}quote{{ else }}standard{{ end }}"
+        data-random-fact-item
+        hidden>
+        {{- if or .quote .author }}
+          <blockquote class="random-fact__quote">
+            <div class="random-fact__text">{{ .text | markdownify }}</div>
+            {{- with .author }}
+              <cite>— <em>{{ . }}</em></cite>
+            {{- end }}
+          </blockquote>
+        {{- else }}
+          <div class="random-fact__text">{{ .text | markdownify }}</div>
+        {{- end }}
+        {{- if and .ref .page }}
+          <a class="random-fact__link" href="{{ .ref | safeURL }}">
+            Read more about {{ .page }}…
+          </a>
+        {{- end }}
+      </article>
+    {{- end }}
+    <p class="random-fact__empty" data-random-fact-empty hidden>
+      You have discovered every random fact this session.
+    </p>
+    <button
+      class="random-fact__reroll"
+      type="button"
+      data-random-fact-reroll
+      aria-label="Show another random fact"
+      title="Show another random fact">
+      <img
+        src="/SVG/perspective-dice-six-faces-random.svg"
+        alt=""
+        aria-hidden="true">
+    </button>
+  </div>
+  {{- with resources.Get "js/random-fact.js" | js.Build (dict "minify" true "targetPath" "js/random-fact.js") | fingerprint }}
+    <script
+      src="{{ .RelPermalink }}"
+      integrity="{{ .Data.Integrity }}"
+      crossorigin="anonymous"></script>
+  {{- end }}
+{{- end }}

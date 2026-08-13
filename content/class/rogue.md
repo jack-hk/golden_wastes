@@ -2,7 +2,7 @@
 title: Rogue
 header: The Rogue
 date: 2026-08-01
-updated: '2026-08-11'
+updated: '2026-08-13'
 draft: false
 placeholder: false
 type: wiki

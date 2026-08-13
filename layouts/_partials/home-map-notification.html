@@ -1,0 +1,18 @@
+{{- $settings := site.Params.homeMapNotification -}}
+{{- if and $settings $settings.enabled site.Params.interactiveMap.enabled -}}
+  <aside
+    class="home-map-notification"
+    data-home-map-notification
+    role="status"
+    aria-live="polite"
+    hidden>
+    <strong>Explore the Wastes</strong>
+    <span>Scroll down to discover the interactive map.</span>
+  </aside>
+  {{- with resources.Get "js/home-map-notification.js" | js.Build (dict "minify" true "targetPath" "js/home-map-notification.js") | fingerprint }}
+    <script
+      src="{{ .RelPermalink }}"
+      integrity="{{ .Data.Integrity }}"
+      crossorigin="anonymous"></script>
+  {{- end }}
+{{- end }}

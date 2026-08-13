@@ -2,7 +2,7 @@
 title: Elements
 header: ''
 date: 2026-07-27 08:06:00+00:00
-updated: '2026-08-11'
+updated: '2026-08-13'
 draft: false
 placeholder: false
 type: wiki
@@ -17,7 +17,7 @@ categories:
 - lore
 tags: []
 series: []
-image: /uploads/elemental-wheel.png
+image: ''
 fitThumbnail: true
 featured_image: ''
 image_caption: ''

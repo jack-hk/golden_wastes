@@ -2,7 +2,7 @@
 title: Oru
 header: ''
 date: 2026-07-27 07:54:00+00:00
-updated: '2026-08-11'
+updated: '2026-08-13'
 draft: false
 placeholder: false
 type: wiki
@@ -17,7 +17,7 @@ categories:
 - lore
 tags: []
 series: []
-image: /uploads/oru-art.jpg
+image: ''
 fitThumbnail: false
 featured_image: ''
 image_caption: ''
@@ -96,6 +96,5 @@ One of Oru’s servants, Obka, betrayed this purpose. Obka introduced evil teach
 Through Obka’s influence, the power of Naming was repeatedly abused. Fell Names spread, evil deepened and the world answered with the [Great Pulses](/lore/great-pulse/)—vast surges of Zohm that attempted to reset the damage caused by corrupted Names.
 
 Though [Memory Plagues](/lore/memory-plague/) erased generations of history and belief, Oru’s Name has never been completely forgotten.
-
 
 

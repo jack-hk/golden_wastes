@@ -24,9 +24,13 @@ function initializeDiscordWidget(widget) {
   const header = document.createElement('widget-header');
   const logo = document.createElement('widget-logo');
   const count = document.createElement('widget-header-count');
+  const serverHeader = document.createElement('widget-server-header');
+  const serverIcon = document.createElement('img');
+  const serverName = document.createElement('span');
   const footer = document.createElement('widget-footer');
   const footerInfo = document.createElement('widget-footer-info');
   const joinButton = document.createElement('widget-button-join');
+  let inviteUrl = widget.getAttribute('invite-url');
   const defaultLogo =
     'https://cdn.jsdelivr.net/gh/dip-land/discord_widget/discord-logo-white.svg';
 
@@ -60,12 +64,23 @@ function initializeDiscordWidget(widget) {
   }
 
   header.append(logo, count);
+  serverIcon.src = '/uploads/discord-server-icon.png';
+  serverIcon.alt = '';
+  serverName.textContent = "Dice N' Slice";
+  serverHeader.append(serverIcon, serverName);
   footerInfo.textContent = widget.getAttribute('footerText') || '';
   joinButton.textContent = 'Join';
   joinButton.setAttribute('role', 'link');
   joinButton.setAttribute('tabindex', '0');
+  const openInvite = () => {
+    if (inviteUrl) window.open(inviteUrl, '_blank', 'noopener,noreferrer');
+  };
+  joinButton.addEventListener('click', openInvite);
+  joinButton.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter' || event.key === ' ') openInvite();
+  });
   footer.append(footerInfo, joinButton);
-  widget.append(header, body, footer);
+  widget.append(header, serverHeader, body, footer);
 
   if (!id) {
     body.textContent = 'No Discord server ID was specified.';
@@ -84,14 +99,7 @@ function initializeDiscordWidget(widget) {
       count.append(strong, ' Members Online');
 
       if (data.instant_invite) {
-        const openInvite = () =>
-          window.open(data.instant_invite, '_blank', 'noopener,noreferrer');
-        joinButton.addEventListener('click', openInvite);
-        joinButton.addEventListener('keydown', (event) => {
-          if (event.key === 'Enter' || event.key === ' ') openInvite();
-        });
-      } else {
-        joinButton.remove();
+        inviteUrl = data.instant_invite;
       }
 
       for (const user of data.members || []) {
@@ -116,7 +124,6 @@ function initializeDiscordWidget(widget) {
     })
     .catch(() => {
       body.textContent = 'The Discord member list is currently unavailable.';
-      joinButton.remove();
     });
 }
 

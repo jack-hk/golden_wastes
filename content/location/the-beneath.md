@@ -2,7 +2,7 @@
 title: The Beneath
 header: ''
 date: 2026-08-07
-updated: '2026-08-11'
+updated: '2026-08-13'
 draft: false
 placeholder: false
 type: wiki
@@ -17,7 +17,7 @@ categories:
   - location
 tags: []
 series: []
-image: /uploads/the-beneath.jpg
+image: ''
 fitThumbnail: false
 featured_image: ''
 image_caption: ''
@@ -82,7 +82,7 @@ bottom_textbox_text: ''
 ---
 > **The Beneath** is a colossal network of caverns far below the [Golden Wastes](/location/the-wastes/).
 
-Once only a myth, **The Beneath** became real during the [First Great Pulse](/lore/great-pulse/).
+Once only a myth, **The Beneath** became real during the [First Great Pulse](/lore/great-pulse/#the-first-great-pulse).
 
 Its depths lie closer to the world’s core, where [Zohm](/lore/zohm/) originates. This makes Zohm far more abundant than on the surface. Channelling it is easier, and objects often possess greater power.
 
