@@ -1,6 +1,6 @@
 ---
 title: The Project
-date: 2026-08-16T03:34:00Z
+date: 2026-08-15T03:34:00Z
 updated: 2026-08-11
 draft: false
 placeholder: false
