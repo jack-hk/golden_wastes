@@ -1,0 +1,16 @@
+{{- $page := . -}}
+{{- $fallbacks := site.Params.thumbnailFallbacks | default dict -}}
+{{- $category := "" -}}
+{{- with $page.Params.categories -}}
+  {{- with index . 0 -}}
+    {{- $category = lower (printf "%v" .) -}}
+  {{- end -}}
+{{- end -}}
+{{- if not $category -}}
+  {{- $category = lower ($page.Section | default "other") -}}
+{{- end -}}
+{{- $paths := index $fallbacks $category | default (index $fallbacks "other") | default slice -}}
+{{- with $paths -}}
+  {{- $index := mod (len $page.RelPermalink) (len .) -}}
+  {{- index . $index -}}
+{{- end -}}
