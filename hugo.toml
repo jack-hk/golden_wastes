@@ -64,6 +64,17 @@ subtitle = "A Brutal TTRPG Adventure"
 [params.infoboxBadges]
   showOnThumbnails = true
 
+# SVG pools used when a page has no thumbnail image. Category names are
+# matched case-insensitively; `other` is used when no category is detected.
+[params.thumbnailFallbacks]
+campaign = ["/SVG/sun.svg"]
+class = ["/SVG/sword-in-stone.svg", "/SVG/character.svg"]
+item = ["/SVG/backpack.svg"]
+location = ["/SVG/village.svg"]
+lore = ["/SVG/book-cover.svg"]
+monster = ["/SVG/bestial-fangs.svg", "/SVG/animal-skull.svg"]
+other = ["/SVG/character.svg"]
+
 [params.pageLayout]
 showHeader = true
 showMeta = true
@@ -479,6 +490,16 @@ weight = 40
   [menus.main.params]
   InBottom = true
   editCurrentPage = true
+
+[[menus.main]]
+name = "Account"
+pre = "character"
+weight = 50
+
+  [menus.main.params]
+  InBottom = true
+  popover = true
+  popoverContentPartial = "popovers/account.html"
 
 [[menus.main]]
 name = "Settings"

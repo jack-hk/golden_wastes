@@ -1,0 +1,32 @@
+<header class="popover-account__header">
+  <h2 class="popover-account__title">Account</h2>
+  <button
+    class="popover-navigation__close"
+    popovertarget="Account"
+    popovertargetaction="hide"
+    type="button"
+    aria-label="Close account menu">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      aria-hidden="true">
+      <line x1="18" y1="6" x2="6" y2="18"></line>
+      <line x1="6" y1="6" x2="18" y2="18"></line>
+    </svg>
+  </button>
+</header>
+<main class="popover-account__main">
+  <p class="popover-account__status">You are not logged in</p>
+  <span class="popover-account__separator" aria-hidden="true"></span>
+  <div class="popover-account__profile">
+    <span class="popover-account__avatar" aria-hidden="true"></span>
+    <strong>User</strong>
+  </div>
+  <span class="popover-account__separator" aria-hidden="true"></span>
+  {{ partial "discord-button.html" (dict "label" "Login with Discord") }}
+</main>

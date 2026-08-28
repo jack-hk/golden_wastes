@@ -34,10 +34,7 @@
       data-random-fact-reroll
       aria-label="Show another random fact"
       title="Show another random fact">
-      <img
-        src="/SVG/perspective-dice-six-faces-random.svg"
-        alt=""
-        aria-hidden="true">
+      <span class="random-fact__reroll-icon" aria-hidden="true"></span>
     </button>
   </div>
   {{- with resources.Get "js/random-fact.js" | js.Build (dict "minify" true "targetPath" "js/random-fact.js") | fingerprint }}

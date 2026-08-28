@@ -18,12 +18,12 @@
   <div class="section-header home__contact-header">
     <h3 class="section-header__title">
       <span class="home__contact-title">
-        <img src="/SVG/envelope.svg" alt="" aria-hidden="true" />
+        <span class="home__contact-icon" aria-hidden="true"></span>
         Contact Us
       </span>
     </h3>
   </div>
   <div class="home__contact">
-    {{ partial "discord-button.html" . }}
+    {{ partial "discord-button.html" (dict) }}
   </div>
 {{ end }}

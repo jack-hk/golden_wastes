@@ -1,0 +1,95 @@
+.popover-account {
+  background-color: var(--color-background-light);
+  border: none;
+  border-radius: $popover-border-radius;
+  bottom: 0;
+  box-shadow: $popover-box-shadow;
+  color: var(--color-text-default);
+  left: 0;
+  margin: 0;
+  max-height: 100vh;
+  overflow-y: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+
+  &::backdrop {
+    backdrop-filter: blur(6px);
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  @include for-screen(tablet) {
+    animation: slideRight $slide-speed $slide-easing forwards;
+    inset: auto auto 2.5% auto;
+    max-height: $popover-tablet-max-height;
+    width: 22rem;
+
+    &::backdrop {
+      backdrop-filter: none;
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+  }
+}
+
+.popover-account__header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: $popover-header-padding;
+}
+
+.popover-account__title {
+  font-family: var(--font-heading);
+  font-size: var(--font-subtitle);
+  font-weight: var(--font-weight-bold);
+  margin: 0;
+}
+
+.popover-account__main {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding: 0 $popover-header-padding $popover-header-padding;
+}
+
+.popover-account__status {
+  margin: 0;
+}
+
+.popover-account__separator {
+  background: var(--color-border-default);
+  height: $popover-separator-height;
+  width: 100%;
+}
+
+.popover-account__profile {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+}
+
+.popover-account__avatar {
+  background-color: var(--color-background-default);
+  border: 2px solid var(--color-border-default);
+  border-radius: 50%;
+  display: block;
+  height: 4rem;
+  outline: 2px solid var(--color-background-default);
+  position: relative;
+  width: 4rem;
+
+  &::before {
+    background-color: var(--color-ink);
+    content: '';
+    inset: 0.65rem;
+    mask: url('/SVG/character.svg') center / contain no-repeat;
+    position: absolute;
+    -webkit-mask: url('/SVG/character.svg') center / contain no-repeat;
+  }
+}
+
+.popover-account .discord-btn {
+  margin-inline: 0;
+  width: fit-content;
+}

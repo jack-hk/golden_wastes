@@ -72,10 +72,22 @@
   flex-shrink: 0;
   gap: 0.5rem;
 
-  img {
+  .home__contact-icon {
+    background-color: var(--color-ink);
+    display: block;
     height: 1.5em;
+    mask: url('/SVG/envelope.svg') center / contain no-repeat;
     width: 1.5em;
+    -webkit-mask: url('/SVG/envelope.svg') center / contain no-repeat;
   }
+}
+
+.card__image--fallback,
+.timeline__thumbnail--fallback {
+  background-color: var(--color-ink);
+  display: block;
+  mask: var(--thumbnail-fallback-image) center / 58% no-repeat;
+  -webkit-mask: var(--thumbnail-fallback-image) center / 58% no-repeat;
 }
 
 .home__contact {
@@ -218,10 +230,15 @@
     opacity 0.2s ease;
   width: 2.75rem;
 
-  img {
-    filter: brightness(0) invert(1);
+  &-icon {
+    background-color: var(--color-text-inverted);
+    display: block;
     height: 100%;
+    mask: url('/SVG/perspective-dice-six-faces-random.svg') center / contain
+      no-repeat;
     width: 100%;
+    -webkit-mask: url('/SVG/perspective-dice-six-faces-random.svg') center /
+      contain no-repeat;
   }
 
   &:hover:not(:disabled) {

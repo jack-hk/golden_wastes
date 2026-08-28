@@ -9,6 +9,13 @@
 </div>
 
 {{- if eq .Kind "page" -}}
+  {{- $pagefindCategory := lower (.Section | default "other") -}}
+  {{- with .Params.categories -}}
+    {{- with index . 0 -}}
+      {{- $pagefindCategory = lower (printf "%v" .) -}}
+    {{- end -}}
+  {{- end -}}
+  <span hidden data-pagefind-meta="category:{{ $pagefindCategory }}"></span>
   {{- $fitThumbnail := site.Params.pagefind.fitThumbnails | default false -}}
   {{- if isset .Params "fitthumbnail" -}}
     {{- $fitThumbnail = .Params.fitThumbnail -}}
